@@ -1,0 +1,584 @@
+{
+  "name": "hosseini",
+  "gs": [
+    {
+      "id": 1,
+      "title": "A Cross-Project Evaluation of Text-based Fault-prone Module Prediction",
+      "abstract": "In the software development, defects affect quality and cost in an adverse way. Therefore, various studies have been proposed defect prediction techniques. Most of current defect prediction approaches use past project data for building prediction models. That is, these approaches are difficult to apply new development projects without past data. In this study, we focus on the cross project prediction that can predict faults of target projects by using other projects. We use 28 versions of 8 projects to conduct experiments of the cross project prediction and intra-project prediction using the fault-prone filtering technique. Fault-prone filtering is a method that predicts faults using tokens from source code modules. Additionally, we try to find an appropriate prediction model in the fault-prone filtering, since there are several ways to calculate probabilities. From the results of experiments, we show that using tokens extracted from all parts of modules is the best way to predict faults and using tokens extracted from code part of modules shows better precision. We also show that the results of the cross project predictions have better recall than the results of the intra-project predictions.",
+      "keywords": "Training, Training data, Software, Accuracy, Electronic mail, Measurement, Equations",
+      "references": [
+        2,
+        5,
+        9,
+        20,
+        21,
+        22
+      ]
+    },
+    {
+      "id": 2,
+      "title": "Adapting a Fault Prediction Model to Allow Inter Language Reuse",
+      "abstract": "An important step in predicting error prone modules in a project is to construct the prediction model by using training data of that project, but the resulting prediction model depends on the training data. Therefore it is difficult to apply the model to other projects. The training data consists of metrics data and bug data, and these data should be prepared for each project. Metrics data can be computed by using metric tools, but it is not so easy to collect bug data. In this paper, we try to reuse the generated prediction model. By using the metrics and bug data which are computed from C++ and Java projects, we have evaluated the possibility of applying the prediction model, which is generated based on one project, to other projects, and have proposed compensation techniques for applying to other projects. We showed the evaluation result based on open source projects.",
+      "keywords": "error prone, metrics, inter language prediction, open source",
+      "references": [
+        34
+      ]
+    },
+    {
+      "id": 3,
+      "title": "An empirical study on software defect prediction with a simplified metric set",
+      "abstract": "Context: Software defect prediction plays a crucial role in estimating the most defect-prone components of software, and a large number of studies have pursued improving prediction accuracy within a project or across projects. However, the rules for making an appropriate decision between within- and cross-project defect prediction when available historical data are insufficient remain unclear. Objective: The objective of this work is to validate the feasibility of the predictor built with a simplified metric set for software defect prediction in different scenarios, and to investigate practical guidelines for the choice of training data, classifier and metric subset of a given project. Method: First, based on six typical classifiers, three types of predictors using the size of software metric set were constructed in three scenarios. Then, we validated the acceptable performance of the predictor based on Top-k metrics in terms of statistical methods. Finally, we attempted to minimize the Top-k metric subset by removing redundant metrics, and we tested the stability of such a minimum metric subset with one-way ANOVA tests. Results: The study has been conducted on 34 releases of 10 open-source projects available at the PROM- ISE repository. The findings indicate that the predictors built with either Top-k metrics or the minimum metric subset can provide an acceptable result compared with benchmark predictors. The guideline for choosing a suitable simplified metric set in different scenarios is presented in Table 12. Conclusion: The experimental results indicate that (1) the choice of training data for defect prediction should depend on the specific requirement of accuracy; (2) the predictor built with a simplified metric set works well and is very useful in case limited resources are supplied; (3) simple classifiers (e.g., Na\u00efve Bayes) also tend to perform well when using a simplified metric set for defect prediction; and (4) in several cases, the minimum metric subset can be identified to facilitate the procedure of general defect prediction with acceptable loss of prediction precision in practice.",
+      "keywords": "Defect prediction, Software metrics, Metric set simplification, Software quality",
+      "references": [
+        5,
+        9,
+        13,
+        15,
+        19,
+        20,
+        21,
+        22,
+        23,
+        24,
+        25,
+        33
+      ]
+    },
+    {
+      "id": 4,
+      "title": "An Ensemble Approach of Simple Regression Models to Cross-Project Fault Prediction",
+      "abstract": "In software development, prediction of fault-prone modules is an important challenge for effective software testing. However, high prediction accuracy may not be achieved in cross-project prediction, since there is a large difference in distribution of predictor variables between the base project (for building prediction model) and the target project (for applying prediction model.) In this paper we propose an prediction technique called \u201can ensemble of simple regression models\u201d to improve the prediction accuracy of cross-project prediction. The proposed method uses weighted sum of outputs of simple (e.g. 1-predictor variable) logistic regression models to improve the generalization ability of logistic models. To evaluate the performance of the proposed method, we conducted 132 combinations of cross-project prediction using datasets of 12 projects from NASA IV&V Facility Metrics Data Program. As a result, the proposed method outperformed conventional logistic regression models in terms of AUC of the Alberg diagram.",
+      "keywords": "fault-prone module prediction, product metrics, empirical study",
+      "references": [
+        34
+      ]
+    },
+    {
+      "id": 5,
+      "title": "An investigation on the feasibility of cross-project defect prediction",
+      "abstract": "Software defect prediction helps to optimize testing resources allocation by identifying defect-prone modules prior to testing. Most existing models build their prediction capability based on a set of historical data, presumably from the same or similar project settings as those under prediction. However, such historical data is not always available in practice. One potential way of predicting defects in projects without historical data is to learn predictors from data of other projects. This paper investigates defect predictions in the cross-project context focusing on the selection of training data. We conduct three large-scale experiments on 34 data sets obtained from 10 open source projects. Major conclusions from our experiments include: (1) in the best cases, training data from other projects can provide better prediction results than training data from the same project; (2) the prediction results obtained using training data from other projects meet our criteria for acceptance on the average level, defects in 18 out of 34 cases were predicted at a Recall greater than 70% and a Precision greater than 50%; (3) results of cross-project defect predictions are related with the distributional characteristics of data sets which are valuable for training data selection. We further propose an approach to automatically select suitable training data for projects without historical data. Prediction results provided by the training data selected by using our approach are comparable with those provided by training data from the same project.",
+      "keywords": "Defect prediction, Cross-project, Data characteristics, Machine learning, Training data",
+      "references": [
+        2,
+        9,
+        20,
+        22,
+        34
+      ]
+    },
+    {
+      "id": 6,
+      "title": "Analyzing and predicting software integration bugs using network analysis on requirements dependency network",
+      "abstract": "Complexity, cohesion and coupling have been recognized as prominent indicators of software quality. One characterization of software complexity is the existence of dependency relationships. Moreover, the degree of dependency reflects the cohesion and coupling between software elements. Dependencies in the design and implementation phase have been proven to be important predictors of software bugs. We empirically investigated how requirements dependencies correlate with and predict software integration bugs, which can provide early estimates regarding software quality and thus facilitate decision making early in the software lifecycle. We conducted network analysis on the requirements dependency networks of three commercial software projects. Significant correlation is observed between most of our network measures and the number of bugs. Furthermore, many network measures demonstrate significantly greater values for higher severity (or a higher fixing workload). Afterward, we built bug prediction models using these network measures and found that bugs can be predicted with high accuracy and sensitivity, even in cross-project and cross-company contexts. We further identified the dependency type that contributes most to bug correlation, as well as the network measures that contribute more to bug prediction. These observations show that the requirements dependency network can be used as an early indicator and predictor of software integration bugs.",
+      "keywords": "Requirements dependency, Bug prediction, Network analysis",
+      "references": []
+    },
+    {
+      "id": 7,
+      "title": "Cross Company and within Company Fault Prediction using Object Oriented Metrics",
+      "abstract": "This paper investigates fault predictions in the cross-project context focusing on the object oriented metrics for the organizations that do not track fault related data. In this study, empirical analysis is carried out to validate object-oriented Chidamber and Kemerer (CK) design metrics for cross project fault prediction. The machine learning techniques used for evaluation are J48, NB, SVM, RF, K-NN and DT. The results indicate CK metrics can be used as initial guideline for the projects where no previous fault data is available. Overall, the results of cross company is comparable to the within company data learning. Our analysis is in favour of reusability in object oriented technology and it has been empirically shown that object oriented metric data can be used for cross company fault prediction in initial stage when previous fault data of the project is not available.",
+      "keywords": "Fault prediction, cross company, Software metric, open source software",
+      "references": [
+        2,
+        9,
+        20
+      ]
+    },
+    {
+      "id": 8,
+      "title": "Cross-Project Defect Prediction Models: L\u2019Union Fait la Force",
+      "abstract": "Existing defect prediction models use product or process metrics and machine learning methods to identify defect-prone source code entities. Different classifiers (e.g., linear regression, logistic regression, or classification trees) have been investigated in the last decade. The results achieved so far are sometimes contrasting and do not show a clear winner. In this paper we present an empirical study aiming at statistically analyzing the equivalence of different defect predictors. We also propose a combined approach, coined as CODEP (COmbined DEfect Predictor), that employs the classification provided by different machine learning techniques to improve the detection of defect-prone entities. The study was conducted on 10 open source software systems and in the context of cross-project defect prediction, that represents one of the main challenges in the defect prediction field. The statistical analysis of the results indicates that the investigated classifiers are not equivalent and they can complement each other. This is also confirmed by the superior prediction accuracy achieved by CODEP when compared to stand-alone defect predictors.",
+      "keywords": "Predictive models, Software, Measurement, Context, Accuracy, Logistics, Regression tree analysis",
+      "references": [
+        9,
+        14,
+        20,
+        21,
+        24,
+        34,
+        35,
+        36
+      ]
+    },
+    {
+      "id": 9,
+      "title": "Cross-project Defect Prediction: A Large Scale Experiment on Data vs. Domain vs. Process",
+      "abstract": "Prediction of software defects works well within projects as long as there is a sufficient amount of data available to train any models. However, this is rarely the case for new software projects and for many companies. So far, only a few have studies focused on transferring prediction models from one project to another. In this paper, we study cross-project defect prediction models on a large scale. For 12 real world applications, we ran 622 cross-project predictions. Our results indicate that cross-project prediction is a serious challenge, i.e., simply using models from projects in the same domain or with the same process does not lead to accurate predictions. To help software engineers choose models wisely, we identified factors that do influence the success of cross-project predictions. We also derived decision trees that can provide early estimates for precision, recall, and accuracy before a prediction is attempted.",
+      "keywords": "Management, Measurement, Reliability",
+      "references": [
+        20,
+        31,
+        34
+      ]
+    },
+    {
+      "id": 10,
+      "title": "Data mining source code for locating software bugs: A case study in telecommunication industry",
+      "abstract": "In a large software system knowing which files are most likely to be fault-prone is valuable information for project managers. They can use such information in prioritizing software testing and allocating resources accordingly. However, our experience shows that it is difficult to collect and analyze fine- grained test defects in a large and complex software system. On the other hand, previous research has shown that companies can safely use cross-company data with nearest neighbor sampling to predict their defects in case they are unable to collect local data. In this study we analyzed 25 projects of a large telecommunication system. To predict defect proneness of modules we trained models on publicly available Nasa MDP data. In our experiments we used static call graph based ranking (CGBR) as well as nearest neighbor sampling for constructing method level defect predictors. Our results suggest that, for the analyzed projects, at least 70% of the defects can be detected by inspecting only (i) 6% of the code using a Na\u00efve Bayes model, (ii) 3% of the code using CGBR framework",
+      "keywords": "Software testing, Defect prediction, Software bugs, Case study",
+      "references": []
+    },
+    {
+      "id": 11,
+      "title": "Defect prediction as a multiobjective optimization problem",
+      "abstract": "In this paper, we formalize the defect-prediction problem as a multiobjective optimization problem. Specifi cally, we propose an approach, coined as multiobjective defect predictor (MODEP), based on multiobjective forms of machine learning techniques\u2014logistic regression and decision trees specifically trained using a genetic algorithm. The multiobjective approach allows software engineers to choose predictors achieving a specific compromise between the number of likely defect-prone classes or the number of defects that the analysis would likely discover (effectiveness), and lines of code to be analysed/tested (which can be considered as a proxy of the cost of code inspection). Results of an empirical evaluation on 10 datasets from the PROMISE repository indicate the quantitative superiority of MODEP with respect to single-objective predictors, and with respect to trivial baseline ranking classes by size in ascending or descending order. Also, MODEP outperforms an alternative approach for cross-project prediction, based on local prediction upon clusters of similar classes.",
+      "keywords": "defect prediction, multiobjective optimization, cost-effectiveness, cross-project defect prediction",
+      "references": [
+        9,
+        20,
+        21,
+        24,
+        33,
+        34,
+        35
+      ]
+    },
+    {
+      "id": 12,
+      "title": "Detecting Of Software Bugs In Source Code Using Data Mining Approach",
+      "abstract": "In a large software system knowing which files are most likely to be fault-prone is valuable information for project managers. They can use such information in prioritizing software testing and allocating resources accordingly. However, our experience shows that it is difficult to collect and analyze fine grained test defects in a large and complex software system. On the other hand, previous research has shown that companies can safely use cross-company data with nearest neighbor sampling to predict their defects in case they are unable to collect local data. In this paper the discussion is done to predict software bugs in the source code by using data mining approach by training the models that are perfect and that are defect. In our experiments we used ranking method (RM) as well as nearest neighbor sampling for constructing method level defect predictors. Our results suggest that, for the analyzed projects, at least 70% of the defects can be detected by inspecting only (i) 4% of the code using a Na\u00efve model, (ii) 6% of the code using RM framework.",
+      "keywords": "Software Engineering, Software Risk Management, Software Rework, DP Management, Software Engineering",
+      "references": []
+    },
+    {
+      "id": 13,
+      "title": "Empirical evaluation of the effects of mixed project data on learning defect predictors",
+      "abstract": "Context: Defect prediction research mostly focus on optimizing the performance of models that are constructed for isolated projects (i.e. within project (WP)) through retrospective analyses. On the other hand, recent studies try to utilize data across projects (i.e. cross project (CP)) for building defect prediction models for new projects. There are no cases where the combination of within and cross (i.e. mixed) project data are used together. Objective: Our goal is to investigate the merits of using mixed project data for binary defect prediction. Specifically, we want to check whether it is feasible, in terms of defect detection performance, to use data from other projects for the cases (i) when there is an existing within project history and (ii) when there are limited within project data. Method: We use data from 73 versions of 41 projects that are publicly available. We simulate the two above-mentioned cases, and compare the performances of naive Bayes classifiers by using within project data vs. mixed project data. Results: For the first case, we find that the performance of mixed project predictors significantly improves over full within project predictors (p-value < 0.001), however the effect size is small (Hedges 0 g = 0.25). For the second case, we found that mixed project predictors are comparable to full within project predictors, using only 10% of available within project data (p-value = 0.002, g = 0.17). Conclusion: We conclude that the extra effort associated with collecting data from other projects is not feasible in terms of practical performance improvement when there is already an established within project defect predictor using full project history. However, when there is limited project history, e.g. early phases of development, mixed project predictions are justifiable as they perform as good as full within project models.",
+      "keywords": "Cross project, Within project, Mixed project, Defect prediction, Fault prediction, Product metrics",
+      "references": [
+        9,
+        14,
+        20,
+        22,
+        33,
+        35,
+        36
+      ]
+    },
+    {
+      "id": 14,
+      "title": "Evolutionary Optimization of Software Quality Modeling with Multiple Repositories",
+      "abstract": "A novel search-based approach to software quality modeling with multiple software project repositories is presented. Training a software quality model with only one software measurement and defect data set may not effectively encapsulate quality trends of the development organization. The inclusion of additional software projects during the training process can provide a cross-project perspective on software quality modeling and prediction. The genetic-programming-based approach includes three strategies for modeling with multiple software projects: Baseline Classifier, Validation Classifier, and Validation-and-Voting Classifier. The latter is shown to provide better generalization and more robust software quality models. This is based on a case study of software metrics and defect data from seven real-world systems. A second case study considers 17 different (nonevolutionary) machine learners for modeling with multiple software data sets. Both case studies use a similar majority-voting approach for predicting fault-proneness class of program modules. It is shown that the total cost of misclassification of the search-based software quality models is consistently lower than those of the non-search-based models. This study provides clear guidance to practitioners interested in exploiting their organization\u2019s software measurement data repositories for improved software quality modeling.",
+      "keywords": "Genetic programming, optimization, software quality, defects, machine learning, software measurement",
+      "references": [
+        33
+      ]
+    },
+    {
+      "id": 15,
+      "title": "Experience in Predicting Fault-Prone Software Modules Using Complexity Metrics",
+      "abstract": "Complexity metrics have been intensively studied in predicting fault-prone software modules. However, little work is done in studying how to effectively use the complexity metrics and the prediction models under realistic conditions. In this paper, we present a study showing how to utilize the prediction models generated from existing projects to improve the fault detection on other projects. The binary logistic regression method is used in studying publicly available data of five commercial products. Our study shows (1) models generated using more datasets can improve the prediction accuracy but not the recall rate; (2) lowering the cut-off value can improve the recall rate, but the number of false positives will be increased, which will result in higher maintenance effort. We further suggest that in order to improve model prediction efficiency, the selection of source datasets and the determination of cut-off values should be based on specific properties of a project. So far, there are no general rules that have been found and reported to follow.",
+      "keywords": "Binary logistic regression, complexity metrics, fault-prone software module",
+      "references": [
+        10,
+        33,
+        34
+      ]
+    },
+    {
+      "id": 16,
+      "title": "Investigating Associative Classification for Software Fault Prediction: An Experimental Perspective",
+      "abstract": "It is a recurrent finding that software development is often troubled by considerable delays as well as budget overruns and several solutions have been proposed in answer to this observation, software fault prediction being a prime example. Drawing upon machine learning techniques, software fault prediction tries to identify upfront software modules that are most likely to contain faults, thereby streamlining testing efforts and improving overall software quality. When deploying fault prediction models in a production environment, both prediction performance and model comprehensibility are typically taken into consideration, although the latter is commonly overlooked in the academic literature. Many classication methods have been suggested to conduct fault prediction; yet associative classication methods remain uninvestigated in this context. This paper proposes an associative classication (AC)-based fault prediction method, building upon the CBA2 algorithm. In an empirical comparison on 12 real-world datasets, the AC-based classier is shown to achieve a predictive performance competitive to those of models induced by five other tree/rule-based classication techniques. In addition, our findings also highlight the comprehensibility of the AC-based models, while achieving similar prediction performance. Furthermore, the possibilities of cross project prediction are investigated, strengthening earlier findings on the feasibility of such approach when insufficient data on the target project is available.",
+      "keywords": "Software fault prediction, associative classication, prediction performance, comprehensibility, cross project validation",
+      "references": []
+    },
+    {
+      "id": 17,
+      "title": "Learning from Open-Source Projects: An Empirical Study on Defect Prediction",
+      "abstract": "The fundamental issue in cross project defect prediction is selecting the most appropriate training data for creating quality defect predictors. Another concern is whether historical data of open-source projects can be used to create quality predictors for proprietary projects from a practical point-of view. Current studies have proposed statistical approaches to finding these training data, however, thus far no apparent effort has been made to study their success on proprietary data. Also these methods apply brute force techniques which are computationally expensive. In this work we introduce a novel data selection procedure which takes into account the similarities between the distribution of the test and potential training data. Additionally we use feature subset selection to increase the similarity between the test and training sets. Our procedure provides a comparable and scalable means of solving the cross project defect prediction problem for creating quality defect predictors. To evaluate our procedure we conducted empirical studies with comparisons to the within company defect prediction and a relevancy filtering method. We found that our proposed method performs relatively better than the filtering method in terms of both computation cost and prediction performance.",
+      "keywords": "software defect prediction, cross-project, instance selection, feature subset selection, data similarity",
+      "references": [
+        2,
+        5,
+        9,
+        20,
+        21,
+        22,
+        25
+      ]
+    },
+    {
+      "id": 18,
+      "title": "Negative samples reduction in cross-company software defects prediction",
+      "abstract": "Context: Software defect prediction has been widely studied based on various machine-learning algorithms. Previous studies usually focus on within-company defects prediction (WCDP), but lack of training data in the early stages of software testing limits the efficiency ofWCDP in practice. Thus, recent research has largely examined the cross-company defects prediction (CCDP) as an alternative solution. Objective: However, the gap of different distributions between cross-company (CC) data and within- company (WC) data usually makes it difficult to build a high-quality CCDP model. In this paper, a novel algorithm named Double Transfer Boosting (DTB) is introduced to narrow this gap and improve the performance of CCDP by reducing negative samples in CC data. Method: The proposed DTB model integrates two levels of data transfer: first, the data gravitation method reshapes the whole distribution of CC data to fit WC data. Second, the transfer boosting method employs a small ratio of labeled WC data to eliminate negative instances in CC data. Results: The empirical evaluation was conducted based on 15 publicly available datasets. CCDP experi- ment results indicated that the proposed model achieved better overall performance than compared CCDP models. DTB was also compared to WCDP in two different situations. Statistical analysis suggested that DTB performed significantly better than WCDP models trained by limited samples and produced comparable results to WCDP with sufficient training data. Conclusions: DTB reforms the distribution of CC data from different levels to improve the performance of CCDP, and experimental results and analysis demonstrate that it could be an effective model for early software defects detection.",
+      "keywords": "Cross-company defects prediction, Software fault prediction, Transfer learning",
+      "references": [
+        5,
+        9,
+        13,
+        17,
+        20,
+        21,
+        22,
+        25
+      ]
+    },
+    {
+      "id": 19,
+      "title": "Network versus Code Metrics to Predict Defects: A Replication Study",
+      "abstract": "Several defect prediction models have been proposed to identify which entities in a software system are likely to have defects before its release. This paper presents a replication of one such study conducted by Zimmermann and Nagappan [1] on Windows Server 2003 where the authors leveraged dependency relationships between software entities captured using social network metrics to predict whether they are likely to have defects. They found that network metrics perform significantly better than source code metrics at predicting defects. In order to corroborate the generality of their findings, we replicate their study on three open source Java projects, viz., JRuby, ArgoUML, and Eclipse. Our results are in agreement with the original study by Zimmermann and Nagappan when using a similar experimental setup as them (random sampling). However, when we evaluated the metrics using setups more suited for industrial use \u2013 forward-release and cross-project prediction \u2013 we found network metrics to offer no vantage over code metrics. Moreover, code metrics may be preferable to network metrics considering the data is easier to collect and we used only 8 code metrics compared to approximately 58 network metrics.",
+      "keywords": "replication study, defect prediction, open-source, network metrics, metrics",
+      "references": [
+        34
+      ]
+    },
+    {
+      "id": 20,
+      "title": "On the relative value of cross-company and within-company data for defect prediction",
+      "abstract": "We propose a practical defect prediction approach for companies that do not track defect related data. Specifically, we investigate the applicability of cross- company (CC) data for building localized defect predictors using static code features. Firstly, we analyze the conditions, where CC data can be used as is. These conditions turn out to be quite few. Then we apply principles of analogy-based learning (i.e. nearest neighbor (NN) filtering) to CC data, in order to fine tune these models for localization. We compare the performance of these models with that of defect predictors learned from within-company (WC) data. As expected, we observe that defect predictors learned from WC data outperform the ones learned from CC data. However, our analyses also yield defect predictors learned from NN-filtered CC data, with performance close to, but still not better than, WC data. Therefore, we perform a final analysis for determining the minimum number of local defect reports in order to learn WC defect predictors. We demonstrate in this paper that the minimum number of data samples required to build effective defect predictors can be quite small and can be collected quickly within a few months.Hence, for companies with no local defect data, we recommend a two-phase approach that allows them to employ the defect prediction process instantaneously. In phase one, companies should use NN-filtered CC data to initiate the defect prediction process and simultaneously start collecting WC (local) data. Once enough WC data is collected (i.e. after a few months), organizations should switch to phase two and use predictors learned from WC data.",
+      "keywords": "Defect prediction, Learning, Metrics (product metrics), Cross-company, Within-company, Nearest-neighbor filterin",
+      "references": []
+    },
+    {
+      "id": 21,
+      "title": "Recalling the \u201cImprecision\u201d of Cross-Project Defect Prediction",
+      "abstract": "There has been a great deal of interest in defect prediction: using prediction models trained on historical data to help fo- cus quality-control resources in ongoing development. Since most new projects don\u2019t have historical data, there is interest in cross-project prediction: using data from one project to predict defects in another. Sadly, results in this area have largely been disheartening. Most experiments in cross-project defect prediction report poor performance, using the stan- dard measures of precision, recall and F-score. We argue that these IR-based measures, while broadly applicable, are not as well suited for the quality-control settings in which defect prediction models are used. Specifically, these measures are taken at specific threshold settings (typically thresholds of the predicted probability of defectiveness returned by a logistic regression model). However, in practice, software quality con- trol processes choose from a range of time-and-cost vs quality tradeoffs: how many files shall we test? how many shall we inspect? Thus, we argue that measures based on a variety of tradeoffs, viz., 5%, 10% or 20% of files tested/inspected would be more suitable. We study cross-project defect prediction from this perspective. We find that cross-project prediction performance is no worse than within-project performance, and substantially better than random prediction!",
+      "keywords": "Empirical Software Engineering, Fault Prediction, Inspection",
+      "references": [
+        5,
+        9,
+        20,
+        25,
+        33
+      ]
+    },
+    {
+      "id": 22,
+      "title": "Towards identifying software project clusters with regard to defect prediction",
+      "abstract": "Background: This paper describes an analysisthat was conducted on newly collected repository with 92 versions of 38 proprietary, open-source and academic projects. A preliminary study perfomed before showed the need for a further in-depth analysis in order to identify project clusters. Aims: The goal of this research is to perform clustering on software projects in order to identify groups of software projects with similar characteristic from the defect prediction point of view. One defect prediction model should work well for all projects that belong to such group. The existence of those groups was investigated with statistical tests and by comparing the mean value of prediction efficiency. Method: Hierarchical and k-means clustering, as well as Kohonen\u2019s neural network was used to find groups of similar projects. The obtained clusters were investigated with the discriminant analysis. For each of the identified group a statistical analysis has been conducted in order to distinguish whether this group really exists. Two defect prediction models were created for each of the identified groups. The first one was based on the projects that belong to a given group, and the second one - on all the projects. Then, both models were applied to all versions of projects from the investigated group. If the predictions from the model based on projects that belong to the identified group are significantly better than the all-projects model (the mean values were compared and statistical tests were used), we conclude that the group really exists. Results: Six different clusters were identified and the existence of two of them was statistically proven: 1) cluster proprietary B \u2013 T=19, p=0.035, r=0.40; 2) cluster proprietary/open \u2013 t(17)=3.18, p=0.05, r=0.59. The obtained effect sizes (r) represent large effects according to Cohen\u2019s benchmark, which is a substantial finding. Conclusions: The two identified clusters were described and compared with results obtained by other researchers. The results of this work makes next step towards defining formal methods of reuse defect prediction models by identifying groups of projects within which the same defect prediction model may be used. Furthermore, a method of clustering was suggested and applied.",
+      "keywords": "Defect Prediction, Design Metrics, Size Metrics, Clustering",
+      "references": [
+        2,
+        20,
+        34
+      ]
+    },
+    {
+      "id": 23,
+      "title": "Training data selection for cross-project defect prediction",
+      "abstract": "Software defect prediction has been a popular research topic in recent years and is considered as a means for the optimization of quality assurance activities. Defect prediction can be done in a within- project or a cross-project scenario. The within-project scenario produces results with a very high quality, but requires historic data of the project, which is often not available. For the cross-project prediction, the data availability is not an issue as data from other projects is readily available, e.g., in repositories like PROMISE. However, the quality of the defect prediction results is too low for practical use. Recent research showed that the selection of appropriate training data can improve the quality of cross-project defect predictions. In this paper, we propose distance-based strategies for the selection of training data based on distributional characteristics of the available data. We evaluate the proposed strategies in a large case study with 44 data sets obtained from 14 open source projects. Our results show that our training data selection strategy improves the achieved success rate of cross-project defect predictions significantly. However, the quality of the results still cannot compete with within-project defect prediction.",
+      "keywords": "machine learning, defect-prediction, cross-project prediction",
+      "references": [
+        2,
+        5,
+        9,
+        20,
+        21,
+        22,
+        34,
+        35
+      ]
+    },
+    {
+      "id": 24,
+      "title": "Transfer Defect Learning",
+      "abstract": "Many software defect prediction approaches have been proposed and most are effective in within-project prediction settings. However, for new projects or projects with limited training data, it is desirable to learn a prediction model by using sufficient training data from existing source projects and then apply the model to some target projects (cross-project defect prediction). Unfortunately, the performance of cross- project defect prediction is generally poor, largely because of feature distribution differences between the source and target projects. In this paper, we apply a state-of-the-art transfer learning approach, TCA, to make feature distributions in source and target projects similar. In addition, we propose a novel transfer defect learning approach, TCA+, by extending TCA. Our experimental results for eight open-source projects show that TCA+ significantly improves cross-project prediction performance.",
+      "keywords": "cross-project defect prediction, transfer learning, empirical software engineering",
+      "references": [
+        9,
+        19,
+        20,
+        21,
+        25,
+        34
+      ]
+    },
+    {
+      "id": 25,
+      "title": "Transfer learning for cross-company software defect prediction",
+      "abstract": "Context: Software defect prediction studies usually built models using within-company data, but very few focused on the prediction models trained with cross-company data. It is difficult to employ these models which are built on the within-company data in practice, because of the lack of these local data repositories. Recently, transfer learning has attracted more and more attention for building classifier in target domain using the data from related source domain. It is very useful in cases when distributions of training and test instances differ, but is it appropriate for cross-company software defect prediction? Objective: In this paper, we consider the cross-company defect prediction scenario where source and target data are drawn from different companies. In order to harness cross company data, we try to exploit the transfer learning method to build faster and highly effective prediction model. Method: Unlike the prior works selecting training data which are similar from the test data, we proposed a novel algorithm called Transfer Naive Bayes (TNB), by using the information of all the proper features in training data. Our solution estimates the distribution of the test data, and transfers cross-company data information into the weights of the training data. On these weighted data, the defect prediction model is built. Results: This article presents a theoretical analysis for the comparative methods, and shows the experiment results on the data sets from different organizations. It indicates that TNB is more accurate in terms of AUC (The area under the receiver operating characteristic curve), within less runtime than the state of the art methods. Conclusion: It is concluded that when there are too few local training data to train good classifiers, the useful knowledge from different-distribution training data on feature level may help. We are optimistic that our transfer learning method can guide optimal resource allocation strategies, which may reduce software testing cost and increase effectiveness of software testing process.",
+      "keywords": "Machine learning, Software defect prediction, Transfer learning, Naive Bayes, Different distribution",
+      "references": [
+        9,
+        14,
+        20
+      ]
+    },
+    {
+      "id": 26,
+      "title": "Value-cognitive boosting with a support vector machine for cross-project defect prediction",
+      "abstract": "It is well-known that software defect prediction is one of the most important tasks for software quality improvement. The use of defect predictors allows test engineers to focus on defective modules. Thereby testing resources can be allocated effectively and the quality assurance costs can be reduced. For within-project defect prediction (WPDP), there should be sufficient data within a company to train any prediction model. Without such local data, cross- project defect prediction (CPDP) is feasible since it uses data collected from similar projects in other companies. Software defect datasets have the class imbalance problem increasing the difficulty for the learner to predict defects. In addition, the impact of imbalanced data on the real performance of models can be hidden by the performance measures chosen. We investigate if the class imbalance learning can be beneficial for CPDP. In our approach, the asymmetric misclassification cost and the similarity weights obtained from distributional characteristics are closely associated to guide the appropriate resampling mechanism. We performed the effect size A-statistics test to evaluate the magnitude of the improvement. For the statistical significant test, we used Wilcoxon rank-sum test. The experimental results show that our approach can provide higher prediction performance than both the existing CPDP technique and the existing class imbalance technique.",
+      "keywords": "Boosting, Class imbalance, Cross-project defect prediction, Transfer learning",
+      "references": [
+        5,
+        19,
+        20,
+        24,
+        25
+      ]
+    },
+    {
+      "id": 27,
+      "title": "LACE2: Better Privacy-Preserving Data Sharing for Cross Project Defect Prediction",
+      "abstract": "Before a community can learn general principles, it must share individual experiences. Data sharing is the fundamental step of cross project defect prediction, i.e. the process of using data from one project to predict for defects in another. Prior work on secure data sharing allowed data owners to share their data on a single-party basis for defect prediction via data minimization and obfuscation. However the studied method did not consider that bigger data required the data owner to share more of their data. In this paper, we extend previous work with LACE2 which reduces the amount of data shared by using multi-party data sharing. Here data owners incrementally add data to a cache passed among them and contribute \u201cinteresting\u201d data that are not similar to the current content of the cache. Also, before data owner i passes the cache to data owner j, privacy is preserved by applying obfuscation algorithms to hide project details. The experiments of this paper show that (a) LACE2 is comparatively less expensive than the single-party approach and (b) the multi- party approach of LACE2 yields higher privacy than the prior approach without damaging predictive efficacy (indeed, in some cases, LACE2 leads to better defect predictors).",
+      "keywords": "privacy-preserving data sharing, cross project defect prediction",
+      "references": [
+        5,
+        9,
+        17,
+        20,
+        21,
+        22,
+        24,
+        25
+      ]
+    },
+    {
+      "id": 28,
+      "title": "Cross\u2013Project Defect Prediction With Respect To Code Ownership Model: An Empirical Study",
+      "abstract": "The paper presents an analysis of 83 versions of industrial, open-source and academic projects. We have empirically evaluated whether those project types constitute separate classes of projects with regard to defect prediction. Statistical tests proved that there exist significant differences between the models trained on the aforementioned project classes. This work makes the next step towards cross-project reusability of defect prediction models and facilitates their adoption, which has been very limited so far.",
+      "keywords": "software engineering, defect prediction, empirical study",
+      "references": [
+        33,
+        34
+      ]
+    },
+    {
+      "id": 29,
+      "title": "Towards Cross-Project Defect Prediction with Imbalanced Feature Sets",
+      "abstract": "Cross-project defect prediction (CPDP) has been deemed as an emerging technology of software quality assurance, especially in new or inactive projects, and a few improved methods have been proposed to support better defect prediction. However, the regular CPDP always assumes that the features of training and test data are all identical. Hence, very little is known about whether the method for CPDP with imbalanced feature sets (CPDP-IFS) works well. Considering the diversity of defect data sets available on the Internet as well as the high cost of labeling data, to address the issue, in this paper we proposed a simple approach according to a distribution characteristic-based instance (object class) mapping, and demonstrated the validity of our method based on three public defect data sets (i.e., PROMISE, ReLink and AEEEM). Besides, the empirical results indicate that the hybrid model composed of CPDP and CPDP-IFS does improve the prediction performance of the regular CPDP to some extent.",
+      "keywords": "cross-project defect prediction, learning technique, software metric, software quality",
+      "references": [
+        5,
+        9,
+        13,
+        15,
+        19,
+        20,
+        21,
+        23,
+        24,
+        25,
+        30,
+        33
+      ]
+    },
+    {
+      "id": 30,
+      "title": "Simplification of Training Data for Cross-Project Defect Prediction",
+      "abstract": "Cross-project defect prediction (CPDP) plays an important role in estimating the most likely defect-prone software components, especially for new or inactive projects. To the best of our knowledge, few prior studies provide explicit guidelines on how to select suitable training data of quality from a large number of public software repositories. In this paper, we have proposed a training data simplification method for practical CPDP in consideration of multiple levels of granularity and filtering strategies for data sets. In addition, we have also provided quantitative evidence on the selection of a suitable filter in terms of defect-proneness ratio. Based on an empirical study on 34 releases of 10 open-source projects, we have elaborately compared the prediction performance of different defect predictors built with five well-known classifiers using training data simplified at different levels of granularity and with two popular filters. The results indicate that when using the multi-granularity simplification method with an appropriate filter, the prediction models based on Na\u00a8\u0131ve Bayes can achieve fairly good performance and outperform the benchmark method.",
+      "keywords": "cross-project defect prediction, training data simplification, software quality, data mining, transfer learning",
+      "references": [
+        3,
+        5,
+        9,
+        13,
+        20,
+        21,
+        22,
+        23,
+        24,
+        25,
+        33
+      ]
+    },
+    {
+      "id": 31,
+      "title": "Using Historical In-Process and Product Metrics for Early Estimation of Software Failures",
+      "abstract": "The benefits that a software organization obtains from estimates of product quality are dependent upon how early in the product cycle that these estimates are available. Early estimation of software quality can help organizations make informed decisions about corrective actions. To provide such early estimates we present an empirical case study of two large scale commercial operating systems, Windows XP and Windows Server 2003. In particular, we leverage various historical in-process and product metrics from Windows XP binaries to create statistical predictors to estimate the post-release failures/failure-proneness of Windows Server 2003 binaries. These models estimate the failures and failure-proneness of Windows Server 2003 binaries at statistically significant levels. Our study is unique in showing that historical predictors for a software product line can be useful, even at the very large scale of the Windows operating system.",
+      "keywords": "Software quality, Large-scale systems, Fault diagnosis, Software metrics, Operating systems, Programming, Software testing, Hydrogen, Software systems, Classification tree analysis",
+      "references": [
+        34
+      ]
+    },
+    {
+      "id": 32,
+      "title": "Predicting Faulty Classes using Design Metrics with Discriminant Analysis",
+      "abstract": "Nowadays risk assessment is one of software engineering processes that plays important role in software development life cycle. Applying risk assessment to software the earlier is the better. Developers should detect defects of software early at design phase so the improvement action such as refactoring can be taken. Constructing fault prediction model using design metrics is one approach that can help developers to identify the faulty classes at early phase. This paper collects object-oriented design metrics and introduces some new metrics that tend to affect the existing of faults in classes, then construct the fault prediction model with discriminant analysis technique. The prediction model was trained by data collected from sale system and was validated using data from CD-selection system. The result indicates that 12 of 14 design metrics are associated with fault-proneness and the model can be used to classify faulty level of new classes.",
+      "keywords": "Design metrics, Prediction model, Reliability, Discriminant analysis",
+      "references": [
+        33
+      ]
+    },
+    {
+      "id": 33,
+      "title": "Assessing the Applicability of Fault-Proneness Models Across Object-Oriented Software Projects",
+      "abstract": "A number of papers have investigated the relationships between design metrics and the detection of faults in object-oriented software. Several of these studies have shown that such models can be accurate in predicting faulty classes within one particular software product. In practice, however, prediction models are built on certain products to be used on subsequent software development projects. How accurate can these models be considering the inevitable differences that may exist across projects and systems? Organizations typically learn and change. From a more general standpoint, can we obtain any evidence that such models are economically viable tools to focus validation and verification effort? This paper attempts to answer these questions by devising a general but tailorable cost benefit-model and by using fault and design data collected on two mid-size Java systems developed in the same environment. Another contribution of the paper is the use of a novel exploratory analysis technique (MARS) to build such fault-proneness models, whose functional form is a priori unknown. Results indicate that a model built on one system can be accurately used to rank classes within another system according to their fault-proneness. The downside, however, is that, because of system differences, the predicted fault probabilities are not representative of the system predicted. However, our cost-benefit model demonstrates that the MARS fault-proneness model is potentially viable, from an economical standpoint. The linear model is not nearly as good, thus suggesting a more complex model is required.",
+      "keywords": "Object oriented modeling, Predictive models, Mars, Economic forecasting, Environmental economics, Java, Accuracy, Logistics, Computer Society, Fault detection",
+      "references": []
+    },
+    {
+      "id": 34,
+      "title": "Mining Metrics to Predict Component Failures",
+      "abstract": "What is it that makes software fail? In an empirical study of the post-release defect history of five Microsoft software systems, we found that failure-prone software entities are statistically correlated with code complexity measures. However, there is no single set of complexity metrics that could act as a universally best defect predictor. Using principal component analysis on the code metrics, we built regression models that accurately predict the likelihood of post-release defects for new entities. The approach can easily be generalized to arbitrary projects; in particular, predictors obtained from one project can also be significant for new, similar projects.",
+      "keywords": "Empirical study, bug database, complexity metrics, component analysis, regression model",
+      "references": []
+    },
+    {
+      "id": 35,
+      "title": "Towards Logistic Regression Models for Predicting Fault-prone Code across Software Projects",
+      "abstract": "In this paper, we discuss the challenge of making logistic regression models able to predict fault-prone object- oriented classes across software projects. Several studies have obtained successful results in using design-complexity metrics for such a purpose. However, our data exploration indicates that the distribution of these metrics varies from project to project, making the task of predicting across projects difficult to achieve. As a first attempt to solve this problem, we employed simple log transformations for making design-complexity measures more comparable among projects. We found these transformations useful in projects which data is not as spread as the data used for building the prediction model.",
+      "keywords": "Logistics, Predictive models, Object oriented modeling, Open source software, Software measurement, Software engineering, Usability, Information science, Buildings, Testing",
+      "references": []
+    },
+    {
+      "id": 36,
+      "title": "Sharing experiments using open-source software",
+      "abstract": "When researchers want to repeat, improve or refute prior conclusions, it is useful to have a complete and operational description of prior experiments. If those descriptions are overly long or complex, then sharing their details may not be informative. OURMINE is a scripting environment for the development and deployment of data mining experiments. Using OURMINE, data mining novices can specify and execute intricate experiments, while researchers can publish their complete experimental rig alongside their conclusions. This is achievable because of OURMINE\u2019s succinctness. For example, this paper presents two experiments documented in the OURMINE syntax. Thus, the brevity and simplicity of OURMINE recommends it as a better tool for documenting, executing, and sharing data mining experiments.",
+      "keywords": "open source, data mining",
+      "references": [
+        20
+      ]
+    },
+    {
+      "id": 37,
+      "title": "Heterogeneous Defect Prediction",
+      "abstract": "Software defect prediction is one of the most active research areas in software engineering. We can build a prediction model with defect data collected from a software project and predict defects in the same project, i.e. within-project defect prediction (WPDP). Researchers also proposed cross-project defect prediction (CPDP) to predict defects for new projects lacking in defect data by using prediction models built by other projects. In recent studies, CPDP is proved to be feasible. However, CPDP requires projects that have the same metric set, meaning the metric sets should be identical between projects. As a result, current techniques for CPDP are difficult to apply across projects with heterogeneous metric sets. To address the limitation, we propose heterogeneous defect prediction (HDP) to predict defects across projects with heterogeneous metric sets. Our HDP approach conducts metric selection and metric matching to build a prediction model between projects with heterogeneous metric sets. Our empirical study on 28 subjects shows that about 68% of predictions using our approach outperform or are comparable to WPDP with statistical significance.",
+      "keywords": "Defect prediction, quality assurance, heterogeneous metrics",
+      "references": [
+        2,
+        3,
+        5,
+        8,
+        9,
+        20,
+        21,
+        24,
+        25,
+        26,
+        29,
+        39
+      ]
+    },
+    {
+      "id": 38,
+      "title": "An empirical study on predicting defect numbers",
+      "abstract": "Defect prediction is an important activity to make software testing processes more targeted and efficient. Many methods have been proposed to predict the defect-proneness of software components using supervised classification techniques in within- and cross-project scenarios. However, very few prior studies address the above issue from the perspective of predictive analytics. How to make an appropriate decision among different prediction approaches in a given scenario remains unclear. In this paper, we empirically investigate the feasibility of defect numbers prediction with typical regression models in different scenarios. The experiments on six open-source software projects in PROMISE repository show that the prediction model built with Decision Tree Regression seems to be the best estimator in both of the scenarios, and that for all the prediction models, the results yielded in the cross-project scenario can be comparable to (or sometimes better than) those in the within-project scenario when choosing suitable training data. Therefore, the findings provide a useful insight into defect numbers prediction for those new and inactive projects.",
+      "keywords": "defect prediction, predictive analytics, cross-project scenario, regression model",
+      "references": [
+        3,
+        5,
+        9,
+        13,
+        20,
+        21,
+        25,
+        30,
+        33
+      ]
+    },
+    {
+      "id": 39,
+      "title": "Studying just-in-time defect prediction using cross-project models",
+      "abstract": "Unlike traditional defect prediction models that identify defect-prone modules, Just-In-Time (JIT) defect prediction models identify defect-inducing changes. As such, JIT defect models can provide earlier feedback for developers, while design decisions are still fresh in their minds. Unfortunately, similar to traditional defect models, JIT models require a large amount of training data, which is not available when projects are in initial development phases. To address this limitation in traditional defect prediction, prior work has proposed cross-project models, i.e., models learned from other projects with sufficient history. However, cross-project models have not yet been explored in the context of JIT prediction. Therefore, in this study, we empirically evaluate the performance of JIT models in a cross-project context. Through an empirical study on 11 open source projects, we find that while JIT models rarely perform well in a cross-project context, their performance tends to improve when using approaches that: (1) select models trained using other projects that are similar to the testing project, (2) combine the data of several other projects to produce a larger pool of training data, and (3) combine the models of several other projects to produce an ensemble model. Our findings empirically confirm that JIT models learned using other projects are a viable solution for projects with limited historical data. However, JIT models tend to perform best in a cross-project context when the data used to learn them are carefully selected.",
+      "keywords": "Empirical study, Defect prediction, Just-in-time prediction",
+      "references": [
+        5,
+        9,
+        20,
+        21,
+        24,
+        33,
+        34
+      ]
+    },
+    {
+      "id": 40,
+      "title": "Towards building a universal defect prediction model with rank transformed predictors",
+      "abstract": "Software defects can lead to undesired results. Correcting defects costs 50 % to 75 % of the total software development budgets. To predict defective files, a prediction model must be built with predictors (e.g., software metrics) obtained from either a project itself (within-project) or from other projects (cross-project). A universal defect prediction model that is built from a large set of diverse projects would relieve the need to build and tailor prediction models for an individual project. A formidable obstacle to build a universal model is the variations in the distribution of predictors among projects of diverse contexts (e.g., size and programming language). Hence, we propose to cluster projects based on the similarity of the distribution of predictors, and derive the rank transformations using quantiles of predictors for a cluster. We fit the universal model on the transformed data of 1,385 open source projects hosted on SourceForge and GoogleCode. The universal model obtains prediction performance comparable to the within-project models, yields similar results when applied on five external projects (one Apache and four Eclipse projects), and performs similarly among projects with different context factors. At last, we investigate what predictors should be included in the universal model. We expect that this work could form a basis for future work on building a universal model and would lead to software support tools that incorporate it into a regular development workflow.",
+      "keywords": "Universal defect prediction model, Defect prediction, Context factors, Rank transformation, Large-scale, Software quality",
+      "references": [
+        2,
+        5,
+        9,
+        17,
+        19,
+        20,
+        21,
+        24,
+        25,
+        34,
+        35
+      ]
+    },
+    {
+      "id": 41,
+      "title": "Heterogeneous Cross-Company Defect Prediction by Unified Metric Representation and CCA-Based Transfer Learning",
+      "abstract": "Cross-company defect prediction (CCDP) learns a prediction model by using training data from one or multiple projects of a source company and then applies the model to the target company data. Existing CCDP methods are based on the assumption that the data of source and target companies should have the same software metrics. However, for CCDP, the source and target company data is usually heterogeneous, namely the metrics used and the size of metric set are different in the data of two companies. We call CCDP in this scenario as heterogeneous CCDP (HCCDP) task. In this paper, we aim to provide an effective solution for HCCDP. We propose a unified metric representation (UMR) for the data of source and target companies. The UMR consists of three types of metrics, i.e., the common metrics of the source and target companies, source-company specific metrics and target-company specific metrics. To construct UMR for source company data, the target-company specific metrics are set as zeros, while for UMR of the target company data, the source-company specific metrics are set as zeros. Based on the unified metric representation, we for the first time introduce canonical correlation analysis (CCA), an effective transfer learning method, into CCDP to make the data distributions of source and target companies similar. Experiments on 14 public heterogeneous datasets from four companies indicate that: 1) for HCCDP with partially different metrics, our approach significantly outperforms state-of-the-art CCDP methods; 2) for HCCDP with totally different metrics, our approach obtains comparable prediction performances in contrast with within- project prediction results. The proposed approach is effective for HCCDP.",
+      "keywords": "Heterogeneous cross-company, defect prediction (HCCDP), common metrics, company-specific metrics, unified metric representation, canonical correlation analysis (CCA)",
+      "references": [
+        5,
+        7,
+        8,
+        13,
+        18,
+        20,
+        21,
+        23,
+        24,
+        25,
+        26,
+        27
+      ]
+    },
+    {
+      "id": 42,
+      "title": "An Empirical Study of Classifier Combination for Cross-Project Defect Prediction",
+      "abstract": "To help developers better allocate testing and debugging efforts, many software defect prediction techniques have been proposed in the literature. These techniques can be used to predict classes that are more likely to be buggy based on past history of buggy classes. These techniques work well as long as a sufficient amount of data is available to train a prediction model. However, there is rarely enough training data for new software projects. To deal with this problem, cross-project defect prediction, which transfers a prediction model trained using data from one project to another, has been proposed and is regarded as a new challenge for defect prediction. So far, only a few cross-project defect prediction techniques have been proposed. To advance the state-of-the-art, in this work, we investigate 7 composite algorithms, which integrate multiple machine learning classifiers, to improve cross-project defect prediction. To evaluate the performance of the composite algorithms, we perform experiments on 10 open source software systems from the PROMISE repository which contain a total of 5,305 instances labeled as defective or clean. We compare the composite algorithms with CODEPLogistic, which is the latest cross-project defect prediction algorithm proposed by Panichella et al. [1], in terms of two standard evaluation metrics: cost effectiveness and F-measure. Our experiment results show that several algorithms outperform CODEPLogistic: Max performs the best in terms of F-measure and its average F-measure outperforms that of CODEPLogistic by 36.88%. BaggingJ48 performs the best in terms of cost effectiveness and its average cost effectiveness outperforms that of CODEPLogistic by 15.34%.",
+      "keywords": "Defect Prediction, Cross-Project, Classifier Combination",
+      "references": [
+        8,
+        9,
+        14,
+        20,
+        21,
+        24,
+        34
+      ]
+    },
+    {
+      "id": 43,
+      "title": "A Hybrid Instance Selection Using Nearest-Neighbor for Cross-Project Defect Prediction",
+      "abstract": "Software defect prediction (SDP) is an active research field in software engineering to identify defect-prone modules. Thanks to SDP, limited testing resources can be effectively allocated to defect-prone modules. Although SDP requires sufficient local data within a company, there are cases where local data are not available, e.g., pilot projects. Companies without local data can employ cross-project defect prediction (CPDP) using external data to build classifiers. The major challenge of CPDP is different distributions between training and test data. To tackle this, instances of source data similar to target data are selected to build classifiers. Software datasets have a class imbalance problem meaning the ratio of defective class to clean class is far low. It usually lowers the performance of classifiers. We propose a Hybrid Instance Selection Using Nearest-Neighbor (HISNN) method that performs a hybrid classification selectively learning local knowledge (via k-nearest neighbor) and global knowledge (via na\u00a8\u0131ve Bayes). Instances having strong local knowledge are identified via nearest-neighbors with the same class label. Previous studies showed low PD (probability of detection) or high PF (probability of false alarm) which is impractical to use. The experimental results show that HISNN produces high overall performance as well as high PD and low PF.",
+      "keywords": "software defect analysis, instance-based learning, nearest-neighbor algorithm, data cleaning",
+      "references": [
+        5,
+        9,
+        13,
+        20,
+        24,
+        25
+      ]
+    },
+    {
+      "id": 44,
+      "title": "A transfer cost-sensitive boosting approach for cross-project defect prediction",
+      "abstract": "Software defect prediction has been regarded as one of the crucial tasks to improve software quality by effectively allocating valuable resources to fault-prone modules. It is necessary to have a sufficient set of historical data for building a predictor. Without a set of sufficient historical data within a company, cross-project defect prediction (CPDP) can be employed where data from other companies are used to build predictors. In such cases, a transfer learning technique, which extracts common knowledge from source projects and transfers it to a target project, can be used to enhance the prediction performance. There exists the class imbalance problem, which causes difficulties for the learner to predict defects. The main impacts of imbalanced data under cross-project settings have not been investigated in depth. We propose a transfer cost-sensitive boosting method that considers both knowledge transfer and class imbalance for CPDP when given a small amount of labeled target data. The proposed approach performs boosting that assigns weights to the training instances with consideration of both distributional characteristics and the class imbalance. Through comparative experiments with the transfer learning and the class imbalance learning techniques, we show that the proposed model provides significantly higher defect detection accuracy while retaining better overall performance. As a result, a combination of transfer learning and class imbalance learning is highly effective for improving the prediction performance under cross-project settings. The proposed approach will help to design an effective prediction model for CPDP. The improved defect prediction performance could help to direct software quality assurance activities and reduce costs. Consequently, the quality of software can be managed effectively.",
+      "keywords": "Boosting, Class imbalance, Cost-sensitive learning, Cross-project defect prediction, Software defect prediction, Transfer learning",
+      "references": [
+        5,
+        13,
+        18,
+        20,
+        22,
+        24,
+        25,
+        26
+      ]
+    },
+    {
+      "id": 45,
+      "title": "The use of cross-company fault data for the software fault prediction problem",
+      "abstract": "We investigated how to use cross-company (CC) data in software fault prediction and in predicting the fault labels of software modules when there are not enough fault data. This paper involves case studies of NASA projects that can be accessed from the PROMISE repository. Case studies show that CC data help build high-performance fault predictors in the absence of fault labels and remarkable results are achieved. We suggest that companies use CC data if they do not have any historical fault data when they decide to build their fault prediction models.",
+      "keywords": "Metrics values, defect prediction, cross-company data",
+      "references": [
+        9,
+        20
+      ]
+    },
+    {
+      "id": 46,
+      "title": "Cross Project Software Fault Prediction at Design Phase",
+      "abstract": "Software fault prediction models are created by using the source code, processed metrics from the same or previous version of code and related fault data. Some company do not store and keep track of all artifacts which are required for software fault prediction. To construct fault prediction model for such company, the training data from the other projects can be one potential solution. Earlier we predicted the fault the less cost it requires to correct. The training data consists of metrics data and related fault data at function/module level. This paper investigates fault predictions at early stage using the cross-project data focusing on the design metrics. In this study, empirical analysis is carried out to validate design metrics for cross project fault prediction. The machine learning techniques used for evaluation is Na\u00efve Bayes. The design phase metrics of other projects can be used as initial guideline for the projects where no previous fault data is available. We analyze seven datasets from NASA Metrics Data Program which offer design as well as code metrics. Overall, the results of cross project is comparable to the within company data learning.",
+      "keywords": "Software Metrics, Fault prediction, Cross project, Within project",
+      "references": [
+        2,
+        9,
+        20,
+        22,
+        34
+      ]
+    }
+  ],
+  "max_publication_year": 2016
+}

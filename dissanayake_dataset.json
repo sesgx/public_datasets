@@ -1,0 +1,627 @@
+{
+  "name": "dissanayake",
+  "gs": [
+    {
+      "id": 1,
+      "title": "Computer security and operating system updates",
+      "abstract": "Application and operating system errors are a continuing source of problems in computer security. As businesses increase the number of servers through distributed computing and server farms, it becomes more difficult to keep the systems up to date. A survey of security professionals reveals that most find it difficult to keep up to date with security patches. Consequently, developing more automated management tools is an important step in improving enterprise security.",
+      "keywords": "Security; Upgrade; Patch; Information security management",
+      "references": []
+    },
+    {
+      "id": 2,
+      "title": "Reducing internet-based intrusions: Effective security patch management",
+      "abstract": "The software productivity consortium has investigated methods for improving and measuring four essential defenses against Internet-based threats: security patch management, system and application hardening, network reconnaissance and enumeration, and tools against malicious software. These defenses increasingly are critical to an organization's information security posture and should be implemented in an effective, systematic, and repeatable fashion. This paper focuses on lessons learned implementing improvements in the first of these defenses, security patch management, and is derived largely from pilot projects conducted in collaboration with Consortium members.",
+      "keywords": "Internet, Information security, Software tools, Data security, Computer security, Productivity, Software measurement, IP networks, Application software, Reconnaissance",
+      "references": [
+        20
+      ]
+    },
+    {
+      "id": 3,
+      "title": "Safe software updates via multi-version execution",
+      "abstract": "Software systems are constantly evolving, with new versions and patches being released on a continuous basis. Unfortunately, software updates present a high risk, with many releases introducing new bugs and security vulnerabilities. We tackle this problem using a simple but effective multi-version based approach. Whenever a new update becomes available, instead of upgrading the software to the new version, we run the new version in parallel with the old one; by carefully coordinating their executions and selecting the behaviour of the more reliable version when they diverge, we create a more secure and dependable multi-version application. We implemented this technique in Mx, a system targeting Linux applications running on multi-core processors, and show that it can be applied successfully to several real applications such as Coreutils, a set of user-level UNIX applications; Lighttpd, a popular web server used by several high-traffic websites such as Wikipedia and YouTube; and Redis, an advanced key-value data structure server used by many well-known services such as GitHub and Flickr.",
+      "keywords": "multi-version execution, software updates, surviving software crashes.",
+      "references": [
+        16,
+        59,
+        60
+      ]
+    },
+    {
+      "id": 4,
+      "title": "The attack of the clones: A study of the impact of shared code on vulnerability patching",
+      "abstract": "Vulnerability exploits remain an important mechanism for malware delivery, despite efforts to speed up the creation of patches and improvements in software updating mechanisms. Vulnerabilities in client applications (e.g., Browsers, multimedia players, document readers and editors) are often exploited in spear phishing attacks and are difficult to characterize using network vulnerability scanners. Analyzing their lifecycle requires observing the deployment of patches on hosts around the world. Using data collected over 5 years on 8.4 million hosts, available through Symantec's WINE platform, we present the first systematic study of patch deployment in client-side vulnerabilities. We analyze the patch deployment process of 1,593 vulnerabilities from 10 popular client applications, and we identify several new threats presented by multiple installations of the same program and by shared libraries distributed with several applications. For the 80 vulnerabilities in our dataset that affect code shared by two applications, the time between patch releases in the different applications is up to 118 days (with a median of 11 days). Furthermore, as the patching rates differ considerably among applications, many hosts patch the vulnerability in one application but not in the other one. We demonstrate two novel attacks that enable exploitation by invoking old versions of applications that are used infrequently, but remain installed. We also find that the median fraction of vulnerable hosts patched when exploits are released is at most 14%. Finally, we show that the patching rate is affected by user-specific and application-specific factors, for example, hosts belonging to security analysts and applications with an automated updating mechanism have significantly lower median times to patch.",
+      "keywords": "Software, Delays, Libraries, Security, Databases, Sociology, Statistics",
+      "references": [
+        16
+      ]
+    },
+    {
+      "id": 5,
+      "title": "Identifying Information Disclosure in Web Applications with Retroactive Auditing",
+      "abstract": "Rail is a framework for building web applications that can precisely identify inappropriately disclosed data after a vulnerability is discovered. To do so, Rail introduces retroactive disclosure auditing: re-running the application with previous inputs once the vulnerability is fixed, to determine what data should have been disclosed. A key challenge for Rail is to reconcile state divergence between the original and replay executions, so that the dierences between executions precisely correspond to inappropriately disclosed data. Rail provides application developers with APIs to address this challenge, by identifying sensitive data, assigning semantic names to non-deterministic inputs, and tracking dependencies.",
+      "keywords": "",
+      "references": [
+        21,
+        57
+      ]
+    },
+    {
+      "id": 6,
+      "title": "Improving VRSS-based vulnerability prioritization using analytic hierarchy process",
+      "abstract": "The number of vulnerabilities discovered in computer systems has increased explosively. Thus, a key question for system administrators is which vulnerabilities to prioritize. The need for vulnerability prioritization in organizations is widely recognized. The significant role of the vulnerability evaluation system is to separate vulnerabilities from each other as far as possible. There are two major methods to assess the severity of vulnerabilities: qualitative and quantitative methods. In this paper, we first describe the design space of vulnerability evaluation methodology and discuss the measures of well-defined evaluation framework. We analyze 11,395 CVE vulnerabilities to expose the differences among three current vulnerability evaluation systems (X-Force, CVSS and VRSS). We find that vulnerabilities are not separated from each other as much as possible. In order to increase the diversity of the results, we firstly enable vulnerability type to prioritize vulnerabilities using analytic hierarchy process on the basis of VRSS. We quantitatively characterize the vulnerability type and apply the method on the set of 11,395 CVE vulnerabilities. The results show that the quality of the quantitative scores can be improved with the help of vulnerability type.",
+      "keywords": "Vulnerability evaluation, Vulnerability prioritization, Vulnerability type, Analytic hierarchy process",
+      "references": [
+        7,
+        32
+      ]
+    },
+    {
+      "id": 7,
+      "title": "Improving CVSS-based vulnerability prioritization and response with context information",
+      "abstract": "The growing number of software security vulnerabilities is an ever-increasing challenge for organizations. As security managers in the industry have to operate within limited budgets they also have to prioritize their vulnerability responses. The Common Vulnerability Scoring System (CVSS) aids in such prioritization by providing a metric for the severity of vulnerabilities. In its most prominent application, as the severity metric in the U.S. National Vulnerability Database (NVD), CVSS scores omit information pertaining the potential exploit victims' context. Researchers and managers in the industry have long understood that the severity of vulnerabilities varies greatly among different organizational contexts. Therefore the CVSS scores provided by the NVD alone are of limited use for vulnerability prioritization in practice. Security managers could address this limitation by adding the missing context information themselves to improve the quality of their CVSS-based vulnerability prioritization. It is unclear for them, however, whether the potential improvements are worth the additional effort. We present a method that enables practitioners to estimate these improvements. Our method is of particular use to practitioners who do not have the resources to gather large amounts of empirical data, because it allows them to simulate the improvement potential using only publicly available data in the NVD and distribution models from the literature. We applied the method on a sample set of 720 vulnerability announcements from the NVD and found that adding context information significantly improved the prioritization and selection of vulnerability response process. Our findings contribute to the discourse on returns on security investment, measurement of security processes and quantitative security management.",
+      "keywords": "Information security, Costs, Data security, Software engineering, Software measurement, National security, Financial management, Databases, Computer bugs, ISO standards",
+      "references": [
+        33
+      ]
+    },
+    {
+      "id": 8,
+      "title": "Keepers of the Machines: Examining How System Administrators Manage Software Updates",
+      "abstract": "Keeping machines updated is crucial for maintaining system security. While recent studies have investigated the software updating practices of end users, system administrators have received less attention. Yet, system administrators manage numerous machines for their organizations, and security lapses at these hosts can lead to damaging attacks. To improve security at scale, we therefore also need to understand how this specific population behaves and how to help administrators keep machines up-to-date.",
+      "keywords": "",
+      "references": [
+        4,
+        16
+      ]
+    },
+    {
+      "id": 9,
+      "title": "Towards A Self-Managing Software Patching Process Using Black-Box Persistent-State Manifests",
+      "abstract": "We describe an approach to self-managing software patching. We identify visibility into patch impact as the key missing component in automating the current patching process, and we present a suite of components that provides this visibility by constructing black-box persistent-state manifests through self-monitoring of dependencies. Additionally, we use the component suite to measure the actual impact of recent patches on several important commercial applications.",
+      "keywords": "Application software, Software libraries, Delay, Stability, Computer worms, Humans, Availability, System testing, Best practices, Inventory management",
+      "references": []
+    },
+    {
+      "id": 10,
+      "title": "Security, Availability, and Multiple Information Sources: Exploring Update Behavior of System Administrators",
+      "abstract": "Experts agree that keeping systems up to date is a powerful security measure. Previous work found that users sometimes explicitly refrain from performing timely updates, eg, due to bad experiences which has a negative impact on end-user security. Another important user group has been investigated less extensively: system administrators, who are responsible for keeping complex and heterogeneous system landscapes available and secure.",
+      "keywords": "",
+      "references": [
+        8
+      ]
+    },
+    {
+      "id": 11,
+      "title": "Patch management automation for enterprise cloud",
+      "abstract": "Applying patches to operating systems, middleware, and applications is considered a major IT pain point due to several reasons. The operating systems and software are of myriad types, there is interdependency among the updates, operating system, and applications, there is lack of standardization among different enterprise customers, and finally testing the applications and operating systems post-update is challenging. As a result, human operator is involved in different stages of the patching process, making it costly and cumbersome. Cloud can help standardize various offerings to customers, and potentially remove human operators. However, it introduces other challenges such as VM time zones and restoring VMs from snapshots which are not present in traditional enterprise environments. We discuss the challenges of achieving patch automation in a Cloud, and then describe our solution.",
+      "keywords": "Middleware, Operating systems, Humans, Virtual machining, Virtual machine monitors, Automation",
+      "references": [
+        16,
+        17,
+        36,
+        63
+      ]
+    },
+    {
+      "id": 12,
+      "title": "Shadow Patching: Minimizing Maintenance Windows in a Virtualized Enterprise Environment",
+      "abstract": "Software is growing bigger and more complex, which results in bugs and defects being no longer dealt as exceptions, but rather as normal artifacts in a software's lifecycle. In fact, many patches are released by vendors on a preset schedule. This implies that managing patches in a correct and timely manner has become an important factor in smoothly running an IT environment. However, when a patch is applied, the affected software is often required to stop temporarily, which can cause a disruption of service. The down time is commonly called a maintenance window. Although sophisticated live patching techniques have been previously proposed, their applicability in practice is very limited. In this paper, we propose a novel patch management technique based on commonly available virtualization capabilities. It allows system administrators to perform a majority of the patch work outside of the maintenance window, such as downloading patches, installing them, and performing post-installation testing and fixes. By capturing the disk activities and replaying them during the actual maintenance window, we can transform a complex software patching operation to a series of more deterministic file I/O operations, and thus, reducing maintenance window from hours to minutes.",
+      "keywords": "Software, Maintenance engineering, Merging, Monitoring, Testing, Conferences, Servers",
+      "references": [
+        17,
+        36,
+        67
+      ]
+    },
+    {
+      "id": 13,
+      "title": "VULCAN: Vulnerability Assessment Framework for Cloud Computing",
+      "abstract": "Assessing security of software services on Cloud is complex because the security depends on the vulnerability of infrastructure, platform and the software services. In many systems, the platform or the infrastructure on which the software will actually run may not be known or guaranteed. This implies that the security of the software service must be assured regardless of the underlying infrastructure or platform, requiring a large number of combinations. Another common trend in Cloud and Service oriented Architecture (SoA) environments is Service composition, whereby new services can be created rapidly by composing existing services. Once again, the component services must be tested for security levels on a large number of platform and infrastructure combinations. In this paper we propose a novel vulnerability assessment framework for cloud computing systems. We have designed and developed a prototype of our framework. We also present the design and development of our framework with some use cases.",
+      "keywords": "Ontologies, Security, Knowledge based systems, Cloud computing, Indexes",
+      "references": []
+    },
+    {
+      "id": 14,
+      "title": "VRank: A Context-Aware Approach to Vulnerability Scoring and Ranking in SOA",
+      "abstract": "With the rapid adoption of the concepts of Service Oriented Architecture (SOA), sophisticated business processes and tasks are increasingly realized through composing distributed software components offered by different providers. Though such practices offer advantages in terms of cost-effectiveness and flexibility, those components are not immune to vulnerabilities. It is therefore important for the administrator of some composed service to evaluate the threats of such vulnerabilities accordingly within limited available information. Since almost all the existing efforts (e.g., CVSS) fail to consider specific context-aware information which is the specific character of SOA, they could not be adopted into SOA for scoring vulnerabilities. In this paper, we present VRank, a novel framework for the scoring and ranking of vulnerabilities in SOA. Different from existing efforts, for a given vulnerability, VRank not only considers its intrinsic properties (e.g., exploitability), but also takes into account the contexts of the services having this vulnerability, e.g., what roles they play in the composed service and how critical it is to the security objective of the service. The resulting scoring and ranking of vulnerabilities are thus highly relevant and meaningful to the composed service. We present the detailed design of VRank, and compare it with CVSS. Our experiments indicate VRank is able to provide much more useful ranking lists of vulnerabilities for complex composed services.",
+      "keywords": "Vulnerabilities, Service-Oriented Architecture, Context, Ranking and Scoring.",
+      "references": [
+        7,
+        41
+      ]
+    },
+    {
+      "id": 15,
+      "title": "Anyone Else Seeing this Error?: Community, System Administrators, and Patch Information",
+      "abstract": "Applying regular patches is vital for the timely correction of security vulnerabilities, but installing patches also risks disrupting working systems by potentially introducing unknown errors. System administrators must manage the challenges of patching using a combination of reliance on best practice and available information to best match their organizations' needs. In this work, we study how patch-related activities are supported by the mailing list of the website PatchManagement.org which is dedicated to the task. We qualitatively coded 356 list emails sent between March and July, 2018, to understand how members interact with the list community. Based on our results, we argue that the mailing list is an example of an Online Community of Practice, where practitioners engage in communal learning and support. We find that the community supports members in multiple phases of the patching process by providing workarounds before a patch is available, guidance prioritizing released patches, and helping with post-patch trouble. Additionally, the community provides help around tool selection and facilitating discussions.",
+      "keywords": "Human factors, Security usability, Technology social factors\n",
+      "references": [
+        8,
+        16
+      ]
+    },
+    {
+      "id": 16,
+      "title": "Staged Deployment in Mirage, an Integrated Software Upgrade Testing and Distribution System",
+      "abstract": "Despite major advances in the engineering of maintainable and robust software over the years, upgrading software remains a primitive and error-prone activity. In this paper, we argue that several problems with upgrading software are caused by a poor integration between upgrade deployment, user-machine testing, and problem reporting. To support this argument, we present a characterization of softwareupgrades resulting from a survey we conducted of 50 system administrators. Motivated by the survey results, we present Mirage, a distributed framework for integrating upgrade deployment, user-machine testing, and problem reporting into the overall upgrade development process. Our evaluation focuses on the most novel aspect of Mirage, namely its staged upgrade deployment based on the clustering of usermachines according to their environments and configurations. Our results suggest that Mirage's staged deployment is effective for real upgrade problems.",
+      "keywords": "Upgrade testing, Clustering of machines, Staged software upgrade deployment",
+      "references": [
+        9
+      ]
+    },
+    {
+      "id": 17,
+      "title": "Devirtualizable Virtual Machines Enabling General, Single-Node, Online Maintenance",
+      "abstract": "Maintenance is the dominant source of downtime at high availability sites. Unfortunately, the dominant mechanism for reducing this downtime, cluster rolling upgrade, has two shortcomings that have prevented its broad acceptance. First, cluster-style maintenance over many nodes is typically performed a few nodes at a time, mak-ing maintenance slow and often impractical. Second, cluster-style maintenance does not work on single-node systems, despite the fact that their unavailability during maintenance can be painful for organizations. In this paper, we propose a novel technique for online maintenance that uses virtual machines to provide maintenance on single nodes, allowing parallel maintenance over multiple nodes, and online maintenance for standalone servers. We present the Microvisor, our prototype virtual machine system that is custom tailored to the needs of online maintenance. Unlike general purpose virtual machine environments that induce continual 10-20% over-head, the Microvisor virtualizes the hardware only during periods of active maintenance, letting the guest OS run at full speed most of the time. Unlike past attempts at virtual machine optimization, we do not compromise OS transparency. We instead give up generality and tailor our virtual machine system to the minimum needs of online maintenance, eschewing features, such as I/O and memory virtualization, that it does not strictly require. The result is a very thin virtual machine system that induces only 5.6% CPU overhead when virtualizing the hardware, and zero CPU overhead when devirtualized. Using the Microvisor, we demonstrate an online OS upgrade on a live, single-node web server, reducing downtime from one hour to less than one minute.",
+      "keywords": "Planned downtime, online maintenance, availability, virtual machines",
+      "references": []
+    },
+    {
+      "id": 18,
+      "title": "An automated framework for managing security vulnerabilities",
+      "abstract": "Purpose \u2013 This paper aims to look at unpatched software which represents a significant problem for internet-based systems, with a myriad malware incidents and hacker exploits taking advantage of vulnerable targets. Unfortunately, vulnerability management is a non-trivial task, and is complicated by an increasing number of vulnerabilities and the workload implications associated with handling the associated security advisories and updates. Design/methodology/approach \u2013 As a step towards addressing the problem, this paper presents an automated framework that is designed to provide a vendor-independent means of vulnerability notification and rectification for system administrators. Findings \u2013 In the proposed framework, incoming vulnerability advisory messages may be obtained from multiple sources, and then filtered and prioritised according to the specific requirements of the target environment (as determined by the security administrator). In addition to notification management, the framework provides an automated facility for the download and deployment of any associated patches. The framework has been implemented in prototype form, with particular focus on the notification manager. Originality/value \u2013 This paper presents an automated framework, providing a valuable and comprehensive solution for managing vulnerabilities in terms of notification and rectification systems.",
+      "keywords": "Risk management, Data security, Security products",
+      "references": []
+    },
+    {
+      "id": 19,
+      "title": "A cross-site patch management model and architecture design for large scale heterogeneous environment",
+      "abstract": "Many reports indicated that most damages caused by computer viruses and hackers' attacks are due to management problems. Computing environments implementing well managed patch management processes with quick response mechanisms survive from most of serious attacks, such as My Doom and Sasser Warm attacks in 2004. Medium or large enterprises usually have heterogeneous computing environments. For example, a company may use an Apache server in a Linux-base PC as its Internet Web server, use an IBM AIX running IBM DB2 database system as a database server, and equip all employees with Windows-based PCs running Microsoft Office for their daily work. Also, employees might work at many different locations. In the enterprise patch management (PM) market today, there are very few complete off-the-shelf solutions. A systematic efficient PM process model with complete patch management activity process cycle and patching strategies was proposed. We also propose an automatic five-layer PM system application architecture supporting heterogeneous environment. The model, hopefully, makes enterprise patch process more efficient, and reduces the risks suffer from patch management challenges.",
+      "keywords": "Information Security, Patch Management, Network Management.\n",
+      "references": [
+        20
+      ]
+    },
+    {
+      "id": 20,
+      "title": "Security patch management",
+      "abstract": "The goals behind implementing a security patch management process cover many elements of a sound security program. Security patch management positions the security management process within the larger problem space: vulnerability management. It improves the way the organization is protected from current threats and copes with growing threats. Another goal is to improve the dissemination of information to the user community, the people responsible for the systems, and the people responsible for ensuring that the affected systems are patched properly. It formalizes record keeping, in the form of tracking and reporting. It introduces a discipline: an automated discipline that can be easily adapted once the process is in place. It also can allow a company to deal with security vulnerabilities as they are released with a small amount of resources, and prior- itize effectively. It improves accountability within the organization for the roles directly responsible for security and systems. With this in mind, the Security Group (or Security Committee) within an organization should develop a formal process that can be used to address the increased threats represented by known and addressable security vulnerabilities.",
+      "keywords": "",
+      "references": []
+    },
+    {
+      "id": 21,
+      "title": "Intrusion recovery for database-backed web applications",
+      "abstract": "Warp is a system that helps users and administrators of web applications recover from intrusions such as SQL injection, cross-site scripting, and clickjacking attacks, while preserving legitimate user changes. Warp repairs from an intrusion by rolling back parts of the database to a version before the attack, and replaying subsequent legitimate actions. Warp allows administrators to retroactively patch security vulnerabilities---i.e., apply new security patches to past executions---to recover from intrusions without requiring the administrator to track down or even detect attacks. Warp's time-travel database allows fine-grained rollback of database rows, and enables repair to proceed concurrently with normal operation of a web application. Finally, Warp captures and replays user input at the level of a browser's DOM, to recover from attacks that involve a user's browser. For a web server running MediaWiki, Warp requires no application source code changes to recover from a range of common web application vulnerabilities with minimal user input at a cost of 24--27% in throughput and 2--3.2 GB/day in storage.",
+      "keywords": "Security",
+      "references": []
+    },
+    {
+      "id": 22,
+      "title": "MAD: A visual analytics solution for Multi-step cyber Attacks Detection",
+      "abstract": "Software vulnerabilities represent one of the main weaknesses of an Information Technology (IT) system w.r.t. cyber attacks and nowadays consolidated official data, like the Common Vulnerability Exposure (CVE) dictionary, provide precise and reliable details about them. This information, together with the identification of priority systems to defend allows for inspecting the network structure and the most probable paths an attacker is likely to follow to reach sensible resources, with the main goal of identify suitable mitigation actions that reduce the risk of an attack. Some of these mitigation actions can be applied without further delay, some of them, instead, imply a high operational impact on the organization business that makes their usage convenient only when an attack is really on the way. Dealing with this issue is particularly challenging in the context of critical infrastructure where, even if patches are available, organization mission constraints create obstacles to their straightforward application. In this scenario, security operators are forced to deal with known vulnerabilities that cannot be patched and they spend a noticeable effort in proactive analysis, devising countermeasures that can mitigate the effect of a possible attack. This paper presents a Multi-step cyber Attack Detection (MAD) Visual Analytics solution aiming at assisting security operators in improving their network security by analyzing the possible attacks and identifying suitable mitigations. Moreover, during an attack, the system visually presents the security operator with the relevant pieces of information allowing a better comprehension of the attack status and its probable evolution, in order to make decisions on the possible countermeasures.",
+      "keywords": "Visual analytics, Security visualization, Cyber security, Critical infrastructure, Situational awareness, Multi-step attacks, Attack graph, Vulnerabilities, ",
+      "references": []
+    },
+    {
+      "id": 23,
+      "title": "Designing an efficient framework for vulnerability assessment and patching (VAP) in virtual environment of cloud computing",
+      "abstract": "With the rapid growth of virtualization-based computing technologies, the demand of better security for virtualization is increased. For cloud IaaS providers, it is important to offer secured and vulnerability-free resources to the users for improving the quality of service. The research has shown that virtual machine (VM) created from the VM image contains vulnerabilities which can lead to serious security risks. The traditional in-VM vulnerability scanners require the user to maintain the VM scanning and patching software. In addition, scanning a VM at runtime is time-consuming and may require to pause the VM for specific time. We explore the feasibility of implementing risk assessment of a VM at entry level with negligible delay in VM provisioning. In this paper, we design an automated vulnerability assessment and patching framework for VMs. It finds the highly severe vulnerabilities through proper analysis of vulnerabilities and patch them. In addition, the VM risk is analyzed based on the unpatched vulnerabilities and high-risk VM undergo for the continuous monitoring. We validate the feasibility of the proposed framework on cloud test bed at NIT Goa by performing different experiments about vulnerability assessment and patching.",
+      "keywords": "Cloud computing, Virtualization, Virtual machine, Security, Vulnerability assessment, Vulnerability patching, ",
+      "references": [
+        13
+      ]
+    },
+    {
+      "id": 24,
+      "title": "A new cost-saving and efficient method for patch management using blockchain",
+      "abstract": "In the corporate environment, we use a variety of software. To increase security, patch management systems are used to manage software patches. This study analyzes existing patch management systems to identify security threats. Furthermore, we utilized blockchain to manage patches safely and efficiently. Using this research, vendors operating patch management systems can connect to the blockchain network to share the verified patch information. It also stores the public key information required to verify the integrity of the patch and the information generated during patch management in the block. This effectively monitors the patch management process. It also reduces patch management costs and improves security.",
+      "keywords": "Blockchain, Patch management, Electronic signature, Public key, Patch distribution, ",
+      "references": [
+        2,
+        20,
+        47
+      ]
+    },
+    {
+      "id": 25,
+      "title": "Linux patch management: With security assessment features",
+      "abstract": "The lack of patch management has been identified as the main reason for many ransomware attacks. The cost of patch management is still an obstacle for many small and medium-size businesses. There are many open source, free of charge, patch management systems but these require many pre-configuration steps making them complicated to use. Hence, this paper presents a patch management system that is cost-effective but also efficient in terms of set-up time. We have written the system in Python with Puppet and Mcollective to aid the configuration steps. An additional feature of this system is the ability to assess the security of the system being patched, using CVE scanning.",
+      "keywords": "Patch Management, Linux, Software Inventory, CVE Scanning, Security, Puppet, Mcollective.",
+      "references": [
+        12,
+        20,
+        58,
+        65
+      ]
+    },
+    {
+      "id": 26,
+      "title": "Vulnus: Visual vulnerability analysis for network security",
+      "abstract": "Vulnerabilities represent one of the main weaknesses of IT systems and the availability of consolidated official data, like CVE (Common Vulnerabilities and Exposures), allows for using them to compute the paths an attacker is likely to follow. However, even if patches are available, business constraints or lack of resources create obstacles to their straightforward application. As a consequence, the security manager of a network needs to deal with a large number of vulnerabilities, making decisions on how to cope with them. This paper presents VULNUS (VULNerabilities visUal aSsessment), a visual analytics solution for dynamically inspecting the vulnerabilities spread on networks, allowing for a quick understanding of the network status and visually classifying nodes according to their vulnerabilities. Moreover, VULNUS computes the approximated optimal sequence of patches able to eliminate all the attack paths and allows for exploring sub-optimal patching strategies, simulating the effect of removing one or more vulnerabilities. VULNUS has been evaluated by domain experts using a lab-test experiment, investigating the effectiveness and efficiency of the proposed solution.",
+      "keywords": "Visual Analytics, Network security, Vulnerability analysis, CVE, CVSS, Attack Graph, Vulnerability triage and management\n",
+      "references": [
+        38
+      ]
+    },
+    {
+      "id": 27,
+      "title": "Handling vulnerabilities with mobile agents in order to consider the delay and disruption tolerant characteristic of military networks",
+      "abstract": "With the development of modern military warfare towards Network Centric Warfare (NCW), small mobile computers or devices that form tactical ad-hoc networks play an important role. These automatically established networks provide soldiers with information necessary to accomplish their mission. It has to be assumed that hostile forces manage to install malware on a mobile device by exploiting software vulnerabilities in order to spy out mission-specific information. Therefore, a vulnerability management in combination with a patch management is a pro-active countermeasure to improve network security. Most of the vulnerability and patch management systems use a Client-Server architecture. In this paper, we discuss the usage of Mobile Agents for this task. Through this approach, it is possible to consider the properties of military ad-hoc networks such as non-permanently existing end-to-end paths.",
+      "keywords": "mobile agent, delay and disruption tolerant networking, migration, replication, vulnerability management, patch management",
+      "references": []
+    },
+    {
+      "id": 28,
+      "title": "Green WSUS",
+      "abstract": "The new era of information and communication technology (ICT) calls for a greater understanding of the environmental impacts of recent technology. With increasing energy cost and growing environmental concerns, green IT is receiving more and more attention. Network and system design play a crucial role in both computing and telecommunication systems. Significant part of this energy cost goes to system update by downloading regularly patches and bug fixes to solve security problems and to assure that the operating system and other systems function properly. This paper describes a new design of Windows Server Update Services (WSUS), system responsible of downloads of the mentioned patches and updates from Microsoft Update website and then distributes them to computers on a network. The general idea behind our proposed design is simple. Instead of the periodical check done by the WSUS servers to ensure update form Microsoft main servers, we rather propose to reverse the scenario in order to reduce energy consumption. In the proposed design, the Microsoft main server(s) sends signal to all WSUS servers to inform them about new updates. Once the signal received, WSUS can contact the main server to start downloading.",
+      "keywords": "Green IT, Green Network, windows update, WSUS ",
+      "references": []
+    },
+    {
+      "id": 29,
+      "title": "Checking running and dormant virtual machines for the necessity of security updates in cloud environments",
+      "abstract": "A common approach in Infrastructure-as-a-Service Clouds or virtualized Grid computing is to provide virtual machines to customers to execute their software remotely. While giving full super user permissions eases the installation and use of a customer's software, it may lead to security issues. Providers usually delegate the task of keeping virtual machines up to date to the customer, while the customer expects the provider to perform this task. Consequently, a large number of virtual machines (either running or dormant) are not patched against the latest software vulnerabilities. The approach presented in this paper deals with this problem by helping users as well as providers to keep virtual machines up to date. Prior to the update step, it is crucial to know which software is actually outdated. While this task seems trivial, developing a solution that takes care of multiple, different software repositories and identifies the correct packages is a challenging task. The Update Checker presented in this paper identifies outdated software packages in virtual machines, even if the virtual machines are installed with different repositories. The paper presents the design, the implementation and an experimental evaluation of the approach.",
+      "keywords": "Virtual machining, Databases, Software, Security, Libraries, Maintenance engineering, Computer architecture",
+      "references": [
+        31
+      ]
+    },
+    {
+      "id": 30,
+      "title": "A race for security: Identifying vulnerabilities on 50 000 hosts faster than attackers",
+      "abstract": "Unpatched security vulnerabilities are often misused by attackers to take over machines or cause other harm to computers and their legitimate users. Having proper and timely patch management is crucial to keep the system secure and resistant to common attacks targeting known weak spots. For this, a monitoring system that is able to provide a global view of the whole infrastructure is inevitable. In this paper we present service Pakiti that makes it possible to monitor patches across a number of machines and retain a fresh overview about the patching status. Using Pakiti a system administrator can detect machine where patching failed for whatever reason or was not initiated at all",
+      "keywords": "Global view; Legitimate users; Monitoring system; Patch management; Security vulnerabilities; System administrators",
+      "references": []
+    },
+    {
+      "id": 31,
+      "title": "Multi-layered virtual machines for security updates in grid environments",
+      "abstract": "The use of user specific virtual machines (VMs) in Grid and Cloud computing reduces the administration overhead associated with manually installing required software for every user on every computational resource. However, a large number of user specific VMs increases the risk of security attacks. In particular, Cloud computing providers like Amazon suffer from these problems, since they offer different operating systems within VMs and delegate the security update problem for VMs to the users. In this paper, a solution that solves the problem by separating a VM into several layers is presented. The approach creates the possibility of installing security updates into a base layer centrally, affecting all VMs without affecting the users' own installed software stack by merging package databases. The proposal permits resource providers to keep a large number of VMs patched with the latest security fixes without bothering the users. Furthermore, the proposal avoids the overhead for transferring possible large VM images over the network between the nodes of a Grid or Cloud by allowing to hold locally cached VM images with a basic operating system installation while only the user-specific software stack stored in a separate layer needs to be transferred.",
+      "keywords": "Grid Computing, Cloud Computing, Virtualization, Security Updates, Layered Virtual Machines",
+      "references": []
+    },
+    {
+      "id": 32,
+      "title": "A study and implementation of vulnerability assessment and misconfiguration detection",
+      "abstract": "According to a study from Gartner Group [13], mostly successful attacks exploit software applications and operating systems that were not properly configured or vulnerability patched. Regarding enterprises, there are far reaching consequences if their online services are attacked and compromised. As a result, making their systems safer is becoming a higher priority. In this paper, we proposed a system to resolve the vulnerability and misconfiguration issues. In the vulnerability part, we focus on the aspect of vulnerability assessment. We use CVSS (Common Vulnerability Scoring System) to measure the vulnerability severity to the organization and help administrators with patch management. For the configuration portion, we use CCE (Common Configuration Enumeration) configuration scanner to scan the system and determine the presence of the misconfiguration in the system. The experiments show that our system can help administrators to understand their own systems and enhance system security.",
+      "keywords": "CVSS, CCE, Vulnerability Management, Configuration Management",
+      "references": []
+    },
+    {
+      "id": 33,
+      "title": "Using the vulnerability information of computer systems to improve the network security",
+      "abstract": "In these years, the security problem becomes more important to everyone using computers. However, vulnerabilities on computers are found so frequently that system managers can not patch up all these vulnerabilities on hosts within the network in no time. They need to perform a risk evaluation in order to determine the priority of patching-up vulnerabilities. Besides, they may not have the administrator right on all hosts in the network, but only have the right on these network devices. To keep these vulnerabilities on hosts from exploitation, system managers can set the ACL scripts on network devices. The solution improves security in the network immediately, since some threatened service ports on hosts are blocked from accessed. This paper introduces a method to improve the network security, which consists of the network management, the vulnerability scan, the risk assessment, the access control, and the incident notification. Companioned to the network topology, the risk evaluation indicates the threatened service ports that should be blocked within ACL scripts. These procedures do not cost any extra hardware equipment. With the proposed method, the network security improves almost 40% with only 8% of threatened ports being blocked in the examined Class-B network. The 40% improvement of network security is evaluated with these two indices, the summary of CVSS values and the number of vulnerabilities in the network.",
+      "keywords": "Vulnerability; Network topology; Risk evaluation; Access control; Security",
+      "references": []
+    },
+    {
+      "id": 34,
+      "title": "Analyzing enterprise network vulnerabilities",
+      "abstract": "Imagine you are an information security manager and your boss is asking: \u201cHow secure are our information systems? Is the security getting better or worse? How do you know that?\u201d One thing is sure: if you do not have a good answer, your own job may not be secure. You could answer that you are monitoring intrusion attempts and investigating alarms, that you are updating the anti-virus software on a regular basis and applying software patches on a timely basis, but that was not the question. Your boss wants to know not only whatyou have done to lower the risk, but how effective you have been. It is all about process, measurements, and trend monitoring.1",
+      "keywords": "",
+      "references": []
+    },
+    {
+      "id": 35,
+      "title": "The dilemma of security patches",
+      "abstract": "Security patches to operating systems present a dilemma. Fixing the systems requires notifying systems administrators and distributing patches. However, this same information makes it possible for attackers to create automated scripts to search for machines that have had the operating system updated. By surveying security experts, this study shows that many systems administrators feel they are unable to stay current with the releases of security patches. The issue of currency leaves a door open for automated scripts to find and infiltrate computer and information systems. The situation means that vendors must develop even better methods to distribute and install patches. Consequently, the user/vendor community should consider more formal schedules for patch releases.",
+      "keywords": "",
+      "references": []
+    },
+    {
+      "id": 36,
+      "title": "Always up-to-date: Scalable offline patching of VM images in a compute cloud",
+      "abstract": "Patching is a critical security service that keeps computer systems up to date and defends against security threats. Existing patching systems all require running systems. With the increasing adoption of virtualization and cloud computing services, there is a growing number of dormant virtual machine (VM) images. Such VM images cannot benefit from existing patching systems, and thus are often left vulnerable to emerging security threats. It is possible to bring VM images online, apply patches, and capture the VMs back to dormant images. However, such approaches suffer from unpredictability, performance challenges, and high operational costs, particularly in large-scale compute clouds where there could be thousands of dormant VM images. This paper presents a novel tool named N\u00fcwa that enables efficient and scalable offline patching of dormant VM images. N\u00fcwa analyzes patches and, when possible, converts them into patches that can be applied offline by rewriting the patching scripts. N\u00fcwa also leverages the VM image manipulation technologies offered by the Mirage image library to provide an efficient and scalable way to patch VM images in batch. N\u00fcwa has been evaluated on freshly built images and on real-world images from the IBM Research Compute Cloud (RC2), a compute cloud used by IBM researchers worldwide. When applying security patches to a fresh installation of Ubuntu-8.04, N\u00fcwa successfully applies 402 of 406 patches. It speeds up the patching process by more than 4 times compared to the online approach and by another 2--10 times when integrated with Mirage. N\u00fcwa also successfully applies the 10 latest security updates to all VM images in RC2.",
+      "keywords": "",
+      "references": [
+        20
+      ]
+    },
+    {
+      "id": 37,
+      "title": "A process framework for stakeholder-specific visualization of security metrics",
+      "abstract": "Awareness and knowledge management are key components to achieve a high level of information security in organizations. However, practical evidence suggests that there are significant discrepancies between the typical elements of security awareness campaigns, the decisions made and goals set by top-level management, and routine operations carried out by systems administration personnel. This paper presents Vis4Sec, a process framework for the generation and distribution of stakeholder-specific visualizations of security metrics, which assists in closing the gap between theoretical and practical information security by respecting the different points of view of the involved security report audiences. An implementation for patch management on Linux servers, deployed at a large data center, is used as a running example.",
+      "keywords": "Information Security; Visualization of Security-Related Data\n",
+      "references": []
+    },
+    {
+      "id": 38,
+      "title": "VULCON: A system for vulnerability prioritization, mitigation, and management",
+      "abstract": "Vulnerability remediation is a critical task in operational software and network security management. In this article, an effective vulnerability management strategy, called VULCON (VULnerability CONtrol), is developed and evaluated. The strategy is based on two fundamental performance metrics: (1) time-to-vulnerability remediation (TVR) and (2) total vulnerability exposure (TVE). VULCON takes as input real vulnerability scan reports, metadata about the discovered vulnerabilities, asset criticality, and personnel resources. VULCON uses a mixed-integer multiobjective optimization algorithm to prioritize vulnerabilities for patching, such that the above performance metrics are optimized subject to the given resource constraints. VULCON has been tested on multiple months of real scan data from a cyber-security operations center (CSOC). Results indicate an overall TVE reduction of 8.97% when VULCON optimizes a realistic security analyst workforce\u2019s effort. Additionally, VULCON demonstrates that it can determine monthly resources required to maintain a target TVE score. As such, VULCON provides valuable operational guidance for improving vulnerability response processes in CSOCs.",
+      "keywords": "Cyber-security analysts, vulnerability triage and management, structured vulnerability response programs, cyber-security operations center (CSOC), multiobjective optimization",
+      "references": [
+        20,
+        69
+      ]
+    },
+    {
+      "id": 39,
+      "title": "Patch auditing in infrastructure as a service clouds",
+      "abstract": "A basic requirement of a secure computer system is that it be up to date with regard to software security patches. Unfortunately, Infrastructure as a Service (IaaS) clouds make this difficult. They leverage virtualization, which provides functionality that causes traditional security patch update systems to fail. In addition, the diversity of operating systems and the distributed nature of administration in the cloud compound the problem of identifying unpatched machines. In this work, we propose P2, a hypervisor-based patch audit solution. P2 audits VMs and detects the execution of unpatched binary and non-binary files in an accurate, continuous and OSagnostic manner. Two key innovations make P2 possible. First, P2 uses efficient information flow tracking to identify the use of unpatched non-binary files in a vulnerable way.We performed a patch survey and discover that 64% of files modified by security updates do not contain binary code, making the audit of non-binary files crucial. Second, P2 implements a novel algorithm that identifies binaries in mid-execution to allow handling of VMs resumed from a checkpoint or migrated into the cloud. We have implemented a prototype of P2 and and our experiments show that it accurately reports the execution of unpatched code while imposing performance overhead of 4%.",
+      "keywords": "virtualization, cloud computing, infrastructure as a service, patch management, application discovery\n",
+      "references": []
+    },
+    {
+      "id": 40,
+      "title": "Designing a distributed patch management security system",
+      "abstract": "Over the last 10 years, the Internet has been the place of tremendous information security issues and vulnerabilities; in particular, the ability to patch systems very quickly has become a necessary requirement in order to provide a safe operating environment for all organizations. At the same time, the fast proliferation of systems and their respective vulnerabilities have become almost unmanageable for IT departments to withstand and secure according to the patch release schedules established by IT software vendors. This research reveals the fundamental limitations of the current patch management design systems, explores a possible solution, and investigates the practical development of a new approach for patch distribution. We will start by explaining the problem, followed by a review of the current state of affairs, determinant factors used to develop our methodology, and, finally, our proposed solution.",
+      "keywords": "Peer to peer computing, Routing, Computational modeling, Security, Servers, Organizations, Software",
+      "references": [
+        2,
+        20
+      ]
+    },
+    {
+      "id": 41,
+      "title": "Beyond heuristics: Learning to classify vulnerabilities and predict exploits",
+      "abstract": "The security demands on modern system administration are enormous and getting worse. Chief among these demands, administrators must monitor the continual ongoing disclosure of software vulnerabilities that have the potential to compromise their systems in some way. Such vulnerabilities include buffer overflow errors, improperly validated inputs, and other unanticipated attack modalities. In 2008, over 7,400 new vulnerabilities were disclosed--well over 100 per week. While no enterprise is affected by all of these disclosures, administrators commonly face many outstanding vulnerabilities across the software systems they manage. Vulnerabilities can be addressed by patches, reconfigurations, and other workarounds; however, these actions may incur down-time or unforeseen side-effects. Thus, a key question for systems administrators is which vulnerabilities to prioritize. From publicly available databases that document past vulnerabilities, we show how to train classifiers that predict whether and how soon a vulnerability is likely to be exploited. As input, our classifiers operate on high dimensional feature vectors that we extract from the text fields, time stamps, cross references, and other entries in existing vulnerability disclosure reports. Compared to current industry-standard heuristics based on expert knowledge and static formulas, our classifiers predict much more accurately whether and how soon individual vulnerabilities are likely to be exploited.",
+      "keywords": "supervised learning, SVM, vulnerabilities, exploits",
+      "references": []
+    },
+    {
+      "id": 42,
+      "title": "NetGlean: A methodology for distributed network security scanning",
+      "abstract": "Network vulnerability analysis tools today do not provide a complete security awareness solution. Currently, network administrators utilize multiple analysis tools in succession or randomly in a patchwork fashion that provides only temporary assurance. This paper introduces NetGlean as a methodology for distributed network security scanning with a holistic approach to network analysis. NetGlean uses new and existing techniques in a continual, autonomous, evolutionary manner to provide powerful real-time and historical views of large and complex networks. This paper introduces the methodology and describes one implementation NetGleanIP, a scanner for IP and converged networks.",
+      "keywords": "Operating system detection; network scanning; host discovery; vulnerability analysis.",
+      "references": []
+    },
+    {
+      "id": 43,
+      "title": "RL-BAGS: A tool for smart grid risk assessment",
+      "abstract": "The security of critical infrastructure such as Smart Grid is of significant concern because cyber-physical attacks are becoming a frequent occurrence. Cybercriminals compromise cyberinfrastructure to control physical processes maliciously. It is the system administrator's goal to find vulnerabilities in the smart grid functions and patch them before they are compromised. Unfortunately, limited resources and a large attack surface make it difficult to decide which function to protect in a particular system state. In this research paper, we tackle the problem of resource allocation in the smart grid system by proposing a tool, Reinforcement Learning-Bayesian Attack Graph for Smart Grid System (RLBAGS), which provides functionality to the system engineers to compute optimal policies on regular intervals about whether to SCAN or PATCH a particular function of the smart grid system. RL-BAGS considers functions and network architecture of the system to generate a Bayesian Network, which represents the state of the system. RL-BAGS implements two reinforcement learning algorithms, Q-Learning and SARSA learning, on the generated Bayesian Network to learn optimal policies. RL-BAGS assists system administrators performing in-depth studies of one of the functions of the smart grid system advising effective actions to scan or patch a system component.",
+      "keywords": "smart grid; cyber-physical systems; reinforcement learning; cyber security; risk assessment; power systems; vulnerability assessment ",
+      "references": []
+    },
+    {
+      "id": 44,
+      "title": "From patching delays to infection symptoms: Using risk profiles for an early discovery of vulnerabilities exploited in the wild",
+      "abstract": "At any given time there exist a large number of software vulnerabilities in our computing systems, but only a fraction of them are ultimately exploited in the wild. Advanced knowledge of which vulnerabilities are being or likely to be exploited would allow system administrators to prioritize patch deployments, enterprises to assess their security risk more precisely, and security companies to develop intrusion protection for those vulnerabilities. In this paper, we present a novel method based on the notion of community detection for early discovery of vulnerability exploits. Specifically, on one hand, we use symptomatic botnet data (in the form of a set of spam blacklists) to discover a community structure which reveals how similar Internet entities behave in terms of their malicious activities. On the other hand, we analyze the risk behavior of end-hosts through a set of patch deployment measurements that allow us to assess their risk to different vulnerabilities. The latter is then compared to the former to quantify whether the underlying risks are consistent with the observed global symptomatic community structure, which then allows us to statistically determine whether a given vulnerability is being actively exploited in the wild. Our results show that by observing up to 10 days' worth of data, we can successfully detect vulnerability exploitation with a true positive rate of 90% and a false positive rate of 10%. Our detection is shown to be much earlier than the standard discovery time records for most vulnerabilities. Experiments also demonstrate that our community based detection algorithm is robust against strategic adversaries.",
+      "keywords": "",
+      "references": [
+        4,
+        41
+      ]
+    },
+    {
+      "id": 45,
+      "title": "PKG-VUL: Security vulnerability evaluation and patch framework for package-based systems",
+      "abstract": "In information security and network management, attacks based on vulnerabilities have grown in importance. Malicious attackers break into hosts using a variety of techniques. The most common method is to exploit known vulnerabilities. Although patches have long been available for vulnerabilities, system administrators have enerally been reluctant to patch their hosts immediately because they perceive the patches to be annoying and complex. To solve these problems, we propose a security vulnerability evaluation and patch framework called PKG-VUL, which evaluates the software installed on hosts to decide whether the hosts are vulnerable and then applies patches to vulnerable hosts. All these operations are accomplished by the widely used simple network management protocol (SNMP). Therefore, system administrators can easily manage their vulnerable hosts through PKG-VUL included in the SNMP-based network management systems as a module. The evaluation results demonstrate the applicability of PKG-VUL and its performance in terms of devised criteria.",
+      "keywords": "Security   vulnerability   evaluation,   patch,   PKG-VLU, PKG-MIB, Ubuntu, SNMP.",
+      "references": []
+    },
+    {
+      "id": 46,
+      "title": "A Study of Integrity on the Security Patches System Using PM-FTS",
+      "abstract": "A variety of operating systems and application programs on the internet have weak points in terms of security. Intelligent attacks on such weak points have been spreading rapidly, causing a lot of damage. In particular, the files downloaded use Application Programming Interface, an intermediate interface between operating systems and application programs, for their running. At that time, attacks on weak points of the application programs are made. In such a principle, users are infected with the malicious codes disguised in the process of updating security patches. Therefore, this work tries to propose a system for integrity security patch updating using PM-FTS (Patch Management\u2013File Transfer System).",
+      "keywords": "PMS,  PM-FTS,  Signature based detection, Behavior based detection , NAS",
+      "references": [
+        19
+      ]
+    },
+    {
+      "id": 47,
+      "title": "Patch integrity verification method using dual electronic signatures",
+      "abstract": "Many organizations today use patch management systems to uniformly manage software vulnerabilities. However, the patch management system does not guarantee the integrity of the patch in the process of providing the patch to the client. In this paper, we propose a method to guarantee patch integrity through dual electronic signatures. The dual electronic signatures are performed by the primary distribution server with the first digital signature and the secondary distribution server with the second digital signature. The dual electronic signature ensures ensure that there is no forgery or falsification in the patch transmission process, so that the client can verify that the patch provided is a normal patch. The dual electronic signatures can enhance the security of the patch management system, providing a secure environment for clients.",
+      "keywords": "Digital signature, Electronic Signature, Integrity, Patch Distribution, Patch Management",
+      "references": [
+        20
+      ]
+    },
+    {
+      "id": 48,
+      "title": "Software asset analyzer: A system for detecting configuration anomalies",
+      "abstract": "In this paper, we introduce Software Asset Analyzer (SAA), a system that monitors and detects potentially vulnerable software asset modifications in end devices, and can be used to guide patch management. Software patching is a complex and failure-prone process that, on enterprise networks, requires triage. Accurate inventories of software (applications and operating systems) improve patching efficiency, which is a significant concern for security analysts. By generating asset baselines, the SAA identifies and reports abnormal deviations in individual end-devices, which allows security analysts to identify vulnerable devices and further enforce security patching. This system is also suited for detecting vulnerable software installs and remediation process verification. SAA is a low-cost and efficient method that yields accurate and complete inventories of assets on end-devices, reducing the potential loss from new vulnerabilities. ",
+      "keywords": "Attack, Detection and Prevention, Asset Inventory, Anomaly detection, Configuration Management, Incident Response, Intrusion Detection, Threat Monitoring and Analysis",
+      "references": []
+    },
+    {
+      "id": 49,
+      "title": "Vulnerabilities scoring approach for cloud saas",
+      "abstract": "It is known to be full of challenges to score vulnerabilities of cloud services developed by different third-party providers. Although there have been a few systems for scoring vulnerabilities (e.g., CVSS) of many existing softwares, most of them are unable to be leveraged to score vulnerabilities in cloud services, because they fail to consider some important factors located in the clouds such as business context (i.e., Dependency relationships between services). This paper presents VScorer, a novel security framework to score vulnerabilities in various cloud services based on different given requirements. By inputting concrete business context and security requirement into VScorer, cloud provider can get a ranking list of vulnerabilities in the business based on the given security requirement. Following the ranking list, cloud provider is able to patch the most critical vulnerabilities first. We developed a prototype and demonstrate VScorer can work better than current representative vulnerability scoring system CVSS.",
+      "keywords": "Security, Business, Context, Concrete, Cloud computing, Algorithm design and analysis",
+      "references": [
+        7,
+        41
+      ]
+    },
+    {
+      "id": 50,
+      "title": "Risk assessment and mitigation at the information technology companies",
+      "abstract": "Developing computer software that is free from material defects is the ultimate goal for software developers; however, due to the cost and complexity of software development, it is a goal that is unlikely to be achieved. As a consequence of the inevitable defects that manifest within computer software, the task of software patch management becomes a key focus area for software companies, IT departments, and even end users. Audit departments, as part of their responsibilities, are required to provide assurance on the patching process and therefore need to understand the various decision-making factors. Software flaws that exist within computer systems may put confidential information at risk and may also compromise the availability of such systems. The study investigated the recommended approaches for the task of software patching, with a view to balancing the sometimes conflicting requirements of security and system availability. The study found that there are a number of key aspects that are required to ensure a successful patching process and that the internal auditors of the \u2018big four\u2019 South African banks considered most of these factors to be important.",
+      "keywords": "Software Patches, Software Patch Management, Software Flaws, Risk Assessment, Risk Mitigation, Confidentiality, Integrity, Availability, Downtime, Information Security",
+      "references": []
+    },
+    {
+      "id": 51,
+      "title": "A proposed framework for proactive vulnerability assessments in cloud deployments",
+      "abstract": "Vulnerability scanners are deployed in computer networks and software to timely identify security flaws and misconfigurations. However, cloud computing has introduced new attack vectors that requires commensurate change of vulnerability assessment strategies. To investigate the effectiveness of these scanners in cloud environments, we first conduct a quantitative security assessment of OpenStack's vulnerability lifecycle and discover severe risk levels resulting from prolonged patch release duration. More specifically, there are long time lags between OpenStack patch releases and patch inclusion in vulnerability scanning engines. This scenario introduces sufficient time for malicious actions and creation of exploits such as zero-days. Mitigating these concern requires systems with current knowledge on events within the vulnerability lifecycle. However, current vulnerability scanners are designed to depend on information about publicly announced vulnerabilities which mostly includes only vulnerability disclosure dates. Accordingly, we propose a framework that would mitigate these risks by gathering and correlating information from several security information sources including exploit databases, malware signature repositories and Bug Tracking Systems. The information is thereafter used to automatically generate plugins armed with current information about zero-day exploits and unknown vulnerabilities. We have characterized two new security metrics to describe the discovered risks.",
+      "keywords": "Cloud security, cloud vulnerabilities, vulnerability assessment, vulnerability lifecycle, security metrics, vulnerability signature, zero-days.",
+      "references": [
+        4
+      ]
+    },
+    {
+      "id": 52,
+      "title": "Elementary Risks: Bridging Operational and Strategic Security Realms",
+      "abstract": "Risk management is widely used in order to evaluate and treat prominent risks for organizations. Such models are rather organizational (business-aware) than technical, and enable security officers to manage risks on the long run. However, both ICT systems and threat landscape do not cease to evolve, and dynamic cyber security management becomes paramount to address potential breaches. The operational security management is based on technical processes, executed by administrators who are not necessarily aware of organization's business and strategic aspects. This gap between technical and organizational levels renders traditional risks assessment methods cumbersome and obsolete. In this paper, we propose a novel concept of Elementary Risk (ER) that represents a quantum of risk for an organization. Composite Risks (CRs) are then calculated and presented for the security officer. CR enables dynamic calculation of organizational risk posture while considering the system's state. Moreover, ER and CR enable capture the contribution of technical elements (e.g. vulnerability, server) or security measures (e.g. patch, firewall rule) to the overall risk profile of the organization.",
+      "keywords": "elementary risk; composite risk; attack graph; asset; detrimental event; likelihood; impact.",
+      "references": []
+    },
+    {
+      "id": 53,
+      "title": "Mining social networks for software vulnerabilities monitoring",
+      "abstract": "Staying informed about security vulnerabilities, work-arounds and the availability of patches regarding the components of a given system is crucial to ensure system security. Several channels can be used to the monitor the new vulnerabilities publications, but these channels are scattered. We propose in this paper a vulnerability monitoring system based on twitter analysis that aggregates and analyses different sources of data and extracts zero-day vulnerabilities.",
+      "keywords": "Vulnerability; Social; Networks; Zero-day, Monitoring; Data Mining; CVE.",
+      "references": []
+    },
+    {
+      "id": 54,
+      "title": "A VMM-level approach to shortening downtime of operating systems reboots in software updates",
+      "abstract": "Operating system (OS) reboots are an essential part of up- dating kernels and applications on laptops and desktop PCs. Long down- time during OS reboots severely disrupts users\u2019 computational activities. This long disruption discourages the users from conducting OS reboots, failing to enforce them to conduct software updates. Although the dy- namic updatable techniques have been widely studied, making the sys- tem \u201creboot-free\u201d is still difficult due to their several limitations. As a re- sult, users cannot benefit from new functionality or better performance, and even worse, unfixed vulnerabilities can be exploited by attackers. This paper presents ShadowReboot, a virtual machine monitor (VMM)- based approach that shortens downtime of OS reboots in software updates. ShadowReboot conceals OS reboot activities from user\u2019s applications by spawning a VM dedicated to an OS reboot and systematically producing the rebooted state where the updated kernel and applications are ready for use. ShadowReboot provides an illusion to the users that the guest OS travels forward in time to the rebooted state. ShadowReboot offers the following advantages. It can be used to apply patches to the kernels and even system configuration updates. Next, it does not require any special patch requiring detailed knowledge about the target kemels. Lastly. it does not require any target kemel modification. We implemented a prototype in VirtualBox 4.0. 10 OSE. Our experimental results show that ShadowReboot successfully updated software on unmodified commodity OS kernels and shortened the downtime of commodity OS reboots on five Linux distribu- tions (Fedora, Ubuntu, Gentoo, Cent, and SUSE) by 91 to 98%.",
+      "keywords": "virtual machines, software updates",
+      "references": [
+        17,
+        63
+      ]
+    },
+    {
+      "id": 55,
+      "title": "A vulnerability life cycle-based security modeling and evaluation approach",
+      "abstract": "This paper presents a probabilistic model-based approach aimed at evaluating quantitative measures to assess the security risks faced by an information system in operation. The proposed approach takes into account the impact of three environmental factors and their interdependencies: the vulnerability life cycle, the behavior of the attackers and the behavior of the system administrator. Several quantitative security measures are defined and evaluated. Two different scenarios are distinguished corresponding to the case where the system vulnerabilities are discovered by a malicious user or by a non malicious user. The proposed models are based on stochastic activity networks and describe the system states resulting from the combined modeling of the three external factors. Five states are distinguished (vulnerable, exposed, compromised, patched and secure) and probability measures are associated to these states to assess the level of risk faced by the system as a result of the vulnerability exploitation process. The parameters of the models, e.g. those characterizing the occurrence of vulnerability life cycle events, are derived from the analysis of public information recorded in vulnerability databases. Several sensitivity analyses are carried out for the two scenarios, in order to quantify and illustrate the impact of various parameters, including the probability of security patch application, the attack rate, etc.",
+      "keywords": "security; quantitative evaluation; modeling; vulnerability life cycle; exploitation process; stochastic activity networks",
+      "references": []
+    },
+    {
+      "id": 56,
+      "title": "iDispatcher: A unified platform for secure planet-scale information dissemination",
+      "abstract": "Traditional software and security patch update delivery mechanisms rely on a client/server approach where clients pull updates from servers regularly. This approach, however, suffers a high window of vulnerability (WOV) for clients and the risk of a single point of failure. Overlay-based information dissemination schemes overcome these problems, but often incur high infrastructure cost to set up and maintain individual information dissemination networks. Against this backdrop, we propose iDispatcher, a planet-scale, flexible and secure information dissemination platform. iDispatcher uses a hybrid approach with both push- and pull-based information dissemination to reduce the WOV period and achieve high distribution coverage. iDispatcher also uses a peer-to-peer based architecture to achieve higher scalability. We develop a self-contained key management mechanism for iDispatcher. Our prototype for iDispatcher is deployed on more than 500 PlanetLab nodes distributed around the world. Experimental results show that iDispatcher can have small dissemination latency for time-critical applications, is highly tunable to optimize the tradeoff between bandwidth and latency, and works resiliently against different attacks such as flooding attacks.",
+      "keywords": "Information dissemination, Peer-to-peer, Software update",
+      "references": []
+    },
+    {
+      "id": 57,
+      "title": "Efficient patch-based auditing for web application vulnerabilities",
+      "abstract": "POIROT is a system that, given a patch for a newly discovered security vulnerability in a web application, helps administrators detect past intrusions that exploited the vulnerability. POIROT records all requests to the server during normal operation, and given a patch, re-executes requests using both patched and unpatched software, and reports to the administrator any request that executes differently in the two cases. A key challenge with this approach is the cost of re-executing all requests, and POIROT introduces several techniques to reduce the time required to audit past requests, including filtering requests based on their control flow and memoization of intermediate results across different requests.",
+      "keywords": "",
+      "references": [
+        21,
+        59,
+        60
+      ]
+    },
+    {
+      "id": 58,
+      "title": "Instant OS updates via userspace checkpoint-and-restart",
+      "abstract": "In recent years, operating systems have become increasingly complex and thus prone to security and performance issues. Accordingly, system updates to address these issues have become more frequently available and increasingly important. To complete such updates, users must reboot their systems, resulting in unavoidable downtime and further loss of the states of running applications.",
+      "keywords": "",
+      "references": [
+        3,
+        17,
+        57,
+        63,
+        67
+      ]
+    },
+    {
+      "id": 59,
+      "title": "Tachyon: Tandem execution for efficient live patch testing",
+      "abstract": "The vast number of security incidents are caused by exploits against vulnerabilities for which a patch is already available, but that users simply did not install. Patch installation is often delayed because patches must be tested manually to make sure they do not introduce problems, especially at the enterprise level. In this paper we propose a new tandem execution approach for automated patch testing. Our approach is based on a patch execution consistency model which maintains that a patch is safe to apply if the executions of the pre and post-patch program only differ on attack inputs. Tandem execution runs both pre and postpatch programs simultaneously in order to check for execution consistency. We have implemented our techniques in TACHYON, a system for online patch testing in Linux. TACHYON is able to automatically check and verify patches without source access.",
+      "keywords": "",
+      "references": [
+        60
+      ]
+    },
+    {
+      "id": 60,
+      "title": "Efficient online validation with delta execution",
+      "abstract": "Software systems are constantly changing. Patches to fix bugs and patches to add features are all too common. Every change risks breaking a previously working system. Hence administrators loathe change, and are willing to delay even critical security patches until after fully validating their correctness. Compared to off-line validation, on-line validation has clear advantages since it tests against real life workloads. Yet unfortunately it imposes restrictive overheads as it requires running the old and new versions side-by-side. Moreover, due to spurious differences (e.g. event timing, random number generation, and thread interleavings), it is difficult to compare the two for validation. To allow more effective on-line patch validation, we propose a new mechanism, called delta execution, that is based on the observation that most patches are small. Delta execution merges the two side-by-side executions for most of the time and splits only when necessary, such as when they access different data or execute different code. This allows us to perform on-line validation not only with lower overhead but also with greatly reduced spurious differences, allowing us to effectively validate changes. We first validate the feasibility of our idea by studying the characteristics of 240 patches from 4 server programs; our examination shows that 77% of the changes should not be expected to cause large changes and are thereby feasible for Delta execution. We then implemented Delta execution using dynamic instrumentation. Using real world patches from 7 server applications and 3 other programs, we compared our implementation of Delta execution against a traditional side-by-side on-line validation. Delta execution outperformed traditional validation by up to 128%; further, for 3 of the changes, spurious differences caused the traditional validation to fail completely while Delta execution succeeded. This demonstrates that Delta execution can allow administrators to use on-line validation to confidently ensure the correctness of the changes they apply.",
+      "keywords": "Delta Execution, Patch Validation, Testing",
+      "references": [
+        17
+      ]
+    },
+    {
+      "id": 61,
+      "title": "Enterprise Vulnerability Management and Its Role in Information Security Management",
+      "abstract": "Companies continue to pay heavily for confronting hacker attacks and responding to rapidly spreading viruses, worms, and Trojans. The impact on an organization can be substantial, ranging from loss of productivity to reputation. Hackers exploit known vulnerabilities. Hybrid malcode not only piggybacks on core services for delivery, but also exploits known vulnerabilities. This article underscores the central role of vulnerability management in ensuring enterprise security. An effective vulnerability management program will not only guard against hackers, but will also assure minimal impact from hybrid malcode that exploits known vulnerabilities.",
+      "keywords": "",
+      "references": []
+    },
+    {
+      "id": 62,
+      "title": "A Machine Learning-based Approach for Automated Vulnerability Remediation Analysis",
+      "abstract": "Security vulnerabilities in firmware/software pose an important threat ton power grid security, and thus electric utility companies should quickly decide how to remediate vulnerabilities after they are discovered. Making remediation decisions is a challenging task in the electric industry due to the many factors to consider, the balance to maintain between patching and service reliability, and the large amount of vulnerabilities to deal with. Unfortunately, remediation decisions are current manually made which take a long time. This increases security risks and incurs high cost of vulnerability management. In this paper, we propose a machine learning-based automation framework to automate remediation decision analysis for electric utilities. We apply it to an electric utility and conduct extensive experiments over two real operation datasets obtained from the utility. Results show the high effectiveness of the solution.",
+      "keywords": "vulnerability and patch management, security, power grid, machine learning, automation",
+      "references": [
+        4,
+        44
+      ]
+    },
+    {
+      "id": 63,
+      "title": "Reducing Downtime Due to System Maintenance and Upgrades",
+      "abstract": "Patching, upgrading, and maintaining operating system software is a growing management complexity problem that can result in unacceptable system downtime. We introduce AutoPod, a system that enables unscheduled operating system updates while preserving application service availability. AutoPod provides a group of processes and associated users with an isolated machineindependent virtualized environment that is decoupled from the underlying operating system instance. This virtualized environment is integrated with a novel checkpoint-restart mechanism which allows processes to be suspended, resumed, and migrated across operating system kernel versions with different security and maintenance patches. AutoPod incorporates a system status service to determine when operating system patches need to be applied to the current host, then automatically migrates application services to another host to preserve their availability while the current host is updated and rebooted. We have implemented AutoPod on Linux without requiring any application or operating system kernel changes. Our measurements on real world desktop and server applications demonstrate that AutoPod imposes little overhead and provides sub-second suspend and resume times that can be an order of magnitude faster than starting applications after a system reboot. AutoPod enables systems to autonomically stay updated with relevant maintenance and security patches, while ensuring no loss of data and minimizing service disruption.",
+      "keywords": "",
+      "references": [
+        17
+      ]
+    },
+    {
+      "id": 64,
+      "title": "Increasing virtual machine security in cloud environments",
+      "abstract": "A common approach in Infrastructure-as-a-Service Clouds or virtualized Grid computing is to provide virtual machines to customers to execute their software on remote resources. Giving full superuser permissions to customers eases the installation and use of user software, but it may lead to security issues. The providers usually delegate the task of keeping virtual machines up to date to the customers, while the customers expect the providers to perform this task. Consequently, a large number of virtual machines (either running or dormant) are not patched against the latest software vulnerabilities. The approach presented in this article deals with these problems by helping users as well as providers to keep virtual machines up to date. Prior to the update step, it is crucial to know which software is actually outdated or affected by remote security vulnerabilities. While these tasks seem to be straightforward, developing a solution that handles multiple software repositories from different vendors and identifies the correct packages is a challenging task. The Update Checker presented in this article identifies outdated software packages in virtual machines, regardless if the virtual machine is running or dormant on disk. The proposed Online Penetration Suite performs pre-rollout scans of virtual machines for security vulnerabilities using established techniques and prevents execution of flawed virtual machines. The article presents the design, the implementation and an experimental evaluation of the two components.",
+      "keywords": "Virtual Machine, Security Vulnerability, Package Database, Command Line Interface, Instal Package, ",
+      "references": [
+        29,
+        31
+      ]
+    },
+    {
+      "id": 65,
+      "title": "Understanding Software Patching",
+      "abstract": "Software patching is an increasingly important aspect of today\u2019s computing environment as the volume, complexity, and number of configurations under which a piece of software runs have grown considerably. Software architects and developers do everything they can to build secure, bug-free software products. To ensure quality, development teams leverage all the tools and techniques at their disposal. For example, software architects incorporate security threat models into their designs, and QA engineers develop automated test suites that include sophisticated code-defect analysis tools. Even under ideal conditions, however, problems always arise. Most software will be used for many years in an ever-changing user environment. This can place new compatibility demands on software and introduce new security vulnerabilities not originally envisioned. Whatever their source, problems can be found in any piece of software and must be addressed with patches. This article describes the software patching lifecycle and presents some of the challenges involved in creating a patch, deploying it, and monitoring its effectiveness from the perspective of both the developer of a software product and the user who needs to apply the patch. While readers are likely familiar with many of the issues addressed here, my intention is to provide an overview of patching that will help frame one\u2019s thinking when tackling these problems rather than to suggest specific solutions to the problems themselves. The primary focus is on security patches, but the issues discussed are equally applicable to nonsecurity-related defects in any software",
+      "keywords": "",
+      "references": [
+        66
+      ]
+    },
+    {
+      "id": 66,
+      "title": "Patching the Enterprise",
+      "abstract": "Software patch management has grown to be a business-critical issue\u2014from both a risk and a financial management perspective. According to a recent Aberdeen Group study, corporations spent more than $2 billion in 2002 on patch management for operating systems.1 Gartner research further notes the cost of operating a well-managed PC was approximately $2,000 less annually than that of an unmanaged PC.2 You might think that with critical mass and more sophisticated tools, the management cost per endpoint in large organizations would be lower, though in reality this may not be the case. The objective of this article is to provide some rationale\u2014drawn from enterprise experience\u2014to put these observations into context and present some approaches that could be useful to combat that trend.",
+      "keywords": "",
+      "references": []
+    },
+    {
+      "id": 67,
+      "title": "Why Do Upgrades Fail and What Can We Do about It?",
+      "abstract": "Enterprise-system upgrades are unreliable and often produce downtime or data-loss. Errors in the upgrade procedure, such as broken dependencies, constitute the leading cause of upgrade failures. We propose a novel upgrade-centric fault model, based on data from three independent sources, which focuses on the impact of procedural errors rather than software defects. We show that current approaches for upgrading enterprise systems, such as rolling upgrades, are vulnerable to these faults because the upgrade is not an atomic operation and it risks breaking hidden dependencies among the distributed system-components. We also present a mechanism for tolerating complex procedural errors during an upgrade. Our system, called Imago, improves availability in the fault-free case, by performing an online upgrade, and in the faulty case, by reducing the risk of failure due to breaking hidden dependencies. Imago performs an end-to-end upgrade atomically and dependably by dedicating separate resources to the new version and by isolating the old version from the upgrade procedure. Through fault injection, we show that Imago is more reliable than online-upgrade approaches that rely on dependency-tracking and that create system states with mixed versions.",
+      "keywords": "Application Server, Enterprise System, Software Defect, Latent Error, Atomic Operation, ",
+      "references": [
+        16,
+        17,
+        63
+      ]
+    },
+    {
+      "id": 68,
+      "title": "Transparent Mutable Replay for Multicore Debugging and Patch Validation",
+      "abstract": "We present Dora, a mutable record-replay system which allows a recorded execution of an application to be replayed with a modified version of the application. This feature, not available in previous record-replay systems, enables powerful new functionality. In particular, Dora can help reproduce, diagnose, and fix software bugs by replaying a version of a recorded application that is recompiled with debugging information, reconfigured to produce verbose log output, modified to include additional print statements, or patched to fix a bug. Dora uses lightweight operating system mechanisms to record an application execution by capturing nondeterministic events to a log without imposing unnecessary timing and ordering constraints. It replays the log using a modified version of the application even in the presence of added, deleted, or modified operations that do not match events in the log. Dora searches for a replay that minimizes differences between the log and the replayed execution of the modified program. If there are no modifications, Dora provides deterministic replay of the unmodified program. We have implemented a Linux prototype which provides transparent mutable replay without recompiling or relinking applications. We show that Dora is useful for reproducing, diagnosing, and fixing software bugs in real-world applications, including Apache and MySQL. Our results show that Dora (1) captures bugs and replays them with applications modified or reconfigured to produce additional debugging output for root cause diagnosis, (2) captures exploits and replays them with patched applications to validate that the patches successfully eliminate vulnerabilities, (3) records production workloads and replays them with patched applications to validate patches with realistic workloads, and (4) maintains low recording overhead on commodity multicore hardware, making it suitable for production systems.",
+      "keywords": "Deterministic Replay, Mutable Replay, Multicore, Debugging\n",
+      "references": [
+        60
+      ]
+    },
+    {
+      "id": 69,
+      "title": "A quantitative evaluation of vulnerability scanning",
+      "abstract": "Purpose \u2013 The purpose of this paper is to evaluate if automated vulnerability scanning accurately identifies vulnerabilities in computer networks and if this accuracy is contingent on the platforms used. Design/methodology/approach \u2013 Both qualitative comparisons of functionality and quantitative comparisons of false positives and false negatives are made for seven different scanners. The quantitative assessment includes data from both authenticated and unauthenticated scans. Experiments were conducted on a computer network of 28 hosts with various operating systems, services and vulnerabilities. This network was set up by a team of security researchers and professionals. Findings \u2013 The data collected in this study show that authenticated vulnerability scanning is usable. However, automated scanning is not able to accurately identify all vulnerabilities present in computer networks. Also, scans of hosts running Windows are more accurate than scans of hosts running Linux. Research limitations/implications \u2013 This paper focuses on the direct output of automated scans with respect to the vulnerabilities they identify. Areas such as how to interpret the results assessed by each scanner (e.g. regarding remediation guidelines) or aggregating information about individual vulnerabilities into risk measures are out of scope. Practical implications \u2013 This paper describes how well automated vulnerability scanners perform when it comes to identifying security issues in a network. The findings suggest that a vulnerability scanner is a useable tool to have in your security toolbox given that user credentials are available for the hosts in your network. Manual effort is however needed to complement automated scanning in order to get satisfactory accuracy regarding network security problems. Originality/value \u2013 Previous studies have focused on the qualitative aspects on vulnerability assessment. This study presents a quantitative evaluation of seven of the most popular vulnerability scanners available on the market.",
+      "keywords": "Computer security, Information technology, Management, Information security modelling, Computer networks, Assessments, Auditing",
+      "references": [
+        18
+      ]
+    },
+    {
+      "id": 70,
+      "title": "Evaluation of Security Vulnerability Scanners for Small and Medium Enterprises Business Networks Resilience towards Risk Assessment",
+      "abstract": "Risk Assessment has been identified as a critical issue in computer infrastructures, especially in medium to large scale organizations and enterprises. The goal of this research report is to provide a virtual machine based framework for testing the performance of vulnerability scanners applied to such enterprises, focused to small and medium size ones. Moreover, the purpose of this paper is to compare three of the most well-known free vulnerability scanning solutions (Nessus, OpenVAS, Nmap Scripting Engine) in regards to how they can be used to automate the process of Risk Assessment in an organization, based on the herein presented experimental evaluation framework involving virtual machine testing.",
+      "keywords": "Vulnerability Scanning, Risk Assessment, Nessus, OpenVAS, Nmap Scripting Engine",
+      "references": [
+        18,
+        69
+      ]
+    },
+    {
+      "id": 71,
+      "title": "SLA-driven Applicability Analysis for Patch Management",
+      "abstract": "To strengthen patch management, organizations are required not only to focus on sole patch management on single server, machine or application servers, but also to consider other IT system management processes as well because patch management relies on them to be efficient. Processes such as inventory, system configurations, risk management, change management, system audit, and business cost on policy and SLA should be evaluated and enhanced together with patch management; appropriate applicability assessment of patch should be built in and coordinated with all these processes to make patch management a safe, reliable and efficient process to carry out its high profile tasks. This paper presents a patch management framework based on SLA-driven patch applicability analysis. It provides automatic patch applicability analysis and risk assessment for supporting business-impact analysis and logical control during patch process. Experimental results collected from the simulation on realistic business services case study show that SLA-driven patch applicability analysis based patch management outperforms traditional patch management.",
+      "keywords": "SLA, patch management, business impact analysis, IT Service Management",
+      "references": [
+        19
+      ]
+    },
+    {
+      "id": 72,
+      "title": "A Design for a Hyperledger Fabric Blockchain-Based Patch-Management System",
+      "abstract": "An enterprise patch-management system (PMS) typically supplies a single point of failure (SPOF) of centralization structure. However, a Blockchain system offers features of decentralization, transaction integrity, user certification, and a smart chaincode. This study proposes a Hyperledger Fabric Blockchain-based distributed patch-management system and verifies its technological feasibility through prototyping, so that all participating users can be protected from various threats. In particular, by adopting a private chain for patch file set management, it is designed as a Blockchain system that can enhance security, log management, latest status supervision and monitoring functions. In addition, it uses a Hyperledger Fabric that owns a practical Byzantine fault tolerant consensus algorithm, and implements the functions of upload patch file set, download patch file set, and audit patch file history, which are major features of PMS, as a smart contract (chaincode), and verified this operation. The distributed ledger structure of Blockchain-based PMS can be a solution for distributor and client authentication and forgery problems, SPOF problem, and distribution record reliability problem. It not only presents an alternative to dealing with central management server loads and failures, but it also provides a higher level of security and availability.",
+      "keywords": "Blockchain, Chaincode, Deployment Service, Hyperledger Fabric, Patch",
+      "references": [
+        19,
+        20
+      ]
+    }
+  ]
+}

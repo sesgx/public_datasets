@@ -1,0 +1,394 @@
+{
+  "name": "dinter",
+  "gs": [
+    {
+      "id": 1,
+      "title": "A clustering approach for topic filtering within systematic literature reviews",
+      "abstract": "Within a systematic literature review (SLR), researchers are confronted with vast amounts of articles from scientific databases, which have to be manually evaluated regarding their relevance for a certain field of observation. The evaluation and filtering phase of prevalent SLR methodologies is therefore time consuming and hardly expressible to the intended audience. The proposed method applies natural language processing (NLP) on article meta data and a k-means clustering algorithm to automatically convert large article corpora into a distribution of focal topics. This allows efficient filtering as well as objectifying the process through the discussion of the clustering results. Beyond that, it allows to quickly identify scientific communities and therefore provides an iterative perspective for the so far linear SLR methodology. \u2022 NLP and k-means clustering to filter large article corpora during systematic literature reviews.  Automated clustering allows filtering very efficiently as well as effectively compared to manual selection. \u2022 Presentation and discussion of the clustering results helps to objectify the nontransparent filtering step in systematic literature reviews.",
+      "keywords": "Systematic literature review Literature filtering Clustering",
+      "references": []
+    },
+    {
+      "id": 2,
+      "title": "A hybrid feature selection rule measure and its application to systematic review",
+      "abstract": "Systematic review is the scientific process that provides reliable answers to a particular research question. There is a significant shift from using manual human approach to decision support tools that provides a semi-Automated screening phase by reducing the required time and effort. Text classification is useful in determining the statistical significance level of association rules to reduce workload in the systematic review. Several approaches to generate a Rule set for rule based classifiers were proposed in the literature. In this paper, we show that statistic as well as semantic measures of a rule can be combined and effectively computed as a hybrid feature selection rule measure (HFSRM). Moreover, we propose a new algorithm called Rules7-hybrid feature selection (Rules7-HFSRM) by combining the classical algorithm Rules7 and the HFSRM and then used it on the systematic review problem. Our results show that our algorithm significantly outperforms the state-of-The-Art benchmark algorithms in the systematic review context.",
+      "keywords": "Systematic review, Text classification, Hybrid feature selection rule measure, Rules7-hybrid feature selection",
+      "references": [
+        16,
+        24,
+        39
+      ]
+    },
+    {
+      "id": 3,
+      "title": "A Machine Learning Approach for Semi-Automated Search and Selection in Literature Studies",
+      "abstract": "Background. Search and selection of primary studies in Systematic Literature Reviews (SLR) is labour intensive, and hard to replicate and update. Aims. We explore a machine learning approach to support semi-automated search and selection in SLRs to address these weaknesses. Method. We 1) train a classifier on an initial set of papers, 2) extend this set of papers by automated search and snowballing, 3) have the researcher validate the top paper, selected by the classifier, and 4) update the set of papers and iterate the process until a stopping criterion is met. Results. We demonstrate with a proof-of-concept tool that the proposed automated search and selection approach generates valid search strings and that the performance for subsets of primary studies can reduce the manual work by half. Conclusions. The approach is promising and the demonstrated advantages include cost savings and replicability. The next steps include further tool development and evaluate the approach on a complete SLR.",
+      "keywords": "Systematic literature review, Research identification, Study selection, Automation, Machine learning, Reinforcement learning",
+      "references": [
+        31
+      ]
+    },
+    {
+      "id": 4,
+      "title": "A method to support search string building in systematic literature reviews through visual text mining",
+      "abstract": "Despite the increasing popularity of systematic literature reviews in Software Engineering, several researchers still indicate it as a costly and challenging process. Aiming at alleviating this costly process, we propose an iterative method to support the process of building the search string for a systematic review. This method uses Visual Text Mining techniques to support the researcher by suggesting new terms for the string. In order to do so, the method extracts relevant terms from studies selected by the researcher and displays them in a way that facilitate their visualization and supports building and refining the search string. In order to check the feasibility of this approach, we developed a tool that implements the proposed method. Interviews with researchers identified their difficulties in performing systematic reviews and captured their feedback with regards the use of the proposed method in a user study. The researchers indicated that this approach could be used to improve the process of building the search strings for systematic reviews. The study indicates that our approach can be used to facilitate the construction of the systematic literature review search string.",
+      "keywords": "Systematic literature review, Visual Text Mining, Information Visualization.",
+      "references": []
+    },
+    {
+      "id": 5,
+      "title": "A ranking-based approach for supporting the initial selection of primary studies in a Systematic Literature Review",
+      "abstract": "Traditionally most of the steps involved in a Systematic Literature Review (SLR) process are manually executed, causing inconvenience of time and effort, given the massive amount of primary studies available online. This has motivated a lot of research focused on automating the process. Current state-of-the-art methods combine active learning methods and manual selection of primary studies from a smaller set so they can maximize the finding of relevant papers while at the same time minimizing the number of manually reviewed papers. In this work, we propose a novel strategy to further improve these methods whose early success heavily depends on an effective selection of initial papers to be read by researchers using a PCAbased method which combines different document representation and similarity metric approaches to cluster and rank the content within the corpus related to an enriched representation of research questions within the SLR protocol. Validation was carried out over four publicly available data sets corresponding to SLR studies from the Software Engineering domain. The proposed model proved to be more efficient than a BM25 baseline model as a mechanism to select the initial set of relevant primary studies within the top 100 rank, which makes it a promising method to bootstrap an active learning cycle.",
+      "keywords": "-",
+      "references": [
+        3,
+        16
+      ]
+    },
+    {
+      "id": 6,
+      "title": "A semi-supervised approach using label propagation to support citation screening",
+      "abstract": "Citation screening, an integral process within systematic reviews that identifies citations relevant to the underlying research question, is a time-consuming and resource-intensive task. During the screening task, analysts manually assign a label to each citation, to designate whether a citation is eligible for inclusion in the review. Recently, several studies have explored the use of active learning in text classification to reduce the human workload involved in the screening task. However, existing approaches require a significant amount of manually labelled citations for the text classification to achieve a robust performance. In this paper, we propose a semi-supervised method that identifies relevant citations as early as possible in the screening process by exploiting the pairwise similarities between labelled and unlabelled citations to improve the classification performance without additional manual labelling effort. Our approach is based on the hypothesis that similar citations share the same label (e.g., if one citation should be included, then other similar citations should be included also). To calculate the similarity between labelled and unlabelled citations we investigate two different feature spaces, namely a bag-of-words and a spectral embedding based on the bag-of-words. The semi-supervised method propagates the classification codes of manually labelled citations to neighbouring unlabelled citations in the feature space. The automatically labelled citations are combined with the manually labelled citations to form an augmented training set. For evaluation purposes, we apply our method to reviews from clinical and public health. The results show that our semi-supervised method with label propagation achieves statistically significant improvements over two state-of-the-art active learning approaches across both clinical and public health reviews.",
+      "keywords": "Active learning Label propagation Citation screening Semi-supervised learning Text classification",
+      "references": [
+        10,
+        11,
+        16,
+        19,
+        31,
+        32,
+        33,
+        36
+      ]
+    },
+    {
+      "id": 7,
+      "title": "A visual analysis approach to update systematic reviews",
+      "abstract": "In order to preserve the value of Systematic Reviews (SRs), they should be frequently updated considering new evidence that has been produced since the completion of the previous version of the reviews. However, the update of an SR is a time consuming, manual task. Thus, many SRs have not been updated as they should be and, therefore, they are currently outdated. Objective: The main contribution of this paper is to support the update of SRs. Method: We propose USR-VTM, an approach based on Visual Text Mining (VTM) techniques, to support selection of new evidence in the form of primary studies. We then present a tool, named Revis, which supports our approach. Finally, we evaluate our approach through a comparison of outcomes achieved using USR-VTM versus the traditional (manual) approach. Results: Our results show that USR-VTM increases the number of studies correctly included compared to the traditional approach. Conclusions: USR-VTM effectively supports the update of SRs",
+      "keywords": "Systematic Review, Systematic Literature Review, Visual Text Mining, VTM",
+      "references": [
+        8,
+        9,
+        40
+      ]
+    },
+    {
+      "id": 8,
+      "title": "A visual analysis approach to validate the selection review of primary studies in systematic reviews",
+      "abstract": "Systematic Literature Reviews (SLRs) are an important component to identify and aggregate research evidence from different empirical studies. Despite its relevance, most of the process is conducted manually, implying additional effort when the Selection Review task is performed and leading to reading all studies under analysis more than once. Objective: We propose an approach based on Visual Text Mining (VTM) techniques to assist the Selection Review task in SLR. It is implemented into a VTM tool (Revis), which is freely available for use. Method: We have selected and implemented appropriate visualization techniques into our approach and validated and demonstrated its usefulness in performing real SLRs. Results: The results have shown that employment of VTM techniques can successfully assist in the Selection Review task, speeding up the entire SLR process in comparison to the conventional approach. Conclusion: VTM techniques are valuable tools to be used in the context of selecting studies in the SLR process, prone to speed up some stages of SLRs.",
+      "keywords": "Systematic Literature Review (SLR) Visual Text Mining (VTM) Information visualization Content document map Citation document map",
+      "references": [
+        9
+      ]
+    },
+    {
+      "id": 9,
+      "title": "A Visual Text Mining approach for Systematic Reviews",
+      "abstract": "The software engineering research community has been adopting systematic reviews as an unbiased and fair way to assess a research topic. Despite encouraging early results, a systematic review process can be time consuming and hard to conduct. Thus, tools that help on its planning or execution are needed. This article suggests the use of Visual Text Mining (VTM) to aid systematic reviews. A feasibility study was conducted comparing the proposed approach with a manual process. We observed that VTM can contribute to Systematic Review and we propose a new strategy called VTM-Based Systematic Review.",
+      "keywords": "-",
+      "references": []
+    },
+    {
+      "id": 10,
+      "title": "Active learning for biomedical citation screening",
+      "abstract": "Active learning (AL) is an increasingly popular strategy for mitigating the amount of labeled data required to train classifiers, thereby reducing annotator effort. We describe a real-world, deployed application of AL to the problem of biomedical citation screening for systematic reviews at the Tufts Medical Center's Evidence-based Practice Center. We propose a novel active learning strategy that exploits a priori domain knowledge provided by the expert (specifically, labeled features) and extend this model via a Linear Programming algorithm for situations where the expert can provide ranked labeled features. Our methods outperform existing AL strategies on three real-world systematic review datasets. We argue that evaluation must be specific to the scenario under consideration. To this end, we propose a new evaluation framework for finite-pool scenarios, wherein the primary aim is to label a fixed set of examples rather than to simply induce a good predictive model. We use a method from medical decision theory for eliciting the relative costs of false positives and false negatives from the domain expert, constructing a utility measure of classification performance that integrates the expert preferences. Our findings suggest that the expert can, and should, provide more information than instance labels alone. In addition to achieving strong empirical results on the citation screening problem, this work outlines many important steps for moving away from simulated active learning and toward deploying AL for real-world applications.",
+      "keywords": "active learning, medical, applications, text classification",
+      "references": []
+    },
+    {
+      "id": 11,
+      "title": "Advanced analytics for the automation of medical systematic reviews",
+      "abstract": "While systematic reviews (SRs) are positioned as an essential element of modern evidence-based medical practice, the creation and update of these reviews is resource intensive. In this research, we propose to leverage advanced analytics techniques for automatically classifying articles for inclusion and exclusion for systematic reviews. Specifically, we used soft-margin polynomial Support Vector Machine (SVM) as a classifier, exploited Unified Medical Language Systems (UMLS) for medical terms extraction, and examined various techniques to resolve the class imbalance issue. Through an empirical study, we demonstrated that soft-margin polynomial SVM achieves better classification performance than the existing algorithms used in current research, and the performance of the classifier can be further improved by using UMLS to identify medical terms in articles and applying resampling methods to resolve the class imbalance issue.",
+      "keywords": "Healthcare . Medical systematic reviews analytics . Support vector machines",
+      "references": [
+        16,
+        19,
+        32,
+        33
+      ]
+    },
+    {
+      "id": 12,
+      "title": "An SVM-based high-quality article classifier for systematic reviews",
+      "abstract": "Objective: To determine whether SVM-based classifiers, which are trained on a combination of inclusion and common exclusion articles, are useful to experts reviewing journal articles for inclusion during new systematic reviews. Methods: Test collections were built using the annotated reference files from 19 procedure and 4 drug systematic reviews. The classifiers were trained by balanced data sets, which were sampled using random sampling. This approach compared two balanced data sets, one with a combination of included and commonly excluded articles and one with a combination of included and excluded articles. AUCs were used as evaluation metrics. Results: The AUCs of the classifiers, which were trained on the balanced data set with included and commonly excluded articles, were significantly higher than those of the classifiers, which were trained on the balanced data set with included and excluded articles. Conclusion: Automatic, high-quality article classifiers using machine learning could reduce the workload of experts performing systematic reviews when topic-specific data are scarce. In particular, when used as training data, a combination of included and commonly excluded articles is more helpful than a combination of included and excluded articles.",
+      "keywords": "Classification Artificial intelligence Evidence-based medicine Review literature as topic",
+      "references": [
+        20,
+        32
+      ]
+    },
+    {
+      "id": 13,
+      "title": "Automatic Boolean Query Formulation for Systematic Review Literature Search",
+      "abstract": "Formulating Boolean queries for systematic review literature search is a challenging task. Commonly, queries are formulated by information specialists using the protocol specified in the review and interactions with the research team. Information specialists have in-depth experience on how to formulate queries in this domain, but may not have in-depth knowledge about the reviews' topics. Query formulation requires a significant amount of time and effort, and is performed interactively; specialists repeatedly formulate queries, attempt to validate their results, and reformulate specific Boolean clauses. In this paper, we investigate the possibility of automatically formulating a Boolean query from the systematic review protocol. We propose a novel five-step approach to automatic query formulation, specific to Boolean queries in this domain, which approximates the process by which information specialists formulate queries. In this process, we use syntax parsing to derive the logical structure of high-level concepts in a query, automatically extract and map concepts to entities in order to perform entity expansion, and finally apply post-processing operations (such as stemming and search filters). Automatic query formulation for systematic review literature search has several benefits: (i) it can provide reviewers with an indication of the types of studies that will be retrieved, without the involvement of an information specialist, (ii) it can provide information specialists with an initial query to begin the formulation process, (iii) it can provide researchers that perform rapid reviews with a method to quickly perform searches",
+      "keywords": "-",
+      "references": [
+        14,
+        25,
+        31,
+        32
+      ]
+    },
+    {
+      "id": 14,
+      "title": "Automatic Boolean Query Refinement for Systematic Review Literature Search",
+      "abstract": "In the medical domain, systematic reviews are a highly trustworthy evidence source used to inform clinical diagnosis and treatment, and governmental policy making. Systematic reviews must be complete in that all relevant literature for the research question of the review must be synthesised in order to produce a recommendation. To identify the literature to screen for inclusion in systematic reviews, information specialists construct complex Boolean queries that capture the information needs defined by the research questions of the systemic review. However, in the quest for total recall, these Boolean queries return many non relevant results. In this paper, we propose automatic methods for Boolean query refinement in the context of systematic review literature retrieval with the aim of alleviating this high-recall, low-precision problem. To do this, we build upon current literature and define additional semantic transformations for Boolean queries in the form of query expansion and reduction. Empirical evaluation is done on a set of real systematic review queries to show how our method performs in a realistic setting. We found that query refinement strategies produced queries that were more effective than the original in terms of six information retrieval evaluation measures. In particular, queries were refined to increase precision, while maintaining, or even increasing, recall - this, in turn, translates into both time and cost savings when creating laborious and expensive systematic reviews.",
+      "keywords": "Systematic Reviews, Query Formulation, Boolean Queries, Query Transformations",
+      "references": []
+    },
+    {
+      "id": 15,
+      "title": "Automatic endpoint detection to support the systematic review process",
+      "abstract": "Preparing a systematic review can take hundreds of hours to complete, but the process of reconciling different results from multiple studies is the bedrock of evidence-based medicine. We introduce a two-step approach to automatically extract three facets - two entities (the agent and object) and the way in which the entities are compared (the endpoint) - from direct comparative sentences in full-text articles. The system does not require a user to predefine entities in advance and thus can be used in domains where entity recognition is difficult or unavailable. As with a systematic review, the tabular summary produced using the automatically extracted facets shows how experimental results differ between studies. Experiments were conducted using a collection of more than 2million sentences from three journals Diabetes, Carcinogenesis and Endocrinology and two machine learning algorithms, support vector machines (SVM) and a general linear model (GLM). F1 and accuracy measures for the SVM and GLM differed by only 0.01 across all three comparison facets in a randomly selected set of test sentences. The system achieved the best performance of 92% for objects, whereas the accuracy for both agent and endpoints was 73%. F1 scores were higher for objects (0.77) than for endpoints (0.51) or agents (0.47). A situated evaluation of Metformin, a drug to treat diabetes, showed system accuracy of 95%, 83% and 79% for the object, endpoint and agent respectively. The situated evaluation had higher F1 scores of 0.88, 0.64 and 0.62 for object, endpoint, and agent respectively. On average, only 5.31% of the sentences in a full-text article are direct comparisons, but the tabular summaries suggest that these sentences provide a rich source of currently underutilized information that can be used to accelerate the systematic review process and identify gaps where future research should be focused.",
+      "keywords": "Systematic review Information extraction Evidence-based medicine Text mining",
+      "references": [
+        12,
+        20,
+        32,
+        33
+      ]
+    },
+    {
+      "id": 16,
+      "title": "Automatic text classification to support systematic reviews in medicine",
+      "abstract": "Medical systematic reviews answer particular questions within a very specific domain of expertise by selecting and analysing the current pertinent literature. As part of this process, the phase of screening articles usually requires a long time and significant effort as it involves a group of domain experts evaluating thousands of articles in order to find the relevant instances. Our goal is to support this process through automatic tools. There is a recent trend of applying text classification methods to semi-automate the screening phase by providing decision support to the group of experts, hence helping reduce the required time and effort. In this work, we contribute to this line of work by performing a comprehensive set of text classification experiments on a corpus resulting from an actual systematic review in the area of Internet-Based Randomised Controlled Trials. These experiments involved applying multiple machine learning algorithms combined with several feature selection techniques to different parts of the articles (i.e., titles, abstract, or both). Results are generally positive in terms of overall precision and recall measurements, reaching values of up to 84%. It is also revealing in terms of how using only article titles provides virtually as good results as when adding article abstracts. Based on the positive results, it is clear that text classification can support the screening stage of medical systematic reviews. However, selecting the most appropriate machine learning algorithms, related methods, and text sections of articles is a neglected but important requirement because of its significant impact to the end results.",
+      "keywords": "Medical systematic reviews Machine learning Text mining Text classification",
+      "references": [
+        24,
+        33
+      ]
+    },
+    {
+      "id": 17,
+      "title": "Automatically finding relevant citations for clinical guideline development",
+      "abstract": "Objective: Literature database search is a crucial step in the development of clinical practice guidelines and systematic reviews. In the age of information technology, the process of literature search is still conducted manually, therefore it is costly, slow and subject to human errors. In this research, we sought to improve the traditional search approach using innovative query expansion and citation ranking approaches. Methods: We developed a citation retrieval system composed of query expansion and citation ranking methods. The methods are unsupervised and easily integrated over the PubMed search engine. To validate the system, we developed a gold standard consisting of citations that were systematically searched and screened to support the development of cardiovascular clinical practice guidelines. The expansion and ranking methods were evaluated separately and compared with baseline approaches. Results: Compared with the baseline PubMed expansion, the query expansion algorithm improved recall (80.2% vs. 51.5%) with small loss on precision (0.4% vs. 0.6%). The algorithm could find all citations used to support a larger number of guideline recommendations than the baseline approach (64.5% vs. 37.2%, p < 0.001). In addition, the citation ranking approach performed better than PubMed's \"most recent\" ranking (average precision +6.5%, recall at k +21.1%, p < 0.001), PubMed's rank by \"relevance\" (average precision +6.1%, recall at k +14.8%, p < 0.001), and the machine learning classifier that identifies scientifically sound studies from MEDLINE citations (average precision +4.9%, recall at k +4.2%, p < 0.001). Conclusions: Our unsupervised query expansion and ranking techniques are more flexible and effective than PubMed's default search engine behavior and the machine learning classifier. Automated citation finding is promising to augment the traditional literature search.",
+      "keywords": "Information retrieval PubMed Practice guideline Medical subject headings Natural language processing",
+      "references": [
+        20,
+        32
+      ]
+    },
+    {
+      "id": 18,
+      "title": "Automation in systematic, scoping and rapid reviews by an NLP toolkit: a case study in enhanced living environments",
+      "abstract": "With the increasing number of scientific publications, the analysis of the trends and the state-of-the-art in a certain scientific field is becoming very time-consuming and tedious task. In response to urgent needs of information, for which the existing systematic review model does not well, several other review types have emerged, namely the rapid review and scoping reviews. In this paper, we propose an NLP powered tool that automates most of the review process by automatic analysis of articles indexed in the IEEE Xplore, PubMed, and Springer digital libraries. We demonstrate the applicability of the toolkit by analyzing articles related to Enhanced Living Environments and Ambient Assisted Living, in accordance with the PRISMA surveying methodology. The relevant articles were processed by the NLP toolkit to identify articles that contain up to 20 properties clustered into 4 logical groups. The analysis showed increasing attention from the scientific communities towards Enhanced and Assisted living environments over the last 10 years and showed several trends in the specific research topics that fall into this scope. The case study demonstrates that the NLP toolkit can ease and speed up the review process and show valuable insights from the surveyed articles even without manually reading of most of the articles. Moreover, it pinpoints the most relevant articles which contain more properties and therefore, significantly reduces the manual work, while also generating informative tables, charts and graphs.",
+      "keywords": "Enhanced living environments \u00b7 Ambient assisted living NLP toolkit \u00b7 Automated surveys \u00b7 Scoping review \u00b7 Rapid review Systematic review",
+      "references": []
+    },
+    {
+      "id": 19,
+      "title": "Building systematic reviews using automatic text classification techniques",
+      "abstract": "The amount of information in medical publications continues to increase at a tremendous rate. Systematic reviews help to process this growing body of information. They are fundamental tools for evidence- based medicine. In this paper, we show that automatic text classification can be useful in building systematic reviews for medical topics to speed up the reviewing process. We propose a per-question classification method that uses an ensemble of classifiers that exploit the particular protocol of a systematic review. We also show that when integrating the classifier in the human workflow of building a review the per-question method is superior to the global method. We test several evaluation measures on a real dataset.",
+      "keywords": "-",
+      "references": [
+        32
+      ]
+    },
+    {
+      "id": 20,
+      "title": "Cross-Topic Learning for Work Prioritization in Systematic Review Creation and Update",
+      "abstract": "Objective: Machine learning systems can be an aid to experts performing systematic reviews (SRs) by automatically ranking journal articles for work-prioritization. This work investigates whether a topic-specific automated document ranking system for SRs can be improved using a hybrid approach, combining topic-specific training data with data from other SR topics. Design: A test collection was built using annotated reference files from 24 systematic drug class reviews. A support vector machine learning algorithm was evaluated with cross-validation, using seven different fractions of topic-specific training data in combination with samples from the other 23 topics. This approach was compared to both a baseline system, which used only topic-specific training data, and to a system using only the nontopic data sampled from the remaining topics. Measurements: Mean area under the receiver-operating curve (AUC) was used as the measure of comparison. Results: On average, the hybrid system improved mean AUC over the baseline system by 20%, when topic-specific training data were scarce. The system performed significantly better than the baseline system at all levels of topic-specific training data. In addition, the system performed better than the nontopic system at all but the two smallest fractions of topic specific training data, and no worse than the nontopic system with these smallest amounts of topic specific training data. Conclusions: Automated literature prioritization could be helpful in assisting experts to organize their time when performing systematic reviews. Future work will focus on extending the algorithm to use additional sources of topic-specific data, and on embedding the algorithm in an interactive system available to systematic reviewers during the literature review process.",
+      "keywords": "-",
+      "references": [
+        32
+      ]
+    },
+    {
+      "id": 21,
+      "title": "Data Sampling and Supervised Learning for HIV Literature Screening",
+      "abstract": "This paper presents a supervised learning approach to support the screening of HIV literature. The manual screening of biomedical literature is an important task in the process of systematic reviews. Researchers and curators have the very demanding, time-consuming, and error-prone task of manually identifying documents that should be included in a systematic review concerning a specific problem. We developed a supervised learning approach to support screening tasks, by automatically flagging potentially relevant documents from a list retrieved by a literature database search. To overcome the main issues associated with the automatic literature screening task, we evaluated the use of data sampling, feature combinations, and feature selection methods, generating a total of 105 classification models. The models yielding the best results were composed of a Logistic Model Trees classifier, a fairly balanced training set, and feature combination of Bag-Of-Words and MeSH terms. According to our results, the system correctly labels the great majority of relevant documents, making it usable to support HIV systematic reviews to allow researchers to assess a greater number of documents in less time.",
+      "keywords": "Artificial intelligence, health information management, HIV, machine learning, text classification, triage.",
+      "references": [
+        33
+      ]
+    },
+    {
+      "id": 22,
+      "title": "Discriminating between empirical studies and nonempirical works using automated text classification",
+      "abstract": "Objective: Identify the most performant automated text classification method (eg, algorithm) for differentiating empirical studies from nonempirical works in order to facilitate systematic mixed studies reviews. Methods: The algorithms were trained and validated with 8050 database records, which had previously been manually categorized as empirical or nonempirical. A Boolean mixed filter developed for filtering MEDLINE records (title, abstract, keywords, and full texts) was used as a baseline. The set of features (eg, characteristics from the data) included observable terms and concepts extracted from a metathesaurus. The efficiency of the approaches was measured using sensitivity, precision, specificity, and accuracy. Results: The decision trees algorithm demonstrated the highest performance, surpassing the accuracy of the Boolean mixed filter by 30%. The use of full texts did not result in significant gains compared with title, abstract, keywords, and records. Results also showed that mixing concepts with observable terms can improve the classification. Significance: Screening of records, identified in bibliographic databases, for relevant studies to include in systematic reviews can be accelerated with automated text classification.",
+      "keywords": "automated text classification, decision tree, health care, research method, support vector machine,systematic review",
+      "references": []
+    },
+    {
+      "id": 23,
+      "title": "Enhancing academic literature review through relevance recommendation: Using bibliometric and text-based features for classification",
+      "abstract": "The growing number of scientific publications and the availability of information in online repositories enable researchers to discover, analyze and maintain an updated state of the art bibliography. Indeed, few works explore this scenario in order to support researchers on the literature review step. Literature reviewing comprises a fundamental part of the scientific writing, in which publications are evaluated and selected by relevance. Different approaches for relevance are possible, whether a more qualitative (semantic) approach with text-based techniques either more quantitative (numerical) approaches that use article's metadata, such as bibliometric measures. Bibliometrics provide direct evidences of relevance and could represent good attributes for automatic classification. Our insight is that if a bibliometric-based cannot outperform text-based approaches, a hybrid model using both could benefit from it enhancing the classification performance (in terms of accuracy, precision and recall). In this paper we presented a novel approach, using Machine Learning (ML), namely the ID3 algorithm for a classification model that learn from specialist annotated data and recommend relevant papers for a specific research. Experiments showed good results on learning performance when using a hybrid approach, increasing testing performance in 12%, achieving 89.05% in accuracy when classifying a paper as relevant.",
+      "keywords": "Systematic Literature Review (SLR); Machine Learning; Classification; Text Mining, Bibliometric",
+      "references": []
+    },
+    {
+      "id": 24,
+      "title": "Exploiting the systematic review protocol for classification of medical abstracts",
+      "abstract": "Objective: To determine whether the automatic classification of documents can be useful in systematic reviews on medical topics, and specifically if the performance of the automatic classification can be enhanced by using the particular protocol of questions employed by the human reviewers to create multiple classifiers. Methods and materials: The test collection is the data used in large-scale systematic review on the topic of the dissemination strategy of health care services for elderly people. From a group of 47,274 abstracts marked by human reviewers to be included in or excluded from further screening, we randomly selected 20,000 as a training set, with the remaining 27,274 becoming a separate test set. As a machine learning algorithm we used complement na\u00efve Bayes. We tested both a global classification method, where a single classifier is trained on instances of abstracts and their classification (i.e., included or excluded), and a novel per-question classification method that trains multiple classifiers for each abstract, exploiting the specific protocol (questions) of the systematic review. For the per-question method we tested four ways of combining the results of the classifiers trained for the individual questions. As evaluation measures, we calculated precision and recall for several settings of the two methods. It is most important not to exclude any relevant documents (i.e., to attain high recall for the class of interest) but also desirable to exclude most of the non-relevant documents (i.e., to attain high precision on the class of interest) in order to reduce human workload. Results: For the global method, the highest recall was 67.8% and the highest precision was 37.9%. For the per-question method, the highest recall was 99.2%, and the highest precision was 63%. The human-machine workflow proposed in this paper achieved a recall value of 99.6%, and a precision value of 17.8%. Conclusion: The per-question method that combines classifiers following the specific protocol of the review leads to better results than the global method in terms of recall. Because neither method is efficient enough to classify abstracts reliably by itself, the technology should be applied in a semi-automatic way, with a human expert still involved. When the workflow includes one human expert and the trained automatic classifier, recall improves to an acceptable level, showing that automatic classification techniques can reduce the human workload in the process of building a systematic review.",
+      "keywords": "Automatic text classification Text representation Medical concepts Ensemble of classifiers Systematic reviews for the medical domain",
+      "references": [
+        32
+      ]
+    },
+    {
+      "id": 25,
+      "title": "Extracting PICO sentences from clinical trial reports using supervised distant supervision",
+      "abstract": "Systematic reviews underpin Evidence Based Medicine (EBM) by addressing precise clinical questions via comprehensive synthesis of all relevant published evidence. Authors of systematic reviews typically define a Population/Problem, Intervention, Comparator, and Outcome (a PICO criteria) of interest, and then retrieve, appraise and synthesize results from all reports of clinical trials that meet these criteria. Identifying PICO elements in the full-texts of trial reports is thus a critical yet time-consuming step in the systematic review process. We seek to expedite evidence synthesis by developing machine learning models to automatically extract sentences from articles relevant to PICO elements. Collecting a large corpus of training data for this task would be prohibitively expensive. Therefore, we derive distant supervision (DS) with which to train models using previously conducted reviews. DS entails heuristically deriving 'soft' labels from an available structured resource. However, we have access only to unstructured, free-text summaries of PICO elements for corresponding articles; we must derive from these the desired sentence-level annotations. To this end, we propose a novel method - supervised distant supervision (SDS) - that uses a small amount of direct supervision to better exploit a large corpus of distantly labeled instances by learning to pseudo-annotate articles using the available DS. We show that this approach tends to outperform existing methods with respect to automated PICO extraction",
+      "keywords": "Evidence-based medicine, distant supervision, data extraction, text mining, natural language processing",
+      "references": []
+    },
+    {
+      "id": 26,
+      "title": "Extractive text summarization system to aid data extraction from full text in systematic review development",
+      "abstract": "Objectives Extracting data from publication reports is a standard process in systematic review (SR) development. However, the data extraction process still relies too much on manual effort which is slow, costly, and subject to human error. In this study, we developed a text summarization system aimed at enhancing productivity and reducing errors in the traditional data extraction process. Methods We developed a computer system that used machine learning and natural language processing approaches to automatically generate summaries of full-text scientific publications. The summaries at the sentence and fragment levels were evaluated in finding common clinical SR data elements such as sample size, group size, and PICO values. We compared the computer-generated summaries with human written summaries (title and abstract) in terms of the presence of necessary information for the data extraction as presented in the Cochrane review's study characteristics tables. Results At the sentence level, the computer-generated summaries covered more information than humans do for systematic reviews (recall 91.2% vs. 83.8%, p < 0.001). They also had a better density of relevant sentences (precision 59% vs. 39%, p < 0.001). At the fragment level, the ensemble approach combining rule-based, concept mapping, and dictionary-based methods performed better than individual methods alone, achieving an 84.7% F-measure. Conclusion Computer-generated summaries are potential alternative information sources for data extraction in systematic review development. Machine learning and natural language processing are promising approaches to the development of such an extractive summarization system.",
+      "keywords": "Text summarization Text classification Machine learning Data collection Review literature as topic",
+      "references": [
+        17,
+        25,
+        30
+      ]
+    },
+    {
+      "id": 27,
+      "title": "Linked data approach for selection process automation in systematic reviews",
+      "abstract": "Background: a systematic review identifies, evaluates and synthesizes the available literature on a given topic using scientific and repeatable methodologies. The significant workload required and the subjectivity bias could affect results. Aim: semi-automate the selection process to reduce the amount of manual work needed and the consequent subjectivity bias. Method: extend and enrich the selection of primary studies using the existing technologies in the field of Linked Data and text mining. We define formally the selection process and we also develop a prototype that implements it. Finally, we conduct a case study that simulates the selection process of a systematic literature published in literature. Results: the process presented in this paper could reduce the work load of 20% with respect to the work load needed in the fully manually selection, with a recall of 100%. Conclusions: the extraction of knowledge from scientific studies through Linked Data and text mining techniques could be used in the selection phase of the systematic review process to reduce the work load and subjectivity bias.",
+      "keywords": "-",
+      "references": [
+        32
+      ]
+    },
+    {
+      "id": 28,
+      "title": "Machine learning algorithms for systematic review: reducing workload in a preclinical review of animal studies and reducing human screening error",
+      "abstract": "Background: Here, we outline a method of applying existing machine learning (ML) approaches to aid citation screening in an on-going broad and shallow systematic review of preclinical animal studies. The aim is to achieve a high-performing algorithm comparable to human screening that can reduce human resources required for carrying out this step of a systematic review. Methods: We applied ML approaches to a broad systematic review of animal models of depression at the citation screening stage. We tested two independently developed ML approaches which used different classification models and feature sets. We recorded the performance of the ML approaches on an unseen validation set of papers using sensitivity, specificity and accuracy. We aimed to achieve 95% sensitivity and to maximise specificity. The classification model providing the most accurate predictions was applied to the remaining unseen records in the dataset and will be used in the next stage of the preclinical biomedical sciences systematic review. We used a cross-validation technique to assign ML inclusion likelihood scores to the human screened records, to identify potential errors made during the human screening process (error analysis). Results: ML approaches reached 98.7% sensitivity based on learning from a training set of 5749 records, with an inclusion prevalence of 13.2%. The highest level of specificity reached was 86%. Performance was assessed on an independent validation dataset. Human errors in the training and validation sets were successfully identified using the assigned inclusion likelihood from the ML model to highlight discrepancies. Training the ML algorithm on the corrected dataset improved the specificity of the algorithm without compromising sensitivity. Error analysis correction leads to a 3% improvement in sensitivity and specificity, which increases precision and accuracy of the ML algorithm. Conclusions: This work has confirmed the performance and application of ML algorithms for screening in systematic reviews of preclinical animal studies. It has highlighted the novel use of ML algorithms to identify human error. This needs to be confirmed in other reviews with different inclusion prevalence levels, but represents a promising approach to integrating human decisions and automation in systematic review methodology.",
+      "keywords": "Machine learning, Systematic review, Analysis of human error, Citation screening, Automation tools",
+      "references": [
+        6,
+        10,
+        31,
+        32
+      ]
+    },
+    {
+      "id": 29,
+      "title": "Novel text analytics approach to identify relevant literature for human health risk assessments: A pilot study with health effects of in utero exposures",
+      "abstract": "Background: Systematic reviews involve mining literature databases to identify relevant studies. Identifying potentially relevant studies can be informed by computational tools comparing text similarity between candidate studies and selected key (i.e., seed) references. Challenge Using computational approaches to identify relevant studies for risk assessments is challenging, as these assessments examine multiple chemical effects across lifestages (e.g., human health risk assessments) or specific effects of multiple chemicals (e.g., cumulative risk). The broad scope of potentially relevant literature can make selection of seed references difficult. Approach We developed a generalized computational scoping strategy to identify human health relevant studies for multiple chemicals and multiple effects. We used semi-supervised machine learning to prioritize studies to review manually with training data derived from references cited in the hazard identification sections of several US EPA Integrated Risk Information System (IRIS) assessments. These generic training data or seed studies were clustered with the unclassified corpus to group studies based on text similarity. Clusters containing a high proportion of seed studies were prioritized for manual review. Chemical names were removed from seed studies prior to clustering resulting in a generic, chemical-independent method for identifying potentially human health relevant studies. We developed a case study that focused on identifying the array of chemicals that have been studied with respect to in utero exposure to test the recall of this novel literature searching strategy. We then evaluated the general strategy of using generic, chemical-independent training data with two previous IRIS assessments by comparing studies predicted relevant to those used in the assessments (i.e., total relevant). Outcome A keyword search designed to retrieve studies that examined the in utero effects of environmental chemicals identified over 54,000 candidate references. Clustering algorithms were applied using 1456 studies from multiple IRIS assessments with chemical names removed as training data or seeds (i.e., semi-supervised learning). Using a six-algorithm ensemble approach 2602 articles, or approximately 5% of candidate references, were 'voted' relevant by four or more clustering algorithms and manual review confirmed nearly 50% of these studies were relevant. Further evaluations on two IRIS assessments, using a nine-algorithm ensemble approach and a set of generic, chemical-independent, externally-derived seed studies correctly identified 77\u201383% of hazard identification studies published in the assessments and eliminated the need to manually screen more than 75% of search results on average. Limitations The chemical-independent approach used to build the training literature set provides a broad and unbiased picture across a variety of endpoints and environmental exposures but does not systematically identify all available data. Variance between actual and predicted relevant studies will be greater because of the external and non-random origin of seed study selection. This approach depends on access to readily available generic training data that can be used to locate relevant references in an unclassified corpus. Impact A generic approach to identifying human health relevant studies could be an important first step in literature evaluation for risk assessments. This initial scoping approach could facilitate faster literature evaluation by focusing reviewer efforts, as well as potentially minimize reviewer bias in selection of key studies. Using externally-derived training data has applicability particularly for databases with very low search precision where identifying training data may be cost-prohibitive.",
+      "keywords": "-",
+      "references": [
+        24,
+        32,
+        33
+      ]
+    },
+    {
+      "id": 30,
+      "title": "PDF text classification to leverage information extraction from publication reports",
+      "abstract": "Objectives: Data extraction from original study reports is a time-consuming, error-prone process in systematic review development. Information extraction (IE) systems have the potential to assist humans in the extraction task, however majority of IE systems were not designed to work on Portable Document Format (PDF) document, an important and common extraction source for systematic review. In a PDF document, narrative content is often mixed with publication metadata or semi-structured text, which add challenges to the underlining natural language processing algorithm. Our goal is to categorize PDF texts for strategic use by IE systems. Methods: We used an open-source tool to extract raw texts from a PDF document and developed a text classification algorithm that follows a multi-pass sieve framework to automatically classify PDF text snippets (for brevity, texts) into TITLE, ABSTRACT, BODYTEXT, SEMISTRUCTURE, and METADATA categories. To validate the algorithm, we developed a gold standard of PDF reports that were included in the development of previous systematic reviews by the Cochrane Collaboration. In a two-step procedure, we evaluated (1) classification performance, and compared it with machine learning classifier, and (2) the effects of the algorithm on an IE system that extracts clinical outcome mentions. Results: The multi-pass sieve algorithm achieved an accuracy of 92.6%, which was 9.7% (p < 0.001) higher than the best performing machine learning classifier that used a logistic regression algorithm. F-measure improvements were observed in the classification of TITLE (+15.6%), ABSTRACT (+54.2%), BODYTEXT (+3.7%), SEMISTRUCTURE (+34%), and MEDADATA (+14.2%). In addition, use of the algorithm to filter semi-structured texts and publication metadata improved performance of the outcome extraction system (F-measure +4.1%, p = 0.002). It also reduced of number of sentences to be processed by 44.9% (p < 0.001), which corresponds to a processing time reduction of 50% (p = 0.005). Conclusions: The rule-based multi-pass sieve framework can be used effectively in categorizing texts extracted from PDF documents. Text classification is an important prerequisite step to leverage information extraction from PDF documents.",
+      "keywords": "Text classification Natural language processing Document analysis Machine learning",
+      "references": [
+        17
+      ]
+    },
+    {
+      "id": 31,
+      "title": "Reducing systematic review workload through certainty-based screening",
+      "abstract": "In systematic reviews, the growing number of published studies imposes a significant screening workload on reviewers. Active learning is a promising approach to reduce the workload by automating some of the screening decisions, but it has been evaluated for a limited number of disciplines. The suitability of applying active learning to complex topics in disciplines such as social science has not been studied, and the selection of useful criteria and enhancements to address the data imbalance problem in systematic reviews remains an open problem. We applied active learning with two criteria (certainty and uncertainty) and several enhancements in both clinical medicine and social science (specifically, public health) areas, and compared the results in both. The results show that the certainty criterion is useful for finding relevant documents, and weighting positive instances is promising to overcome the data imbalance problem in both data sets. Latent dirichlet allocation (LDA) is also shown to be promising when little manually-assigned information is available. Active learning is effective in complex topics, although its efficiency is limited due to the difficulties in text classification. The most promising criterion and weighting method are the same regardless of the review topic, and unsupervised techniques like LDA have a possibility to boost the performance of active learning without manual annotation.",
+      "keywords": "Systematic reviews Text mining Certainty Active learning",
+      "references": [
+        10
+      ]
+    },
+    {
+      "id": 32,
+      "title": "Reducing Workload in Systematic Review Preparation Using Automated Citation Classification",
+      "abstract": "Objective: To determine whether automated classification of document citations can be useful in reducing the time spent by experts reviewing journal articles for inclusion in updating systematic reviews of drug class efficacy for treatment of disease. Design: A test collection was built using the annotated reference files from 15 systematic drug class reviews. A voting perceptron-based automated citation classification system was constructed to classify each article as containing high-quality, drug class-specific evidence or not. Cross-validation experiments were performed to evaluate performance. Measurements: Precision, recall, and F-measure were evaluated at a range of sample weightings. Work saved over sampling at 95% recall was used as the measure of value to the review process. Results: A reduction in the number of articles needing manual review was found for 11 of the 15 drug review topics studied. For three of the topics, the reduction was 50% or greater. Conclusion: Automated document citation classification could be a useful tool in maintaining systematic reviews of the efficacy of drug therapy. Further work is needed to refine the classification system and determine the best manner to integrate the system into the production of systematic reviews.",
+      "keywords": "-",
+      "references": []
+    },
+    {
+      "id": 33,
+      "title": "Screening nonrandomized studies for medical systematic reviews: A comparative study of classifiers",
+      "abstract": "Objectives: To investigate whether (1) machine learning classifiers can help identify nonrandomized studies eligible for full-text screening by systematic reviewers; (2) classifier performance varies with optimization; and (3) the number of citations to screen can be reduced. Methods: We used an open-source, data-mining suite to process and classify biomedical citations that point to mostly nonrandomized studies from 2 systematic reviews. We built training and test sets for citation portions and compared classifier performance by considering the value of indexing, various feature sets, and optimization. We conducted our experiments in 2 phases. The design of phase I with no optimization was: 4 classifiers \u00d7 3 feature sets \u00d7 3 citation portions. Classifiers included k-nearest neighbor, na\u00efve Bayes, complement na\u00efve Bayes, and evolutionary support vector machine. Feature sets included bag of words, and 2- and 3-term n-grams. Citation portions included titles, titles and abstracts, and full citations with metadata. Phase II with optimization involved a subset of the classifiers, as well as features extracted from full citations, and full citations with overweighted titles. We optimized features and classifier parameters by manually setting information gain thresholds outside of a process for iterative grid optimization with 10-fold cross-validations. We independently tested models on data reserved for that purpose and statistically compared classifier performance on 2 types of feature sets. We estimated the number of citations needed to screen by reviewers during a second pass through a reduced set of citations. Results: In phase I, the evolutionary support vector machine returned the best recall for bag of words extracted from full citations; the best classifier with respect to overall performance was k-nearest neighbor. No classifier attained good enough recall for this task without optimization. In phase II, we boosted performance with optimization for evolutionary support vector machine and complement na\u00efve Bayes classifiers. Generalization performance was better for the latter in the independent tests. For evolutionary support vector machine and complement na\u00efve Bayes classifiers, the initial retrieval set was reduced by 46% and 35%, respectively. Conclusions: Machine learning classifiers can help identify nonrandomized studies eligible for full-text screening by systematic reviewers. Optimization can markedly improve performance of classifiers. However, generalizability varies with the classifier. The number of citations to screen during a second independent pass through the citations can be substantially reduced.",
+      "keywords": "Medical informatics Clinical research informatics Text mining Document classification Systematic reviews",
+      "references": [
+        20,
+        24,
+        32
+      ]
+    },
+    {
+      "id": 34,
+      "title": "The Canonical Model of Structure for Data Extraction in Systematic Reviews of Scientific Research Articles",
+      "abstract": "The systematic review activity is time-consuming, error prone and labour intensive activity due to the manual processes involved; with data extraction being an extremely difficult and cognitively demanding process. Automation can save a significant amount of time and reduces the workload. However, there is no unified approach for automatic data extraction in systematic reviews. This paper presents a canonical model of structure of the papers that serves as a unified approach and a foundation for subsequent extraction of information from scientific research articles automatically. The model was developed using text mining and natural language processing techniques on one thousand (1000) published research papers. A novel approach was used to identify the various section headings from the papers. This approach achieved an accuracy of 82%. A statistical analysis of the most frequent words/phrases in the section headings was used to build the canonical model of structure of the papers.",
+      "keywords": "Data extraction, Systematic review, canonical structure, text mining and natural language processing",
+      "references": [
+        8,
+        9,
+        27
+      ]
+    },
+    {
+      "id": 35,
+      "title": "The use of bibliography enriched features for automatic citation screening",
+      "abstract": "Context: Citation screening (also called study selection) is a phase of systematic review process that has attracted a growing interest on the use of text mining (TM) methods to support it to reduce time and effort. Search results are usually imbalanced between the relevant and the irrelevant classes of returned citations. Class imbalance among other factors has been a persistent problem that impairs the performance of TM models, particularly in the context of automatic citation screening for systematic reviews. This has often caused the performance of classification models using the basic title and abstract data to ordinarily fall short of expectations. Objective: In this study, we explore the effects of using full bibliography data in addition to title and abstract on text classification performance for automatic citation screening. Methods: We experiment with binary and Word2vec feature representations and SVM models using 4 software engineering (SE) and 15 medical review datasets. We build and compare 3 types of models (binary-non-linear, Word2vec-linear and Word2vec-non-linear kernels) with each dataset using the two feature sets. Results: The bibliography enriched data exhibited consistent improved performance in terms of recall, work saved over sampling (WSS) and Matthews correlation coefficient (MCC) in 3 of the 4 SE datasets that are fairly large in size. For the medical datasets, the results vary, however in the majority of cases the performance is the same or better. Conclusion: Inclusion of the bibliography data provides the potential of improving the performance of the models but to date results are inconclusive.",
+      "keywords": "Computing methodologies Citation screening automation Systematic reviews Text mining Feature enrichment",
+      "references": [
+        8,
+        32
+      ]
+    },
+    {
+      "id": 36,
+      "title": "Topic detection using paragraph vectors to support active learning in systematic reviews",
+      "abstract": "Systematic reviews require expert reviewers to manually screen thousands of citations in order to identify all relevant articles to the review. Active learning text classification is a supervised machine learning approach that has been shown to significantly reduce the manual annotation workload by semi-automating the citation screening process of systematic reviews. In this paper, we present a new topic detection method that induces an informative representation of studies, to improve the performance of the underlying active learner. Our proposed topic detection method uses a neural network-based vector space model to capture semantic similarities between documents. We firstly represent documents within the vector space, and cluster the documents into a predefined number of clusters. The centroids of the clusters are treated as latent topics. We then represent each document as a mixture of latent topics. For evaluation purposes, we employ the active learning strategy using both our novel topic detection method and a baseline topic model (i.e., Latent Dirichlet Allocation). Results obtained demonstrate that our method is able to achieve a high sensitivity of eligible studies and a significantly reduced manual annotation cost when compared to the baseline method. This observation is consistent across two clinical and three public health reviews. The tool introduced in this work is available from https://nactem.ac.uk/pvtopic/.",
+      "keywords": "Systematic reviews Citation screening Topic modelling Paragraph vectors Document embeddings Active learning",
+      "references": [
+        31,
+        32
+      ]
+    },
+    {
+      "id": 37,
+      "title": "Twitter and Research: A Systematic Literature Review Through Text Mining",
+      "abstract": "Researchers have collected Twitter data to study a wide range of topics. This growing body of literature, however, has not yet been reviewed systematically to synthesize Twitter-related papers. The existing literature review papers have been limited by constraints of traditional methods to manually select and analyze samples of topically related papers. The goals of this retrospective study are to identify dominant topics of Twitter-based research, summarize the temporal trend of topics, and interpret the evolution of topics withing the last ten years. This study systematically mines a large number of Twitter-based studies to characterize the relevant literature by an efficient and effective approach. This study collected relevant papers from three databases and applied text mining and trend analysis to detect semantic patterns and explore the yearly development of research themes across a decade. We found 38 topics in more than 18,000 manuscripts published between 2006 and 2019. By quantifying temporal trends, this study found that while 23.7% of topics did not show a significant trend ($P => 0.05$), 21% of topics had increasing trends and 55.3% of topics had decreasing trends that these hot and cold topics represent three categories: application, methodology, and technology. The contributions of this paper can be utilized in the growing field of Twitter-based research and are beneficial to researchers, educators, and publishers",
+      "keywords": "Literature review, social media, survey, text mining, topic modeling, Twitter",
+      "references": []
+    },
+    {
+      "id": 38,
+      "title": "Using a Neural Network-based Feature Extraction Method to Facilitate Citation Screening for Systematic Reviews",
+      "abstract": "Citation screening is a labour-intensive part of the process of a systematic literature review that identifies citations eligible for inclusion in the review. In this paper, we present an automatic text classification approach that aims to prioritise eligible citations earlier than ineligible ones and thus reduces the manual labelling effort that is involved in the screening process. e.g. by automatically excluding lower ranked citations. To improve the performance of the text classifier, we develop a novel neural network-based feature extraction method. Unlike previous approaches to citation screening that employ unsupervised feature extraction methods to address a supervised classification task, our proposed method extracts document features in a supervised setting. In particular, our method generates a feature representation for documents, which is explicitly optimised to discriminate between eligible and ineligible citations. The generated document representation is subsequently used to train a text classifier. Experiments show that our feature extraction method obtains average workload savings of 56% when evaluated across 23 medical systematic reviews. The proposed method outperforms 10 baseline feature extraction methods by approximately 6% in terms of the WSS@95% metric.",
+      "keywords": "Citation screening Text mining Neural feature extraction",
+      "references": [
+        16,
+        19,
+        31,
+        32,
+        33,
+        36
+      ]
+    },
+    {
+      "id": 39,
+      "title": "Using rule-based classifiers in systematic reviews: a semantic class association rules approach",
+      "abstract": "Systematic review is the scientific process that provides reliable answers to a particular research question by interpreting the current pertinent literature. There is a significant shift from using manual human approach to decision support tools that provides a semi-automated screening phase by reducing the required time and effort to the group of experts. Most of proposed works apply supervised Machine Learning (ML) algorithms to infer exclusion and inclusion rules by observing a human screener. Unless, these techniques holds very little promise in study identification phase, because the rate of excluding citations erroneously still unreasonable. In this paper, we contribute to this line of works by proposing an alternative approach, not yet tested in this domain based on semantic rule-based classifiers. This approach involved applying a novel Hybrid Feature Selection Method (HFSM) within a Class Association Rules (CARs) algorithm. Experiments are conducted on a corpus resulting from an actual systematic review. The obtained results show that our algorithm outperforms the existing algorithms in the literature.",
+      "keywords": "Systematic Reviews, Text Classification, Class Association Rules,Semantic Association Rules, Feature Selection Methods",
+      "references": [
+        16
+      ]
+    },
+    {
+      "id": 40,
+      "title": "Using Visual Text Mining to Support the Study Selection Activity in Systematic Literature Reviews",
+      "abstract": "Background: A systematic literature review (SLR) is a methodology used to aggregate all relevant existing evidence to answer a research question of interest. Although crucial, the process used to select primary studies can be arduous, time consuming, and must often be conducted manually. Objective: We propose a novel approach, known as 'Systematic Literature Review based on Visual Text Mining' or simply SLR-VTM, to support the primary study selection activity using visual text mining (VTM) techniques. Method: We conducted a case study to compare the performance and effectiveness of four doctoral students in selecting primary studies manually and using the SLR-VTM approach. To enable the comparison, we also developed a VTM tool that implemented our approach. We hypothesized that students using SLR-VTM would present improved selection performance and effectiveness. Results: Our results show that incorporating VTM in the SLR study selection activity reduced the time spent in this activity and also increased the number of studies correctly included. Conclusions: Our pilot case study presents promising results suggesting that the use of VTM may indeed be beneficial during the study selection activity when performing an SLR.",
+      "keywords": "Evidence-based software engineering (EBSE); systematic literature review (SLR); study selection activity, visual text mining (VTM).",
+      "references": [
+        9
+      ]
+    },
+    {
+      "id": 41,
+      "title": "Whole field tendencies in transcranial magnetic stimulation: A systematic review with data and text mining",
+      "abstract": "Background: Transcranial magnetic stimulation (TMS) has played an important role in the fields of psychiatry, neurology and neuroscience, since its emergence in the mid-1980s; and several high quality reviews have been produced since then. Most high quality reviews serve as powerful tools in the evaluation of predefined tendencies, but they cannot actually uncover new trends within the literature. However, special statistical procedures to 'mine' the literature have been developed which aid in achieving such a goal. Objectives: This paper aims to uncover patterns within the literature on TMS as a whole, as well as specific trends in the recent literature on TMS for the treatment of depression. Methods: Data mining and text mining. Results: Currently there are 7299 publications, which can be clustered in four essential themes. Considering the frequency of the core psychiatric concepts within the indexed literature, the main results are: depression is present in 13.5% of the publications; Parkinson's disease in 2.94%; schizophrenia in 2.76%; bipolar disorder in 0.158%; and anxiety disorder in 0.142% of all the publications indexed in PubMed. Several other perspectives are discussed in the article.",
+      "keywords": "TMS Neuropsychiatry Text mining Systematic review Depression",
+      "references": []
+    }
+  ],
+  "min_publication_year": 1999,
+  "max_publication_year": 2021
+}

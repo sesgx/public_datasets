@@ -1,0 +1,1328 @@
+{
+  "name": "bertolino",
+  "gs": [
+    {
+      "id": 1,
+      "title": "Mobile application testing on smart devices using MTAAS framework in cloud",
+      "abstract": "Testing of mobile applications which run on smart devices is more complex due to diversity of mobile devices and computational resources. Mobile testing using emulators which doesn\u2019t include real network traffic and testing mobile applications in more than one portable device in single system was also not possible in normal testing. In order to overcome the draw backs of normal testing, in this paper we deployed a Mobile Testing as a Service (MTAAS) framework in cloud environment. By using MTAAS framework many mobile applications can be tested in different portable devices and different mobile platforms. Testing of mobile applications using MTAAS provides most realistic results since it includes real network speed. Finally, we conducted an experiment in MTAAS framework and testing results shows that MTAAS can effectively reduce the complexity of mobile testing on different smart devices.",
+      "keywords": "Cloud Testing, Mobile Application, Testing, Testing as a service",
+      "references": []
+    },
+    {
+      "id": 2,
+      "title": "Performance testing as a service for web applications.",
+      "abstract": "Software testing is a vital activity that is undertaken during software engineering life cycle to ensure software quality and reliability. Performance testing is a type of software testing that is done to shows how web application behaves under a certain workload. Cloud computing as an emerging technology can be used in the field of software engineering to provide cloud testing in order to overcome all deficiencies of conventional testing by leveraging cloud computing resources. As a result, testing-as-a-service (TaaS) is introduced as a service model that performs all testing activities in fully automated manner, on demand with a pay-for use basis. Moreover, TaaS increases testing efficiency and reduces time and cost required for testing. In this paper, performance TaaS framework for web applications is introduced which provides all performance testing activities including automatic test case generation and test execution. In addition, the proposed framework addresses many issues as: maxImIze resource utilization and continuous monitoring to ensure system reliability.",
+      "keywords": "TaaS, Cloud Computing, Performance Testing,JMeter, web Application Testing",
+      "references": [
+        26,
+        29,
+        42,
+        61,
+        88
+      ]
+    },
+    {
+      "id": 3,
+      "title": "A DSL-based approach for elasticity testing of cloud systems",
+      "abstract": "One of the main features of cloud computing is elasticity,where resource is (de-)allocated on demand and at system\u2019s runtime. Since elasticity is not trivial, testing cloud-based systems (CBS) is laborious. Among others, testers must set up elasticity parameters on cloud computing infrastructure, specify a sequence of resource variations, and drive CBS through this sequence. In this paper, we propose a Domain-Specific Language (DSL) aiming at reducing the tester\u2019s  effort in writing and executing CBS elasticity testing. Our DSL abstracts test case specification from different cloud provider\u2019s libraries, making it portable. Experiments with two different case studies, a MongoDB replica set and a distributed web application, shows that our approach reduces the effort (in number of words) to write test cases, compared to dedicated libraries. We also see a reduced effort when running the same test case on multiple cloud providers.",
+      "keywords": "Cloud Computing, Elasticity Testing, Model-based Testing, Domain-specific Language (DSL)",
+      "references": [
+        50,
+        87,
+        94,
+        129
+      ]
+    },
+    {
+      "id": 4,
+      "title": "TASSA: A testing as a service framework for web service compositions.",
+      "abstract": "Testing-as-a-Service (TaaS) is a new quality assurance model addressing the challenges of software testing in the cloud. The missing access to the hardware or different software configurations as well as the difficulties of building a test environment are examples for common problems in the testing process. This paper addresses such problems by proposing a TaaS-enabled framework offering testing services on as-needed basis. The framework, called Testing as a Service Software Architecture (TASSA), supports testing of web service compositions described with Business Process Execution Language for Web Services (WS-BPEL). Its core functionality includes fault injection and dependencies isolation of the application under test. It is implemented as web services deployed on cloud infrastructure. In addition, the TASSA Graphical User Interface (GUI) for test case design and execution is implemented as a plugin for Eclipse IDE. It could be accessed from a local computer or used for building a cloud test lab on a virtual machine. Sample business process from wine industry is used for proving the feasibility of TASSA framework.",
+      "keywords": "Cloud Computing, Service-Oriented Architecture, Testing-as-a-Service, Web Services, Web Service Compositions, WS-BPEL",
+      "references": [
+        32,
+        61,
+        82
+      ]
+    },
+    {
+      "id": 5,
+      "title": "The case for system testing with swift hierarchical vm fork.",
+      "abstract": "System testing is an essential part of software development. Unfortunately, comprehensive testing of large systems is often resource intensive and time-consuming. In this paper, we explore the possibility of leveraging hierarchical virtual machine (VM) fork to optimize system testing in the cloud. Testing using VM fork has the potential to save system configuration effort, obviate the need to run redundant common steps, and reduce disk and memory requirements by sharing resources across test cases. A preliminary experiment that uses VM fork to run a subset of MySQL database test suite shows that the technique reduces VM run time to complete all test cases by 60%.",
+      "keywords": "-",
+      "references": []
+    },
+    {
+      "id": 6,
+      "title": "Cloud platform based automated security testing system for mobile internet",
+      "abstract": "With respect to security, the use of various terminals in the mobile Internet environment is problematic.Traditional terminal testing methods cannot simulate actual testing environments; thus, the test results do not accurately reflect the security of terminals. To address this problem, we designed and developed a cloud platform based automated testing system for the mobile Internet. In this system, virtualization and automation technology are utilized to integrate mobile terminals into the cloud platform as a resource, to achieve a novel cloud service called Testing as a Service (TaaS). The system consists of three functional modules: web front-end module, testing environment module, and automated testing module. We adopted the permeable automated testing tool Metasploit to perform security testing. In our test experiments, we selected 100 apps with diverse vulnerability levels, ranging from secure to vulnerable, to perform a series of functional tests. The experimental results show that this system can correctly test both the number of vulnerable apps and their corresponding vulnerability levels. As such, the designed system can flexibly configure various testing environments for different testing cases or projects, and thereby perform security testing automatically.",
+      "keywords": "automated security testing; cloud platform; virtualization; Metasploit",
+      "references": []
+    },
+    {
+      "id": 7,
+      "title": "Cloud performance modeling with benchmark evaluation of elastic scaling strategies.",
+      "abstract": "In this paper, we present generic cloud performance models for evaluating Iaas, PaaS, SaaS, and mashup or hybrid clouds.We test clouds with real-life benchmark programs and propose some new performance metrics. Our benchmark experiments are conducted mainly on IaaS cloud platforms over scale-out and scale-up workloads. Cloud benchmarking results are analyzed with the efficiency, elasticity, QoS, productivity, and scalability of cloud performance. Five cloud benchmarks were tested on Amazon IaaS EC2 cloud: namely YCSB, CloudSuite, HiBench, BenchClouds, and TPC-W. To satisfy production services, the choice of scale-up or scale-out solutions should be made primarily by the workload patterns and resources utilization rates required. Scaling-out machine instances have much lower overhead than those experienced in scale-up experiments. However, scaling up is found more cost-effective in sustaining heavier workload. The cloud productivity is greatly attributed to system elasticity, efficiency, QoS and scalability. We find that auto-scaling is easy to implement but tends to over provision the resources. Lower resource utilization rate may result from auto-scaling, compared with using scale-out or scale-up strategies. We also demonstrate that the proposed cloud performance models are applicable to evaluate PaaS, SaaS and hybrid clouds as well.",
+      "keywords": "Cloud computing, performance evaluation, cloud benchmarks, resources scaling",
+      "references": [
+        127
+      ]
+    },
+    {
+      "id": 8,
+      "title": "Implementing TaaS-based stress testing by MapReduce computing model.",
+      "abstract": "In this paper we propose to employ the MapReduce computing model to implement a Testing as a Service (TaaS) for stress testing. We focus on stress testing for heavy-weight network transactions. The computation power of MapReduce computing system is used to simulate concurrent network transactions issued by a lot of users. The user first describes the testing scenario which he wants to be simulate in a testing script. The TaaS platform analyzes the testing script and then automatically distributes required testing data including details of transactions and files into a MapReduce computing system. We propose three different schemes to distribute testing data and measure their performances.We compare them with the popular stress testing tool JMeter and find out that our scheme can always have the tested system deliver higher error rate during the stress testing.",
+      "keywords": "Stress testing; Hadoop; MapReduce",
+      "references": []
+    },
+    {
+      "id": 9,
+      "title": "Evaluation of cloud testing strategies based on task decomposition and allocation for improving test efficiency.",
+      "abstract": "Recently, there is a growing popularity of cloud testing because it can enable both flexibility and cost savings for testing software applications. To leverage cloud testing for improving test efficiency of a large test job, this paper presents several testing strategies to decompose a test job into multiple tasks which then can be executed concurrently in order to shorten overall test time. Several factors including the smallest task unit, the decomposition policy, and the allocation method are considered in the proposed strategies. Experiments were conducted to evaluate these strategies. The results show that the test efficiency can be much improved if the decomposed tasks have near equal sizes or test execution time and the tasks are allocated dynamically.",
+      "keywords": "Cloud Testing, Software Testing, Cloud Testing Strategy, Test Efficiency",
+      "references": [
+        52,
+        61
+      ]
+    },
+    {
+      "id": 10,
+      "title": "Cloud-based mobile testing as a service.",
+      "abstract": "With the rapid advance of mobile computing, cloud computing and wireless network, there is a significant increase of mobile subscriptions. This brings new business requirements and demands in mobile testing service, and causes new issues and challenges. In this paper, informative discussions about cloud-based mobile testing-as-a-service (mobile TaaS) are o\u00aeered, including the essential concepts, focuses, test process, and the expected testing infrastructures. Moreover, the paper presents a comparison among cloud-based mobile TaaS approaches and several best practices in industry are discussed. Futhermore, the primary issues, challenges, and needs are analyzed.",
+      "keywords": "Mobile testing as a service; cloud-based infrastructure as a service; mobile application testing",
+      "references": [
+        104
+      ]
+    },
+    {
+      "id": 11,
+      "title": "A framework for automated software testing on the cloud.",
+      "abstract": "This work presents the framework CloudTesting, a solution to parallelize the execution of a test suite over a distributed cloud infrastructure. The use of a cloud as runtime environment for automated software testing provides a more efficient and effective solution when compared to traditional methods regarding the exploration of diversity and heterogeneity for testing coverage. The objective of this work is evaluate our solution regarding the performance gains achieved with the use of the framework showing that it is possible to improve the software testing process with very little configuration overhead and low costs.",
+      "keywords": "software testing, cloud computing",
+      "references": [
+        52
+      ]
+    },
+    {
+      "id": 12,
+      "title": "A service framework for parallel test execution on a developer\u2019s local development workstation.",
+      "abstract": "The proliferation of distributed microservices driven by service oriented architecture and the effectiveness of agile software development processes such as Test Driven Development (TDD), Behavior Driven Development (BDD), inspired by extreme programming (XP), have driven the challenging necessity to receive prompt test feedback during software development iteratively. Although few test frameworks can execute unit tests in memory in parallel, no existing test frameworks can reliably perform parallel execution for the tests that rely on file system access, database fixtures and network communication. Isolated test execution environment with dedicated resources is a prerequisite to address these challenges. No previous research addresses this need to run groups of tests in parallel on the same development host. In this paper, to cut down test execution time, we present a service framework for parallel tests execution in a developer\u2019s containerized sandbox using operating system level virtualization provided by Docker, the new hot driver for Platform as a Service (PaaS).",
+      "keywords": "parallel testing; cloud testing; test execution environment;Docker; agile development",
+      "references": []
+    },
+    {
+      "id": 13,
+      "title": "Security testing in the cloud by means of ethical worm.",
+      "abstract": "As Cloud Computing continues to evolve the majority of research tends to lean towards optimising, securing and improving Cloud technologies. Less work appears which leverages the architectural and economic advantages of the Cloud. This paper examines the Cloud as a security testing environment, having a number of purposes such as penetration testing, and the dynamic creation and testing of environments for learning about malicious processes and testing security concepts.A novel experiment into malicious software propagation using ethical worms is developed and tested as a proof of concept to be adopted as a novel approach for security testing in the cloud. The work presented in the paper is unprecedented, to the best of the authors' knowledge.",
+      "keywords": "Cloud Computing, Ethical Worm, Cloud SecurityTesting, Malicious and Malware.",
+      "references": [
+        121
+      ]
+    },
+    {
+      "id": 14,
+      "title": "Cloud-based infrastructure for mobile testing as a service.",
+      "abstract": "With the rapid advance of mobile computing technology and wireless networking, there is a significant increase of mobile subscriptions. This brings new business requirements and demands in mobile software testing, and causes new issues and challenges in mobile testing service. In this paper, informative and insightful discussions about cloud-based mobile testing-as-a-service (Mobile TaaS) are offered, including the essential concepts, focuses, and the expected testing infrastructures. Currently, there lack of well-defined infrastructures and approaches which allow both mobile application vendors and users to access for Mobile TaaS services. A suitable testing infrastructure is required which allows end users to submit on-demand service requests for mobile TaaS resources in order to form an infrastructure for mobile testing. Therefore, this paper introduces an approach to setup an cloud-based infrastructure as a service for Mobile TaaS for addressing the major challenges faced by test engineers in testing mobile applications. Finally, the paper reports case studies to indicate the feasibility and effectiveness of the proposed approach.",
+      "keywords": "infrastructure as a service; mobile application testing;mobile testing as a service",
+      "references": [
+        10,
+        24,
+        48,
+        104
+      ]
+    },
+    {
+      "id": 15,
+      "title": "URMG: Enhanced CBMG-based method for automatically testing web applications in the cloud",
+      "abstract": "To satisfy the rapid growth of cloud technologies, a large number of web applications have been developed and deployed, and these applications are being run in clouds. Due to the scalability provided by clouds,a single web application may be concurrently visited by several millions or billions of users. Thus, the testing and performance evaluations of these applications are increasingly important. User model based evaluations can significantly reduce the manual work required, and can enable us to determine the performance of applications under real runtime environments. Hence, it has become one of the most popular evaluation methods in both industry and academia. Significant efforts have focused on building different kinds of models using mining web access logs, such as Markov models and Customer Behavior Model Graph (CBMG). This paper proposes a new kind of model, named the User Representation Model Graph (URMG), which is built based on CBMG. It uses an algorithm to refine CBMG and optimizes the evaluations execution process. Based on this model, an automatic testing and evaluation system for web applications is designed, implemented, and deployed in our test cloud, which is able to execute all of the analysis and testing operations using only web access logs. In our system, the error rate caused by random access to applications in the execution phase is also reduced, and the results show that the error rate of the evaluation that depends on URMG is 50% less than that which depends on CBMG.",
+      "keywords": "cloud; web application; performance evaluation; customer behavior; user representation",
+      "references": []
+    },
+    {
+      "id": 16,
+      "title": "Towards a model-based security testing approach of cloud computing environments.",
+      "abstract": "In recent years Cloud computing became one of the most aggressively emerging computer paradigms resulting in a growing rate of application in the area of IT outsourcing.However, as recent studies have shown, security most of the time is the one requirement, neglected at all. Yet, especially because of the nature of usage of Cloud computing, security is inevitable. Unfortunately, assuring the security of a Cloud computing environment is not a one time task, it is a task to be performed during the complete lifespan of the Cloud. This is motivated by the fact that Clouds undergo daily changes in terms of newly deployed applications and offered services. Based on this assumption, in this paper, we propose a novel model\u2013based, change\u2013driven approach, employing risk analysis, to test the security of a Cloud computing environment among all layers.As a main intrusion point, our approach exploits the public service interfaces, as they are a major source of newly introduced vulnerabilities, possibly leading to severe security incidents.",
+      "keywords": "Software Penetration; Risk Analysis; Model\u2013Based Testing; Security Testing; Cloud Computing; Cloud Security; Fuzzing;",
+      "references": []
+    },
+    {
+      "id": 17,
+      "title": "The study of cloud-based testing platform for Android.",
+      "abstract": "The recent popularity of Android devices has caused a software and hardware-related phenomenon called Android fragmentation, leading to a rise in cloud-based Android application testing services. Software testing factory\u2013cloud testing platforms have provided Android developers with application testing services. Developers can conduct compatibility tests in various Android devices only by uploading test programs and scripts to the software testing factory\u2013cloud testing platforms. When numerous tests are simultaneously undertaken, the average test completion time increases. Therefore, this study proposes a resource monitoring and management service and an automated virtual machine (VM) monitoring mechanism for an OpenStack-based cloud testing platform. Through the use of the VM management and monitoring mechanism, users can ensure that all tests are effectively allocated to the VMs. Thus, the waiting time for users running tests is reduced, and the time required for manual management also decreases.",
+      "keywords": "Android application testing; cloud resource management",
+      "references": []
+    },
+    {
+      "id": 18,
+      "title": "Model-Based Testing in Cloud Brokerage Scenarios",
+      "abstract": "In future Cloud ecosystems, brokers will mediate between service providers and consumers, playing an increased role in quality assurance,checking services for functional compliance to agreed standards, among other aspects. To date, most Software-as-a-Service (SaaS) testing has been performed manually, requiring duplicated effort at the development, certification and deployment stages of the service lifecycle. This paper presents a strategy for achieving automated testing for certification and re-certification of SaaS applications, based on the adoption of simple state-based and functional specifications. High-level test suites are generated from specifications, by algorithms that provide the necessary and sufficient coverage. The high-level tests must be grounded for each implementation technology, whether SOAP,REST or rich-client. Two examples of grounding are presented, one into SOAP for a traditional web service and the other into Selenium for a SAP HANA rich-client application. The results demonstrate good test coverage. Further work is required to fully automate the grounding.",
+      "keywords": "Model-based Testing, Cloud Service Brokerage, Cloud Broker,Web Service Testing, Lifecycle Governance.",
+      "references": []
+    },
+    {
+      "id": 19,
+      "title": "BonFIRE: The clouds and services testbed",
+      "abstract": "BonFIRE is a multi-site testbed that supports testing of Cloud-based and distributed applications. BonFIRE breaks the mould of commercial Cloud offerings by providing unique functionality in terms of observability, control, advanced Cloud features and ease of use for experimentation. A number of successful use cases have been executed on BonFIRE, involving industrial and academic users and delivering impact in diverse areas, such as media, e-health, environment and manufacturing. The BonFIRE user-base is expanding through its free, OpenAccess scheme, daily carrying out important research, while the consortium is working to sustain the facility beyond 2014.",
+      "keywords": "Cloud testing; services; experimentation; observability; control.",
+      "references": [
+        106
+      ]
+    },
+    {
+      "id": 20,
+      "title": "Software architectural drivers for cloud testing",
+      "abstract": "Software testing has been an important component within the development process. In order to face the recent explosion of cloud computing, reference architectures became necessary for applications development. This research aims to propose key software architectural drivers for Cloud Testing in order to improve its management and reduce waste. An investigation about the generic and the specific theory has been conducted. It proposes drivers for reference architectures in order to improve the quality of cloud services, compared to the processes currently in use. Hopefully, Cloud Testing integration and its monitoring may allow, in the near future, more efficient deliverables and follow-ups of products and services. The main advantage arising from these proposed drivers is to provide reference architectures to be applied in practice. This fosters better quality of software as end products, fulfilling this gap of knowledge.",
+      "keywords": "cloud testing; software architectural drivers; testing of cloud services; quality concerns; reference architectures",
+      "references": []
+    },
+    {
+      "id": 21,
+      "title": "Integrated TaaS Platform for Mobile Development:Architecture Solutions",
+      "abstract": "This paper examines the Testing-as-a-Service (TaaS) solutions in mobile development and proposes a universal TaaS platform: Cloud Testing of Mobile Systems (CTOMS). CTOMS is an integrated solution with a core infrastructure that enables the scaling of additional functionalities.The CTOMS\u2019s benefits are explained, the architecture of the system is described in detail, and technical solutions are listed based on the feasibility study that resulted in creation of the first version of CTOMS for Android development.",
+      "keywords": "Testing-as-a-Service (TaaS), mobile application development, Android, integrated solution.",
+      "references": [
+        52,
+        121
+      ]
+    },
+    {
+      "id": 22,
+      "title": "Cloudperf: A performance test framework for distributed and dynamic multi-tenant environments.",
+      "abstract": "The evolution of cloud-computing imposes many challenges on performance testing and requires not only a different approach and methodology of performance evaluation and analysis, but also specialized tools and frameworks to support such work. In traditional performance testing, typically a single workload was run against a static test configuration. The main metrics derived from such experiments included throughput, response times, and system utilization at steady-state. While this may have been sufficient in the past, where in many cases a single application was run on dedicated hardware, this approach is no longer suitable for cloud-based deployments. Whether private or public cloud,such environments typically host a variety of applications on distributed shared hardware resources, simultaneously accessed by a large number of tenants running heterogeneous workloads. The number of tenants as well as their activity and resource needs dynamically change over time, and the cloud infrastructure reacts to this by reallocating existing or provisioning new resources. Besides metrics such as the number of tenants and overall resource utilization, performance testing in the cloud must be able to answer many more questions: How is the quality of service of a tenant impacted by the constantly changing activity of other tenants? How long does it take the cloud infrastructure to react to changes in demand, and what is the effect on tenants while it does so? How well are service level agreements met? What is the resource consumption of individual tenants? How can global performance metrics on application- and system-level in a distributed system be correlated to an individual tenant\u2019s perceived performance? In this paper we present CloudPerf, a performance test framework specifically designed for distributed and dynamic multi-tenant environments, capable of answering all of the above questions, and more. CloudPerf consists of a distributed harness, a protocol-independent load generator and workload modeling framework, an extensible statistics framework with live-monitoring and post-analysis tools, interfaces for cloud deployment operations, and a rich set of both low-level as well as high-level workloads from different domains.",
+      "keywords": "Performance testing; workload modeling; load generation;statistics collection; multi-tenancy; cloud",
+      "references": [
+        89,
+        127
+      ]
+    },
+    {
+      "id": 23,
+      "title": "Cloud-based automatic test data generation framework",
+      "abstract": "Designing test cases is one of the most crucial activities in software testing process.Manual test case design might result in inadequate testing outputs due to lack of expertise and/or skill requirements. This article delivers automatic test data generation framework by effectively utilizing soft computing technique with Apache Hadoop MapReduce as the parallelization framework. We have evaluated and analyzed statistically our proposed framework using real world open source libraries. The experimental results conducted on Hadoop cluster with ten nodes are effective and our framework significantly outperforms other existing cloud-based testing models.",
+      "keywords": "Software testing, Cloud computing, MapReduce Soft computing, Particle swarm optimization, Genetic algorithm, Pareto-optimal, Cloud-based testing",
+      "references": [
+        112,
+        120
+      ]
+    },
+    {
+      "id": 24,
+      "title": "Mobile Testing-as-a-Service (MTaaS) -- Infrastructures, Issues, Solutions and Needs",
+      "abstract": "With the rapid advance of mobile computing technology and wireless networking, there is a significant increase of mobile subscriptions. This drives a strong demand for development and validation of mobile APPs and SaaS applications on mobile web. This paper is written to offer informative and insightful discussion about mobile testing-as-a-service (MTaaS), including its basic concepts, motivations, distinct features and requirements, test environments, and different approaches. Moreover, it presents a test process in MTaaS and three different approaches. Furthermore,the paper proposes one mobile test cloud infrastructure for mobile TaaS, and discusses the required mobile test frameworks and environments. Finally, the paper addresses existing issues, challenges, and emergent needs.",
+      "keywords": "TaaS, mobile testing, mobile APP testing, mobile web testing, and mobile TaaS",
+      "references": [
+        48,
+        61
+      ]
+    },
+    {
+      "id": 25,
+      "title": "Cloud Testing Tools and its Challenges: A Comparative Study",
+      "abstract": "Cloud computing has emerged as a new technology across organization and cooperates that impacts several different research fields, including software testing. To provide a cloud service and sharing resources successfully,the cloud must be tested before it comes into offering services. Testing the applications has their own testing tools and testing methodologies. In this paper we provide an overview regarding cloud computing trends, types, challenges, tools and the comparison of tools for cloud testing",
+      "keywords": "Software Testing; SOASTA; Functional Testing; Performance Testing; Service Oriented Architecture; Cloud Testing",
+      "references": [
+        76
+      ]
+    },
+    {
+      "id": 26,
+      "title": "Test as a service: A framework for web security TaaS service in cloud environment",
+      "abstract": "As its name suggests, cloud testing is a form of software testing which uses cloud infrastructure. Its effective unlimited storage, quick availability of the infrastructure with scalability, flexibility and availability of distributed testing environment translate to reducing the execution time of testing of large applications and hence lead to cost-effective solutions. In cloud testing, Testing-as-a-Service (TaaS) is a new model to effectively provide testing capabilities and on-demand testing to end users. There are many studies and solutions to support TaaS service. And security testing is the most suitable form for TaaS service. To leverage the features of TaaS, we propose a framework of TaaS for security testing. We implement the prototype system, Security TaaS (abbrev. S-TaaS) based on our proposed framework. The experiments are conducted to evaluate the performance of our framework and prototype system. The experiment results indicate that our prototype system can provide quality and stable service.",
+      "keywords": "Test as a Service, cloud computing, web vulnerability, security test, vulnerability detection",
+      "references": []
+    },
+    {
+      "id": 27,
+      "title": "IVRIDIO: Design of a software testing framework to provide Test-first Performance as a service",
+      "abstract": "Test-first Performance (TFP) is a testing paradigm that focuses on performance testing from the early stage of development. For performance oriented applications like a web service, TFP approach can reduce the overall cost of software testing. Given this potential benefit, TFP is yet to be incorporated in existing cloud testing frameworks. This paper proposes the design of a testing framework which introduces TFP as a Service (TFPaaS) named as IVRIDIO. It includes the Plugin for TFP in the Cloud (PTFPC) that will provide instant feedbacks to fix critical performance issues. To simplify the TFPaaS availing procedure, the Convention over Configuration (CoC) design paradigm has been applied. A configurable project template is designed using the CoC to maintain TFP test cases. Furthermore, necessary directions are given to prototype the framework as a testbed for related research.",
+      "keywords": "Cloud Testing, Test-first Performance, Convention over Configuration",
+      "references": [
+        52,
+        61
+      ]
+    },
+    {
+      "id": 28,
+      "title": "Automated testing of cloud-based elastic systems with AUToCLES.",
+      "abstract": "Cloud-based elastic computing systems dynamically change their resources allocation to provide consistent quality of service and minimal usage of resources in the face of workload fluctuations. As elastic systems are increasingly adopted to implement business critical functions in a cost-efficient way, their reliability is becoming a key concern for developers. Without proper testing, cloud-based systems might fail to provide the required functionalities with the expected service level and costs. Using system testing techniques, developers can expose problems that escaped the previous quality assurance activities and have a last chance to fix bugs before releasing the system in production. System testing of cloud-based systems accounts for a series of complex and time demanding activities, from the deployment and configuration of the elastic system, to the execution of synthetic clients, and the collection and persistence of execution data. Furthermore, clouds enable parallel executions of the same elastic system that can reduce the overall test execution time. However, manually managing the concurrent testing of multiple system instances might quickly overwhelm developers\u2019 capabilities, and automatic support for test generation, system test execution, and management of execution data is needed. In this demo we showcase AUToCLES, our tool for automatic testing of cloud-based elastic systems. Given specifications of the test suite and the system under test, AUToCLES implements testing as a service (TaaS): It automatically instantiates the SUT, configures the testing scaffoldings, and automatically executes test suites. If required, AUToCLES can generate new test inputs. Designers can inspect executions both during and after the tests.",
+      "keywords": "-",
+      "references": [
+        101
+      ]
+    },
+    {
+      "id": 29,
+      "title": "Vee@Cloud: The virtual test lab on the cloud",
+      "abstract": "Large-scale system testing is challenging. It usually requires large number of test cases, substantial resources, and geographical distributed usage scenarios. It is expensive to build the test environment and to achieve certain level of test confidence. To address the challenges, test systems need to be scalable in a cost-effective manner. TaaS (Testing-as-a-Service) promotes a Cloud-based testing architecture to provide online testing services following a pay-per-use business model. The paper introduces the research and implementation of a TaaS system called Vee@Cloud. It serves as a scalable virtual test lab built upon Cloud infrastructure services. The resource manager allocates Virtual Machine instances and deploy test tasks, from a pool of available resources across different Clouds. The workload generator simulates various workload patterns, especially for system with new architecture styles like Web 2.0 and big data processing. Vee@Cloud promotes continuous monitoring and evaluating of online services. The monitor collects real-time performance data and analyzes the data against SLA (Service Level Agreement). A proof-of-concept prototype system is built and some early experiments are exercised using public Cloud services",
+      "keywords": "Test-as-a-Service, Cloud-Based Testing Architecture",
+      "references": []
+    },
+    {
+      "id": 30,
+      "title": "VM scheduling strategies based on artificial intelligence in cloud testing",
+      "abstract": "Virtualization technology not only is the basis of Cloud computing technology, but also plays an important role in Cloud Testing. Cloud Testing takes advantage of virtualization technology to generate VM (virtual machine) resources in the physical machine, and adopts the corresponding strategies to schedule the VM resources. VM scheduling strategies have a crucial impact on the overall performance of Cloud Testing. The paper first introduces the scheduling process of VM in Cloud Testing, and divides the common scheduling strategies into three categories: center on saving energy, center on load balancing and center on Qos performance. Then the common VM scheduling strategies in current Cloud Testing environment are analyzed. Finally, their advantages and disadvantages are also discussed.",
+      "keywords": "VM; Cloud Testing; Virtual Machine scheduling;Cloud computing;",
+      "references": [
+        52
+      ]
+    },
+    {
+      "id": 31,
+      "title": "Feedback-driven combinatorial test design and execution",
+      "abstract": "This work introduces a novel approach for online design and execution of load tests on Cloud applications. Our approach utilizes a Combinatorial Test Design (CTD) engine in order to exercise combinations of levels of resource utilization on the target system's subcomponents. In order to cope with the unpredictability and uncontrollability of Cloud environments, and to align with agile and DevOps paradigms, it designs and executes tests in an iterative online fashion. During test execution, monitoring information is collected from the Cloud, and leveraged for driving and adjusting the subsequent test scenarios. In this work we introduce the overall approach and the algorithms behind it, and demonstrate it on an example setting consisting of three sub-components comprising a typical installation of a web blogging application.",
+      "keywords": "Combinatorial testing, Combinatorial test design, DevOps, Performance Testing, Cloud",
+      "references": [
+        52
+      ]
+    },
+    {
+      "id": 32,
+      "title": "The MIDAS cloud platform for testing SOA applications",
+      "abstract": "While Service Oriented Architectures (SOAs) are for many parts deployed online, and today often in a cloud, the testing of the systems still happens mostly locally. In this paper, we want to present the MIDAS Testing as a Service (TaaS), a cloud platform for the testing of SOAs. We focus on the testing of whole SOA orchestrations, a complex task due to the number of potential service interactions and the increasing complexity with each service that joins an orchestration. Since traditional testing does not scale well with such a complex setup, we employ a Model-based Testing (MBT) approach based on the Unified Modeling Language (UML) and the UML Testing Profile (UTP) within MIDAS. Through this, we provide methods for functional testing, security testing, and usage-based testing of service orchestrations. Through harnessing the computational power of the cloud, MIDAS is able to generate and execute complex test scenarios which would be infeasible to run in a local environment.",
+      "keywords": "-",
+      "references": [
+        61
+      ]
+    },
+    {
+      "id": 33,
+      "title": "Mobile functional test on TaaS environment",
+      "abstract": "With the rapid development of the mobile internet, a large number of mobile apps are developed and need to be tested adequately. This paper proposes a functional test method based on Testing-as-a-Service (TaaS) platform. TaaS platform provides an integrated test environment for android apps. The mobile TaaS could generate the test script based on functional traversal for the app automatically, then execute the test on diverse devices and discover the test errors. Furthermore, the paper evaluates the app functional traversal method and shows the prototype of the mobile TaaS platform. Finally, the paper summarizes the advantage, limitations and future work of our mobile TaaS platform.",
+      "keywords": "mobile TaaS; mobile testing; cloud; fucntional test;test envrionment customizing",
+      "references": [
+        21,
+        24
+      ]
+    },
+    {
+      "id": 34,
+      "title": "Path coverage testing in the cloud",
+      "abstract": "The aim of this paper is to present a new method for automated software testing as a cloud computing service. Unlike actual testing services, our goal is to provide a fully automated testing without human involvement from the service user's or provider's side. We use a program modeling allowing an easy symbolic execution and a scalable parallelization of the testing. Programs are divided into several parts assigned to different nodes (Workers) of the cloud. A particular node (Coordinator) allocates tasks to Workers and collects the final results.",
+      "keywords": "Software Testing; Symbolic Execution; Cloud Computing; Testing as a Service",
+      "references": []
+    },
+    {
+      "id": 35,
+      "title": "Randomness testing of modern encryption techniques in cloud environment",
+      "abstract": "Cloud computing becomes the next generation architecture of IT Enterprise. Clouds are massively complex systems. They can be reduced to simple primitives, that are replicated thousands of times, and common functional units. The complexity of cloud computing create many issues related to security as well as all aspects of Cloud computing. One of the most important issues is data security. Clouds typically have a single security architecture but has many customers with different demands. The main focus of the proposed work is the data storage security in the cloud and the desktop. Generally, Data security is an important factor for both cloud computing and traditional desktop applications. This is to obtain the highest possible level of privacy. Modern Encryption algorithms play the main role in data security of cloud computing. We present an evaluation for selected eight modern encryption techniques namely: RC4, RC6, MARS, AES, DES, 3DES, Two-Fish, and Blowfish at two independent platforms namely; desktop computer and Amazon EC2 Micro Instance cloud computing environment. The evaluation has performed for those encryption algorithms according to randomness testing by using NIST statistical testing in the cloud computing environment. This evaluation uses Pseudo Random Number Generator (PRNG) to determine the most suitable technique and analysis the performance of selected modern encryption techniques. Cryptography algorithms are implemented using Java Cryptography Extensions (JCE). Simulation results are shown to demonstrate the effectiveness of each algorithm. \u00a9 2012 Cairo University.",
+      "keywords": "Amazon EC2; cloud computing Architecture; NIST statistical test suite; Modern encryption techniques",
+      "references": []
+    },
+    {
+      "id": 36,
+      "title": "Cloud computing performance benchmarking and virtual machine launch time",
+      "abstract": "This research is to study the performance of cloud computing platforms in the perspective of information technology (IT) management. Two separate test clouds of Eucalyptus and OpenStack were established on identical hardware. The BYTE UNIX benchmark suite was employed to conduct various performance tests on both clouds. While the OpenStack cloud out performed Eucalyptus considerably in the larger size copy test, the Eucalyptus cloud performed better than the OpenStack in the tests of serial excel and serial shell scripts. Scripts were written to compute the amount of time that was needed for the clouds to launch a virtual machine (VM) in two different ways. On average, it took a shorter time to launch a VM instance in both clouds when several VMs were created simultaneously than that when they were created one by one, the results showeda variation with different numbers of VMs that were launched concurrently.",
+      "keywords": "Cloud computing, Performance, Eucalyptus, Open Stack",
+      "references": []
+    },
+    {
+      "id": 37,
+      "title": "Testing in the cloud: New challenges",
+      "abstract": "The term Cloud Computing has become ubiquitous nowadays. The essence of Cloud Computing lies in the fact that Cloud computing allows the sharing of resources, bypassing the need for having local servers or personal devices. It has also been described as internet based computing, providing a pool of services to its clients via the internet. With the advent of this technology, the way we used computer resources earlier has completely changed. Time is an imperative factor which any business wants to harness, to the maximum extent possible. Another very important aspect of Cloud computing is Cloud Testing, the connotation of which is Testing as a service. Due to this fact, Cloud Testing has gained impetus in the internet based world today. The availability of CPU, storage systems, databases has become much more easy and cost effective. The Crux of this paper is Cloud Testing which is described as Testing as a service (TAAS), provided by the Cloud. My paper illustrates a detailed discussion on the various aspects of Cloud Testing such as, the need for cloud testing, issues involved, benefits and limitations, the importance of Cloud computing, it's models and the services provided by Cloud Computing.",
+      "keywords": "Cloud Computing, Cloud Testing, Testing As A Service, Cloud environment, TAAS, Cloud Services.",
+      "references": []
+    },
+    {
+      "id": 38,
+      "title": "C-mart: Benchmarking the cloud",
+      "abstract": "Cloud computing environments provide on-demand resource provisioning, allowing applications to elastically scale. However, application benchmarks currently being used to test cloud management systems are not designed for this purpose. This results in resource underprovisioning and quality-of-service (QoS) violations when systems tested using these benchmarks are deployed in production environments. We present C-MART, a benchmark designed to emulate a modern web application running in a cloud computing environment. It is designed using the cloud computing paradigm of elastic scalability at every application tier and utilizes modern web-based technologies such as HTML5, AJAX, jQuery, and SQLite. C-MART consists of a web application, client emulator, deployment server, and scaling API. The deployment server automatically deploys and configures the test environment in orders of magnitude less time than current benchmarks. The scaling API allows users to define and provision their own customized datacenter. The client emulator generates the web workload for the application by emulating complex and varied client behaviors, including decisions based on page content and prior history. We show that C-MART can detect problems in management systems that previous benchmarks fail to identify, such as an increase from 4.4 to 50 percent error in predicting server CPU utilization and resource underprovisioning in 22 percent of QoS measurements.",
+      "keywords": "Client/server and multitier systems, distributed/Internet-based software, performance measures, testing tools",
+      "references": []
+    },
+    {
+      "id": 39,
+      "title": "WS-TaaS: A Testing as a Service Platform for Web Service Load Testing",
+      "abstract": "Web services are widely known as the building blocks of typical service oriented applications. The performance of such an application system is mainly dependent on that of component web services. Thus the effective load testing of web services is of great importance to understand and improve the performance of a service oriented system. However, existing Web Service load testing tools ignore the real characteristics of the practical running environment of a web service, which leads to inaccurate test results. In this work, we present WS-TaaS, a load testing platform for web services, which enables load testing process to be as close as possible to the real running scenarios. In this way, we aim at providing testers with more accurate performance testing results than existing tools. WS-TaaS is developed on the basis of our existing Cloud PaaS platform: Service4All. First, we briefly introduce the functionalities and main components of Service4All. Second, we provide detailed analysis of the requirements of Web Service load testing and present the conceptual architecture and design of key components. Third, we present the implementation details of WS-TaaS on the basis of Service4All. Finally, we perform a set of experiments based on the testing of real web services, and the experiments illustrate that WS-TaaS can efficiently facilitate the whole process of Web Service load testing. Especially, comparing with existing testing tools, WS-TaaS can obtain more effective and accurate test results.",
+      "keywords": "web services; cloud computing; load testing; testing as a service",
+      "references": [
+        82
+      ]
+    },
+    {
+      "id": 40,
+      "title": "The geo-cloud experiment: Global earth observation system computed in cloud",
+      "abstract": "Earth Observation (EO) is considered a key element in the European Research Roadmap and an opportunity market for the next years. However, this field presents some critical challenges to cover the current demand of services: i) there is massive and large-sized data from Earth Observation recordings; ii) On demand storage, processing and distribution of geoinformation generated with the recorded data are required. Conventional infrastructures have the risks of over/under size the infrastructure when big data is used, they are not flexible to cover sudden changes in the demand of services and the access to the information presents large latencies. These aspects limit the use of EO technology for real time use. The use of cloud computing technology can overcome the previously defined limitations. The GEO-Cloud experiment emerged to find viable solutions to provide highly demanding EO services by using future internet technologies. It is a close to reality experiment, part of the FP7 Fed4FIRE project. GEO-Cloud consists of the design, implementation and testing in cloud a complete EO system, from the acquisition of geo-data with a constellation of satellites to its on demand distribution to end users with remote access. This paper presents the GEO-Cloud experiment design, architecture and foreseen research activity.",
+      "keywords": "-",
+      "references": [
+        106
+      ]
+    },
+    {
+      "id": 41,
+      "title": "An automated testing framework for testing Android mobile applications in the cloud",
+      "abstract": "The testing of mobile application faces many issues due to the complexity of testing these applications and the limited resources available in mobile devices. Testing in various mobile devices under varying conditions takes a lot of time when done manually. Also by using emulators it is not possible to generate the same real time network connections and real device characteristics. There is a need for a testing framework that allows automated testing of mobile applications in many mobile devices in limited time. In this paper we propose a mobile testing framework in the cloud environment that aims to provide automated testing of mobile applications in various mobile devices. This testing framework has an automated testing tool, the Mobile Application Testing (MAT) Tool integrated to it that performs functional, performance and compatibility testing of mobile applications.",
+      "keywords": "Mobile Testing, Automated Testing, Testing as a Service, Cloud Testing",
+      "references": [
+        52
+      ]
+    },
+    {
+      "id": 42,
+      "title": "The architecture of parallelized cloud-based automatic testing system",
+      "abstract": "Software testing is the key of software quality control. However, software testing requires plenty of time, manpower and resources in hardware and software. Unfortunately, plenty of human errors may cause software testing become more difficult. To increase efficiency and reduce costs, automatic software testing is relatively important. It is possible to dynamically adjust the resources of hardware and software from the actual needs by introducing cloud technology. In this research, we proposed the paralleled cloud-based automatic testing system (PCATS) which have the advantages of real-time software testing and automatically computation scaling. PCATS can parallel the tests at the same time with distinct servers. The main contributions of this paper are automatically: (1) parse the source code to perform statistics analysis (2) generate test drivers and test cases (3) testing in virtual environments (4) paralleled testing (5) profile the consumed resources.",
+      "keywords": "cloud test service; software testing; parallel test;automatic test",
+      "references": []
+    },
+    {
+      "id": 43,
+      "title": "Architecture and measured characteristics of a cloud based internet of things",
+      "abstract": "The Internet of Things (IoT) many be thought of as the availability of physical objects, or devices, on the Internet [1]. Given such an arrangement it is possible to access sensor data and control actuators remotely. Furthermore such data may be combined with data from other sources - e.g. with data that is contained in the Web - or operated on by cloud based services to create applications far richer than can be provided by isolated embedded systems [2,3]. This is the vision of the Internet of Things. We present a cloud-compatible open source controller and an extensible API, hereafter referred to as 'IoTCloud', which enables developers to create scalable high performance IoT and sensor-centric applications. The IoTCloud software is written in Java and built on popular open source packages such as Apache Active MQ [4] and JBoss Netty [5]. We present an overview of the IoT Cloud architecture and describe its developer API. Next we introduce the FutureGrid - a geographically distributed and heterogeneous cloud test-bed [6,7] - used in our experiments. Our preliminary results indicate that a distributed cloud infrastructure like the FutureGrid coupled with our flexible IoTCloud framework is an environment suitable for the study and development of IoT and sensor-centric applications. We also report on our initial study of certain measured characteristics of an IoTCloud application running on the FutureGrid. We conclude by inviting interested parties to use the IoTCloud to create their own IoT applications or contribute to its further development.",
+      "keywords": "Internet of Things; IoT; distributed cloud; sensorcentric applications; smart objects;",
+      "references": []
+    },
+    {
+      "id": 44,
+      "title": "Formal firewall conformance testing: An application of test and proof techniques",
+      "abstract": "Firewalls are an important means to secure critical ICT infrastructures. As configurable off-the-shelf products, the effectiveness of a firewall crucially depends on both the correctness of the implementation itself as well as the correct configuration. While testing the implementation can be done once by the manufacturer, the configuration needs to be tested for each application individually. This is particularly challenging as the configuration, implementing a firewall policy, is inherently complex, hard to understand, administrated by different stakeholders and thus difficult to validate. This paper presents a formal model of both stateless and stateful firewalls (packet filters), including NAT, to which a specification-based conformance test case generation approach is applied. Furthermore, a verified optimisation technique for this approach is presented: starting from a formal model for stateless firewalls, a collection of semantics-preserving policy transformation rules and an algorithm that optimizes the specification with respect of the number of test cases required for path coverage of the model are derived. We extend an existing approach that integrates verification and testing, that is, tests and proofs to support conformance testing of network policies. The presented approach is supported by a test framework that allows to test actual firewalls using the test cases generated on the basis of the formal model. Finally, a report on several larger case studies is presented.",
+      "keywords": "model-based  testing;  conformance  testing;  security  testing;  firewall;  specification-basedtesting; testing cloud infrastructure; transformation for testability; HOL-Testgen; test andproof; security configuration testing",
+      "references": []
+    },
+    {
+      "id": 45,
+      "title": "A process framework for designing software reference architectures for providing tools as a service",
+      "abstract": "Software Reference Architecture (SRA), which is a generic architecture solution for a specific type of software systems, provides foundation for the design of concrete architectures in terms of architecture design guidelines and architecture elements. The complexity and size of certain types of software systems need customized and systematic SRA design and evaluation methods. In this paper, we present a software Reference Architecture Design process Framework (RADeF) that can be used for analysis, design and evaluation of the SRA for provisioning of Tools as a Service as part of a cloud-enabled workSPACE (TSPACE). The framework is based on the state of the art results from literature and our experiences with designing software architectures for cloud-based systems. We have applied RADeF SRA design two types of TSPACE: software architecting TSPACE and software implementation TSPACE. The presented framework emphasizes on keeping the conceptual meta-model of the domain under investigation at the core of SRA design strategy and use it as a guiding tool for design, evaluation, implementation and evolution of the SRA. The framework also emphasizes to consider the nature of the tools to be provisioned and underlying cloud platforms to be used while designing SRA. The framework recommends adoption of the multi-faceted approach for evaluation of SRA and quantifiable measurement scheme to evaluate quality of the SRA. We foresee that RADeF can facilitate software architects and researchers during design, application and evaluation of a SRA and its instantiations into concrete software systems.",
+      "keywords": "Cloud Computing, Software Reference Architecture (SRA), Tools as a Service (TaaS), Architecture Design, Architecture evaluation",
+      "references": []
+    },
+    {
+      "id": 46,
+      "title": "Next generation clouds, the chameleon cloud testbed, and software defined networking (SDN)",
+      "abstract": "Next generation clouds, based on highly programmable, high performance networks, especially those supported by Software-Defined-Networking (SDN) have attracted significant interest by research communities. In recognition of the increasing importance of advancing cloud services and technologies, especially for providing Internet services, the US National Science Foundation (NSF) established a project, the NSF Cloud initiative, to enable the computer science research community to develop and experiment with novel cloud architectures and create new, architecturally enabled innovative applications for cloud computing through empirical research experimentation by using large scale distributed cloud test beds. This paper provides an overview of one of those test beds, the Chameleon Cloud tested, with an additional description of the integration of that test bed with high programmable, high performance networks, based on SDN. The Chameleon project is designing, deploying, and operating a large scale, highly distributed experimental environment for empirical cloud research, integrated with high programmable networks as a foundation resource.",
+      "keywords": "Cloud testbeds, NSFCloud, Chameleon Cloud, federated clouds, programmable networking, network testbeds, Software Defined Networking (SDN), Software Defined Network Exchanges (SDXs), distributed clouds, Software Defined Infrastructure (SDI), highly distributed environments, Global Environment for Network innovations (GENI), international SDXs, programmable clouds",
+      "references": []
+    },
+    {
+      "id": 47,
+      "title": "Anti-virus in-the-cloud service: Are we ready for the security evolution?",
+      "abstract": "The ever-increasing malware variants pose serious challenges for traditional signature-based anti-virus (AV) scan engines. To effectively handle the scale and magnitude of new malware variants, AV functionality is being moved from the user desktop into the cloud. AV in-the-cloud service is becoming the next-generation security infrastructure designed to defend against virus threats. It provides reliable protection service delivered through data centers worldwide, which are built on virtualization technologies. Nowadays, cloud-based security services are gaining bullish projections in both consumer and enterprise markets. However, are we getting ready for the cloud evolution? Security vendors are facing various challenges regarding the architectural design, implementation, and validation. Owing to the lack of operation standards among vendors and very few research works conducted up to this point, researchers have no references of AV cloud testing to rely on. In this paper, the architecture of AV in-the-cloud service is described. The challenges and solutions are discussed and illustrated by examples taken from our cutting-edge research on practical applications.",
+      "keywords": "anti\u2010virus; malware pattern; in\u2010the\u2010cloud; network security",
+      "references": []
+    },
+    {
+      "id": 48,
+      "title": "A cloud-based TaaS infrastructure with tools for SaaS validation, performance and scalability evaluation",
+      "abstract": "With the fast advancements in cloud computing and software-as-a-service (SaaS), testing and evaluation of cloud-based software and SaaS applications became an important task for engineers. Since most existing tools are not developed to support cloud-based software testing and SaaS evaluation, there is a strong demand for a new cloud-based testing infrastructure and evaluation environment for SaaS applications. This paper proposes a testing-as-service (TaaS) infrastructure and reports a cloud-based TaaS environment with tools (known as CTaaS) developed to meet the needs in SaaS testing, performance and scalability evaluation. The paper presents TaaS concepts and CTaaS, including their infrastructure, design and implementation. In addition, the paper demonstrates the application results of our previously proposed graphic models and metrics for SaaS performance and scalability evaluation. Moreover, the paper reports one case study for a selected SaaS (OrangeHRM) using the developed TaaS environment",
+      "keywords": "Testing-as-a-Service (TaaS), Software-as-aService (SaaS), performance evaluation, scalability measurement, and cloud testing",
+      "references": []
+    },
+    {
+      "id": 49,
+      "title": "W TaaS: An architecture of website analysis in a cloud environment",
+      "abstract": "Testing as a Service (TaaS) has introduce new business opportunities, challenges and demands in testing techniques, QoS requirements and standards etc. It is also known as On-Demand testing, used for performing numerous types of testing viz. functional testing, load testing, security testing and performance testing etc. In this paper we propose an architecture of TaaS in which we have integrated numerous testing types, which provide a complete analysis of a website. We implemented the proposed framework, W TaaS ( Website Test as a Service). We conducted an experiment to evaluate the performance of our architecture. The results proved that our system can provide a stable service.",
+      "keywords": "Testing as a Service (TaaS), Functional testing,Load testing, Security testing",
+      "references": [
+        26,
+        61,
+        82
+      ]
+    },
+    {
+      "id": 50,
+      "title": "A DSL for deployment and testing in the cloud",
+      "abstract": "Cloud computing is becoming increasingly prevalent, more and more software providers are offering their applications as Software-as-a-Service solutions rather than traditional on-premises installations. In order to ensure the efficacy of the testing phase, it is critical to create a test environment that sufficiently emulates the production environment. Thus, Cloud applications should be tested in the Cloud. Cloud providers offer command-line tools for interacting with their platforms. However, writing custom low-level scripts using the provider's tool can become very complex to maintain and manage when variability (in terms of providers and platforms) is introduced. The contributions in this paper include: the development of a high level Domain Specific Language for the abstract definition of the application deployment process, and resource requirements, and a generation process that transforms these definitions to automatically produce deployment and instantiation scripts for a variety of providers and platforms. These contributions significantly simplify and accelerate the testing process for Cloud applications.",
+      "keywords": "-",
+      "references": []
+    },
+    {
+      "id": 51,
+      "title": "Adoption and use of cloud-based testing in practice",
+      "abstract": "This qualitative study addresses the adoption, utilization and effects of cloud-based testing in different organizational contexts. We approached the research problem by conducting thirty-five interviews with professionals in 20 organizations and applied grounded theory as the research method. The results indicate that cloud-based testing provides viable solutions to meet the testing needs within organizations. Cloud-based resources can be applied in performing various testing activities such as performance and multiplatform testing as well supporting practitioners in involving users during iterative development and testing. Cloud-based testing also adds value to practitioners by enabling easier management of the cloud-based testing resources and helping to produce improved end products. We use the results of the study to propose a strategy that can be used to assist practitioners in their decision-making processes towards adoption of cloud-based testing.",
+      "keywords": "Cloud computing, Cloud-based testing, Cloud-based testing resources, Testing",
+      "references": [
+        42,
+        61,
+        137
+      ]
+    },
+    {
+      "id": 52,
+      "title": "Cloud testing framework",
+      "abstract": "Context: Cloud-based testing introduces a new set of challenges. While many companies are approaching cloud computing with cautious, testing appears to be next area of growing interest. Objective: This paper propose the development of a new framework focusing on cloud testing. We intend to define the activities, roles, techniques, and tools that will be used in an integrated framework. Method: A research methodology containing all the steps that will be executed during the proposal implementation was defined. Results: A schedule was suggested in order to allow the research development. Conclusion: It is concluded that is important to establish the standardization for the cloud environment in order to ensure the cloud applications quality.",
+      "keywords": "Software Testing; Testing Tools; Cloud Testing; Cloud Computing; Domain-Specific Languages; DSL",
+      "references": [
+        61
+      ]
+    },
+    {
+      "id": 53,
+      "title": "A novel approach to analyzing for detecting malicious network activity using a cloud computing testbed",
+      "abstract": "Recent developments have caused the expansion of various cloud computing environments and services. Cloud computing environments have led to research in the areas of data processing, virtual environments, and access control. Information security is the most important research area for these environments security. In this study, we analyzed typical example of network testbeds, which have been used for malicious activity data collection and its subsequent analysis. Further, we propose an effective malicious network application testbed, which is based on a cloud system. We also verified the performance of our new testbed by comparing real malicious activity with the cloud-based testbed results.",
+      "keywords": "mobile cloud , cloud test bed, cloud network anomaly",
+      "references": []
+    },
+    {
+      "id": 54,
+      "title": "eCAD: Cloud anomalies detection from an evolutionary view",
+      "abstract": "Recent years have witness the booming of the cloud computing, which provides customers with guaranteed services. Since any violation would inevitably lead to a degraded quality of service (QoS), anomalies detection has become a demanding task in cloud environments. To solve the above problems, the unsupervised clustering approaches were put forward for identifying those anomalies. However, they all failed to work out the anomalies detection from an evolutionary view. In this paper, we present a cloud anomalies detection framework called eCAD. Motivated by the evolutionary clustering, our eCAD employs an evolutionary algorithm with DBSCAN to detect cloud anomalies as time steps. Besides, we also propose an M-Nearest Neighbors (MNN) algorithm to conduct the inference for those induced anomalies. Our eCAD is evaluated on the top of VICCI platform, which is a federated cloud test-bed in IaaS level. As demonstrated in our experiment, our framework shows an advantage over its counterparts",
+      "keywords": "Anomalies, Cloud Computing, QoS, SLO, VICCI Platform, Evolutionary Clustering.",
+      "references": []
+    },
+    {
+      "id": 55,
+      "title": "Automated mobile testing as a service (AM-TaaS)",
+      "abstract": "Due high popularization of cloud services and the use of a wide range of mobile devices with different environments and platforms, a new model to offer software test service emerged, called Testing as a Service (TaaS). It uses cloud infrastructure to provide on-demand testing services on cloud for end users at any time. Nowadays there are many studies about different services about TaaS. Based on this scenario, we propose a framework, called Automated Mobile Testing as a Service (AM-TaaS), which offers automated test for mobile applications based on AQuA's test criteria. We performed an experiment emulating nine Android mobile devices with different characteristics in order to test the criterion \"OTA Install\" (automated installation of mobile applications in a device). We emulated devices under virtual machines and cloud infrastructure. Experimental results show 100% of the emulated devices could be tested using automated test cases designed in the framework for this test criterion.",
+      "keywords": "Cloud Computing; TaaS; Automated Test.",
+      "references": [
+        21,
+        24,
+        26,
+        29,
+        39,
+        48,
+        61,
+        104,
+        132
+      ]
+    },
+    {
+      "id": 56,
+      "title": "A DDoS mitigation system with multi-stage detection and text-based turing testing in cloud computing",
+      "abstract": "An important trend in the computer science is towards Cloud Computing and we can see that many cloud services are proposed and developed in the Internet. An important cloud service like the IaaS as AWS EC2 can help many companies to build data centers with high performance computing resources and reduce the cost of maintaining the computing hardware. A data center which provides internet service may suffer from many security risks including Distributed Denial of Service (DDOS) attack. We believe that most of the cloud services, like Gmail, Drop box, Google Document, and etc., are based on HTTP connection. Hence, we aim at HTTP-based connection and propose a low reflection ratio mitigation system against the DDoS attacks. Our system is in the front of an IaaS that all of the virtual data centers in the IaaS are our protection targets. Our system consists of Source Checking, Counting, Attack Detection, Turing Test, and Question Generation modules. We provide a multi-stage detection to more precisely detect the possible attackers and a text-based turing test with question generation module to challenge the suspected requesters who are detected by the detection module. We implemented the proposed system and evaluated the performance to show that our system works efficiently to mitigate the DDoS traffic from the Internet.",
+      "keywords": "DDoS; Multi-Stage Detection; Turing Testing;CAPTCHA; Cloud Computing; Text-based Question",
+      "references": []
+    },
+    {
+      "id": 57,
+      "title": "Context-assisted test cases reduction for cloud validation",
+      "abstract": "Cloud computing is currently receiving much attention from the industry, government, and academia. It has changed the way computation is performed and how services are delivered to customers. Most importantly, cloud services change the way software is designed, how data is handled, and how testing is performed. In cloud computing, testing is delivered as a service (TaaS). For instance, case testing (one of the most common validation approaches) could be used. However, executing test cases on a cloud system could be expensive and time consuming. Therefore, test case reduction is performed to minimize the number of test cases to be executed on the system. In this paper, we introduce a validation method called Context-Assisted Test Case Reduction (CATCR) for systems that are deployed on the cloud. In CATCR, test cases are reduced based on the context of the validation process. The results of previous test cases are used to select test cases for the next iteration. The minimized set of test cases needs to have effective coverage of the system on the cloud. To evaluate CATCR, an experimental evaluation is performed through Amazon's Cloud and a Java validation tool. Experimental results are recorded and presented.",
+      "keywords": "Cloud Validation, Context, Test Case Reduction, Testing.",
+      "references": []
+    },
+    {
+      "id": 58,
+      "title": "On building a cloud-based mobile testing infrastructure service system",
+      "abstract": "With the rapid advance of mobile computing, cloud computing and wireless network, there is a significant increasing number of mobile subscriptions. This brings new business requirements and demands in mobile testing service, and causes new issues and challenges. In this paper, informative discussions about cloud-based mobile testing-as-a-service (mobile TaaS) are offered, including the essential concepts, focuses, test process, and the expected testing infrastructures. To address the need of infrastructure level service for mobile TaaS, this paper presents a developed system known as MTaaS to provide an infrastructure-as-a-service (IaaS) for mobile testing, in order to indicate the feasibility and effectiveness of cloud-based mobile testing service. In addition, the paper presents a comparison among cloud-based mobile TaaS approaches and several best practices in industry are discussed. Finally, the primary issues, challenges, and needs existed in current mobile TaaS are analyzed.",
+      "keywords": "Mobile testing as a service, Cloud-based infrastructure -as-a-service, Mobile application testing",
+      "references": [
+        10,
+        24,
+        29,
+        48,
+        104
+      ]
+    },
+    {
+      "id": 59,
+      "title": "Automated dynamic resource provisioning and monitoring in virtualized large-scale datacenter",
+      "abstract": "Infrastructure as a Service (IaaS) is a pay-as-you go based cloud provision model which on demand outsources the physical servers, guest virtual machine (VM) instances, storage resources, and networking connections. This article reports the design and development of our proposed innovative symbiotic simulation based system to support the automated management of IaaS-based distributed virtualized data enter. To make the ideas work in practice, we have implemented an Open Stack based open source cloud computing platform. A smart benchmarking application 'Cloud Rapid Experimentation and Analysis Tool (aka CBTool)' is utilized to mark the resource allocation potential of our test cloud system. The real-time benchmarking metrics of cloud are fed to a distributed multi-agent based intelligence middleware layer. To optimally control the dynamic operation of prototype data enter, we predefine some custom policies for VM provisioning and application performance profiling within a versatile cloud modeling and simulation toolkit 'CloudSim'. Both tools for our prototypes' implementation can scale up to thousands of VMs, therefore, our devised mechanism is highly scalable and flexibly be interpolated at large-scale level. Autonomic characteristics of agents aid in streamlining symbiosis among the simulation system and IaaS cloud in a closed feedback control loop. The practical worth and applicability of the multiagent-based technology lies in the fact that this technique is inherently scalable hence can efficiently be implemented within the complex cloud computing environment. To demonstrate the efficacy of our approach, we have deployed an intelligible lightweight representative scenario in the context of monitoring and provisioning virtual machines within the test-bed. Experimental results indicate notable improvement in the resource provision profile of virtualized data enter on incorporating our proposed strategy.",
+      "keywords": "Autonomic Computing, Symbiotic Simulation, Virtualized Datacenter, Resource Provisioning, Cloud Benchmarking, Multi-agent Technology",
+      "references": [
+        89,
+        103,
+        127
+      ]
+    },
+    {
+      "id": 60,
+      "title": "Cloud-based mobile app testing framework: Architecture, implementation and execution",
+      "abstract": "The growth in the use of mobile devices is notorious due to the multiple functionalities they offer. The time between the release of new device models and mobile platform updates is very short, and this has a direct influence on the quality of mobile applications, because these applications need to be compatible with new mobile devices and the different versions of mobile platforms. As a negative consequence, the quality of mobile apps would be lower than expected. Therefore, to ensure mobile application quality, many services for mobile test are offered as Cloud Testing. Thus, this work proposes a Mobile Cloud Testing Framework, called AM-TaaS, that meets these needs. AM-TaaS facilitates the test environment setup and configuration and covers a range of mobile devices and platforms. We also describe the architecture and implementation of the proposed framework. With the use of AM-TaaS framework, it is possible to perform mobile app testing on different mobile emulators/devices.",
+      "keywords": "Mobile testing, automated testing, mobile cloud testing",
+      "references": [
+        1,
+        10,
+        11,
+        21,
+        24,
+        26,
+        29,
+        39,
+        48,
+        52,
+        55,
+        61,
+        104,
+        115
+      ]
+    },
+    {
+      "id": 61,
+      "title": "Testing as a service (TaaS) on clouds.",
+      "abstract": "Cloud computing leads an opportunity in offering testing as a service (TaaS) for SaaS, clouds, and cloud-based applications. This brings new business opportunities, challenges, and demands in innovative service models, testing techniques, QoS standards, and requirements. This paper provides a comprehensive tutorial on testing as a service in a cloud environment. It answers the common questions raised by engineers and managers, and provides clear conceptual discussions about testing as a service (TaaS), including its scope, objectives, motivations and values, distinct features, required techniques, as well as testing environments. It not only presents a classification of different types of testing services in TaaS, but also offers a clear comparative view and perspectives between conventional software testing service and cloud-based testing as a service. In addition, it examines underlying issues, challenges, and emergent needs.",
+      "keywords": "cloud computing, cloud testing, testing as a service (TaaS), software testing, testing service and delivery",
+      "references": []
+    },
+    {
+      "id": 62,
+      "title": "Heterogeneity-aware workload placement and migration in distributed sustainable datacenters",
+      "abstract": "While major cloud service operators have taken various initiatives to operate their sustainable data enters with green energy, it is challenging to effectively utilize the green energy since its generation depends on dynamic natural conditions. Fortunately, the geographical distribution of data enters provides an opportunity for optimizing the system performance by distributing cloud workloads. In this paper, we propose a holistic heterogeneity-aware cloud workload placement and migration approach, sCloud, that aims to maximize the system good put in distributed self-sustainable data enters. sCloud adaptively places the transactional workload to distributed data enters, allocates the available resource to heterogeneous workloads in each data enter, and migrates batch jobs across data enters, while taking into account the green power availability and QoS requirements. We formulate the transactional workload placement as a constrained optimization problem that can be solved by nonlinear programming. Then, we propose a batch job migration algorithm to further improve the system good put when the green power supply varies widely at different locations. We have implemented sCloud in a university cloud test bed with real-world weather conditions and workload traces. Experimental results demonstrate sCloud can achieve near-to-optimal system performance while being resilient to dynamic power availability. It outperforms a heterogeneity- oblivious approach by 26% in improving system good put and 29% in reducing QoS violations.",
+      "keywords": "-",
+      "references": []
+    },
+    {
+      "id": 63,
+      "title": "GUICat: GUI testing as a service",
+      "abstract": "GUIs are event-driven applications where the flow of the program is determined by user actions such as mouse clicks and key presses. GUI testing is a challenging task not only because of the combinatorial explosion in the number of event sequences, but also because of the difficulty to cover the large number of data values. We propose GUICat, the first cloudbased GUI testing framework that simultaneously generates event sequences and data values. It is a white-box GUI testing tool that augments traditional sequence generation techniques with concolic execution. We also propose a cloudbased parallel algorithm for mitigating both event sequence explosion and data value explosion, by distributing the concolic execution tasks over public clouds such as Amazon EC2. We have evaluated the tool on standard GUI testing benchmarks and showed that GUICat significantly outperforms state-of-the-art GUI testing tools. The video demo URL is https://youtu.be/rfnnQOmZqj4.",
+      "keywords": "Symbolic execution, Test generation, GUI testing, Cloud",
+      "references": []
+    },
+    {
+      "id": 64,
+      "title": "A cloud based deployment framework for load balancing policies",
+      "abstract": "Cloud computing is filling the gap as a fifth utility service by building higher capabilities of IT infrastructure. This lends the cloud for research as one of the focus areas. Cloud researchers lack the opportunity to work with real cloud test beds. The cloud simulation tools available in academia and research have certain limitations like programming dependency for simulation setup; prerequisite knowledge of simulator's underlying architecture for deployment of new load balancing algorithms. Further, non availability of a single snapshot window for multiple simulations and database support are other disadvantages. This paper addresses these issues to a great extent by introducing a cloud simulation tool with enhanced features like algorithm editor, multiple simulation comparator and database support. The proposed features provide an abstraction to the simulator application. This allows researchers to focus on better analysis of the behavior of applications rather than understanding the implications and working of the underlying architecture.",
+      "keywords": "Cloud Simulator; VM load balancer; CloudAnalyst; Virtualization; Service Broker",
+      "references": []
+    },
+    {
+      "id": 65,
+      "title": "SLA evaluation with on-the-fly measurements of distributed service implementation over clouds",
+      "abstract": "Given the business mode of offering computing services to customers in a cloud setting, a major question arises: how good are the services of a cloud provider when compared to that of other providers. The paper attempts to answer the question by describing a methodology to measure the various cloud parameters (such as VM cycles and number of VM instances) at run-time and map them onto meaningful service-level attributes. The paper provides a concrete definition of the service attributes experienced by the client application: such as availability, agility, and elasticity, in terms of the underlying cloud infrastructure parameters (i.e., VM instances and network bandwidth). Since the IaaS parameters are hard to measure directly, we resort to a measurement methodology that maps the client-visible PaaS-layer service attributes onto the underlying IaaS parameters exported by the cloud provider. Our measurement methodology satisfies the cloud testing needs: stealthiness and non-intrusiveness, while minimizing the measurement overhead.",
+      "keywords": "Allocation of VM resources, cloud service benchmarks, SLA monitoring, QoS auditing, replicated web service",
+      "references": [
+        110
+      ]
+    },
+    {
+      "id": 66,
+      "title": "A cloud testing platform based on virtualization",
+      "abstract": "This article aims at designing and implementing a cloud testing platform based on virtualization technology. This platform is capable of providing an enormous amount of testing resources, and these resources are assigned dynamically on demand, which reduces the cost of developing and testing. On the platform, users could immediately get the resources they want as they ask for them, without any complicated process for preparation. The proposed testing platform is to enhance the management of testing, and improve the accuracy and efficiency as well through several experiments",
+      "keywords": "cloud computing, virtualization, testing platform",
+      "references": [
+        52
+      ]
+    },
+    {
+      "id": 67,
+      "title": "Integrated fault detection and test algebra for combinatorial testing in TaaS (Testing-as-a-Service)",
+      "abstract": "Testing-as-a-Service (TaaS) is a software testing service in a cloud that can leverage the computation power provided by the cloud. Specifically, a TaaS can be scaled to large and dynamic workloads, executed in a distributed environment with hundreds of thousands of processors, and these processors may support concurrent and distributed test execu\u0002tion and analysis. This paper proposes a TaaS system based on Adaptive Reasoning (AR) and Test Algebra (TA) for Combinatorial Testing (CT). AR performs testing and identifies faulty interactions, and TA eliminates related configurations from testing and there can be carried out concurrently. By combining these two, it is possible to perform large CT that were not possible before. Specifically, we performed experiments with 250 compo\u0002nents with 2.83\u22171087 6-way interactions with about 21.1\u00d71015 configurations, and this may be the largest CT experimentation as 2014. 98.6% of configurations have been eliminated out of total number of configurations.",
+      "keywords": "Combinatorial testing, TaaS, Concurrent testing, Test algebra, Adaptive reasoning",
+      "references": [
+        48,
+        71,
+        73,
+        90,
+        98,
+        99,
+        119
+      ]
+    },
+    {
+      "id": 68,
+      "title": "SLA evaluation in cloud-based data-centric distributed services",
+      "abstract": "Given the business mode of offering computing services to customers in a cloud setting, a major question arises: how good are the services of a cloud provider when compared to that of other providers. The paper attempts to answer the question by describing a methodology to measure the various cloud parameters (such as VM cycles and number of VM instances) at run-time and map them onto meaningful service-level attributes. The paper provides a concrete definition of the service attributes experienced by the client application: such as availability, agility, and elasticity, in terms of the underlying cloud infrastructure parameters (i.e., VM instances and network bandwidth). Since the IaaS parameters are hard to measure directly, we resort to a measurement methodology that maps the client-visible PaaS-layer service attributes onto the underlying IaaS parameters exported by the cloud provider. Our measurement methodology satisfies the requirements of cloud testing: stealthiness and non-intrusiveness, while minimizing the measurement overhead. The methodology is tested using a replicated image data store implementation on the PlanetLab.",
+      "keywords": "-",
+      "references": [
+        110
+      ]
+    },
+    {
+      "id": 69,
+      "title": "Model-driven generative framework for automated OMG DDS performance testing in the cloud",
+      "abstract": "The Object Management Group's (OMG) Data Distribution Service (DDS) provides many configurable policies which determine end-to-end quality of service (QoS) of applications. It is challenging to predict the system's performance in terms of latencies, throughput, and resource usage because diverse combinations of QoS configurations influence QoS of applications in different ways. To overcome this problem, design-time formal methods have been applied with mixed success, but lack of sufficient accuracy in prediction, tool support, and understanding of formalism has prevented wider adoption of the formal techniques. A promising approach to address this challenge is to emulate system behavior and gather data on the QoS parameters of interest by experimentation. To realize this approach, which is preferred over formal methods due to their limitations in accurately predicting QoS, we have developed a model-based automatic performance testing framework with generative capabilities to reduce manual efforts in generating a large number of relevant QoS configurations that can be deployed and tested on a cloud platform. This paper describes our initial efforts in developing and using this technology.",
+      "keywords": "Model-driven Engineering, Generative Programming,Publish/Subscribe, Performance Testing",
+      "references": [
+        101
+      ]
+    },
+    {
+      "id": 70,
+      "title": "A concurrent approach for improving the efficiency of Android CTS testing",
+      "abstract": "The Compatibility Test Suite (CTS) is provided by Google to help manufactures to ensure if their Android devices are in compliance with the Android compatibility standards. However, the CTS contains a huge number of test cases and it usually would take several hours to complete the CTS tests. This could seriously affect the development schedule of Android devices, especially when the CTS test is included in the daily system integration. To reduce the time to perform CTS tests and shorten the time-to-market of Android devices, this paper presents an approach for improving the CTS test efficiency. Particularly, the CTS test is decomposed into multiple tasks to be executed on different devices concurrently. In addition, the task scheduling and partitioning methods are considered in the approach. A cloud-based testing platform is developed to support the proposed approach. The experimental results show that the efficiency of CTS test can be much improved as the number of devices increases. Moreover, the results also indicate that the Longest Job First (LJF) scheduling and mixed partitioning methods can result in better test efficiency.",
+      "keywords": "Android Testing; Software Testing; Android Compatibilty Testing; Compatibility Test Suite",
+      "references": [
+        77,
+        132
+      ]
+    },
+    {
+      "id": 71,
+      "title": "Autonomous decentralized combinatorial testing",
+      "abstract": "Testing-as-a-Service (TaaS) is a software testing service in a cloud that can leverage the computation power provided by the cloud. Specifically, a TaaS can be scaled to large and dynamic workloads, executed in a distributed environment with hundreds of thousands of processors, and these processors may support concurrent and distributed test execution and analysis. This paper proposes an autonomous decentralized combinatorial testing system based on Adaptive Reasoning (AR) and Test Algebra (TA) for Combinatorial Testing (CT). AR performs testing and identifies faulty interactions, and TA eliminates related configurations from testing and there can be carried out concurrently. By combining these two, it is possible to perform large CT. We performed experiments with 210 components and 98:34% of configurations have been eliminated out of total number of configurations by AR and TA analysis.",
+      "keywords": "Combinatorial Testing; TaaS; Concurrent Testing; Test Algebra; and Adaptive Reasoning;",
+      "references": [
+        48,
+        73,
+        90,
+        98,
+        119
+      ]
+    },
+    {
+      "id": 72,
+      "title": "Performance inference: A novel approach for planning the capacity of IaaS cloud applications",
+      "abstract": "This work presents a novel approach to support application capacity planning in infrastructure-as-a-service (IaaS) clouds. The approach, called performance inference, relies on the assumption that it is possible to establish a capacity relation between different resource configurations offered by a given IaaS provider, enabling one to infer an application's performance under certain resource configurations and workloads, based upon the application's actual performance as observed for other related resource configurations and workloads. Preliminary evaluation results, obtained from testing the performance of a well-known blogging application (Word Press) in a public IaaS cloud (Amazon EC2), show that the best performance inference strategies can significantly reduce (over 80%) the total number of application deployment scenarios that need to be actually tested in the cloud, with a high (over 98%) inference accuracy.",
+      "keywords": "-",
+      "references": [
+        7,
+        89,
+        91,
+        101
+      ]
+    },
+    {
+      "id": 73,
+      "title": "TaaS (testing-as-a-service) design for combinatorial testing",
+      "abstract": "Testing-as-a-Service (TaaS) in a cloud environment can leverage the computation power provided by the cloud. Specifically, testing can be scaled to large and dynamic workloads, executed in a distributed environment with hundreds of thousands of processors, and these processors may support concurrent and distributed test execution and analysis. TaaS may be implemented as SaaS and used to test SaaS applications. This paper proposes a TaaS design for SaaS combinatorial testing. Test Algebra (TA) and Adaptive Reasoning (AR) algorithm are used in the TaaS design.",
+      "keywords": "TaaS; SaaS; Combinatorial testing; Concurrent;",
+      "references": [
+        48,
+        90,
+        98,
+        119
+      ]
+    },
+    {
+      "id": 74,
+      "title": "ATP: A browser-based distributed testing service platform",
+      "abstract": "In recent years, web services have become an indispensable part of our life. By use of personal computers, smart phones and wearable smart devices, people can enjoy the convenience brought by these web services and use them to not only enrich our daily life but also solve life issues. Thus, to more appropriately realize the performance of a web service, it is necessary to perform an overall and credible web service testing. Among the areas of current research and applications of web service testing issues, a tester can use a single-node testing tool to rapidly build a simple test environment on a single test node or LAN environment, the tester can also take advantage of the cloud testing method to create large-scale test environment. However, these existing tools and methods suffer some problems so that the test environment is neither close enough to the real context of the use cases nor able to meet tester's requirement (test node dispersion, resource management and ease of deploying a test, etc.). In this paper, we identify three essential requirements for web service testing applications (elastic test environment provisioning, large scale simulation capability, and geographical test support) and propose an efficient design of browser-based distributed testing service platform. As a result, the tester can significantly save their time and reduce the cost via the proposed of browser-based distributed testing service platform.",
+      "keywords": "testing service, web browser testing service,distributed testing service, web-based testing service, web testing",
+      "references": [
+        39,
+        61
+      ]
+    },
+    {
+      "id": 75,
+      "title": "A SOA testing platform on the cloud: The MIDAS experience",
+      "abstract": "The widespread use of SOA-based applications is posing new challenges to software testing since conventional methodologies are inadequate to cover the specific testing requirements of these applications. In this context, the European FP7 Project MIDAS aims at building an integrated platform for SOA testing automation designed and architected according to the SOA computing paradigm. In order to address the variability in the computational resources necessary for testing SOA applications of different complexity coming from different users, the MIDAS platform is designed as an integrated Testing as a Service (TaaS) framework deployed on a public Cloud infrastructure, available on a self-provisioning, pay-per-use, elastic basis. This paper introduces and discusses the Cloud-based software architecture envisioned in the MIDAS project by detailing the strategies adopted for its deployment on the target Cloud infrastructure (Amazon AWS).",
+      "keywords": "Cloud, Amazon AWS, SOA, Software Testing.",
+      "references": []
+    },
+    {
+      "id": 76,
+      "title": "PCTF: An integrated, extensible cloud test framework for testing cloud platforms and applications",
+      "abstract": "Due to the inherent advantages of Cloud Computing paradigms, application development, deployment and usage in Cloud environments has been increased exponentially in the recent past. This results in reduced time to market, reduced capital and operational expenses and increased productivity. The proliferation of Cloud platforms and applications also poses several challenges for the quality assessment. In this paper, we analyze various Cloud test approaches and frameworks. Then we present our research findings on major Cloud dimensions for testing Cloud platforms and applications. Then we propose an integrated, extensible Cloud test framework for testing various Cloud features, called Progress Cloud Test Framework (PCTF) and describe its components and characteristics.",
+      "keywords": "-",
+      "references": [
+        16
+      ]
+    },
+    {
+      "id": 77,
+      "title": "Improving resource utilization of a cloud-based testing platform for Android applications",
+      "abstract": "The Cloud Testing Platform (CTP) is a cloud-based system for testing Android applications (apps). It can be used to test whether an Android app can provide consistent user experiences on diverse devices developed by different manufacturers with customized specifications and operating system versions. The CTP employs virtual machines (VMs) to interact with various mobile devices currently for performing tests. However, improper size of VM pool and unbalanced loads on devices can result in low resource utilization or increase the response time of tests. To manage the resources of CTP more effectively, this paper presents a resource adaptation strategy that can adjust the number of VMs dynamically based on the workload of CTP and the number of available devices and can balance the loads across multiple devices of the same type to improve their usages and the average waiting time of tests. Experimental results indicate that the proposed strategy can be promising on improving the resource utilization of CTP.",
+      "keywords": "Android compatibility testing; cloud testing; resource management; resource utilization",
+      "references": []
+    },
+    {
+      "id": 78,
+      "title": "Structural unit testing as a service with PathCrawler-online.com",
+      "abstract": "PathCrawler is a concolic test generation tool for the structural unit testing of C code. This paper describes the PathCrawler-online.com testing service. The user submits C source files and test parameters, and the server generates testcases and coverage information. The service is mostly used today as a novel alternative to providing a demonstration version for students and potential users to install. However, PathCrawler-online can also be seen as a prototype for Testing as a Service and a first step towards Software Testing in the Cloud. In this spirit, we discuss the issues raised by our twoyear experience with PathCrawler-online.",
+      "keywords": "-",
+      "references": []
+    },
+    {
+      "id": 79,
+      "title": "Position paper: cloud-based performance testing: issues and challenges",
+      "abstract": "Conducting performance testing is essential to evaluate system performance. With the emergence of cloud computing, applying cloud resources for large-scale performance testing become very attractive. Many organizations have applied cloud-based performance testing in realistic projects. Cloud computing brings many benefits for performance testing, while we also have to face many new problems such as performance variation of cloud platform and security problems. In this overview, we discuss the differences between traditional and cloud-based performance testing. We investigate the state-of-art of cloud-based performance testing. We address the key issues with relevant challenges. For some of the issues, we formalize the problems and give our initial idea. We focus on the quality of workload generation and present our experimental results to validate the existence and degree of the challenges. We think that it is beneficial to apply cloud-based performance testing in many cases.",
+      "keywords": "cloud, performance testing, load testing, challenge, overview",
+      "references": []
+    },
+    {
+      "id": 80,
+      "title": "A configurable cloud-based testing infrastructure for interoperable distributed automation systems",
+      "abstract": "The interoperability between various automation systems is considered as one of the major character of future automation systems. Service-oriented Architecture is a possible interoperability enabler between legacy and future automation systems. In order to prove the interoperability between those systems, a verification framework is essential. This paper proposes a configurable cloud-based validation environment for interoperability tests between various distributed automation systems. The testing framework is implemented in a multi-layer structure which provides automated closed-loop testing from the protocol level to the system level. The testing infrastructure is also capable for simulating automation systems as well as wireless sensor networks in the cloud. Test cases could be automatically generated and executed by the framework.",
+      "keywords": "Service-Oriented Architecture, Industrial Automation, IEC 61499 function blocks, simulation, wireless sensor networks, testing, interoperability, cloud computing.",
+      "references": []
+    },
+    {
+      "id": 81,
+      "title": "An architectural prototype for testware as a service",
+      "abstract": "Software quality assurance is very important in each software project. As part of this quality assurance, testing is applied and testware are used. Current trends in software development show that cloud architectures are becoming preferred over classical software architectures. To follow this trend, we propose an architectural prototype of a testware as a service (TaaS). In current paper, we present the architectural blueprint of our TaaS and initial results of its implementation.",
+      "keywords": "architecture, cloud computing, performance testing, prototype, TaaS, testware.",
+      "references": [
+        39,
+        79
+      ]
+    },
+    {
+      "id": 82,
+      "title": "Building a TaaS platform for web service load testing",
+      "abstract": "Web services are widely known as the building blocks of typical service oriented applications. The performance of such an application system is mainly dependent on that of component web services. Thus the effective load testing of web services is of great importance to understand and improve the performance of a service oriented system. However, existing Web Service load testing tools ignore the real characteristics of the practical running environment of a web service, which leads to inaccurate test results. In this work, we present WS-TaaS, a load testing platform for web services, which enables load testing process to be as close as possible to the real running scenarios. In this way, we aim at providing testers with more accurate performance testing results than existing tools. WS-TaaS is developed on the basis of our existing Cloud PaaS platform: Service4All. First, we provide detailed analysis of the requirements of Web Service load testing and present the conceptual architecture and design of key components. Then we present the implementation details of WS-TaaS on the basis of Service4All. Finally, we perform a set of experiments based on the testing of real web services, and the experiments illustrate that WS-TaaS can efficiently facilitate the whole process of Web Service load testing.",
+      "keywords": "web services; cloud computing; load testing; testing as a service",
+      "references": []
+    },
+    {
+      "id": 83,
+      "title": "The verification and validation of a large-scale system: Equipment TaaS as an example",
+      "abstract": "This study proposed testing/inspecting as a service (TaaS) for computing equipment and aimed to test objects in the context of combining software and hardware. We developed a dynamic feedback framework to enhance both the efficiency and the quality of the testing service. The framework consists of inner and outer feedback mechanisms, in which the updated industrial standards and client requirements are incorporated allowing the testing to be modified accordingly. A detailed description of the testing procedures and industrial metrology are provided in the study. The improvement gained from TaaS are demonstrated and discussed. The results show that by using infrastructure as a service (IaaS), the physical hardware improves in quality due to the fact that the quality was verified by Automated Optical Inspection (AOI) TaaS or cloud container data center (CDC) TaaS etc. Moreover, the OS in platform as a service (PaaS) can be ensured because the resources of the physical/virtual data in the IaaS were tested by the OS TaaS. As for the application (APP) TaaS, the stability and performance of the OS system can be maintained since the applications of the software on the PaaS have been tested.",
+      "keywords": "Automated Optical Inspection(AOI); Industrial Metrology; Industrial Standards; System Continuous Integration Test(SCIT); Testing/Inspecting as a Service(TaaS)",
+      "references": []
+    },
+    {
+      "id": 84,
+      "title": "Analysis of cloud test beds using opensource solutions",
+      "abstract": "Cloud computing is increasingly attracting large attention both in academic research and in industrial initiatives. However, despite the popularity, there is a lack of research on the suitability of software tools and parameters for creating and deploying Cloud test beds. Virtualization and how to set up virtual environments can be done through software tools, which are available as open source, but there still needs to be work in terms of which tools to use and how to monitor parameters with the suitability of hardware resources available. This paper discusses the concepts of virtualization, as a practical view point, presenting an in-depth critical analysis of open source cloud implementation tools such as CloudStack, Eucalyptus, Nimbus, OpenStack, OpenNebula, OpenIoT, to name a few. This paper analyzes the various toolkits, parameters of these tools, and their usability for researchers looking to deploy their own Cloud test beds. The paper also extends further in developing an experimental case study of using OpenStack to construct and deploy a test bed using current resources available in the labs at the University of Bradford. This paper contributes to the theme of software setups and open source issues for developing Cloud test bed for deploying and constructing private Cloud test bed.",
+      "keywords": "Cloud computing, Virtualization, OpenNebula, CloudStack, OpenStack, Eucalyptus, AbiCloud, Nimbus, OpenIoT,Xen Cloud Platform.",
+      "references": [
+        43
+      ]
+    },
+    {
+      "id": 85,
+      "title": "Testing cloud benchmark scalability with Cassandra",
+      "abstract": "NoSQL databases were developed as highly scalable databases that allow easy data distribution over a number of servers. With the increased interest of researchers and companies in non-relational technology, NoSQL databases became widely used and a common belief emerged defending that those engines scale well. This means that the use of more nodes would result in reduced execution time of requests and the system would scale adequately, by adding nodes proportionally to data size and load. However, sometimes, adding nodes may not result in improvement of request-serving time. Therefore, it is useful to investigate how different factors, such as workload, data size and number of simultaneous sessions influence scaling capabilities. We will review the architecture of Cassandra, which is known for being one of the most efficient NoSQL engines, and analyze its scalability, using the Yahoo Cloud Serving Benchmark. The results will allow a better understanding of scalability and scalability limitations in that type of environment.",
+      "keywords": "NoSQL, Scalability, YCSB, Cassandra,Benchmarking",
+      "references": []
+    },
+    {
+      "id": 86,
+      "title": "Efficient testing based on logical architecture",
+      "abstract": "The rapid increase of software-intensive systemsi\u00af size and complexity makes it infeasible to exhaustively run testing on the low level of source code. Instead, the testing should be executed on the high level of system architecture, i.e., at a level where component or subsystems relate and interoperate or interact collectively with the system environment. Testing at this level is system testing, including hardware and software in union. Moreover, when integrating complex, distributed systems and providing support for conformance, interoperability and interoperation tests, we need to have an explicit test description. In this vision paper, we discuss (1) how to select tests from logical architecture, especially based on the dependencies within the system, and (2) how to represent the selected tests in explicit and readable manner, so that the software systems can be cost-efficiently maintained and evolved over their entire life-cycle. In addition, we further study the relevance between di.erent tests, based on which, we can optimise the test suites for efficient testing, and propose optimal resource allocation strategies for cloud-based testing.",
+      "keywords": "logical architecture, dependencies between services, testing",
+      "references": []
+    },
+    {
+      "id": 87,
+      "title": "Monitoring-based testing of elastic cloud computing applications",
+      "abstract": "Applications that are exposed to large-scale workloads must ensure elasticity, that is the ability to scale up and down rapidly to meet the demand. Cloud infrastructures provide adaptation tasks, which allow applications to automatically scale up and down straightforwardly. These adaptation tasks drive the system to new states, which may expose implementation errors and therefore must be tested. In this paper, we focus on testing elastic applications during different elasticity-related states. This test is difficult since the elasticity states are not directly controlled by the tester. To execute the test at different elasticity-related states, we propose a monitoring-based procedure. This procedure consists in monitoring the resource status to identify the occurrences of the elasticity states at real-time, and in parallel, execute the state-related tests. To validate our test procedure, we performed experiments on Amazon EC2. These experiments successfully identified non-functional errors.",
+      "keywords": "Cloud computing; elasticity; testing; elasticity testing.",
+      "references": [
+        28,
+        94,
+        129
+      ]
+    },
+    {
+      "id": 88,
+      "title": "Migrating load testing to the cloud:A case study",
+      "abstract": "Cloud computing has emerged as a new paradigm for the delivery of computing resources. It brings great opportunities to software testing, especially to load testing. In this paper, we focus on migrating conventional load testing tools to the cloud, for which the two significant issues are about multitenancy and load simulating resource management.We propose a four layer model for cloud-based load testing, along with the approach of test request admission control and scheduling to solve these issues. We carried out a concrete case study on our proposed approach and made the efficiency of cloud-based load testing shown successfully by two contrast experiments",
+      "keywords": "cloud computing; load testing; migrating;",
+      "references": []
+    },
+    {
+      "id": 89,
+      "title": "Cloudbench: Experiment automation for cloud environments",
+      "abstract": "The growth in the adoption of cloud computing is driven by distinct and clear benefits for both cloud customers and cloud providers. However, the increase in the number of cloud providers as well as in the variety of offerings from each provider has made it harder for customers to choose. At the same time, the number of options to build a cloud infrastructure, from cloud management platforms to different interconnection and storage technologies, also poses a challenge for cloud providers. In this context, cloud experiments are as necessary as they are labor intensive. CloudBench [1] is an open-source framework that automates cloud-scale evaluation and benchmarking through the running of controlled experiments, where complex applications are automatically deployed. Experiments are described through experiment plans, containing directives with enough descriptive power to make the experiment descriptions brief while allowing for customizable multi-parameter variation. Experiments can be executed in multiple clouds using a single interface. CloudBench is capable of managing experiments spread across multiple regions and for long periods of time. The modular approach adopted allows it to be easily extended to accommodate new cloud infrastructure APIs and benchmark applications, directly by external users. A built-in data collection system collects, aggregates and stores metrics for cloud management activities (such as VM provisioning and VM image capture) and application runtime information. Experiments can be conducted in a highly controllable fashion, in order to assess the stability, scalability and reliability of multiple cloud configurations. We demonstrate CloudBench's main characteristics through the evaluation of an OpenStack installation, including experiments with approximately 1200 simultaneous VMs at an arrival rate of up to 400 VMs/hour.",
+      "keywords": "Cloud computing; Benchmark; Virtual Machines",
+      "references": []
+    },
+    {
+      "id": 90,
+      "title": "Adaptive fault detection for testing tenant applications in multi-tenancy SaaS systems",
+      "abstract": "SaaS (Software-as-a-Service) often uses multi-tenancy architecture (MTA) where tenant developers compose their applications online using the components stored in the SaaS database. Tenant applications need to be tested, and combinatorial testing can be used. While numerous combinatorial testing techniques are available, most of them produce static sequences of test configurations and their goal is often to provide sufficient coverage such as 2-way interaction coverage. But the goal of SaaS testing is to identify those compositions that are faulty for tenant applications. This paper proposes an adaptive test configuration generation algorithm AR (Adaptive Reasoning) that can rapidly identify those faulty combinations so that those faulty combinations cannot be selected by tenant developers for composition. The AR algorithm has been evaluated by both simulation and real experimentation using a MTA SaaS sample running on GAE (Google App Engine). Both the simulation and experiment showed show that the AR algorithm can identify those faulty combinations rapidly. Whenever a new component is submitted to the SaaS database, the AR algorithm can be applied so that any faulty interactions with new components can be identified to continue to support future tenant applications.",
+      "keywords": "SaaS (Software-as-a-Service), Testing Tenant applications, combinatorial testing, adpative testing",
+      "references": [
+        48
+      ]
+    },
+    {
+      "id": 91,
+      "title": "A declarative environment for automatic performance evaluation in IaaS clouds",
+      "abstract": "One of the main challenges faced by users of infrastructure-as-a-service (IaaS) clouds is the difficulty to adequately estimate the virtual resources necessary for their applications. Although many cloud providers offer programatic ways to rapidly acquire and release resources, it is important that users have a prior understanding of the impact that each virtual resource type offered by the provider may impose on application performance. This paper presents Cloud Crawler, a new declarative environment aimed at supporting users in describing and automatically executing application performance tests in IaaS clouds. To this end, the environment provides a novel declarative domain-specific language, called Crawl, which supports the description of a variety of performance evaluation scenarios in multiple IaaS clouds, and an extensible Java-based cloud execution engine, called Crawler, which automatically configures, executes and collects the results of each performance evaluation scenario described in Crawl. To illustrate Cloud Crawler's potential benefits, the paper reports on an experimental evaluation of a social network application in two public IaaS cloud providers, in which the proposed environment has successfully been used to investigate the application performance for different virtual machine configurations and under different demand levels.",
+      "keywords": "performance evaluation; IaaS clouds.",
+      "references": [
+        89,
+        101
+      ]
+    },
+    {
+      "id": 92,
+      "title": "Practical experiences in the usage of MIDAS in the logistics domain",
+      "abstract": "In this paper, we present the experience in the usage of MIDAS, an integrated framework for Service Oriented Architecture (SOA) testing automation that is available as Software as a Service (SaaS) in a cloud infrastructure, to test a GS1 Logistics Interoperability Model (GS1 LIM) compliant service architecture for the logistics domain. Activities performed, results achieved and the evaluation of success factors and key performance indicators (KPIs) are detailed as well as other insights: (1) 25 % of companies would pay for model-based testing (MBT), (2) GS1 LIM should be certifiable, and (3) companies identify as a major barrier how to calculate the MBT return on investment (ROI).",
+      "keywords": "Model based testing, Logistics domain,  Case study, Testing automation",
+      "references": [
+        32
+      ]
+    },
+    {
+      "id": 93,
+      "title": "Generating test sequences to assess the performance of elastic cloud-based systems",
+      "abstract": "Elasticity is one of the main features of cloud-based systems (CBSs), where elastic adaptations, such as those to deal with scaling in or scaling out of computational resources, help meet performance requirements under varying workload. There is an industrial need to find configurations of elastic adaptations and workload that could lead to degradation of performance in a CBS, serving possibly millions of users. However, the potentially great number of such configurations poses a challenge: executing and verifying all of them on the cloud can be prohibitively expensive in both, time and cost. We present an approach to model elasticity adaptation due to workload changes as a classification tree model and consequently generate short test sequences of configurations that cover all T-wise interactions between parameters in the model. These test sequences, when executed, help us assess the performance of elastic CBS. Using MongoDB as a case study, test sequences generated by our approach reveal several significant performance degradations.",
+      "keywords": "Cloud computing, Elasticity, Combinatorial testing,Performance testing.",
+      "references": [
+        28,
+        94,
+        129
+      ]
+    },
+    {
+      "id": 94,
+      "title": "Controlling the elasticity of web applications on cloud computing",
+      "abstract": "Web applications are often exposed to unpredictable workloads. Therefore, they must ensure elasticity, which is addressed by hosting these applications on cloud computing infrastructures. In presence of elasticity, the application and its service layers may run adaptation tasks, which assist them in behaving in an elastic manner. These tasks may introduce errors. Therefore, the application must be tested when the adaptation tasks run. Some adaptation tasks may run only during specific elasticity behavior, and it is difficult to achieve specific behaviors without controllability. Therefore, in this paper, we propose an approach that controls the elasticity of Web applications according to requirements. It is the first step towards an approach to test elasticity applications through elasticity.",
+      "keywords": "Web application, elasticity, controllability, cloud computing.",
+      "references": [
+        28,
+        129
+      ]
+    },
+    {
+      "id": 95,
+      "title": "An architecture for cloud service testing and real time management",
+      "abstract": "Cloud service testing ensures that services run properly and meet the Service Level Agreement (SLA) requirements. However, performance problems of a cloud service, such as the availability and reliability, are difficult to diagnose because these issues might be caused from different system components. To solve these problems, this study proposes an architecture for testing environment configuration and quality estimation for both of fault diagnosis and bottleneck detection. The proposed system has two components: offline testing and online management. In offline testing, target service are tested by using the proposed testing module and corresponding metrics are collected for further analysis. The analyzed results which are separated between fault diagnosis and bottleneck detection will be stored in knowledge databases. Finally, online management module will automatically suggest how to do when facing this kind of problem according to knowledge based diagnosis.",
+      "keywords": "Performance; Cloud service testing; Real time management; Fault diagnosis; Bottleneck detection",
+      "references": [
+        61
+      ]
+    },
+    {
+      "id": 96,
+      "title": "Testing uncertainty of cyber-physical systems in IoT cloud infrastructures: Combining model-driven engineering and elastic execution",
+      "abstract": "Today's cyber-physical systems (CPS) span IoT and cloud-based datacenter infrastructures, which are highly heterogeneous with various types of uncertainty. Thus, testing uncertainties in these CPS is a challenging and multidisciplinary activity. We need several tools for modeling, deployment, control, and analytics to test and evaluate uncertainties for different configurations of the same CPS. In this paper, we explain why using state-of-the art model-driven engineering (MDE) and model-based testing (MBT) tools is not adequate for testing uncertainties of CPS in IoT Cloud infrastructures. We discus how to combine them with techniques for elastic execution to dynamically provision both CPS under test and testing utilities to perform tests in various IoT Cloud infrastructures.",
+      "keywords": "testing, elasticity, uncertainty, IoT, Cloud, MDE, MBT",
+      "references": [
+        3
+      ]
+    },
+    {
+      "id": 97,
+      "title": "A semi-automatic and trustworthy scheme for continuous cloud service certification",
+      "abstract": "Traditional assurance solutions for software-based systems rely on static verification techniques and assume continuous availability of trusted third parties. With the advent of cloud computing, these solutions become ineffective since services/applications are flexible, dynamic, and change at runtime, at high rates. Although several assurance approaches have been defined, cloud requires a step-change moving current assurance techniques to fully embrace the cloud peculiarities. In this paper, we provide a rigorous and adaptive assurance technique based on certification, towards the definition of a transparent and trusted cloud ecosystem. It aims to increase the confidence of cloud customers that every piece of the cloud (from its infrastructure to hosted applications) behaves as expected and according to their requirements. We first present a test-based certification scheme proving non-functional properties of cloud-based services. The scheme is driven by non-functional requirements defined by the certification authority and by a model of the service under certification. We then define an automatic approach to verification of consistency between requirements and models, which is at the basis of the chain of trust supported by the certification scheme. We also present a continuous certificate life cycle management process including both certificate issuing and its adaptation to address contextual changes. Finally, we describe our certification framework and an experimental evaluation of its performance, quality, applicability, and practical usability in a real industrial scenario, which considers Engineering Ingegneria Informatica S.p.A. ENGpay online payment system.",
+      "keywords": "Certification and testing, cloud, model-based verification of services, quality assurance",
+      "references": [
+        73
+      ]
+    },
+    {
+      "id": 98,
+      "title": "Test-algebra execution in a cloud environment",
+      "abstract": "A algebraic system, Test Algebra (TA), identifies faults in combinatorial testing for SaaS (Software-as-a-Service) applications. SaaS is a software delivery model that involves composition, deployment, and execution of mission application on cloud platforms. Testing SaaS applications is challenging because a large number of configurations needs to be tested. Faulty configurations should be identified and corrected before the delivery of SaaS applications. TA proposes an effective way to reuse existing test results to identify test results of candidate configurations. The TA also defines rules to permit results to be combined, and to identify the faulty interactions. Using the TA, configurations can be tested concurrently on different servers and in any order. This paper proposes one MapReduce design of TA concurrent execution in a cloud environment. The optimization of TA analysis is discussed. The proposed solutions are simulated using Hadoop in a cloud environment.",
+      "keywords": "Combinatorial testing, MapReduce, SaaS",
+      "references": [
+        90
+      ]
+    },
+    {
+      "id": 99,
+      "title": "Integrated adaptive reasoning testing framework with automated fault detection",
+      "abstract": "Following development of Software-as-a-Service (SaaS), combinatorial testing technologies are used in SaaS testing. It is difficult to handle the exponential growth of SaaS testing workloads. This paper proposes a new integrated testing framework using Adaptive Reasoning algorithm with automated test cases generation (ARP) and Test Algebra (TA) to increase SaaS testing efficiency. ARP algorithm can rapidly identify and eliminate faulty combinations. The proposed integrated testing framework is simulated in cloud environment.",
+      "keywords": "Integrated adaptive reasoning testing framework with automated fault detection",
+      "references": [
+        73,
+        90,
+        98,
+        119
+      ]
+    },
+    {
+      "id": 100,
+      "title": "Automated web service composition testing as a service",
+      "abstract": "Cloud computing brings new business opportunities and services on infrastructure, platform and software level. It provides a new way for testing software applications known as Testing-as-a-Service (TaaS). TaaS eliminates the need of installing and maintaining testing environments on customer\u2019s side and reduces the testing cost on pay-per-use basis. Availability of on-demand testing services allows testers to provide raw cloud resources at run time, when and where needed. This paper addresses TaaS benefits by proposing a TaaS-enabled framework offering cloud-based testing services. The framework, called Testing as a Service Software Architecture (TASSA), supports testing of web service compositions described with Business Process Execution Language for Web Services (WS-BPEL). It consists of two main components: (1) TaaS functionality for fault injection and dependencies isolation of the application under test and (2) Graphical User Interface (GUI) for test case design and execution. TASSA framework could be installed on a local computer or used for building a cloud test lab on a virtual machine. Its feasibility is proved through a case study on a sample business process from wine industry.",
+      "keywords": "Cloud computing, Service-oriented architecture, Testing-as-a-Service, Web services,Web service compositions,WS-BPEL",
+      "references": [
+        32,
+        61,
+        82
+      ]
+    },
+    {
+      "id": 101,
+      "title": "Expertus: A generator approach to automate performance testing in IaaS clouds",
+      "abstract": "Cloud computing is an emerging technology paradigm that revolutionizes the computing landscape by providing on-demand delivery of software, platform, and infrastructure over the Internet. Yet, architecting, deploying, and configuring enterprise applications to run well on modern clouds remains a challenge due to associated complexities and non-trivial implications. The natural and presumably unbiased approach to these questions is thorough testing before moving applications to production settings. However, thorough testing of enterprise applications on modern clouds is cumbersome and error-prone due to a large number of relevant scenarios and difficulties in testing process. We address some of these challenges through Expertus - -a flexible code generation framework for automated performance testing of distributed applications in Infrastructure as a Service (IaaS) clouds. Expertus uses a multi-pass compiler approach and leverages template-driven code generation to modularly incorporate different software applications on IaaS clouds. Expertus automatically handles complex configuration dependencies of software applications and significantly reduces human errors associated with manual approaches for software configuration and testing. To date, Expertus has been used to study three distributed applications on five IaaS clouds with over 10,000 different hardware, software, and virtualization configurations. The flexibility and extensibility of Expertus and our own experience on using it shows that new clouds, applications, and software packages can easily be incorporated.",
+      "keywords": "Aspect, Automation, Clouds, Code Generation, Datacenter, EC2, Emulab, IaaS, Multi-Tier, Open Cirrus, Performance, Scalability, Testing, Template.",
+      "references": []
+    },
+    {
+      "id": 102,
+      "title": "Unit and integration testing of modular cloud services",
+      "abstract": "Cloud computing and the future Internet concept highlight new requirements for the software engineering phases including testing and validation of modular web services. The major reason is because cloud applications are developed by services belonging to different providers, thus making software testing a really challenging issue. In this work, we propose a testing methodology that includes two fold testing actions, a unit testing of cloud service APIs following white and black box techniques and an integration testing strategy by identifying services that could interface with each other. In addition, we present the Elvior TestCast T3 (TTCN-3) testing tool for automation of use case testing. We demonstrate the results of the methodology when applied to different cloud services and we present a discussion of our conclusions for a real world use case, in which we applied this methodology.",
+      "keywords": "Cloud computing; Cloud services; Cloud service testing; TestCast; TTCN-3",
+      "references": [
+        48,
+        52,
+        61
+      ]
+    },
+    {
+      "id": 103,
+      "title": "Hardware-in-the-loop simulation for automated benchmarking of cloud infrastructures",
+      "abstract": "To address the challenge of automated performance benchmarking in virtualized cloud infrastructures, an extensible and adaptable framework called CloudBench has been developed to conduct scalable, controllable, and repeatable experiments in such environments. This paper presents the hardware-in-the-loop simulation technique used in CloudBench, which integrates an efficient discrete-event simulation with the cloud infrastructure under test in a closed feedback control loop. The technique supports the decomposition of complex resource usage patterns and provides a mechanism for statistically multiplexing application requests of varied characteristics to generate realistic and emergent behavior. It also exploits parallelism at multiple levels to improve simulation efficiency, while maintaining temporal and causal relationships with proper synchronization. Our experiments demonstrate that the proposed technique can synthesize complex resource usage behavior for effective cloud performance benchmarking.",
+      "keywords": "-",
+      "references": []
+    },
+    {
+      "id": 104,
+      "title": "Mobile application testing: A tutorial",
+      "abstract": "To cope with frequent upgrades of mobile devices and technologies, engineers need a reusable and cost-effective environment for testing mobile applications and an elastic infrastructure to support large-scale test automation.",
+      "keywords": "-",
+      "references": [
+        121
+      ]
+    },
+    {
+      "id": 105,
+      "title": "Impact of the vendor lock-in problem on testing as a service (TaaS)",
+      "abstract": "Testing as a Service (TaaS) is a new business and service model that provides efficient and effective software quality assurance and enables the use of a cloud for the meeting of quality standards, requirements and consumer's needs. However, problems that limit the effective use of TaaS involve lack of standardization in writing, execution, configuration and management of tests and lack of portability and interoperability among TaaS platforms - the so-called lock-in problem. The lock-in problem is a serious threat to software testing in the cloud and may become critical when a provider decides to suddenly increase prices, or shows serious technical availability problems. This paper proposes a novel approach for solving the lock-in problem in TaaS with the use of design patterns. The aim to assist software engineers and quality control managers in building testing solutions that are both portable and interoperable and promote a more widespread adoption of the TaaS model in cloud computing.",
+      "keywords": "Cloud Computing, Testing as a Service (TaaS),Design Patterns, Vendor Lock-in, Testing Service.",
+      "references": [
+        61
+      ]
+    },
+    {
+      "id": 106,
+      "title": "BonFIRE: A multi-cloud test facility for internet of services experimentation",
+      "abstract": "BonFIRE offers a Future Internet, multi-site, cloud testbed, targeted at the Internet of Services community, that supports large scale testing of applications, services and systems over multiple, geographically distributed, heterogeneous cloud testbeds. The aim of BonFIRE is to provide an infrastructure that gives experimenters the ability to control and monitor the execution of their experiments to a degree that is not found in traditional cloud facilities. The BonFIRE architecture has been designed to support key functionalities such as: resource management; monitoring of virtual and physical infrastructure metrics; elasticity; single document experiment descriptions; and scheduling. As for January 2012 BonFIRE release 2 is operational, supporting seven pilot experiments. Future releases will enhance the offering, including the interconnecting with networking facilities to provide access to routers, switches and bandwidth-on-demand systems. BonFIRE will be open for general use late 2012.",
+      "keywords": "Multi-cloud, Future Internet, Internet of Services, Testbed,Bandwidth on Demand",
+      "references": []
+    },
+    {
+      "id": 107,
+      "title": "The design and execution of performance testing strategy for cloud-based system",
+      "abstract": "This study illustrates the design and implementation of strategy employed for testing the performance of cloud-based system. The strategy involves the analysis of usage scenario of the system, formulation of performance test cases, test environment setup, performance test execution and reporting with the support of open source testing tool. It evaluates the system under test in handling different volume of users, both at server-end and user\u0002end under different network environment from the perspective of system response time. Distributed testing approach was applied for server-side performance while manual approach was used for testing the performance at user-side. The result has demonstrated the practicality and reliability of this strategy in measuring the performance of the software hosted in cloud environment towards passing the performance criteria set by the stakeholders, which is maximum response time of five seconds.",
+      "keywords": "performance testing, cloud, open source, response time.",
+      "references": [
+        79,
+        88,
+        120,
+        135,
+        136
+      ]
+    },
+    {
+      "id": 108,
+      "title": "Cloud computing as a debug tool",
+      "abstract": "Lack of resources or the timely availability of the same has permitted large delays in the analyzing of software failures. When a software failure occurs during a test run, the tester documents the problem to the best of their ability. However, the software designer who analyzes the problem has a larger task at hand. Given that software quality is paramount in complex systems, it is imperative that this analysis is performed as soon as possible. The replication of analysis tools is expensive and maintenance of the same is even more so. The use of cloud computing whereby we provide the platform as a service may be the answer to the problem. This paper investigates the advantages of using this application of cloud computing whereby this technology delivers an analysis, development and design environment to the user. The users have the option of devising their own application that will run on the debug infrastructure which is exposed to the users through a private intranet. The paper will explore the system and cost effectiveness of this service in a development environment.",
+      "keywords": "Reliability,Maintainability and Availability, (RMA)Cloud Computing,Blade Servers,Routers,Switches,Virtual Processors",
+      "references": [
+        42
+      ]
+    },
+    {
+      "id": 109,
+      "title": "Evaluation of cloud based performance testing for online shopping websites",
+      "abstract": "Performance testing of a web application is apprehensive with accomplishing response times, throughput, and resourceutilization levels that gather the performance objectives for that applications or websites. Enterprises become assume nowadays, all users with an internet access are a potential customer. Product and service accessibility in the physical location is speedily being replaced by online shopping. Online shopping in India is growing at a very fast manner. At the same time, there is an extreme competition in e-commerce space, especially among top three players namely Flipkart, Snapdeal and Amazon. When online shopping websites announce campaigns, offers, and sales, there is often an uncontrolled rush of buyers to these sites and most often the infrastructure behind these retail websites are not powerful enough to handle the huge volume. In order to evaluate the performance of the retail web applications from each physical location, cloud based performance testing will be the key solution. The performance tests could be run with the load generators by utilizing cloud service providers such as Amazon, Rack space etc. Alternatively, Cloud based performance testing tools could be used for finding the performance of a web application. There is no single tool will be used for all performance measure of a web application. The right choice of testing tools really depends on multiple parameters including customer application architecture, context and customer needs. With this analyzing the importance of the performance of the web application increasing, it is a good idea to evaluate some of the popular open source Performance testing tools. Cloud based software test automation offers Cost Effectiveness, Benefits of Virtualization, More collaboration, Quicker Testing and Reduced IT management effort.",
+      "keywords": "Cloud Testing, Customer Satisfaction, E-Commerce, Open Source Testing Tools, Performance Testing",
+      "references": [
+        15,
+        61
+      ]
+    },
+    {
+      "id": 110,
+      "title": "Auditing CPU performance in public cloud",
+      "abstract": "Cloud computing services offer elastic computing and storage to end-users over the Internet in a pay-as-you-go way. Many businesses have started using cloud computing. A Service Level Agreement (SLA) between a cloud service provider (CSP) and a user is a contract that specifies the resources and performances that the cloud should provide. However, a CSP has the incentive to cheat on SLA, e.g., providing users with less CPU and memory resources than that specified in the SLA, which allows the CSP to support more users and make more profits. Unfortunately, there are no tools to allow users to verify the SLA. We study the important issue of verifying SLA in a semi-trusted (or untrusted) cloud. In this paper, we focus on the verification of CPU speed, which is an important metric in cloud SLA. We propose a lightweight stealthy test algorithm that can check if a CSP provides the CPU speed as specified in the SLA. Using real experiments, we show that the algorithm can detect cloud cheating on CPU speed (i.e., SLA violations) in a stealthy way.",
+      "keywords": "Cloud computing; auditing; CPU",
+      "references": []
+    },
+    {
+      "id": 111,
+      "title": "Model-based testing for composite web services in cloud brokerage scenarios",
+      "abstract": "Cloud brokerage is an enabling technology allowing various services to be merged together for providing optimum quality of service for the end-users. Within this collection of composed services, testing is a challenging task which brokers have to take on to ensure quality of service. Most Software-as-a-Service (SaaS) testing has focused on high-level test generation from the functional specification of individual services, with little research into how to achieve sufficient test coverage of composite services. This paper explores the use of model-based testing to achieve testing of composite services, when two individual web services are tested and combined. Two example web services \u2013 a login service and a simple shopping service \u2013 are combined to give a more realistic shopping cart service. This paper focuses on the test coverage required for testing the component services individually and their composition. The paper highlights the problems of service composition testing, requiring a reworking of the combined specification and regeneration of the tests, rather than a simple composition of the test suites; and concludes by arguing that more work needs to be done in this area.",
+      "keywords": "Cloud Service, Test Suite, Service Composition,Component Service,Composite Service",
+      "references": [
+        18
+      ]
+    },
+    {
+      "id": 112,
+      "title": "Towards migrating genetic algorithms for test data generation to the cloud",
+      "abstract": "Search-Based Software Testing is a well-established research area, whose goal is to apply meta-heuristic approaches, like Genetic Algorithms, to address optimization problems in the testing domain. Even if many interesting results have been achieved in this field, the heavy computational resources required by these approaches are limiting their practical application in the industrial domain. In this chapter, the authors propose the migration of Search-Based Software Testing techniques to the Cloud aiming to improve their performance and scalability. Moreover, they show how the use of the MapReduce paradigm can support the parallelization of Genetic Algorithms for test data generation and their migration in the Cloud, thus relieving software company from the management and maintenance of the overall IT infrastructure and developers from handling the communication and synchronization of parallel tasks. Some preliminary results are reported, gathered by a proof-of-concept developed on the Google\u2019s Cloud Infrastructure.",
+      "keywords": "-",
+      "references": []
+    },
+    {
+      "id": 113,
+      "title": "Cost-benefit evaluation on parallel execution for improving test efficiency over cloud",
+      "abstract": "Software testing usually accounts for a large proportion of software development time and cost. Thus, it is crucial to improve test efficiency and reduce test cost as much as possible. This paper describes a cloud-based approach to increase test efficiency by partitioning a large test job into multiple tasks and executing the tasks concurrently on different virtual machines (VMs). Several task partitioning and grouping strategies are presented for satisfying test deadline and other test requirement, such as shorter test execution time or less VM rental cost. To evaluate the proposed strategies, a case study was conducted. The results indicate that the proposed approach and strategies can be promising for improving test efficiency and cost-benefit.",
+      "keywords": "Software Testing, Cloud Testing, Test Efficiency,Parallel Test Execution.",
+      "references": [
+        12
+      ]
+    },
+    {
+      "id": 114,
+      "title": "Cloud testing: Steps, tools, challenges",
+      "abstract": "Cloud computing has protruded as a modernistic computing model that influences many research areas, such as software testing that has been extended with boundless resources such as scalability and availability of expanded testing environments. Cloud computing minimizes the time needed for testing large software and lead to a decrease in testing cost. Cloud computing also gives the chance for developing many efficacious and wide reach software testing methods. This research will conduct a comparison between traditional software testing and cloud based testing. We also introduced some testing mechanisms in cloud and focus on the challenges of these testing types. Moreover, we discussed the special objectives, lineaments, requirements that are necessary for cloud testing. At the end of the paper we identified several testing tools and determine the key tools for cloud testing.",
+      "keywords": "Cloud computing, cloud testing, cloud-based software testing, performance testing",
+      "references": [
+        51,
+        61
+      ]
+    },
+    {
+      "id": 115,
+      "title": "Evodroid: Segmented evolutionary testing of Android apps",
+      "abstract": "Proliferation of Android devices and apps has created a demand for applicable automated software testing techniques. Prior research has primarily focused on either unit or GUI testing of Android apps, but not their end-to-end system testing in a systematic manner. We present EvoDroid, an evolutionary approach for system testing of Android apps. EvoDroid overcomes a key shortcoming of using evolutionary techniques for system testing, i.e., the inability to pass on genetic makeup of good individuals in the search. To that end, EvoDroid combines two novel techniques: (1) an Android-specific program analysis technique that identifies the segments of the code amenable to be searched independently, and (2) an evolutionary algorithm that given information of such segments performs a stepwise search for test cases reaching deep into the code. Our experiments have corroborated EvoDroid's ability to achieve significantly higher code coverage than existing Android testing tools.",
+      "keywords": "Android, Evolutionary Testing, Program Analysis",
+      "references": []
+    },
+    {
+      "id": 116,
+      "title": "Combining usage-based and model-based testing for service-oriented architectures in the industrial practice",
+      "abstract": "Usage-based testing focuses quality assurance on highly used parts of the software. The basis for this are usage profiles based on which test cases are generated. There are two fundamental approaches in usage-based testing for deriving usage profiles: either the system under test (SUT) is observed during its operation and from the obtained usage data a usage profile is automatically inferred, or a usage profile is modeled by hand within a model-based testing (MBT) approach. In this article, we propose a third and combined approach, where we automatically infer a usage profile and create a test data repository from usage data. Then, we create representations of the generated tests and test data in the test model from an MBT approach. The test model enables us to generate executable Testing and Test Control Notation version 3 (TTCN-3) and thereby allows us to automate the test execution. Together with industrial partners, we adopted this approach in two pilot studies. Our findings show that usage-based testing can be applied in practice and greatly helps with the automation of tests. Moreover, we found that even if usage-based testing is not of interest, the incorporation of usage data can ease the application of MBT.",
+      "keywords": "Usage-based testing, Model-based testing,Usage monitoring , Web service testing, TTCN-3",
+      "references": [
+        75,
+        92
+      ]
+    },
+    {
+      "id": 117,
+      "title": "Cloud Crawler: A declarative performance evaluation environment for infrastructure-as-a-service clouds",
+      "abstract": "As the number of infrastructure-as-a-service (IaaS) cloud offers in the market increases, selecting an appropriate configuration of cloud resources for a given application becomes a non-trivial task even for experienced developers. Because cloud resources are relatively cheap, usually charged by the hour, developers could systematically evaluate the performance of their application using different resource types from different cloud providers, thus allowing them to accurately identify the best providers and resource types for their application. However, conducting systematic performance tests in multiple IaaS clouds may require a significant amount of planning and configuration effort from application developers. This paper presents Cloud Crawler, a declarative environment for specifying and conducting application performance tests in IaaS clouds. The environment includes a novel declarative domain-specific language, Crawl, by means of which cloud users can describe, at a high abstraction level, a large variety of performance evaluation scenarios for a given application, and a scenario execution engine, Crawler, which automatically configures, executes, and collects the results of the scenarios described in Crawl. The paper also reports on how Cloud Crawler has been successfully used to systematically test the performance of two open-source web applications in public IaaS clouds.",
+      "keywords": "declarative environment; performance evaluation; cloud computing",
+      "references": [
+        52,
+        72,
+        89,
+        91
+      ]
+    },
+    {
+      "id": 118,
+      "title": "O! Snap: Cost-efficient testing in the cloud",
+      "abstract": "Porting a testing environment to a cloud infrastructure is not straightforward. This paper presents O!Snap, an approach to generate test plans to cost-efficiently execute tests in the cloud. O!Snap automatically maximizes reuse of existing virtual machines, and interleaves the creation of updated test images with the execution of tests to minimize overall test execution time and/or cost. In an evaluation involving 2,600+ packages and 24,900+ test jobs of the Debian continuous integration environment, O!Snap reduces test setup time by up to 88% and test execution time by up to 43.3% without additional costs.",
+      "keywords": "-",
+      "references": [
+        5
+      ]
+    },
+    {
+      "id": 119,
+      "title": "Concurrent test algebra execution with combinatorial testing",
+      "abstract": "Software-as-a-Service (SaaS) application plays an important role in daily life and needs to have high reliability and availability before publishing. Testing SaaS applications become important, as the large number of testing prior to their deployment. TA identifies faults in combinatorial testing for SaaS applications using existing test results and eliminates those related faults. Although TA eliminates a large number of configurations from considerations, it is still difficult to finish testing enormous combinations of services in a reasonable time. To improve TA analysis, this chapter proposes a concurrent TA analysis. It allocates workloads into different clusters of computers and performs TA analysis from 2-way to 6-way configurations. Different database designs are used to store the test results of various configurations. Faulty and operational table search algorithms are proposed to retrieve existing test results. One 25-component experiment is simulated using the proposed solutions. The same experiment is also simulated on multiple processors for concurrent TA analysis.",
+      "keywords": "Combinatorial testing, algebra, concurrent, and SaaS",
+      "references": [
+        90
+      ]
+    },
+    {
+      "id": 120,
+      "title": "Testing perspectives for cloud-based applications",
+      "abstract": "Cloud computing is often used to describe a model for ubiquitous, convenient, and on-demand network access to shared pool of configurable computing resources that can be rapidly provisioned and released with minimal management effort or service provider interaction. Cloud computing heralds the trend of service provider companies in comparison to traditional software licensing era. As the Cloud-based services are increasing and businesses catered through software services require reassurances, so there is a need to test those services and applications before offering them to the customers. Cloud-based testing offers reduction in the unit cost of computing with test effectiveness, on-demand flexibility, freedom from holding assets, enhanced collaboration, greater levels of efficiency, and, most significantly, reduced time-to-market for key business applications. This chapter largely quantifies on testing related to Cloud computing, elaborates fundamentals of testing and differentiates between traditional software testing techniques and software testing in Cloud environment. It also emphasizes on analysis of the existing Cloud-based testing models and their limitations and Cloud-based application frameworks. The chapter concludes with the discussion on need of automated test case generation techniques, potential research directions, and technologies for testing approaches in Cloud environments.",
+      "keywords": "Cloud-based applications, Testing in the Cloud, Cloud applications framework",
+      "references": [
+        52
+      ]
+    },
+    {
+      "id": 121,
+      "title": "A whitebox approach for automated security testing of Android applications on the cloud",
+      "abstract": "The proceedings contain 22 papers. The topics discussed include: grammar based oracle for security testing of web applications; a whitebox approach for automated security testing of android applications on the cloud; software testing of mobile applications: challenges and future research directions; benefits and limitations of automated software testing: systematic literature review and practitioner survey; introducing model-based testing in an industrial scrum project; an industrial case study of the effectiveness of test generators; software test automation practices in agile development environment: an industry experience report; category partition method and satisfiability modulo theories for test case generation; scalable automated test generation using coverage guidance and random search; automated test-case generation by cloning; and a methodology for energy performance testing of smartphone applications.",
+      "keywords": "Android; Security Testing; Program Analysis",
+      "references": []
+    },
+    {
+      "id": 122,
+      "title": "Optimal test case prioritization in cloud based regression testing with aid of KFCM",
+      "abstract": "Regression testing is a kind of software testing that authenticates that software previously developed and established still accomplishes correctly after it was altered or interfaced with other software. The aim of the investigation is to progress the software competence via cloud based regression testing. The projected technique has three chief stages such as, 1) test case generation, 2) clustering and 3) test case prioritization. Primarily the input implementation is send to the cloud for test case generation. For producing the test cases the projected method utilizes coverage metrics. Following the test case generation, the existing test cases are gathered with the help of kernel fuzzy c means clustering algorithm. Subsequently each group is fed to test case prioritization; in that grey wolf optimization algorithm is utilized for test case prioritization. Thus we will get operative prioritized test cases. Our method will be implemented on JAVA with Cloud Sim platform. The presentation will be assessed using execution time and memory use. From the solution the applied method precedes minimum implementation time associated with the available technique.",
+      "keywords": "Grey wolf optimization; Kernel fuzzy c means clustering; Regression testing; Test case generation; Test case prioritization",
+      "references": [
+        15,
+        25,
+        61,
+        137
+      ]
+    },
+    {
+      "id": 123,
+      "title": "A testing-based approach to SLA evaluation on cloud environment",
+      "abstract": "A service level agreement (SLA) is a negotiated agreement between consumers and service providers in order to guarantee the quality of the negotiated service level. Therefore, many companies used contract to specify the desired service level agreement. SLA may specify the levels of availability, serviceability, performance, operation, security, or other attributes of the service. However, due to the big human efforts to monitor the performance, how to evaluate the SLA in service delivery becomes an important issue. To evaluate SLA automatically, in this paper, we proposed a testing-based SLA evaluation approach based upon the quality model ISO/IEC 25010 that contains eight characteristics: functional, performance, compatibility, usability, reliability, security, maintainability and portability. Nowadays, cloud computing is emerged as a new technology to improve the computational complexity of enterprise information systems. By adopting features of cloud computing, we have implemented a prototype system which integrates open-source software, Jenkins, as controller and other third party softwares as testers to automate SLA evaluation processes according to the testing-based SLA evaluation approach. The experiments have been conducted to evaluate the performance of our approach and prototype system. The results indicate that our prototype system can provide quality and stable service.",
+      "keywords": "cloud computing; ISO/IEC 25010; quality indicators; service level agreement; testing-based",
+      "references": [
+        26
+      ]
+    },
+    {
+      "id": 124,
+      "title": "Making cloud-based systems elasticity testing reproducible",
+      "abstract": "Elastic Cloud infrastructures are capable of dynamically varying computational resources at large scale, which is error-prone by nature. Elasticity-related errors are detected thanks to tests that should run deterministically many times all along the development. However, elasticity testing reproduction requires several features not supported natively by the main cloud providers, such as Amazon EC2. We identify three requirements that we claim to be indispensable to ensure elasticity testing reproducibility: To control the elasticity behavior, to select specific resources to be unallocated, and coordinate events parallel to elasticity. In this paper, we propose an approach fulfilling those requirements and making the elasticity testing reproducible. Experimental results show that our approach successfully reproduces elasticity-related bugs that need the requirements we claim in this paper.",
+      "keywords": "Cloud computing; Controllability; Elasticity; Elasticity testing; Reproducibility",
+      "references": [
+        28,
+        50,
+        66,
+        94,
+        129,
+        135
+      ]
+    },
+    {
+      "id": 125,
+      "title": "A model-based framework for cloud API testing",
+      "abstract": "Following the Service-Oriented Architecture, a large number of diversified Cloud services are exposed as Web APIs (Application Program Interface), which serve as the contracts between the service providers and service consumers. Due to their massive and broad applications, any flaw in the cloud APIs may lead to serious consequences. API testing is thus necessary to ensure the availability, reliability, and stability of cloud services. The research proposes a model-based approach to automating API testing. The semi-structured API specifications, like XML/HTML specifications, are gathered from the Web sites using web crawlers, and translated into YAML-encoded standard representations. A scenario editor is designed to specify the dependencies among API operations. Test generators are built to derive test scripts from the specifications and scenarios, including test data, test cases for individual operations as well as operations sequences. Various algorithms can be used for test generation, such as combinatorial data generation, heuristic graph search, and optimization algorithms. The produced test scripts, together with a load model, can be deployed on Cloud and scheduled for execution. A prototype system, called ATCloud, was constructed to illustrate the process of API understanding, test scenario modeling using directed diagraph annotated with transfer probabilities between operations, cloud-based test resources management, distributed workload simulation, and performance monitoring.",
+      "keywords": "API testing; cloud computing; model-based testing; test automation",
+      "references": [
+        29
+      ]
+    },
+    {
+      "id": 126,
+      "title": "Elasticity evaluation of IaaS cloud based on mixed workloads",
+      "abstract": "",
+      "keywords": "Elasticity; Evaluation; Metrics; Workload",
+      "references": [
+        28
+      ]
+    },
+    {
+      "id": 127,
+      "title": "Bench-marking in the cloud: What it should, can, and cannot be",
+      "abstract": "With the increasing adoption of Cloud Computing, we observe an increasing need for Cloud Benchmarks, in order to assess the performance of Cloud infrastructures and software stacks, to assist with provisioning decisions for Cloud users, and to compare Cloud offerings. We understand our paper as one of the first systematic approaches to the topic of Cloud Benchmarks. Our driving principle is that Cloud Benchmarks must consider end-to-end performance and pricing, taking into account that services are delivered over the Internet. This requirement yields new challenges for benchmarking and requires us to revisit existing benchmarking practices in order to adopt them to the Cloud.",
+      "keywords": "-",
+      "references": []
+    },
+    {
+      "id": 128,
+      "title": "PEESOS-Cloud: A workload-aware architecture for performance evaluation in service-oriented systems",
+      "abstract": "",
+      "keywords": "Performance Evaluation; Service-oriented Systems; Web Services; Workload Characterisation",
+      "references": [
+        39,
+        79,
+        81,
+        91
+      ]
+    },
+    {
+      "id": 129,
+      "title": "Testing elastic computing systems",
+      "abstract": "Elastic computing systems are a new breed of software system that arose with cloud computing and continue to gain increasing attention and adoption. They stretch and contract in response to external stimuli, such as the input workload, aiming to balance resource use, costs, and quality of service. The relationships between quality, costs, resources, and workloads are complex and - given such systems' runtime adaptability - inherently dynamic, making it difficult to properly design elastic computing systems. Their quality assurance is imperative, yet highly challenging. Here, the authors introduce novel ideas on testing for elastic computing systems, identify some primary research challenges, and discuss future directions for this topic.",
+      "keywords": "Elastic computing systems; Quality of service; Software testing",
+      "references": []
+    },
+    {
+      "id": 130,
+      "title": "State-based robustness testing of IaaS cloud platforms",
+      "abstract": "An uncountable number of services are deployed over cloud platforms and provided to millions of consumers. As this paradigm spreads over, the quality of provided services becomes a primary concern. Testing helps in making software reliable, but it has been overlooked for cloud. In this paper, we present a method for the robustness testing of software platforms for IaaS cloud. The method stresses the importance of considering the state for these systems, which are characterized by phase-based interactions of many software components with multiple concurrent users. Applied to a real cloud platform, the method exposes failures hard to uncover with common robustness testing approaches.",
+      "keywords": "",
+      "references": [
+        76
+      ]
+    },
+    {
+      "id": 131,
+      "title": "PHINet: A plug-n-play content-centric testbed framework for health-internet of things",
+      "abstract": "Named Data Networking, a future networking paradigm, allows for features such as the naming of content for identification and routing as well as router-based caching for ubiquitous storage. These features are well suited for an Internet of Things (IoT) which can network identifiable and addressable electronic devices such as sensors that, in an IoT, are often configured in a Wireless Body Area Network. To bridge the gap between research approaches in the area of both Health-IoT and content centric networking, this paper presents the first content centric networking test bed framework called PHI Net for experimentation with Health-IoT. PHI Net aims to fulfill the following goals: ease of use, seamless scaling, support for testing, development and integration of health services and sensors, support for experimentation with live traffic underneath, and integration of the cloud into Health-IoT. Architecture, design, and implementation of PHI Net is presented. Furthermore, through several use cases, we demonstrate the applicability of the proposed work.",
+      "keywords": "Cloud; health services; Health-IoT case studies; Internet of Things (IoT); Named Data Networking (NDN); testbed; Wireless Body Area Network (WBAN)",
+      "references": [
+        43
+      ]
+    },
+    {
+      "id": 132,
+      "title": "AppACTS: Mobile app automated compatibility testing service",
+      "abstract": "Android fragmentation remains a compatibility issue for third-party Android application (app) developers. Most of development teams may not have enough mobile devices for compatibility testing because of limited budget. They may not have enough time to finish the testing on tens kind of devices one by one even devices are sufficient, since the applications have to be launched on time under market pressure. In this paper, we present Mobile App Automated Compatibility Testing Service (AppACTS), which is aimed at helping developers to improve mobile application compatibility testing efficiency, save cost and ensure mobile application quality and reliability. Developers could upload their apps through a web interface, designate interesting mobile device models, and review testing report after finishing testing. The whole compatibility testing process of AppACTS includes the installation, startup, random key and screen actions, and removal of mobile apps. The architecture of AppACTS is scalable and the mobile devices of AppACTS are real devices and geographically distributed.",
+      "keywords": "Android; AppACTS; Compatibility testing service",
+      "references": [
+        140
+      ]
+    },
+    {
+      "id": 133,
+      "title": "X-Machine based testing for cloud services",
+      "abstract": "The Stream X-Machine (SXM) testing method provides strong and repeatable guarantees of functional correctness, up to a specification. These qualities make the method attractive for software certification, especially in the domain of brokered cloud services, where arbitrage seeks to substitute functionally equivalent services from alternative providers. However, practical obstacles include the difficulty in providing a correct specification, the translation of abstract paths into feasible concrete tests and the large size of generated test suites. We describe a novel SXM verification and testing method, which automatically checks specifications for completeness and determinism, prior to generating complete test suites with full grounding information. Three optimization steps achieve up to a 10-fold reduction in the size of the test suite, removing infeasible and redundant tests. The method is backed by a set of tools to validate and verify the SXM specification, generate technology-agnostic test suites and ground these in SOAP, REST or rich-client service implementations. The method was initially validated using seven specifications, three cloud platforms and five grounding strategies.",
+      "keywords": "Cloud service testing; State-based testing; X-machine",
+      "references": [
+        18,
+        130
+      ]
+    },
+    {
+      "id": 134,
+      "title": "Architecturing dynamic data race detection as a Cloud-based Service",
+      "abstract": "A web-based service consists of layers of programs (components) in the technology stack. Analyzing program executions of these components separately allows service vendors to acquire insights into specific program behaviors or problems in these components, thereby pinpointing areas of improvement in their offering services. Many existing approaches for testing as a service take an orchestration approach that splits components under test and the analysis services into a set of distributed modules communicating through message-based approaches. In this paper, we present the first work in providing dynamic analysis as a service using a virtual machine (VM)-based approach on dynamic data race detection. Such a detection needs to track a huge number of events performed by each thread of a program execution of a service component, making such an analysis unsuitable to use message passing to transit huge numbers of events individually. In our model, we instruct VMs to perform holistic dynamic race detections on service components and only transfer the detection results to our service selection component. With such result data as the guidance, the service selection component accordingly selects VM instances to fulfill subsequent analysis requests. The experimental results show that our model is feasible.",
+      "keywords": "cloud-based usage model; data race detection; dynamic analysis; service engineering; service selection strategy",
+      "references": [
+        82,
+        138
+      ]
+    },
+    {
+      "id": 135,
+      "title": "Framework for monitoring and testing web application scalability on the cloud",
+      "abstract": "By allowing resources to be acquired on-demand and in variable amounts, cloud computing provides an appealing environment for deploying pilot projects and for performance testing of Web applications and services. However, setting up cloud environments for performance testing still requires a significant amount of manual effort. To aid performance engineers in this task, we developed a framework that integrates several common benchmarking and monitoring tools. The framework helps performance engineers to test applications under various configurations and loads. Furthermore, the framework supports dynamic server allocation based on incoming load using a response-time-aware heuristics. We validated the framework by deploying and stress-testing the MediaWiki application. An experimental evaluation was conducted aimed at comparing the response-time-aware heuristics against Amazon Auto-Scale.",
+      "keywords": "Auto-scaling; Cloud computing; Performance testing; Web application",
+      "references": []
+    },
+    {
+      "id": 136,
+      "title": "Leveraging potential of cloud for software performance testing",
+      "abstract": "Considerable amount of cloud adoption is proven in the area of software testing. There are several providers in the area of hosted testing tools and services like IBM and HP. The functional testing tools cover a variety of aspects in functionality testing for Web applications, Web services and mobile applications. Another set of tools in relation to cloud environments is in the area of performance testing from cloud providers such as BlazeMeter, SOASTA, LoadStorm and Keynote. This chapter discusses various options available for leveraging cloud for performance testing of software applications. Additionally, the chapter covers some of the key considerations when selecting the solution providers. The chapter also presents a conceptual reference framework for leveraging the readily available public cloud infrastructures for optimized cost and high-volume load simulations from different regions for effi cient testing. Such a custom framework can help in making the enterprise system services more market ready, which in turn aids in improving the overall quality of the enterprise systems. Proposed reference framework can be used in performance testing, regression testing, benchmarking and product certifi cation of any on-premise or cloud-deployed services. This helps in reducing the overall testing cost and test cycle duration, thereby achieving accurate capacity planning.",
+      "keywords": "Software testing, Performance testing, Software life cycle, Regression testing, Cloud testing",
+      "references": [
+        52
+      ]
+    },
+    {
+      "id": 137,
+      "title": "Cloud based testing techniques (CTT)",
+      "abstract": "Cloud computing is the recently emerged technology which has gained popularity among organizations and corporates.For better services of the cloud, there is need for some kind of testing. Cloud testing then came into existence which referred as a form of testing in which cloud computing environment is used by web applications to simulate real world user traffic.Testing somehow saves the cost of maintenance which is helpful for the customers. This paper provides us with various cloud testing techniques, challenges, issues and benefits in testing areas. It also elaborates all the fundamental concepts regarding features and requirements in cloud testing. Furthermore, various cloud testing platforms are also discussed briefly. Cloud testing has been explained widely in this paper that would help to understand various aspects of cloud testing in a much better way.",
+      "keywords": "Cloud Testing, Cloud computing, Testing, Cloud forensics",
+      "references": []
+    },
+    {
+      "id": 138,
+      "title": "Environmental modeling for automated cloud application testing",
+      "abstract": "Platforms such as Windows Azure let applications conduct data-intensive cloud computing. Unit testing can help ensure high-quality development of such applications, but the results depend on test inputs and the cloud environment's state. Manually providing various test inputs and cloud states is laborious and time-consuming. However, automated test generation must simulate various cloud states to achieve effective testing. To address this challenge, a proposed approach models the cloud environment and applies dynamic symbolic execution to generate test inputs and cloud states. Applying this approach to open-source Azure cloud applications shows that it can achieve high structural coverage.",
+      "keywords": "-",
+      "references": []
+    },
+    {
+      "id": 139,
+      "title": "Automation and intelligent scheduling of distributed system functional testing",
+      "abstract": "This paper presents the approach to functional test automation of services (black-box testing) and service architectures (grey-box testing) that has been developed within the MIDAS project and is accessible on the MIDAS SaaS. In particular, the algorithms and techniques adopted for addressing input and oracle generation, dynamic scheduling, and session planning issues supporting service functional test automation are illustrated. More specifically, the paper details: (i) the test input generation based on formal methods and temporal logic specifications, (ii) the test oracle generation based on service formal specifications, (iii) the dynamic scheduling of test cases based on probabilistic graphical reasoning, and (iv) the reactive, evidence-based planning of test sessions with on-the-fly generation of new test cases. Finally, the utilisation of the MIDAS prototype for the functional test of operational services and service architectures in the healthcare industry is reported and assessed. A planned evolution of the technology deals with the testing and troubleshooting of distributed systems that integrate connected objects.",
+      "keywords": "Model-based test generation; Service testing; Test automation; Test planning; Test prioritisation; Test scheduling",
+      "references": [
+        92
+      ]
+    },
+    {
+      "id": 140,
+      "title": "Remote mobile test system: A mobile phone cloud for application testing",
+      "abstract": "It is difficult to enable a mobile application to work as expected on so many mobile phones currently on the market. Most of development teams may not have so many testing phones because of limited budgets, but the applications hasve to be launched on time under market pressure. In this paper, we present Remote Mobile Test System (RMTS), which is aimed at reducing the cost of buying many mobile phones, improving mobile application testing efficiency and helping ensure mobile application quality and reliability. Users could access a real mobile phone remotely and operate them through a web browser, including uploading, startup, and testing mobile applications by clicking and swiping actions. The mobile phones could be geographically distributed. The operation process could be recorded as automated testing scripts and to be run on other mobile phones to improve testing efficiency. The proposed system is soft-link based that causes lower cost and to deploy a new phone quickly.",
+      "keywords": "Mobile phone cloud; RMTS; Testing cloud service",
+      "references": []
+    },
+    {
+      "id": 141,
+      "title": "Adaptive fault detection in multi-tenancy SaaS systems",
+      "abstract": "This chapter discusses combinatorial testing in multi-tenancy Software-as-a-Service (SaaS) system. SaaS often uses multi-tenancy architecture (MTA) where tenant developers compose their applications online using the components stored in the SaaS database. Tenant applications need to be tested, and combinatorial testing can be used. While numerous combinatorial testing techniques are available, most of them produce static sequence of test configurations and their goal is often to provide sufficient coverage such as 2-way interaction coverage. But the goal of SaaS testing is to identify those compositions that are faulty for tenant applications. In this chapter, it proposes an adaptive test configuration generation algorithm called adaptive reasoning (AR) that can rapidly identify those faulty combinations so that those faulty combinations cannot be selected by tenant developers for composition. Whenever a new component is submitted to the SaaS database, the AR algorithm can be applied so that any faulty interactions with new components can be identified to continue to support future tenant applications.",
+      "keywords": "-",
+      "references": [
+        90,
+        99
+      ]
+    },
+    {
+      "id": 142,
+      "title": "Adaptive reasoning algorithm with automated test cases generation and test algebra in SaaS system",
+      "abstract": "A new integrated testing framework is proposed to use adaptive reasoning algorithm with automated test cases generation (ARP) and test algebra (TA) for increasing SaaS testing efficiency in faulty combination identification and elimination. The ARP algorithm has been evaluated by both simulation and real experimentation using a MTA SaaS sample running on GAE (Google App Engine). Both the simulation and experiment show that the ARP algorithm can identify those faulty combinations rapidly and TA can eliminate a large number of faults from candidate test set with a small number of seeded faults.",
+      "keywords": "-",
+      "references": [
+        90,
+        99
+      ]
+    },
+    {
+      "id": 143,
+      "title": "aDock: A cloud infrastructure experimentation environment based on Open Stack and Docker",
+      "abstract": "A common barrier to experimenting with cloud infrastructure is the lack of access to a fully functional cloud installation. Although Open Stack can be used to create test beds, it is not uncommon in literature to find works that are plagued by unrealistic setups that use only a handful of servers. Moreover, setting up a test bed is necessary but not sufficient. One must also be able to create repeatable experiments that can be used to compare one's results to baseline or related approaches from the state of the art. We present a Dock, a suite of tools for creating perform ant, sand boxed, and configurable cloud infrastructure experimentation environments based on Open Stack and Docker. Its light-weight approach facilitates the development of Open Stack extensions, allowing one to more easily test them in realistic scenarios. A dock also provides a set of simulation tools that, for now, focus on creating experiments for Virtual Machine Placement and Server Consolidation algorithms. In this paper we also show how a Dock was used to develop a Server Consolidation Service for Nova, and provide an analysis of a Dock's scalability and simulation capabilities.",
+      "keywords": "Experimentation Environments; Infrastructure as a Service; OpenStack; Server Consolidation",
+      "references": [
+        89
+      ]
+    },
+    {
+      "id": 144,
+      "title": "Dynalize: Dynamic analysis of mobile apps in a platform-as-a-service cloud",
+      "abstract": "Ensuring the software quality of mobile applications with respect to performance, robustness, energy consumption, security and privacy is an important problem for a growing researcher and developer community. In this paper, we present Dynalize, a Platform-as-a-Service cloud for the dynamic analysis of mobile applications. It allows researchers and developers to investigate mobile applications at runtime in a virtual device cloud and to publish the performed analyses as web services. In contrast to existing approaches, it makes use of container virtualization on top of Infrastructure-as-a-Service instances, enabling dynamic provisioning and fast deployment of dynamic analyses. A custom container layout and a novel storage solution on the virtual server layer ensures cost- and runtime-efficient large-scale analyses of thousands of apps. The applicability of Dynalize is demonstrated by a security analysis of about 6,000 Android applications. Experiments on container startup, virtual device to container throughput and different storage back ends show the feasibility of the proposed approach.",
+      "keywords": "Container Virtualization; Dynamic Analysis; Mobile Applications; PaaS",
+      "references": [
+        21,
+        121
+      ]
+    },
+    {
+      "id": 145,
+      "title": "Integrated TaaS with fault detection and test algebra",
+      "abstract": "Testing-as-a-Service (TaaS) is a software testing service in a cloud that can leverage the computation power provided by the cloud. Specifically, a TaaS can be scaled to large and dynamic workloads, executed in a distributed environment with hundreds of thousands of processors, and these processors may support concurrent and distributed test execution and analysis. This chapter proposes a TaaS system based on AR and TA for combinatorial testing (CT). AR performs testing and identifies faulty interactions, and TA eliminates related configurations from testing and there can be carried out concurrently. By combining these two, it is possible to perform large CT that was not possible before. Specifically, experiments with 250 components with 2.83*1087 6-way interactions with about 21.1*10 configurations were performed, and this may be the largest CT experimentation as of 2014. 98.6% of configurations have been eliminated out of total number of configurations. \u00a9 The Author(s) 2017.",
+      "keywords": "Combinatorial testing; Computation power; Distributed environments; Test execution; Testing as a services",
+      "references": [
+        67,
+        71,
+        98,
+        99,
+        119
+      ]
+    },
+    {
+      "id": 146,
+      "title": "X-check: A novel cross-browser testing service based on record/replay",
+      "abstract": "With the advent of Web 2.0 application, and the increasing number of browsers and platforms on which the applications can be executed, cross-browser incompatibilities (XBIs) are becoming a serious problem for organizations to develop web-based software. Although some techniques and tools have been proposed to identify XBIs, they cannot assure the same execution when the application runs across different browsers as only explicit user activity is considered, and thus prone to generating both false positives and false negatives. To address this limitation, this paper describes X-Check, a platform that enables cross-browser testing as a service by leveraging record/replay technique. Comparing to existing techniques and tools, X-Check supports to detect cross-browser issues with high accuracy. It also provides useful support to developers for diagnosis and (eventually) elimination of XBIs. Our empirical evaluation shows that X-Check is effective, improves the state of the art.",
+      "keywords": "Cross-browser issues; Record/replay; Testing as a service; Web application",
+      "references": [
+        134
+      ]
+    },
+    {
+      "id": 147,
+      "title": "Mobile application testing on clouds: Challenges, opportunities and architectural elements",
+      "abstract": "With mobility increasing more each year, mobile devices and operating system (OS) fragmentation are increasing at an even faster pace. A multitude of screen sizes, network connection types, and OS versions have emerged in the market and led mobile developers to rethink testing practices to ensure quality and a good experience for increasingly demanding users who crave highly reliable and stable applications. Such best practices come at the high cost for testing infrastructure and maintenance, making most development teams bypass test cycles and deliver applications before they are thoroughly validated. And when teams pursue automated test cycles on clouds, expenses due to high-cost services are not always worth the investment in application development phases. As a result, test cycles which are essential to validate application reliability and stability, such as regression, functional, and leakage tests are left out, primarily affecting user experience. This paper shows the challenges intrinsic to mobile application testing in consonance with the opportunities provided by clouds. We explored the state of the art to synthesize current cloud-based mobile application testing architectures to convey the need for a new concept and platform to minimize maintenance and make testing infrastructures more cost-effective. Hence, we proposed an alternative architecture using emulated devices for testing automation, which aims for massive test cycles at a lower cost.",
+      "keywords": "Mobile application,a pplication testing, cloud computing",
+      "references": [
+        140
+      ]
+    }
+  ],
+  "min_publication_year": 2011,
+  "max_publication_year": 2018
+}

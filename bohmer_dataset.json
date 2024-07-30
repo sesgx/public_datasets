@@ -1,0 +1,1585 @@
+{
+  "name": "bohmer",
+  "gs": [
+    {
+      "id": 1,
+      "title": "BPEL-Unit: JUnit for BPEL Processes",
+      "abstract": "Thanks to unit test frameworks such as JUnit, unit testing has become a common practice in object-oriented software development. However, its application in business process programming is far from prevalent. Business process unit testing treats an individual process as the unit under test, and tests its internal logic thoroughly by isolating it from the partner processes. This types of testing cannot be done by current web service testing technologies that are black-box based. This paper proposes an approach to unit testing of Business Process Execution Language for Web services (BPEL4WS, or WS-BPEL as the new name), and introduces a tool prototype named BPEL-Unit, which extends JUnit. The key idea of this approach is to transform process interaction via web service invocations to class collaboration via method calls, and then apply object-oriented test frameworks. BPEL-Unit provides the following advantages: allow developers simulate partner processes easily, simplify test case writing, speed test case execution, and enable automatic regression testing. With BPEL-Unit, BPEL process unit testing can be performed in a standardized, unified and efficient way.",
+      "keywords": "Business Process, Unit Testing, Service Proxy, Test Logic, Service Invocation",
+      "references": [
+        30,
+        41
+      ]
+    },
+    {
+      "id": 2,
+      "title": "Towards formal verification of web service composition",
+      "abstract": "Correct notation for specifying the composite service alone is not sufficient to guarantee reliability, thus comes a strong demand on modeling and verifying web services composition languages. This paper presented a formal method of web service composition verification based on Petri net. Focus is given on BPEL4WS specification, of which both behavior semantics and communication semantics are covered. Meta-model transformation rules are given and automatic verification process is also introduced.",
+      "keywords": "Web Service Composition Verification, BPEL4WS, Workflow, Petri Net",
+      "references": []
+    },
+    {
+      "id": 3,
+      "title": "Forrmalization, verification and restructuring of bpel models with pi calculus and model checking",
+      "abstract": "BPEL (Business Process Executable Language for Web Services) is an emerging standard for business application integration and B2B processing based on web services. As a popular specification for modeling and implementing business processes, building reliable and secure business application systems with BPEL becomes an important issue. In this work, BPEL models are automatically verified and analyzed with our Open Process AnaLyzer (OPAL) toolkit by formally capturing BPEL\u2019s semantics in Pi Calculus. The contribution of the work can be concluded in four points. First, the semantics of BPEL is fully formalized with Pi calculus; Second, the soundness of the formalization is validated and important properties are proved to be preserved in the formalization. Third, a concrete scenario is illustrated to show how model checking is applied to verify the reliability of BPEL model designs. Last, equivalence analysis in Pi calculus and model checking are combined to implement restructuring algorithms by which a BPEL model can be restructured for performance enhancement with OPAL.",
+      "keywords": "",
+      "references": []
+    },
+    {
+      "id": 4,
+      "title": "Efficient traces\u2019 collection mechanisms for passive testing of web services",
+      "abstract": "Web Services are a novel approach for business-to-business interactions. Their management, especially fault and performance management, is becoming necessary for their success and emergence. Nowadays, this management is platform-dependent and does not allow third parties to be involved. In this paper, we consider management of Web Services by passive testing where the tester itself is a Web Service. We pro- pose different architectures for observation of simple and composite Web Services. We also study a set of online traces collection mechanisms and discuss their performances in terms of required CPU/RAM resources and introduced network overhead. These performances are then maximized by selecting best locations of observers. Observation considers both functional and non-functional (QoS) properties of Web Services. The paper presents also our experiments using different observation architectures and traces collection mechanisms while observing a simple and a composite Web Service.",
+      "keywords": "Web Services Web Services management Traces\u2019 collection Passive testing of Web Services Web Services quality monitoring",
+      "references": [
+        77,
+        112
+      ]
+    },
+    {
+      "id": 5,
+      "title": "Automated model checking and testing for composite web services",
+      "abstract": "Web Services form a new distributed computing paradigm. Collaborative verification and validation are important when Web Services from different vendors are integrated together to carry out a coherent task. This paper presents a new approach to verify Web Services by model checking the process model of OWL-S (Web Ontology Language for Web Services) and to validate them by the test cases automatically generated in the model checking process. We extend the BLAST, a model checker that handles control flow model naturally, to handle the concurrency in OWL-S. We also propose enhancement in OWL-S and PDDL (Planning Domain Definition Language) to facilitate the automated test case generation. Experiments on realistic examples are provided to illustrate the process.",
+      "keywords": "",
+      "references": [
+        85
+      ]
+    },
+    {
+      "id": 6,
+      "title": "Web services: a process algebra approach",
+      "abstract": "It is now well-admitted that formal methods are helpful for many issues raised in the Web service area. In this paper we present a framework for the design and the verification of WSs using process algebras and their tools. We define a two-way mapping between abstract specifications writ- ten using these calculi and executable Web services written in BPEL4WS; the translation includes also compensation, event, and fault handlers. The following choices are avail- able: design and verification in BPEL4WS, using process algebra tools, or design and verification in process algebra and automatically obtaining the corresponding BPEL4WS code. The approaches can be combined. Process algebras are not useful only for temporal logic verification: we re- mark the use of simulation/bisimulation for verification, for the hierarchical refinement design method, for the service redundancy analysis in a community, and for replacing a service with another one in a composition.",
+      "keywords": "BPEL4WS, Formal Methods, Process Algebra, Web Services",
+      "references": [
+        85
+      ]
+    },
+    {
+      "id": 7,
+      "title": "Automata semantics and analysis of bpel",
+      "abstract": "Web service is an emerging paradigm for distrib- uted computing. In order to verify web services rigorously, it is important to provide a formal semantics for flow-based web service languages such as BPEL. A suitable formal model should cover most features of BPEL. The existing formal mod- els either abstract from data, cover a simple subset of BPEL, or omit the interactions between BPEL activities. This paper presents Web Service Automata, an extension of Mealy ma- chines, to fulfil the formal model requirements of the web ser- vice domain. Secondly, the paper analyses the control handling and data handling of BPEL, so that these can be verified in a clear manner.",
+      "keywords": "Web service, BPEL, finite state machine, de- sign model analysis.",
+      "references": [
+        3,
+        6,
+        95
+      ]
+    },
+    {
+      "id": 8,
+      "title": "Testing conformance of bpel business process based on model checking",
+      "abstract": "Formalized analysis method is a technology that insures quality of software reliability. It can detect mistakes and flaws effectively in software design. Based on the research of model checking techniques for composition of web services, we establish an automatic test framework for web services composition of BPEL. Static test method is used and test cases are generated automatically in this framework. According to the input, outputs of cases and the requirement properties, we can test the conformance for business flow of BPEL. We analyze \u201cAirline Tickets Reservation System\u201d which is described by BPEL with our test framework and test the conformance of the system. In addition, we compare our method to model checking method which is used to verify web services composition from three areas including states stored, searching depth and consuming times. We can conclude that our method have a better efficiency when checking the web services which owns more states.",
+      "keywords": "BPEL; Web services composition; model checking; testing",
+      "references": [
+        5,
+        9,
+        74
+      ]
+    },
+    {
+      "id": 9,
+      "title": "Model checking behavioral specification of bpel web services",
+      "abstract": "BPEL is a business flow language which describes the composition of web services. Since business flow may be very complex, the method of formalized analysis can help ensure the accuracy of work flow. For web services described by BPEL, in this paper we establish a formalized analysis model, provide specifications and semantics of business flow, and finally translate it into the asynchronous communication model of the model checker SPIN. Based on the formalized analysis model proposed in this paper, we analyze and verify the SAS [1], Loan and Auction protocols [2], and detect a flaw in the data flow of SAS protocol.",
+      "keywords": "BPEL, Model Checking, Protocols, SPIN",
+      "references": [
+        134
+      ]
+    },
+    {
+      "id": 10,
+      "title": "Quality of service in flexible workflows through process constraints",
+      "abstract": "Workflow technology has delivered effectively for a large class of business processes, providing the requisite control and monitoring functions. At the same time, this technology has been the target of much criticism due to its limited ability to cope with dynamically changing business conditions which require business processes to be adapted frequently, and/or its limited ability to model business processes which cannot be entirely predefined. Requirements indicate the need for generic solutions where a balance between process control and flexibility may be achieved. In this paper we present a framework that allows the workflow to execute on the basis of a partially specified model where the full specification of the model is made at runtime, and may be unique to each instance. This framework is based on the notion of process constraints. Where as process constraints may be specified for any aspect of the workflow, such as structural, temporal, etc. our focus in this paper is on a constraint which allows dynamic selection of activities for inclusion in a given instance. We call these cardinality constraints, and this paper will discuss their specification and validation requirements.",
+      "keywords": "Flexible Workflows, Workflow Modelling, Process Constraints",
+      "references": [
+        84
+      ]
+    },
+    {
+      "id": 11,
+      "title": "Preemptive regression test scheduling strategies: a new testing approach to thriving on the volatile service environments",
+      "abstract": "A workflow-based web service may use ultra-late binding to invoke external web services to concretize its imple- mentation at run time. Nonetheless, such external services or the availability of recently used external services may evolve without prior notification, dynamically triggering the workflow-based service to bind to new replacement external services to continue the current execution. Any integration mismatch may cause a failure. In this paper, we propose Preemptive Regression Testing (PRT), a novel testing approach that addresses this adaptive issue. Whenever such a late-change on the service under regression test is detected, PRT preempts the currently executed regression test suite, searches for additional test cases as fixes, runs these fixes, and then resumes the execution of the regression test suite from the preemption point.",
+      "keywords": "adaptive service composition, adaptive regression testing, preemptive regression testing, test case prioritization",
+      "references": [
+        12,
+        15,
+        41,
+        85,
+        101
+      ]
+    },
+    {
+      "id": 12,
+      "title": "Test case prioritization for web service regression testing",
+      "abstract": "Regression testing is necessary to assure the quality of service-oriented business applications in their evolutions. However, because of the constraint of testing resource, entire test suite may not run as a result. Therefore, test case prioritization technique is required to increase the efficiency of Web service application regression testing. In this paper, we propose a dependence analysis based test case prioritization technique. First, we analyze the dependence relationship using control and data flow information in an orchestration language: WS-BPEL. Then we construct a weighted graph and do impact analysis to identify modification-affected elements. After that, we prioritize test cases according to covering more modification-affected elements with the highest weight. Finally we conduct a case study to illustrate the applicability of our method.",
+      "keywords": "Web service; regression testing; test case prioritization; impact analysis; dependence analysis",
+      "references": [
+        15,
+        33,
+        101,
+        144
+      ]
+    },
+    {
+      "id": 13,
+      "title": "Automatic test case selection for regression testing of composite service based on extensible bpel flow graph",
+      "abstract": "Services are highly reusable, flexible and loosely coupled components whose changes make the evolution and maintenance of composite services more complex. The changes of composite service mainly cover three types, i.e., the processes, bindings, and interfaces. In this article, an approach is proposed to select test cases for regression testing of different versions of BPEL (business process execution language) composite service where these changes are involved. The approach identifies the changes by performing control flow analysis and comparing the paths in a new version of composite service with those in the old one using a kind of eXtensible BPEL flow graph (XBFG). Message sequence is appended to XBFG path so that XBFG can fully describe the behavior of composite service. The binding and predicate constraint information added in different XBFG elements can be used for path selection and even for test case generation. Both theoretic analysis and case study show that the proposed approach is effective.",
+      "keywords": "Regression testing Web service Test case selection Extensible BPEL flow graph",
+      "references": [
+        12,
+        14,
+        18,
+        20,
+        32,
+        33,
+        41,
+        94
+      ]
+    },
+    {
+      "id": 14,
+      "title": "Regression testing of composite service: an xbfg-based approach",
+      "abstract": "During the evolution and maintenance of service composition, regression testing is inevitable and significant. Process alteration, static binding alteration and dynamic binding alteration are three main evolution styles. In order to guarantee the functional availability during evolution of these three types, this paper proposes a service-composition oriented regression testing approach toward services composed using BPEL. Change detection, change impact analysis and test case generation are integrated in this solution. For the sake of selecting and generating test cases for regression testing, which is the key issue discussed here, this approach uses eXtensible BPEL Flow Graph (XBFG for short) with additive information in each kind of element to identify the changes of composite service and operate change impact analysis. Case study shows that this approach could achieve the given goal. In general, this solution covers main aspects of functional regression testing on composite service.",
+      "keywords": "Regression testing , Test path , Test case , Service composition , BPEL ",
+      "references": [
+        20,
+        33
+      ]
+    },
+    {
+      "id": 15,
+      "title": "Test case prioritization for regression testing of service-oriented business applications",
+      "abstract": "Regression testing assures the quality of modified service-oriented business applications against unintended changes. However, a typical regression test suite is large in size. Earlier execution of those test cases that may detect failures is attractive. Many existing prioritization techniques order test cases according to their respective coverage of program statements in a previous version of the application. On the other hand, industrial service-oriented business applications are typically written in orchestration languages such as WS-BPEL and integrated with workflow steps and web services via XPath and WSDL. Faults in these artifacts may cause the application to extract wrong data from messages, leading to failures in service compositions. Surprisingly, current regression testing research hardly considers these artifacts. We propose a multilevel coverage model to capture the business process, XPath, and WSDL from the perspective of regression testing. We develop a family of test case prioritization techniques atop the model. Empirical results show that our techniques can achieve significantly higher rates of fault detection than existing techniques.",
+      "keywords": "Test case prioritization, service orientation, XPath, WSDL",
+      "references": [
+        101
+      ]
+    },
+    {
+      "id": 16,
+      "title": "Prioritizing structurally complex test pairs for validating ws-bpel evolutions",
+      "abstract": "Many web services represent their artifacts in the semi-structural format. Such artifacts may or may not be structurally complex. Many existing test case prioritization techniques however treat test cases of different complexity generically. In this paper, we exploit the insights on the structural similarity of XML-based artifacts between test cases, and propose a family of test case prioritization techniques that iteratively selects test case pairs without replacement. The validation experiment shows that these techniques can be more cost-effective than the studied existing techniques in exposing faults.",
+      "keywords": "XML similarity, pariwse selection, adaptation.",
+      "references": [
+        12,
+        13,
+        15,
+        125
+      ]
+    },
+    {
+      "id": 17,
+      "title": "Test pair selection for test case prioritization in regression testing for ws-bpel programs",
+      "abstract": "Many web services not only communicate through XML-based messages, but also may dynamically modify their behaviors by applying different interpretations on XML messages through updating the associated XML Schemas or XML-based interface specifications. Such artifacts are usually complex, allowing XML-based messages conforming to these specifications structurally complex. Testing should cost-effectively cover all scenarios. Test case prioritization is a dimension of regression testing that assures a program from unintended modifications by reordering the test cases within a test suite. However, many existing test case prioritization techniques for regression testing treat test cases of different complexity generically. In this paper, we exploit the insights on the structural similarity of XML-based artifacts between test cases in both static and dynamic dimensions, and propose a family of test case prioritization techniques that selects pairs of test case without replacement in turn. To the best of our knowledge, it is the first test case prioritization proposal that selects test case pairs for prioritization. We validate our techniques by a suite of benchmarks. The empirical results show that when incorporating all dimensions, some members of our technique family can be more effective than conventional coverage-based techniques.",
+      "keywords": "XML similarity, pairwise selection, adaption, test case prioritization, service evolution",
+      "references": [
+        12,
+        15,
+        16,
+        101,
+        125
+      ]
+    },
+    {
+      "id": 18,
+      "title": "Tag-based techniques for black-box test case prioritization for service testing",
+      "abstract": "A web service may evolve autonomously, making peer web services in the same service composition uncertain as to whether the evolved behaviors may still be compatible to its originally collaborative agreement. Although peer services may wish to conduct regression testing to verify the original collaboration, the source code of the former service can be in- accessible to them. Traditional code-based regression testing strategies are inapplicable. The rich interface specifications of a web service, however, provide peer services with a means to formulate black-box testing strategies. In this paper, we for- mulate new test case prioritization strategies using tags em- bedded in XML messages to reorder regression test cases, and reveal how the test cases use the interface specifications of services. We evaluate experimentally their effectiveness on revealing regression faults in modified WS-BPEL programs. The results show that the new techniques can have a high probability of outperforming random ordering.",
+      "keywords": "est case prioritization; black-box regression testing; WS-BPEL; service testing; encapsulation testing",
+      "references": [
+        15,
+        101
+      ]
+    },
+    {
+      "id": 19,
+      "title": "Concurrency in a decentralized automatic regression test selection framework for web services",
+      "abstract": "Business processes can be realized by utilizing many different Web services directly or indirectly in workflows which may be internal or external to the enterprise. Since service-oriented architecture allows service providers to modify the underlying implementation of a service at any time, a new set of challenges arise in software testing, especially regression testing. In this work, a framework which automates a key tenet of regression testing, safe regression test selection, for Web services in a decentralized, end-to-end manner using service monitoring will be presented. Any such system must be capable of handling multiple concurrent modifications and the main contribution of this work is defining and resolving those challenges related to concurrency in a framework for automating a decentralized, end-to-end, safe regression testing technique being applied to Web services. The challenges which will be discussed include coverage conflict, fault locatability, test inconsistency, and communication errors. A solution in the form of software agents following a predetermined distributed algorithm will also be presented.",
+      "keywords": "Safe Regression Test Selection, Web services",
+      "references": []
+    },
+    {
+      "id": 20,
+      "title": "Business process regression testing",
+      "abstract": "Business Process Execution Language(BPEL) has been recognized as a standard for the service orchestration in Service Oriented Architecture(SOA). Due to the pivotal role played by BPEL in service composition, the reliability of a business process becomes critical for a SOA system, especially during its evolution. Regression testing is well known as an effective technology to ensure the quality of modified programs. To reduce the cost of regression testing, a subset of test cases is selected to (re)run, known as regression test selection. Previous work addressing this problem will fail in the presence of concurrent control flow, which is an important and widely used feature of BPEL in describing service orchestration. In this paper, a regression testing approach for BPEL business processes is presented. In this approach, an impact analysis rule is proposed to identify the test paths affected by the change of BPEL concurrent control structures. Based on the impact analysis result and process changes identification, the impacted test paths are classified into reusable, modified, obsolete and new-structural paths. Experiments show that our approach is feasible.",
+      "keywords": "Business Process Execution Language(BPEL); Regression testings; Service Oriented Architecture(SOA)",
+      "references": [
+        1,
+        33
+      ]
+    },
+    {
+      "id": 21,
+      "title": "Timed modelling and analysis in web service composition",
+      "abstract": "In this paper we present an approach for modelling and analyzing time-related properties of Web service compositions defined as a set of BPEL4WS processes. We introduce a formalism, called Web Service Timed State Transition Systems (WSTTS), to capture the timed behavior of the composite web services. We also exploit an interval temporal logic to express complex timed assumptions and requirements on the system\u00e2\u20ac\u2122s behavior. Building upon of this formalization, we provide techniques and tools for model checking BPEL4WS compositions against time-related requirements. We perform a preliminary experimental evaluation of our approach and tools with the help of the eGovernment case study.",
+      "keywords": "Web services , Protocols , Timing , Logic , Standards development , Electronic government , Performance evaluation , Artificial intelligence , System recovery , Information systems",
+      "references": [
+        85
+      ]
+    },
+    {
+      "id": 22,
+      "title": "Outlier detection of business process based on support vector data description",
+      "abstract": "In order to detect the abnormal status of business process and reduce possible loss, it is necessary to build an outlier detect model. Based on the statistic learning and the support vector classifier theory, a new business processes' outlier detection model is proposed based on the support vector data description. Firstly, the paper discussed the concept of the business process and the abnormal running status, brought forward the business process's outlier detection and improvement framework. Then the paper put forward a model for business processes' abnormal status detection, discussed the problem of parameters selection, detection error and its affect factors. Finally, by simulation method, a set of training data set and testing set is generated, and an experiment is carried for verifying the validity of the model.",
+      "keywords": "Business process; outlier detection; support vector data description",
+      "references": []
+    },
+    {
+      "id": 23,
+      "title": "History-aware, real-time risk detection in business processes",
+      "abstract": "This paper proposes a novel approach for identifying risks in executable business processes and detecting them at run-time. The approach considers risks in all phases of the business process management lifecycle, and is realized via a distributed, sensor-based architecture. At design-time, sensors are defined to specify risk conditions which when fulfilled, are a likely indicator of faults to occur. Both historical and current process execution data can be used to compose such conditions. At run-time, each sensor independently notifies a sensor manager when a risk is detected. In turn, the sensor manager interacts with the monitoring component of a process automation suite to prompt the results to the user who may take remedial actions. The proposed architecture has been implemented in the YAWL system and its performance has been evaluated in practice.",
+      "keywords": "Business Process Sensor Condition Risk Condition Service Level Agreement Process Instance",
+      "references": []
+    },
+    {
+      "id": 24,
+      "title": "A dependency matrix based framework for qos diagnosis in soa",
+      "abstract": "When a business process fails to deliver the quality of service (QoS), it is necessary to identify the faulty services that cause the problem. In this paper, we present a framework for diagnosing QoS problems in SOA. A set-covering algorithm is used to select the locations of run-time service data collection, or probes. The framework then creates a dependency matrix to denote the relationships between data recorded by probes and service status. A polynomial time diagnosis algorithm based on the dependency matrix and the probe data is then used to identify potential faulty services. The algorithm also uses predicates on probes (PoP) to compare the data reported from neighboring probes. The diagnosis framework does not require historical knowledge on services. Simulation results show that the diagnosis framework is both effective and efficient.",
+      "keywords": "Semiconductor optical amplifiers , Service oriented architecture , Fault diagnosis , Quality of service , Probes , Runtime , Condition monitoring , Costs , Polynomials , Fault detection",
+      "references": []
+    },
+    {
+      "id": 25,
+      "title": "A qos test-bed generator for web services",
+      "abstract": "In the last years both industry and academia have shown a great interest in ensuring consistent cooperation for business-critical services, with contractually agreed levels of Quality of Service. Service Level Agreement specifications as well as techniques for their evaluation are nowadays irremissible assets. This paper presents Puppet (Pick UP Performance Evaluation Test-bed), an approach and a tool for the automatic generation of test-beds to empirically evaluate the QoS features of a Web Service under development. Specifically, the generation exploits the information about the coordinating scenario (be it choreography or orchestration), the service description (WSDL) and the specification of the agreements (WS-Agreement).",
+      "keywords": "Service Composition Service Level Agreement Service Level Objective Guarantee Term Global Grid Forum",
+      "references": []
+    },
+    {
+      "id": 26,
+      "title": "Timed modeling of web services composition for automatic testing",
+      "abstract": "This paper presents the modeling of BPEL (timed) constructs by using a new formalism WS-TEFSM (Web Service Timed Extended Finite State Machine). A formal mapping of all BPEL constructs is proposed as well as a model that corresponds to the BPEL Web services composition. The WS-TEFSM formalism allows to deal with timing constraints, data variables, clocks and priority on transitions. To perform the transformation, we define a renaming function and an asynchronous product of all partial machine corresponding to the BPEL process sub-activities. This model is enriched by the addition of priorities on transitions, which permit to handle the termination of the BPEL process and its sub-activities, and by global variables, which are used in the management of events and faults. This transformation step is essential to ensure the test of Web services. A rigorous approach is crucial as we have to deal with complex systems that manage distribution, low-coupled nature and asynchronous behaviors.",
+      "keywords": "Formal methods , Web services , BPEL , Orchestration , Timed Extended Finite State Machine",
+      "references": [
+        21,
+        94
+      ]
+    },
+    {
+      "id": 27,
+      "title": "Workflow testing",
+      "abstract": "The increased use of workflow management systems and orchestrated services has created the need for frameworks supporting the quality assurance of workflows. In this paper we present WorkflowInspector, a prototype of a workflow test framework for the Windows Workflow Foundation.",
+      "keywords": "State Machine Coverage Test Input Form Test Execution Path Coverage",
+      "references": [
+        30,
+        41
+      ]
+    },
+    {
+      "id": 28,
+      "title": "Testing service composition using tgse too",
+      "abstract": "This paper proposes an approach to test (actively and passively) a Web service composition described in BPEL using the TGSE (Test Generation, Simulation and Emulation), that is a tool to generate the test cases based on the Communicating System (CS) and implementing of a generic algorithm of generation. For the first step, the BPEL specification is transformed into Timed Extended Finite State Machines (TEFSM) model which enable modeling of BPEL behaviour, timing constraints, its data variables and clocks. On the active testing approach, test case generation is based on simulation where the exploration is guided by test purpose that is a part of CS (i.e. it is also modeled by a TEFSM). Otherwise, the passive testing approach, the TGSE tool will verify a trace that is either correct or incorrect with specification. This tool also works with the timing constraints on clocks (local and global). It covers test cases not only with transitions but also with values of data variables. Our method is illustrated by an example.",
+      "keywords": "",
+      "references": [
+        7,
+        21,
+        26,
+        41,
+        85,
+        94
+      ]
+    },
+    {
+      "id": 29,
+      "title": "A business process testing sequence generation approach based on test cases composition",
+      "abstract": "This paper proposes a business process testing scenario generation based on test cases composition. Just like path oriented testing technique in structure testing area, this testing method focuses on finding the logical error in the process implementation according to the formal business process presentation. The test cases against a node of process designed by the techniques such as boundary value analysis, equivalence partitioning and so on, may not easily find the errors in the special business process tends. These test cases are modeled as TCN (Test Cases Nets) with a CPN (Colored Petri Nets) in this paper. The BPSN (Business Process Scenario Net) is built by composing the existing TCN. The generation technique of the test scenario for basis path testing for a business process according to the BPSN is discussed. We exemplify our approach in an ATM system that has a rich set of interactions with its users.",
+      "keywords": "business proccess; test case composition; TCN; BPSN",
+      "references": [
+        71
+      ]
+    },
+    {
+      "id": 30,
+      "title": "Towards a bpel unit testing framework",
+      "abstract": "The Business Process Execution Language (BPEL) is emerging as the new standard in Web service composition. As more and more workflows are modelled using BPEL, unit-testing these compositions becomes increasingly important. However, little research has been done in this area and no frameworks comparable to the xUnit family are available. In this paper, we propose a layer-based approach to creating frameworks for repeatable, white-box BPEL unit testing, which we use for the development of a new testing framework. This framework uses a specialized BPEL-level testing language to describe interactions with a BPEL process to be carried out in a test case. The framework supports automated test execution and offers test management capabilities in a standardized and open way via welldefined interfaces \u00e2\u20ac\u201c even to third-party applications. ",
+      "keywords": "BPEL, Composition, Orchestration, Testing, Unit Testing, BPELUnit ",
+      "references": [
+        41
+      ]
+    },
+    {
+      "id": 31,
+      "title": "A model checking based approach to automatic test suite generation for testing web services and bpel",
+      "abstract": "With the rapid increase of Web Service applications, the reliability of web service and service composition has drawn particular attention from researchers and industries. Many methods for testing and verifying the reliability have been discussed, however, the existing methods are weak in test automation and therefore difficult in tackling the dynamic features of modern SOA based application. The traditional method of model checking and the technique of test suite generation have a large potential for the reliability verification of web services and service composition. In this paper, an approach to integrating the test suite generation technique with model checking is presented. The approach takes advantage of model checking to verify BPEL script at the logical level, and to generate test suite automatically based on the model description, and finally to select test cases with respect to the counterexamples of model checking output. The approach contributes a set of algorithms and its implementation to support a translation from BPEL to LOTOS, and LTS(Labeled Transition Systems, LTS in short) to TTCN(Test and Testing Control Notation, TTCN in short) behavior Tree. Finally, a case study is presented to demonstrate and verify the proposed approach.",
+      "keywords": "BPEL Model Checking, Web Service Testing, Automatic Test, Test Case Generation, LOTOS, and TTCN-3.",
+      "references": [
+        6,
+        8,
+        82,
+        95
+      ]
+    },
+    {
+      "id": 32,
+      "title": "BPEL4WS Unit Testing: Test Case Generation Using a Concurrent Path Analysis Approach",
+      "abstract": "BPEL is a language that could express complex concurrent behaviors. This paper presents a novel method of BPEL test case generation, which is based on concurrent path analysis. This method first uses an Extended Control Flow Graph (XCFG) to represent a BPEL program, and generates all the sequential test paths from XCFG. These sequential test paths are then combined to form concurrent test paths. Finally a constraint solver BoNuS is used to solve the constraints of these test paths and generate feasible test cases. Some techniques are proposed to reduce the number of combined concurrent test paths. Some test criteria derived from traditional sequential program testing are also presented to reduce the number of test cases. This method is modularized so that many test techniques such as various test criteria and complex constraint solvers can be applied. This method is tested sound and efficient in experiments. It is also applicable to the testing of other business process languages with possible extension and adaption.",
+      "keywords": "Sequential analysis , Software testing , Logic testing , System testing , Flow graphs , Roentgenium , Computer science , Natural languages , Acoustic testing , Service oriented architecture",
+      "references": [
+        41
+      ]
+    },
+    {
+      "id": 33,
+      "title": "A Graph-Search Based Approach to BPEL4WS Test Generation",
+      "abstract": "Business Process Execution Language for Web Services (BPEL4WS) is a kind of concurrent programming languages with several special features that raise special challenges for verification and testing. This paper proposes a graph-search based approach to BPEL test case generation, which effectively deals with BPEL concurrency semantics. This approach defines an extension of CFG (Control Flow Graph) - BPEL Flow Graph (BFG) - to represent a BPEL program in a graphical model. Then concurrent test paths can be generated by traversing the BFG model, and test data for each path can be generated using a constraint solving method. Finally test paths and data are combined into complete test cases. ",
+      "keywords": "BPEL; test generation; test path generation; graphsearch ",
+      "references": []
+    },
+    {
+      "id": 34,
+      "title": "Slicing Web service-based software",
+      "abstract": "Web services offer a brand-new mechanism for program interactions over the Internet. However, the new features such as heterogeneous, loose-coupling and distributed bring great challenge to its comprehension and debugging. In the paper, the method of static slicing BPEL programs in Web service compositions is proposed. At first, an extended control flow graph (ECFG) is constructed through a in-depth analysis on the new activity elements such as flow and pick. Then, the def-use relations between Web service units are computed. Based on the above results, BPEL program dependence graph is built by introducing the concept of synchronized edge. Subsequently, the static (backward / forward) slicing algorithm is discussed in details. While considering the slicing effects on a realworld Web service application, the proposed slicing technique can reduce the number of statements needing to be checked in understanding or debugging activities. ",
+      "keywords": "Web services, BPEL, ECFG, dependence analysis, BPDG, slicing algorithm ",
+      "references": [
+        32,
+        52,
+        66,
+        85,
+        100,
+        101,
+        108
+      ]
+    },
+    {
+      "id": 35,
+      "title": "A formal framework for service orchestration testing based on symbolic transition systems",
+      "abstract": "The pre-eminent role played by software composition, and more particularly service composition, in modern software development, together with the complexity of workflow languages such as WS-BPEL have made composite service testing a topical issue. In this article we contribute to this issue with an automatic testing approach for WSBPEL orchestrations. Compared to related work, we support WS-BPEL data computations and exchanges, while overcoming the consequential state explosion problem. This is achieved through the use of symbolic transition system models and their symbolic execution. Throughout the article, we illustrate our approach on a realistic medium-size example.",
+      "keywords": "Service composition, orchestration, formal testing, test-case generation, WS-BPEL, transition systems, symbolic execution.",
+      "references": [
+        41,
+        94,
+        95,
+        101,
+        118
+      ]
+    },
+    {
+      "id": 36,
+      "title": "Model based testing of web service composition using uml profile",
+      "abstract": "Composite web services are made by combining existing web services. The existing web services are like a black-box for a composite web service developer and he has little or no knowledge about their internal workings. These services are loosely coupled and can be selected from a repository of the services at run time. The service is deployed on vendor\u00e2\u20ac\u2122s machine and is not under the control of the composite web service developer. This might result in a number of compatibility issues among web services when they are integrated with each other. In this paper, we present an approach for testing of web service compositions using UML profile for Business Process Execution Language (BPEL). The UML profile models are used for the model based testing of the composite web service. Information on contracts is extracted from the specification models and both black-box and white-box testing strategies are applied to validate the process of composition and the functionality of a composite web service. A case study of a Travel Arrangement Service shows the applicability of the approach",
+      "keywords": "Web Service, Web Service Composition (WSC), BPEL, UML- Profile",
+      "references": [
+        30,
+        32,
+        33,
+        41,
+        51
+      ]
+    },
+    {
+      "id": 37,
+      "title": "Towards a hierarchical testing and evaluation strategy for web services system",
+      "abstract": "Web services can be combined in a collaborative way to create a new Web services system (WSS) to solve more complex problems. However, WSS testing is not a trivial task, features like distribution, loosecoupling, and collaboration bring great pressure to the latter testing activity. In the paper, a hierarchical testing and evaluation strategy is proposed from the perspective of the developers of Web services system. In service unit level, combinatorial testing method is used to ensure single service\u00e2\u20ac\u2122s quality. In system level, BPEL specification is converted into state diagram firstly, and then state transition-based test cases generation algorithm is presented. Based on the testing records of the above two levels, a simple reliability evaluation method is addressed. Furthermore, the feasibility and effectiveness of our approach is validated by the preliminary study and case-based experiments. ",
+      "keywords": "Web services, test cases, state transition tree, BPEL, Reliability",
+      "references": [
+        1,
+        30,
+        34,
+        66,
+        71,
+        112
+      ]
+    },
+    {
+      "id": 38,
+      "title": "A counter-example testing approach for orchestrated services",
+      "abstract": "Service oriented computing is based on a typical combination of features such as very late binding, run-time integration of software elements owned and managed by third parties, run-time changes. These characteristics generally make difficult both static and dynamic verification capabilities of service-centric systems. In this domain verification and testing research communities have to face new issues and revise existing solutions; possibly profiting of the new opportunities that the new paradigm makes available. In this paper, focusing on service orchestrations, we propose an approach to automatic test case generation aiming in particular at checking the behaviour of services participating in a given orchestration. The approach exploits the availability of a runnable model (the BPEL specification) and uses model checking techniques to derive test cases suitable to detect possible integration problems. The approach has been implemented in a plug-in for the Eclipse platform already released for public usage. In this way BPEL developers can easily derive, using a single environment, test suites for each participant service they would like to compose.",
+      "keywords": "Counter-example based Testing, Service Testing, Service Orchestrations",
+      "references": [
+        30
+      ]
+    },
+    {
+      "id": 39,
+      "title": "Testing of data-centric and event-based dynamic service compositions",
+      "abstract": "This paper addresses integration testing of data-centric and event-based dynamic service compositions. The compositions under test define abstract services that are replaced by concrete candidate services at runtime. Testing all possible instantiations of a composition leads to combinatorial explosion and is often infeasible. We consider data dependencies between services as potential points of failure and introduce the k-node data flow test coverage metric, which helps to significantly reduce the number of test combinations. We formulate a combinatorial optimization problem for generating minimal sets of test cases. On the basis of this formalization, we present a mapping to the model of FoCuS, a coverage analysis tool. FoCuS efficiently computes near-optimal solutions, which are used to automatically generate test instances. The proposed approach is applicable to various composition paradigms. We illustrate the end-to-end practicability based on an integrated scenario, which uses two diverse composition techniques: on the one hand, the Web Services Business Process Execution Language and on the other hand, WS-Aggregation, a platform for event-based service composition.",
+      "keywords": "test coverage; testing service-based systems; data-centric service compositions; k-node data flow coverage; event-based systems",
+      "references": [
+        26,
+        38,
+        94,
+        101
+      ]
+    },
+    {
+      "id": 40,
+      "title": "An Abstract Workflow-Based Framework for Testing Composed Web Services",
+      "abstract": "Testing web services impose many challenges to existing testing methods, techniques, and tools; especially those available to traditional applications. Composed web services increase these challenges by requiring additional validation and verification efforts. Structural-based testing approaches have been thoroughly researched for traditional applications; however, they have not yet been examined, as a methodology, for testing composed web services. In this work, we introduce a formal model for an abstract-based workflow framework that can be used to capture a composed web service under test. We then define a set of applicable structural-based testing criteria to the framework. Finally we outline a promising line of testing criteria that can be applied to this framework.",
+      "keywords": "Web services , Simple object access protocol , Automatic testing , Uniform resource locators , Collaborative work , Semantic Web , Computer science , Application software , Logic , Packaging",
+      "references": [
+        30,
+        107
+      ]
+    },
+    {
+      "id": 41,
+      "title": "BPEL4WS Unit Testing: Framework and Implementation",
+      "abstract": "The Business Process Execution Language for Web Services (BPEL4WS) offers a new standards-based approach to building flexible business processes by orchestrating multiple Web Services. Unit testing is critical to guarantee the creation of correct and reliable BPEL4WS business processes. Yet this is a topic that is still to be explored, both in research and industry. Lack of unit test tooling support has affected BPEL4WS process development in terms of quality and efficiency. This paper proposes a BPEL4WS unit test framework, which includes a BPEL4WS process composition model, a test architecture, a lifecycle management schema and a test design outline. An example implementation of the framework illustrates the whole approach. By adopting this test framework, the experience of developing, testing and debugging a BPEL4WS processes will be greatly improved.",
+      "keywords": "Logic testing , Web services , Business , System testing , Life testing , Automatic testing , Sun , Debugging , Government , Automation",
+      "references": []
+    },
+    {
+      "id": 42,
+      "title": "Automation of Test Case Generation and Execution for Testing Web Service Orchestrations",
+      "abstract": "Testing service orchestrations is a challenging research domain due to necessity of additional testing efforts, complementing traditional software testing. Although various testing approaches and tools have been proposed, most of them provide partial solutions covering single testing activities such as test path analysis, test case generation, web service emulation, fault injection and so on. Following the current research direction, we have developed an integrated testing framework, called TASSA, which aims to provide end-to-end testing of Business Process Execution Language (BPEL) orchestrations. This paper introduces its core capability for automation of test cases generation, execution and management implemented in an open source tool for WSDL-based testing of both single web services and composite web services, described with BPEL. The tool\u00e2\u20ac\u2122s functionality includes identification of web service operations as well BPEL variables in case of service composition testing, generation of SOAP request templates, data driven testing, definition of assertions at different levels (HTTP, SOAP and BPEL variable), execution and management of test cases. ",
+      "keywords": "BPEL, test case, web service testing, WSDL",
+      "references": [
+        30,
+        138
+      ]
+    },
+    {
+      "id": 43,
+      "title": "Pattern Based Property Specification and Verification for Service Composition",
+      "abstract": "Service composition is becoming the dominant paradigm for developing Web service applications. It is important to ensure that a service composition complies with the requirements for the application. A rigorous compliance checking approach usually needs the requirements being specified in property specification formalisms such as temporal logics, which are difficult for ordinary software practitioners to comprehend. In this paper, we propose a property pattern based specification language, named PROPOLS, and use it to verify BPEL service composition schemas. PROPOLS is easy to understand and use, yet is formally based. It builds on Dwyer et al.\u00e2\u20ac\u2122s property pattern system and extends it with the logical composition of patterns to accommodate the specification of complex requirements. PROPOLS is encoded in an ontology language, OWL, to facilitate the sharing and reuse of domain knowledge. A Finite State Automata based framework for verifying BPEL schemas against PROPOLS properties is also discussed. ",
+      "keywords": "Service Composition Linear Temporal Logic Label Transition System Finite State Automaton Composite Pattern",
+      "references": [
+        85
+      ]
+    },
+    {
+      "id": 44,
+      "title": "Property Patterns for Runtime Monitoring of Web Service Conversations",
+      "abstract": "For a system of distributed processes, correctness can be ensured by statically checking whether their composition satisfies the properties of interest. However, web services are distributed processes that dynamically discover properties of other web services. Since the overall system may not be available statically and since each business process is supposed to be relatively simple, we propose to use runtime monitoring of conversations between partners as a means of checking behavioral correctness of the entire web service system. Specifically, we identify a subset of UML 2.0 Sequence Diagrams (SD) as a property specification language. We show how our language can be used to specify the patterns in the Specification Property System (SPS) [1]. By formalizing this subset using automata, we can check finite execution traces of web services against various complex properties. Finally, we discuss our experience using our language for runtime monitoring of an existing application, and conclude with a description of existing tool support.",
+      "keywords": "Sequence Diagram Execution Trace Liveness Property Credit Score Loan Application",
+      "references": [
+        43,
+        53,
+        85
+      ]
+    },
+    {
+      "id": 45,
+      "title": "A Business Protocol Unit Testing Framework for Web Service Composition",
+      "abstract": "Unit testing is a critical step in the development lifecycle of business processes for ensuring product reliability and dependability. Although plenty of unit testing approaches for WS-BPEL have been proposed, only a few of them designed and implemented a runnable unit testing framework, and none of them provides a technique to systematically specifying and testing the causal and temporal dependencies between the process-under-test and its partner services. In this paper, we propose a novel approach and framework for specifying and testing the inter-dependencies between the process-under-test and its partner services. The dependency constraints defined in the business protocol are declaratively specified using a pattern-based high-level language, and a FSA-based approach is proposed for detecting the violation of constraints. A testing framework that integrates with the Java Finite State Machine framework has been implemented to support the specification of both dependency constraints and test cases, and the execution and result analysis of test cases.",
+      "keywords": "unit testing, WS-BPEL, temporal patterns, Finite State Automata",
+      "references": [
+        1,
+        30,
+        33,
+        41,
+        43,
+        94,
+        132
+      ]
+    },
+    {
+      "id": 46,
+      "title": "A Business Process of Web Services Testing Method Based on UML2.0 Activity Diagram",
+      "abstract": "In order to increase the reliability of web services business process, a BPEL modeling and testing approach based on UML2.0 activity diagram is presented. The key idea of the approach is to transform the business process interaction via BPEL code to visual and dynamic testing model. The approach extends UML2.0 activity diagram to describe the syntax and behaviors of BPEL. The formal specification and the definition of test coverage criteria of UML2.0 activity diagram are proposed. It enhances the restriction of test cases generation method and promotes the efficiency and accuracy of testing by reducing the amount of test cases reasonably. To illustrate this more thoroughly, this paper discusses the feasibility of automated testing using web services business process testing model with an example.",
+      "keywords": "Web services , Formal specifications , Computer science , Automatic testing , XML , Switches , Information technology , Application software , Educational institutions , Mathematics",
+      "references": [
+        85,
+        134
+      ]
+    },
+    {
+      "id": 47,
+      "title": "Towards Automated Test Sequence Generation",
+      "abstract": "The article presents a novel control-flow based test sequence generation technique using UML 2.0 Activity Diagram, which is a behavioral type of UML diagram. Like other model-based techniques, this technique can be used in the earlier phases of the development process owing to the availability of the design models of the system. The Activity Diagram model is seamlessly converted into a Colored Petri Net. We proposed a technique that enables the automatic generation of test sequences according to a given coverage criteria from the execution of the Colored Petri Nets model. Two types of structural coverage criteria for AD based models, namely sequential and concurrent coverage are described. The proposed technique was applied to an example to demonstrate its feasibility and the generated test sequences were evaluated against selected coverage criteria. This technique can potentially be adapted to service oriented applications, workflows, and concurrent applications. ",
+      "keywords": "Model Based Testing , Activity Diagram , Colored Petri Nets",
+      "references": []
+    },
+    {
+      "id": 48,
+      "title": "Using the UML Testing Profile for Enterprise Service Choreographies",
+      "abstract": "In this paper we present an approach of using model-driven technologies for testing of service component interactions. We report on an industrial experiment with a novel combination of existing UML standards, i.e., the UML Testing Profile (U2TP), in conjunction with proprietary domain specific languages (DSLs). Many model-based testing (MBT) approaches use the UML 2 standard, but very few of them use also U2TP. Moreover, in practice UML coexists with DSLs which makes the overall integration not easy. We present our experiences and challenges of a U2TP-enabled MBT approach for a DSL for enterprise service choreographies, which describe the communication protocols between service components. The proposed workflow directly translates choreographies into UML models augmented with U2TP stereotypes, which are further loaded into our FOKUS!MBT tool chain. The tool provides an implementation of the U2TP standalone meta-model along with test case and test data generators to describe a holistic test process within one dedicated meta-model for testing concerns.  ",
+      "keywords": "UML testing profile , SOA , service choreography , U2TP , model-based testing , UML",
+      "references": []
+    },
+    {
+      "id": 49,
+      "title": "Towards automation design time testing of web service compositions",
+      "abstract": "Service-Oriented Architectures (SOA) allows software applications to interoperate in a new way in distributed environment. Currently, web services are the most widely adopted technology for implementation of SOA. However, they bring a number of challenges to development as well as to testing. Testing web service compositions is one of the major problems in SOA domain that is due to the unknown context, absence of web service source code, multiple provider coordination, lack of tool support, etc. In such context, the paper proposes a framework, named Testing as a Service Software Architecture (TASSA), which aims to provide design time testing of both functional and nonfunctional behavior of web service compositions described with Business Process Execution Language (BPEL). TASSA consists of set of tools that can be used together with existing development environments of service based applications. The paper focuses on an approach for negative testing and unit testing of BPEL processes. The negative testing is supported by TASSA tool, called Fault Injector tool, which implements a fault injection technique providing message delays, wrong message data, etc. The goal of unit testing is to test a BPEL process in isolation from its dependent web services. The isolation technique is implemented in another TASSA tool, named Isolation tool. ",
+      "keywords": "",
+      "references": [
+        1,
+        30,
+        32,
+        40,
+        71,
+        95,
+        138
+      ]
+    },
+    {
+      "id": 50,
+      "title": "A framework for design-time testing of service-based applications at bpel leve",
+      "abstract": "Software applications created on top of the service-oriented architecture (SOA) are increasingly popular but testing them remains a challenge. In this paper a framework named TASSA for testing the functional and non-functional behaviour of service-based applications is presented. The paper focuses on the concept of design time testing, the corresponding testing approach and architectural integration of the consisting TASSA tools. The individual TASSA tools with sample validation scenarios were already presented with a general view of their relation. This paper\u00e2\u20ac\u2122s contribution is the structured testing approach, based on the integral use of the tools and their architectural integration. The framework is based on SOA principles and is composable depending on user requirements.",
+      "keywords": "software and services, testing Service-based Applications, testing framework, testing tools. ",
+      "references": [
+        1,
+        30,
+        33,
+        40,
+        95,
+        120,
+        121,
+        123,
+        126
+      ]
+    },
+    {
+      "id": 51,
+      "title": "Model-based testing of web service compositions",
+      "abstract": "The use of web services integrated in different applications, especially the composition of services, brings challenges for testing due to their complex interactions. In this paper, we propose an event-based approach to test web service compositions. The approach is based on event sequence graphs which we extend by facilities to consider the specific features of web service compositions. An enterprise service bus component supports the test case execution. A case study, based on a commercial web application, demonstrates the feasibility of the approach and analyzes its characteristics. The results of empirical work suggest that the approach is a promising candidate to reach a high level of confidence and reliability.",
+      "keywords": "enterprise service bus; event sequence graphs; model-based testing; service composition testing",
+      "references": [
+        35,
+        77
+      ]
+    },
+    {
+      "id": 52,
+      "title": "A WS-BPEL Based Structural Testing Approach for Web Service Compositions",
+      "abstract": "In recent years WS-BPEL has gain significant attention due to its ability to specify and orchestrate Web services participating in a business process. As the business process becomes complex, the XML-based WS-BPEL document used to describe the interactions among the Web services becomes difficult to understand and test. This paper proposes a structural testing approach for Web service compositions implemented with WS-BPEL. A test model is presented to capture the control flow of the WS-BPEL process. Specifically, the model takes into account the concurrency and synchronization characteristics of WS-BPEL while adapting the BPMN notation to depict the possible process execution flow. Based on the test model, test paths of a WS-BPEL process can be identified and test cases can be derived to validate the compositions of Web services. ",
+      "keywords": "WS-BPEL , web service testing , software testing , BPMN",
+      "references": [
+        30,
+        32,
+        33,
+        41
+      ]
+    },
+    {
+      "id": 53,
+      "title": "Verifying the conformance of web services to global interaction protocols: A first step",
+      "abstract": "Global choreographies define the rules that peers should respect in their interaction, with the aim of guaranteeing interoperability. An abstract choreography can be seen as a protocol specification; it does not refer to specific peers and, especially in an open application domain, it might be necessary to retrieve a set of web services that fit in it. A crucial issue, that is raising attention, is verifying whether the business process of some peers, in particular the parts that encode the communicative behavior, will produce interactions which are conformant to the agreed protocol (legality issue). Such issue is tackled by the so called conformance test, which is a means for certifying the capability of interacting of the involved parts: two peers that are proved conformant to a same protocol will actually interoperate by producing a legal conversation. This work proposes an approach to the verification of a priori conformance of a business process to a protocol, which is based on the theory of formal languages and guarantees the interoperability of peers that are individually proved conformant.",
+      "keywords": "web service interaction protocols, conformance test, formal verification, finite state automata.",
+      "references": []
+    },
+    {
+      "id": 54,
+      "title": "SOA Grey Box Testing A Constraint-Based Approach",
+      "abstract": "Service-Oriented Architectures (SOAs) offer attractive advantages in respect of reusability, interoperability and dynamics, and are nowadays widely accepted in industry. Achieving established software quality levels also with SOAs, while mandatory, is challenging, as, for instance, a SOA\u00e2\u20ac\u2122s dynamics and heterogeneity exacerbate verification issues like observability, controllability, and distribution. Regarding verification, we thus have to evolve available technology in order to enable the assessment of essential functional and non-functional system properties, including correctness, performance, stability, robustness and scalability. Adopting a model-based grey box testing approach that can exploit mixed description levels for individual (possibly 3rd party) services promises the required flexibility for successful development workflows. In this paper, we propose such a testing approach that, considering a SOA model, defines constraint satisfaction problems for the test case generation step. First empirical results for our approach are promising.",
+      "keywords": "Service-Oriented Architecture , Test Case Generation , Functional Testing , Path Constraints",
+      "references": [
+        30,
+        32,
+        33,
+        94,
+        95
+      ]
+    },
+    {
+      "id": 55,
+      "title": "Pairwise testing of dynamic composite service",
+      "abstract": "Online services encapsulate enterprises, people, software systems and often operate in poorly understood environments. Using such services in tandem to predictably orchestrate a complex task is one of the principal challenges of serviceoriented computing. A composite service orchestration soliciting multiple atomic services is plagued by a number of sources of variation. For instance, availability of an atomic service and its response time are two important sources of variation. Moreover, the number of possible variations in a composite service increases exponentially with increase in the number of atomic services. Testing such a composite service presents a crucial challenge as its often very expensive to exhaustively examine the variation space. Can we effectively test the dynamic behavior of a composite service using only a subset of these variations? This is the question that intrigues us. In this paper, we first model composite service variability as a feature diagram (FD) that captures all valid configurations of its orchestration. Second, we apply pairwise testing to sample the set of all possible configurations to obtain a concise subset. Finally, we test the composite service for selected pairwise configurations for a variety of QoS metrics such as response time, data quality, and availability. Using two case studies, Car crash crisis management and eHealth management, we demonstrate that pairwise generation effectively samples the full range of QoS variations in a dynamic orchestration. The pairwise sampling technique eliminates over 99% redundancy in configurations, while still calling all atomic services at least once. We rigorously evaluate pairwise testing for the criteria such as: a) ability to sample the extreme QoS metrics of the service b) stable behavior of the extracted configurations c) compact set of configurations that can help evaluate QoS tradeoffs and d) comparison with random sampling. ",
+      "keywords": "Web Services, Pairwise Testing, QoS\n",
+      "references": [
+        99
+      ]
+    },
+    {
+      "id": 56,
+      "title": "Search-based performance testing of applications with composite services",
+      "abstract": "Software performance testing aims to discover faults related to QoS of a system, such as response time. This paper proposes a method to generate performance test cases automatically based on Genetic Algorithms for any system consisting of composite services. It considers users' experience in the performance test model. Based on the system's workflow, the usage pattern of a system is modeled as QoS-sensitivity factors based on performance requirements and then detailed modified CFG is derived. A genetic algorithm is used as an optimization approach to look automatically for a test case with maximum/minimum QoS values which has a high possibility to violate performance requirements. Preliminary experiments show the generated test data is better than random testing.",
+      "keywords": "Performance Testing , QoS , Genetic Algorithms",
+      "references": [
+        99
+      ]
+    },
+    {
+      "id": 57,
+      "title": "Performance testing of composite web-service with aspect-based ws-bpel extension",
+      "abstract": "The advance in Service-Oriented Architecture (SOA) and web services has led to the development of new types of a system in which heterogeneous service components can connect and compose to solve a complex business problem. In the SOA, even though these service components are valid in their functionality, there is a need to test their behaviors when those services are composited. In recent years, WS-BPEL has received a wide acceptance as a means of integrating distributed service components. To test the composite service, the existing testing techniques have been focused on the functional features based on the WS-BPEL process. However as SOA approach is applying to real-time software development, the performance of composite service becomes one of important issues. This paper proposes a technique to the performance testing of a composite service with WS-BPEL extension which combined with the concept of aspect. Our WS-BPEL extension has been made towards annotating aspect component which is measuring the response time of the composite service. This paper also explains the procedure of performance testing with on-line transaction system. Our technique can apply to choose an adequate component in service composition with considering the performance among several candidate web service components.",
+      "keywords": "Composite service, performance testing, WS-BPEL, aspect component",
+      "references": [
+        33,
+        41,
+        52
+      ]
+    },
+    {
+      "id": 58,
+      "title": "Soa test framework based on bpa-simulated event proxy",
+      "abstract": "Performance Testing , QoS , Genetic Algorithms",
+      "keywords": "SOA , BPA , test suites , event-driven",
+      "references": []
+    },
+    {
+      "id": 59,
+      "title": "Dftt4cws: A testing tool for composite web services based on data-flow",
+      "abstract": "For large and complex composite Web services which are composed by BPEL and a set of WSDL and XSD documents, we urgently need the aid of the tools in designing and selecting test cases. However, most of mature testing tools which generate test data with the information of WSDL are used for single service while the research for composition remains in the realm of theory. So we apply the theory of data-flow testing and try to develop a testing tool for Web services composition which can automatically detects harmful data-flow anomalies and generate test paths according to all kinds of data flow coverage criteria.",
+      "keywords": "composite Web services, BPEL, WSDL, data flow, anomaly, testing tool ",
+      "references": [
+        5,
+        33,
+        100
+      ]
+    },
+    {
+      "id": 60,
+      "title": "Definition and Detection of Control-Flow Anti-patterns in Process Models",
+      "abstract": "The correctness of process model is getting crucial as more and more process models begin to execute on workflow engines. Anti-pattern, as an effective and objective mean to verify the correctness of process model, is gaining increasing attention. Great loss could be avoided if control-flow anti-patterns were detected in an early time. In this paper, a control-flow anti-pattern detection approach for process models is proposed, which can support user-defined control-flow anti-pattern detection with different process modeling languages. To achieve this, firstly the control-flow structure of process model is transformed to refined process structure tree (RPST for short) via the cycle equivalence algorithm. Then CAPDL, a control-flow anti-patterns description language, is designed and an anti-pattern detection algorithm based on CAPDL is proposed. Finally, an anti-pattern detection experiment was conducted based on 278 real-world BPMN process models, the detection result of which shows that the proposed approach can detect user-defined control-flow anti-patterns effectively.",
+      "keywords": "process model , CAPDL , control-flow anti-pattern detection , RPST",
+      "references": [
+        61,
+        115
+      ]
+    },
+    {
+      "id": 61,
+      "title": "Process anti-patterns: How to avoid the common traps of business process modeling",
+      "abstract": "Business process modeling is gaining increasing importance with more and more people getting involved with business process modeling projects. The output of these projects are process models, which become a direct input into the software development process. Consequently, the impact of the process models on the IT systems and the operational efficiency of an enterprise is increasing. With that, the associated economic risk of using badly designed process models is growing as well. In this report, we address the problem of quality assurance for business process models. Based on hundreds of real world business process models that we reviewed over the past two years, we extracted typical modeling errors that we generalized into anti-patterns. These anti-patterns cover six common process modeling scenarios ranging from the modeling of branching and iterative behavior, over the modeling of data flow, to the reuse of process models in composite processes. For each scenario, an example illustrating typical errors is introduced and then generalized into an anti-pattern, which highlights the modeling error. Then, one or several patterns are presented that show a correct solution to the modeling scenario, followed by a summarizing recommendation.1",
+      "keywords": "",
+      "references": []
+    },
+    {
+      "id": 62,
+      "title": "Web services composition testing: a strategy based on structural testing of parallel programs",
+      "abstract": "Web Services have been used in the development of loosely coupled applications. Several Web Services are usually combined to create new services by a mechanism named Web Services Composition. In this paper, we present a strategy for Web Services Composition structural integration testing. Structural testing coverage criteria for serviceswritten in BPEL are also described. The concept of requiredelement groups is defined to improve the accuracy of criteria coverage. We present a case study for assessing the applicability of proposed strategy. ValiBPEL-Web, a tool that supports the test strategy is also presented.",
+      "keywords": "Web Services , Structural Testing , BPEL , Web Services Composition",
+      "references": [
+        30,
+        32,
+        33,
+        41
+      ]
+    },
+    {
+      "id": 63,
+      "title": "Automatic identification of structural process weaknesses in flow chart diagram",
+      "abstract": "Purpose \u2013 Financial institutions have been engaged in numerous business process reengineering (BPR) projects to make their organizations more efficient. However, the success of BPR projects in banks varies significantly and it remains a challenge to systematically discover weaknesses in business process landscapes. Based on the flow chart notation language this paper seeks to argue for the definition of weakness patterns in order to automatically identify potential process weaknesses. Design/methodology/approach \u2013 The authors developed weakness patterns in the flow chart notation language based on design science principles. To systematically derive process weaknesses that can be formalized, they analyzed each element of the flow chart notation as it was used in a real-life case. They furthermore tested the identified patterns in reality in order to evaluate their validity. Findings \u2013 The authors identified various potential weakness patterns that helped in automatically identifying weaknesses in process models. To some extent these findings are generalizable and transferable to other process modeling languages. Research limitations/implications \u2013 The pattern-based approach depends upon how well structural weakness patterns are defined and formalized. Identified problems remain \u201cpotential\u201d weaknesses until a manual analysis reveals that the identified potential weaknesses are actually real weaknesses or not, e.g. due to law regulations. Practical implications \u2013 Using weakness patterns allows for automatically identifying potential process weaknesses in existing flow chart models. This way, this research helps in improving the so far manual analysis of process model landscapes. Originality/value \u2013 The approach is a new way of looking for process weaknesses through process weakness patterns",
+      "keywords": "Business process reengineering, Automatic business process analysis, Structural business process analysis, Process weaknesses, Banks",
+      "references": []
+    },
+    {
+      "id": 64,
+      "title": "Model checking techniques for test generation from business process model",
+      "abstract": "We will present a methodology and a tool to generate test cases from a model expressed in Business Process models and a set of test intentions for choosing a particular kind of tests. In order to do this we transform the Business Process models in an intermediate format called Algebraic Petri Nets. We then use model checking techniques (e.g. Decision Diagrams) to encode the state space \u2014 the semantics \u2014 of the model and producing test cases including their oracles according to that transition system.",
+      "keywords": "System design and verification Higher-level Nets Algebraic Petri Nets State Space Generation Decisions Diagrams",
+      "references": []
+    },
+    {
+      "id": 65,
+      "title": "Test Sequences for Web Service Composition using CPN model",
+      "abstract": "Web service composition is most mature and effective way to realize the rapidly changing requirements of business in service-oriented solutions. Testing the compositions of web services is complex, due to their distributed nature and asynchronous behaviour. Colored Petri Nets (CPNs) provide a framework for the design, specification, validation and verification of systems. In this paper the CPN model used for composition design verification is reused for test design purpose. We propose an on-the-fly algorithm that generates a test suite that covers all possible paths without redundancy. The prioritization of test sequences, test suite size and redundancy reduction are also focused. The proposed technique was applied to air line reservation system and the generated test sequences were evaluated against three coverage criteria; Decision Coverage, Input Output Coverage and Transition Coverage",
+      "keywords": "CPN, MBT, web service composition testing, test case generation \n",
+      "references": [
+        7,
+        32,
+        33,
+        46,
+        47,
+        51,
+        62,
+        85,
+        94
+      ]
+    },
+    {
+      "id": 66,
+      "title": "Slicing web service-based software",
+      "abstract": "Web services offer a brand-new mechanism for program interactions over the Internet. However, the new features such as heterogeneous, loose-coupling and distributed bring great challenge to its comprehension and debugging. In the paper, the method of static slicing BPEL programs in Web service compositions is proposed. At first, an extended control flow graph (ECFG) is constructed through a in-depth analysis on the new activity elements such as flow and pick. Then, the def-use relations between Web service units are computed. Based on the above results, BPEL program dependence graph is built by introducing the concept of synchronized edge. Subsequently, the static (backward / forward) slicing algorithm is discussed in details. While considering the slicing effects on a real-world Web service application, the proposed slicing technique can reduce the number of statements needing to be checked in understanding or debugging activities.",
+      "keywords": "Web services , BPEL , ECFG , dependence analysis , BPDG , slicing algorithm",
+      "references": [
+        32,
+        34,
+        52,
+        85,
+        100,
+        101,
+        108
+      ]
+    },
+    {
+      "id": 67,
+      "title": "Test Case Generation of Web Service Composition: an Approach Based on the Color Petri Net",
+      "abstract": "Based on CP-nets models, an approach of test case generation is proposed for BPEL processes, with which the semantic of BPEL concurrence is well dealt. Firstly, a web service composition which coded in BPEL language is expressed as CP-net models on which depth-first traversal works immediately, and result in sequence test paths obtained. After merging these sequence test paths into program executable units (PEU for short), constraint set of these units is solved and formed into test cases. Finally an application of the approach is illustrated with an example, which more efficiency shown with 7 test units less than 9 test path appear in reference available for same example.",
+      "keywords": "test case generation; web service composition; colored Petri net; state space explosion",
+      "references": [
+        32,
+        33
+      ]
+    },
+    {
+      "id": 68,
+      "title": "Improving takuan to analyze a meta-search engine ws-bpel composition",
+      "abstract": "Web Services composition languages, such as the OASIS WS-BPEL 2.0 standard, open a vast new field for programming in the large. But the inclusion of WS-specific instructions presents a challenge for traditional white-box testing techniques. Takuan helps overcome this challenge by implementing an automated workflow which has already generated invariants from the execution logs of simple WS-BPEL compositions, avoiding the usual problems related to modeling impedance that other techniques face. In this work we show how we have extended Takuan with two complementary techniques to analyze more complex compositions with non-scalar variable content despite the limitations of the dynamic invariant generator used, Daikon. We discuss their relative advantages and disadvantages and illustrate them through some of the invariants obtained from a composition which implements a meta-search engine.",
+      "keywords": "Web services , service composition , WS-BPEL , white-box testing , dynamic invariant generation",
+      "references": []
+    },
+    {
+      "id": 69,
+      "title": "A methodology of testing high-level petri nets",
+      "abstract": "Petri nets have been extensively used in the modelling and analysis of concurrent and distributed systems. The verification and validation of Petri nets are of particular importance in the development of concurrent and distributed systems. As a complement to formal analysis techniques, testing has been proven to be effective in detecting system errors and is easy to apply. An open problem is how to test Petri nets systematically, effectively and efficiently. An approach to solve this problem is to develop test criteria so that test adequacy can be measured objectively and test cases can be generated efficiently, even automatically. In this paper, we present a methodology of testing high-level Petri nets based on our general theory of testing concurrent software systems. Four types of testing strategies are investigated, which include state-oriented testing, transition-oriented testing, flow-oriented testing and specification-oriented testing. For each strategy, a set of schemes to observe and record testing results and a set of coverage criteria to measure test adequacy are defined. The subsumption relationships and extraction relationships among the proposed testing methods are systematically investigated and formally proved.",
+      "keywords": "Software testing methodsConcurrent systemsHigh-level Petri netsTest criteriaBehaviour observation",
+      "references": []
+    },
+    {
+      "id": 70,
+      "title": "Whitening soa testing via event exposure",
+      "abstract": "Whitening the testing of service-oriented applications can provide service consumers confidence on how well an application has been tested. However, to protect business interests of service providers and to prevent information leakage, the implementation details of services are usually invisible to service consumers. This makes it challenging to determine the test coverage of a service composition as a whole and design test cases effectively. To address this problem, we propose an approach to whiten the testing of service compositions based on events exposed by services. By deriving event interfaces to explore only necessary test coverage information from service implementations, our approach allows service consumers to determine test coverage based on selected events exposed by services at runtime without releasing the service implementation details. We also develop an approach to design test cases effectively based on event interfaces concerning both effectiveness and information leakage. The experimental results show that our approach outperforms existing testing approaches for service compositions with up to 49 percent more test coverage and an up to 24 percent higher fault-detection rate. Moreover, our solution can trade off effectiveness, efficiency, and information leakage for test case generation.",
+      "keywords": "Web service composition , white-box testing , event interface , events",
+      "references": [
+        15,
+        18,
+        33,
+        35,
+        41,
+        85,
+        95,
+        101,
+        118
+      ]
+    },
+    {
+      "id": 71,
+      "title": "Basis path test suite and testing process for WS-BPEL",
+      "abstract": "Web services technology offers a WS-BPEL language for business process execution. The building block of WS-BPEL is those Web services components that collaborate to realize a certain function of the business process. Applications can now be built more easily by composing existing Web services into workflows; each workflow itself is also considered a composite Web service. As with other programs, basis path testing can be conducted on WS-BPEL processes in order to verify the execution of every node of the workflow. This paper discusses the generation of the test suite for basis path testing of WS-BPEL and an accompanying tool that can be used by service testers. The test suite consists of test cases, stubs of the constituent services in the workflow, and auxiliary state services that assist in the test; these are deployed when running a test on a particular WS-BPEL. The paper presents also a testing process for service testers. A business process of a market place is discussed as a case study.  ",
+      "keywords": "Basis path testing, WS-BPEL, test cases, control flow graph, cyclomatic complexity",
+      "references": [
+        27
+      ]
+    },
+    {
+      "id": 72,
+      "title": "Test case generation for transition-pair coverage using Scatter Search",
+      "abstract": "A challenging part of Software Testing entails the generation of test cases, whose costs can be reduced by means of the use of techniques for automating this task. On the other hand, the nature of Software Engineering problems is ideal for the application of metaheuristic techniques. In this paper we present an approach based on the metaheuristic technique Scatter Search for the automatic test case generation of BPEL business processes using a transition-pair coverage criterion. The test case generator is called TCSS-LS-for-BPEL and it combines a diversity property with a local search. The diversity property is used to extend the search of test cases in order to reach different transitions of the business process. The local search is used to intensify the search when the diversification has problems to find test cases that cover transitions that have not been covered yet. We present the results obtained by our test case generator using two sample compositions and carry out a comparison with a random generator. The results indicate that TCSS-LS-for-BPEL can be used in the generation of test cases for BPEL business processes.",
+      "keywords": "software testing, automatic test case generation, BPEL web service compositions, Scatter Search, transition-pair coverage.  ",
+      "references": [
+        32,
+        73,
+        94,
+        99,
+        101
+      ]
+    },
+    {
+      "id": 73,
+      "title": "A First Approach to Test Case Generation for BPEL Compositions of Web Services Using Scatter Search",
+      "abstract": "A challenging part of Software Testing entails the generation of test cases, which cost can be reduced by means of the use of techniques for automating this task. In this paper we present an approach based on the metaheuristic technique Scatter Search for the automatic test case generation of the BPEL business process. A transition coverage criterion is used as adequacy criterion.",
+      "keywords": "automatic test case generation , web service compositions , Scatter Search , transition coverage",
+      "references": [
+        5,
+        94,
+        99
+      ]
+    },
+    {
+      "id": 74,
+      "title": "Verification of web services with timed automata",
+      "abstract": "In this paper we show how we can use formal methods for describing and analyzing the behavior of Web Services, and more specifically those including time restrictions. Then, our starting point are Web Services descriptions written in WSCI \u2013 WSCDL (XML-based description languages). These descriptions are then translated into timed automata, and then, we use a well known tool that supports this formalism (UPPAAL) to simulate and analyze the system behavior. As illustration we take a particular case study, a travel reservation system.",
+      "keywords": "Web services, Timed Automata, Formal Methods",
+      "references": []
+    },
+    {
+      "id": 75,
+      "title": "An approach for testing passively web service compositions in clouds",
+      "abstract": "This paper proposes a formal passive testing approach for Web service compositions deployed in Clouds. It addresses an issue lifted by the PaaS layer of Clouds, which represents virtualised environments where compositions can be deployed. In these latter, sniffer-based modules, which are the heart of passive testing methods, cannot be installed for technical reasons. We propose a new approach based on the notion of transparent proxy. We define a new model, called proxy-tester, which is used to observe the functional behaviours of the composition under test but also to check if it is ioco-conforming to its specification. We also provide a solution and algorithms for testing several composition instances in parallel. ",
+      "keywords": "Web service composition; ioSTS; passive testing; proxy tester. ",
+      "references": [
+        83,
+        112
+      ]
+    },
+    {
+      "id": 76,
+      "title": "Architecture-based testing of service-oriented applications in distributed systems",
+      "abstract": "Context: Testing distributed service-oriented applications (SOAs) is more challenging than testing monolithic applications since these applications have complex interactions between participant services. Test engineers can observe test results only through a front service that handles request messages sent by test engineers. Message exchanges between participant services are hidden behind the front service and cannot be easily observed or controlled through the front service. For this reason, testing SOAs suffer from limited observability and controllability problem. Objective: This paper proposes a new test method that is architecture-based and exploits interaction architecture of a SOA. The proposed test method alleviates the limited observability and controllability problem by employing test architecture, thereby facilitating test execution and analysis through monitoring and controlling message exchanges. Method: Our proposed method derives an interaction architecture from the specification of a SOA. Test architectures can be designed from the derived interaction architecture by extending it with additional test elements. At the same time, architecture-neutral test scenarios are automatically generated from the test model that is constructed from the specification. Our method combines test architecture information with the test scenarios to obtain architecture-enabled test scenarios under the selected test architectures. Finally, architecture-enabled test execution and analysis are conducted in the real network environment. Results: The efficacy of the proposed method is demonstrated with an industrial case study, which shows that it is practical and effective for testing SOAs. Even though our method increases an additional test generation effort owing to test architecture, it is counterbalanced by higher fault detection rate and faster fault locating time. Conclusion: The main benefit of our approach is that using test architecture it enhances testability of SOA by increasing observability and controllability through monitoring and controlling message exchanges. Our architecture-based testmethod enables test engineers to detect faults efficiently and also reduce fault locating time significantly.",
+      "keywords": "Service-oriented application testing Service composition Test architecture Architecture-based testing",
+      "references": [
+        32,
+        35,
+        62,
+        101
+      ]
+    },
+    {
+      "id": 77,
+      "title": "Towards the testing of composed web services in 3rd generation network",
+      "abstract": "With the proliferation of web services in business and as the number of web services is increasing, it is anticipated that a single web service will become insufficient to handle multitude, heterogeneous, and complex functions. Hence, web service composition will be used to create new value added services with a wide range of functionalities. Management of a composed web service is a complex issue compared to the management of a non-composed (basic) web service. In this paper, we propose a multi-observer architecture for detecting and locating faults in composed web services. It makes use of a network of observers that cooperate together to observe a composed web service. An observation strategy based on a set of heuristics is presented to reduce the number of web services to be observed. Observers are developed as mobile agent observers to help reducing the load introduced by the observation. Algorithms for fault detection, notification, and collaboration between observers are described. Finally, the architecture is illustrated through a case study for observing a composed teleconferencing web services in a 3G network. Different components of the architecture are developed. The network load introduced by the observation is measured and the fault detection capabilities of the architecture are discussed.",
+      "keywords": "Mobile Agent Local Observer Simple Object Access Protocol Global Observer Fault Detection Capability",
+      "references": []
+    },
+    {
+      "id": 78,
+      "title": "An approach for diagnosing unexpected faults in web service flow",
+      "abstract": "Potential faults have greatly reduced the dependability of business processes, so fault diagnosis is becoming an important issue which aims at supporting self-healing service flow execution. The existing fault handling mechanism provided by BPEL can only identify the faults which have been pre-defined in standards or by users. However, unexpected faults are also the main cause of failures in service flow execution. Therefore an effective diagnosis approach is needed to solve this problem. In this paper, we propose a logic-based approach for diagnosing unexpected faults in Web service flows. This approach uses dynamic description logic (DDL) to model business processes, and diagnoses faults based on DDL reasoning. We provide the DDL-based diagnosing algorithm, which takes process description and runtime information as inputs, and returns the related information of possible faults as the result. Moreover, to improve the efficiency of online diagnosis, the incremental DDL-based diagnosing algorithm is presented. Experimental results on a demo system show the effectiveness of this approach.",
+      "keywords": "diagnosis , self-healing , Web service flow , DDL",
+      "references": []
+    },
+    {
+      "id": 79,
+      "title": "Minimizing test-point allocation to improve diagnosability in business process model",
+      "abstract": "Diagnosability analysis aims to determine whether observations available during the execution of a system are sufficient to precisely locate the source of a problem. Previous work deals with the diagnosability problem in contexts such as circuits and systems, but no with the adaptation of the diagnosability problem to business processes. In order to improve the diagnosability, a set of test points needs to be allocated. Therefore, the aim of this contribution is to determine a test-point allocation to obtain sufficient observable data in the dataflow to allow the discrimination of faults for a later diagnosis process. The allocation of test points depends on the strategies of the companies, for this reason we defined two possibilities: to improve the diagnosability of a business process for a fixed number of test points and the minimization of the number of test points for a given level of diagnosability. Both strategies have been implemented in the Test-Point Allocator tool in order to facilitate the integration of the test points in the business process model life cycle. Experimental results indicate that diagnosability of business processes can be improved by allocating test points in an acceptable time.",
+      "keywords": "Business process improvement Diagnosability Test points",
+      "references": [
+        23,
+        24,
+        78,
+        137,
+        145
+      ]
+    },
+    {
+      "id": 80,
+      "title": "Calculating bpel test coverage through instrumentation, in: Automation of Software Test",
+      "abstract": "Assessing the quality of tests for BPEL processes is a diffcult task in projects following SOA principles. Since insufficient testing can lead to unforeseen defects that can be extremely costly in complex and mission critical environments, this problem needs to be addressed. By using formally defined test metrics that can be evaluated automatically by using an extension to the BPELUnit testing framework, testers are able to assess whether their white box tests cover all important areas of a BPEL process. This leads to better tests and thus to better BPEL processes because testers can improve their test cases by knowing which important areas of the BPEL process have not been tested yet.",
+      "keywords": "",
+      "references": [
+        1,
+        30,
+        32,
+        41,
+        94,
+        101
+      ]
+    },
+    {
+      "id": 81,
+      "title": "Introducing service-oriented coverage testing",
+      "abstract": "Testing of service-oriented systems is challenged by loose coupling and high dynamism, which are the founding characteristics of this emerging paradigm. Traditional test approaches needs to be revised for such systems, and in particular white-box techniques cannot be applied because services only grant black-box access. We introduce here a novel methodology, called SOCT (service-oriented coverage testing), that adapts the notion of coverage testing to the service-oriented domain, by exploiting the very features of service technology. In SOCT, both the probes inserted into the instrumented service code, and the retrieval of coverage-related information are themselves implemented as pure service invocations. A TCov service is published that makes available these coverage-related services through a WSDL interface. This simple idea elegantly enables the usage of practical test adequacy criteria also to service-oriented applications. In this paper a realization of SOCT is exemplified for coverage testing of BPEL orchestrations, and is illustrated on the case study of the Virtual Scientific Bookstore.",
+      "keywords": "System testing , Probes , Instruments , Information retrieval , Proposals , Web services , Electronic design automation and methodology , Runtime , Protocols , Monitoring",
+      "references": [
+        32,
+        94,
+        99,
+        101
+      ]
+    },
+    {
+      "id": 82,
+      "title": "Webmov: A dedicated framework for the modelling and testing of web services composition",
+      "abstract": "This paper presents a methodology and a set of tools for the modelling, validation and testing of Web service composition, conceived and developed within the French national project WebMov. This methodology includes several modelling techniques, based mainly on some variations of Timed Extended Finite State Machines (TEFSM) formalism, which provide a formal model of the BPEL description of Web services composition. These models are used as a reference for the application of different test generation and passive testing techniques for conformance and robustness checking. The whole WebMov methodology is integrated within a dedicated framework, composed by a set of tools that implement the model representation, the test generation and passive testing algorithms. This framework also permits the interaction of these tools to achieve specific modelling and testing activities in a complementary way. A case study based on a real service, a Travel Reservation Web Service, is presented as well as the results of the application of the proposed WebMov methodology and tools.",
+      "keywords": "BPEL , Web Service , Unit Testing , Test Case Generation , Test Purposes , Testing framework",
+      "references": [
+        35,
+        41,
+        94,
+        95,
+        101
+      ]
+    },
+    {
+      "id": 83,
+      "title": "Timed extended invariants for the passive testing of web services",
+      "abstract": "The service-oriented approach is becoming more and more popular to integrate highly heterogeneous systems. Web services are the natural evolution of conventional middleware technologies to support Web-based and enterprise level integration. Formal testing of such Web-based technology is a key point to guarantee its reliability. In this paper, we choose a non-intrusive approach based on monitoring to propose a conformance passive testing methodology to check that a composed Web service respects its functional requirements. This methodology is based on a set of formal invariants representing properties to be tested including data and time constraints. Passive testing of an industrial system (that uses a composition of Web services) is briefly presented to demonstrate the effectiveness of the proposed approach.",
+      "keywords": "Passive Testing , BPEL",
+      "references": [
+        4,
+        112
+      ]
+    },
+    {
+      "id": 84,
+      "title": "Specification and validation of process constraints for flexible workflows",
+      "abstract": "Workflow systems have traditionally focused on the so-called production processes which are characterized by pre-definition, high volume, and repetitiveness. Recently, the deployment of workflow systems in non-traditional domains such as collaborative applications, e-learning and cross-organizational process integration, have put forth new requirements for flexible and dynamic specification. However, this flexibility cannot be offered at the expense of control, a critical requirement of business processes. In this paper, we will present a foundation set of constraints for flexible workflow specification. These constraints are intended to provide an appropriate balance between flexibility and control. The constraint specification framework is based on the concept of \u201cpockets of flexibility\u201d which allows ad hoc changes and/or building of workflows for highly flexible processes. Basically, our approach is to provide the ability to execute on the basis of a partially specified model, where the full specification of the model is made at runtime, and may be unique to each instance. The verification of dynamically built models is essential. Where as ensuring that the model conforms to specified constraints does not pose great difficulty, ensuring that the constraint set itself does not carry conflicts and redundancy is an interesting and challenging problem. In this paper, we will provide a discussion on both the static and dynamic verification aspects. We will also briefly present Chameleon, a prototype workflow engine that implements these concepts.",
+      "keywords": "Flexible workflows; Process modeling; Workflow verification",
+      "references": []
+    },
+    {
+      "id": 85,
+      "title": "Analysis of interacting bpel web services",
+      "abstract": "This paper presents a set of tools and techniques for analyzing interactions of composite web services which are specified in BPEL and communicate through asynchronous XML messages. We model the interactions of composite web services as conversations, the global sequence of messages exchanged by the web services. As opposed to earlier work, our tool-set handles rich data manipulation via XPath expressions. This allows us to verify designs at a more detailed level and check properties about message content. We present a framework where BPEL specifications of web services are translated to an intermediate representation, followed by the translation of the intermediate representation to a verification language. As an intermediate representation we use guarded automata augmented with unbounded queues for incoming messages, where the guards are expressed as XPath expressions. As the target verification language we use Promela, input language of the model checker SPIN. Since SPIN model checker is a finite-state verification tool we can only achieve partial verification by fixing the sizes of the input queues in the translation. We propose the concept of synchronizability to address this problem. We show that if a composite web service is synchronizable, then its conversation set remains same when asynchronous communication is replaced with synchronous communication. We give a set of sufficient conditions that guarantee synchronizability and that can be checked statically. Based on our synchronizability results, we show that a large class of composite web services with unbounded input queues can be completely verified using a finite state model checker such as SPIN.",
+      "keywords": "Web Service, asynchronous communication, conversation, synchronizability, model checking, XPath, BPEL, SPIN.",
+      "references": []
+    },
+    {
+      "id": 86,
+      "title": "A weak mutation testing framework for ws-bpel",
+      "abstract": "Web Services Business Process Execution Language (WS-BPEL) is as an XML-based Web Services composition language for more complex business processes. Mutation Testing is error-based software testing in unit level which indicates efficiency of test suites. Weak mutation testing can reduce execution cost more than typical mutation testing. A few empirical studies identify its test effectiveness which was also closely to traditional mutation testing. Recently, there is a research which proposes definition of expression mutation operators for WS-BPEL, while the definitions are not completed for WS-BPEL language. Thereafter an investigation had presented more three mutation operators (Identifier replace operators, Activity operators, as well as Exceptional and event operators) which completely cover for WS-BPEL language. This paper provides a comprehensive analysis by using some mutation operators for WS-BPEL that can apply for weak mutation testing and also proposes a framework for generating mutants by using weak mutation technique. The framework can identify dead mutants and live mutants. Moreover the framework can present execution time, mutation score, and test cases effectiveness.",
+      "keywords": "mutation testing , mutation operators , weak mutation testing , WS-BPEL , web services",
+      "references": [
+        87,
+        88
+      ]
+    },
+    {
+      "id": 87,
+      "title": "Quantitative evaluation of mutation operators for ws-bpel compositions",
+      "abstract": "This work presents a quantitative evaluation of the quality of a set of mutation operators for WS-BPEL 2.0 (Web Services Business Process Execution Language), an OASIS standardized language for the composition of Web Services. A series of experiments is conducted, aiming to determine how selective operators are for the qualification of test cases and, more generally, the quality of the operators themselves. This includes a formalization of mutation testing defining the key concepts and measures employed. Three different compositions are considered and special attention is paid to the properties that suitable test-suites should enjoy.",
+      "keywords": "Genetic mutations , Web services , Software testing , Computer languages , Qualifications , Programming profession , Helium , Containers",
+      "references": [
+        32,
+        33,
+        88,
+        94,
+        95
+      ]
+    },
+    {
+      "id": 88,
+      "title": "Mutation operators for ws-bpel 2.0",
+      "abstract": "The rise of Web Services and their WS-BPEL compositions in recent years makes it necessary to pay special attention to testing in this context. Mutation analysis is a suitable technique to measure the quality of test cases and it has been applied succesfully to programs written in different languages. In order to apply mutation analysis, it is necessary to have an adequate set of language-specific mutation operators. These operators determine the changes to introduce in the program under test. This paper introduces a set of mutation operators for the WS-BPEL 2.0 language covering the wide spectrum of features of this new OASIS standard. A classification of the proposed operators, their descriptions, and examples of their behaviors are presented. These operators can be integrated in a mutant generation system to measure the quality of test suites. ",
+      "keywords": "Mutation analysis, mutation operators, Web Service composition, WS-BPEL",
+      "references": [
+        32,
+        33,
+        94,
+        95
+      ]
+    },
+    {
+      "id": 89,
+      "title": "Checking the behavioral conformance of web services with symbolic testing and an smt solver",
+      "abstract": "Workflow-based service composition languages foster the rapid design and development of distributed applications. The behavioral verification of service Compositions has widely been addressed at design time, using modelchecking. Testing is a complementary technique when it comes to check the behavioral conformance of a service implementation with respect to its specification or to a user or a service need. In this paper we address this issue with an automatic approach based on symbolic testing and an SMT solver.",
+      "keywords": "services, orchestration, formal testing, test-case generation, WS-BPEL, transition systems, symbolic execution, SMT solver.",
+      "references": [
+        35,
+        118
+      ]
+    },
+    {
+      "id": 90,
+      "title": "Testing web service orchestrators in context: A symbolic approach",
+      "abstract": "An orchestrator in a Web Service system is a locally deployed piece of software used both to allow users to interact with the system and to communicate with remote components (Web Services) in order to fulfill a goal. We propose a symbolic model based approach to test orchestrators in the context of the systems they pilot. Our approach only takes as input a model of the orchestrator and no models of the Web Services. Besides, the testing architecture is a parameter: communications between Web Services and the orchestrator can be either simulated, or hidden or observable. When they are simulated, the orchestrator is tested in isolation and our approach comes to already defined classical model-based unit testing approaches. When the System Under Test is connected with Web Services (that is, in actual usage) it is no longer fully controlled by the tester, but tested in context In that case two situations may occur: either communications with Web Services are observable or they are hidden. Our approach copes with those cases. We give theorems relating our notion of conformance in context with regard to classical conformance of components in isolation. We present a test case generation algorithm based on symbolic execution techniques: it takes into account the status (controllable, hidden, or observable) of communication channels between the orchestrator and Web Services. The algorithm has been implemented and is illustrated on a small case study.",
+      "keywords": "Testing , Web services , Context , Communication channels , Computational modeling , Electronic mail , Instruments",
+      "references": [
+        30,
+        33,
+        35,
+        38,
+        41,
+        91
+      ]
+    },
+    {
+      "id": 91,
+      "title": "Observability and controllability issues in conformance testing of web service compositions",
+      "abstract": "We propose a model-based black-box testing approach to test conformance of Web Service Compositions (WSC). When a WSC under test makes use of implementations of Web Services, two situations may occur: either communications between the WSC and the Web Services are observable or hidden internal actions. We show by means of an example how to generate test cases whose verdicts are provided with explanations taking into account the status of the Web Services.",
+      "keywords": "Conformance testing, Web Service composition, observability and controllability, verdict testing report.",
+      "references": [
+        35
+      ]
+    },
+    {
+      "id": 92,
+      "title": "Wsotf: An automatic testing tool for web services composition",
+      "abstract": "This paper presents an automatic conformance testing tool with timing constraints from a formal specification (TEFSM: Timed Extended Finite State Machine) of web services composition (WSOTF: Web Service composition, Online Testing Framework), that is implemented by an online testing algorithm. This algorithm combines simultaneously idea of test execution and debug to generate and simultaneously execute the test cases. In this tool, the complete test scenario (timed test case suite and data) is built during test execution. This tool focus on unit testing, it means that only the service composition under test is tested and all its partners will be simulated by the WSOTF. This tool also considers the timing constraints and synchronous time delay. We can also use this tool for debug that is not easy while we develop a composite of Web services.",
+      "keywords": "Web Services Composition , Conformance Testing , Test Generation , Debugger , Timed Extended Finite State Machine",
+      "references": [
+        26,
+        35,
+        41,
+        94,
+        95
+      ]
+    },
+    {
+      "id": 93,
+      "title": "The Web Services Composition Testing Based on Extended Finite State Machine and UML Model",
+      "abstract": "Web services are designed as software building blocks for Service Oriented Architecture (SOA). It provides an approach to software development that system and application can be constructed by assembling reusable software building blocks, called services. The industries have adopted web services composition to generate new business applications or mission critical services. One of the most popular integration languages for web services composition is Web Services Business Process Execution Language (WS-BPEL). Although the individual service is usually functional correctly, however, several unexpected faults may occur during execution of composite web service. It is difficult to detect the original failure service because the faults may propagate, accumulate and spread. In this paper, we present a technique of Model-Based Testing (MBT) to enhance testing of interactions among the web services. The technique combines Extended Finite State Machine (EFSM) and UML sequence diagram to generate a test model, called EFSM-SeTM. We also defined various coverage criteria to generate valid test paths from EFSM-SeTM model for a better test coverage of all possible scenarios.",
+      "keywords": "Composite Web Service Testing , Web Services Test Model , WS-BPEL , EFSM , MBT",
+      "references": [
+        95
+      ]
+    },
+    {
+      "id": 94,
+      "title": "Generating test cases specifications for BPEL compositions of web services using SPIN",
+      "abstract": " Generating test cases for compositions of web services is complex, due to their distributed nature and asynchronous behaviour. In this paper, a formal verification tool \u2013 the SPIN model checker \u2013 is used to generate test suite specifications for compositions specified in BPEL. A transition coverage criterion is employed to define a systematic procedure to select the test cases. The approach is applied to the \u201cloan approval\u201d sample composition.",
+      "keywords": "web service compositions, model-based testing, structural testing, model checking. ",
+      "references": [
+        5,
+        85
+      ]
+    },
+    {
+      "id": 95,
+      "title": "An Automatic Test Case Generation Framework for Web Services",
+      "abstract": "BPEL (Business Process Execution Language) as a de-facto standard for web service orchestration has drawn particularly attention from researchers and industries. BPEL is a semi-formal flow language with complex features such as concurrency and hierarchy. To test a model thoroughly, we need to cover different execution scenarios. As is well known, it is tedious, time-consuming, and error prone to design test cases manually, especially for complex modelling languages. Hence, it is desirable to apply existing model-based-testing techniques in the domain of web services. We proposed WSA (Web Service Automata) to be the operational semantics for BPEL. Based on WSA, we propose a model checking based test case generation framework for BPEL. The SPIN and NuSMV model checkers are used as the test generation engine, and the conventional structural test coverage criteria are encoded into LTL and CTL temporal logic. State coverage and transition coverage are used for BPEL control flow testing, and all-du-path coverage is used for BPEL data flow testing. Two levels of test cases can be generated to test whether the implementation of web services conforms to the BPEL behaviour and WSDL interface models. The generated test cases are executed on the JUnit test execution engine.",
+      "keywords": " web services, finite state machine, model checking, test coverage, test case generation",
+      "references": [
+        3,
+        6,
+        32,
+        33
+      ]
+    },
+    {
+      "id": 96,
+      "title": "An abc based approach to test case generation for bpel processes",
+      "abstract": "One of the important tasks in software testing process is test case generation. The automation of this task reduces the endeavor to generate test suite and contributes to selecting a subset of test cases from the test suite that can be executed in minimum time and optimally meets the test adequacy criteria. In this paper, we put forward a new approach for automating the generation of test cases for BPEL processes. A transition coverage criterion is used as the adequacy criterion. Our approach is based on meta-heuristic approach ABC (Artificial Bee Colony Optimization) which is inspired by the behavior of honey bees. We examine whether our approach outdo existing test optimization approaches in time, number of test cases and the percentage of coverage.",
+      "keywords": "Software Testing , BPEL processes , Test Case Generation , Bee Colony Artifial Algorithm",
+      "references": [
+        5,
+        73,
+        94,
+        102
+      ]
+    },
+    {
+      "id": 97,
+      "title": "Tabu search and genetic algorithm to generate test data for bpel program",
+      "abstract": "To solve the combination explosion and the undecidable problem on feasibility of complete computation paths when testing the composed Web services programmed by business process execution language (BPEL), this paper presents a simple strategy for generating complete computation paths of BPEL program and an approach for generating test data for feasible complete computation paths based on tabu search and genetic algorithm (Tabu GA). Firstly, the basic structure graph is built from BPEL program based on an open source tool BPEL4WS20WLS. Then the basic structure graph is converted to middle structure graph for facilitating to generate complete computation paths by selected test adequacy criteria, which a complete computation path is corresponding to operation sequence. Lastly, we apply Tabu GA into searching the whole input space which is made from all operation parameters of each operation sequence, and generating test data for each feasible complete computation path. Experiments show that the method could determine efficiently whether the complete computation path is feasible or not and generate automatically test data for each feasible complete computation path of BPEL program.",
+      "keywords": "Genetic algorithms , Web services , Logic testing , Automatic testing , Service oriented architecture , Flow graphs , Automatic generation control , Automata , Object oriented modeling , Educational institutions",
+      "references": [
+        2,
+        26,
+        30,
+        33,
+        46,
+        101,
+        119
+      ]
+    },
+    {
+      "id": 98,
+      "title": "A participant testing strategy for service orchestrations",
+      "abstract": "Service Oriented Computing is an emerging discipline that promotes and make easier inter-organization integration of software systems. In such a context interoperability issues are considered a primary threat for a correct integration. Testing can be a fruitful approach helping to reduce interoperability mismatches. In this paper, considering the case of services to be integrated within an orchestration, we propose a testing derivation strategy based on a counter-example based technique. The state explosion phenomenon, caused by the presence of complex data sets, is handled by applying Genetic Algorithm strategies.",
+      "keywords": "Genetic algorithms , Service oriented architecture , Explosions , Runtime , Software testing , System testing , Mathematics , Computer science , Software systems , Standards development",
+      "references": [
+        5,
+        30
+      ]
+    },
+    {
+      "id": 99,
+      "title": "Search-based testing of service level agreements",
+      "abstract": "The diffusion of service oriented architectures introduces the need for novel testing approaches. On the one side, testing must be able to identify failures in the functionality provided by service. On the other side, it needs to identify cases in which the Service Level Agreement (SLA) negotiated between the service provider and the service consumer is not met. This would allow the developer to improve service performances, where needed, and the provider to avoid promising Quality of Service (QoS) levels that cannot be guaranteed. This paper proposes the use of Genetic Algorithms to generate inputs and configurations for service-oriented systems that cause SLA violations. The approach has been implemented in a tool and applied to an audio processing workflow and to a service for chart generation. In both cases, the approach was able to produce test data able to violate some QoS constraints.",
+      "keywords": "Service Level Agreement, Search-Based Testing, Quality of Service",
+      "references": []
+    },
+    {
+      "id": 100,
+      "title": "A testing method for Web services composition based on data-flow",
+      "abstract": "This paper proposes a method of data-flow testing for Web services composition. Firstly, to facilitate data flow analysis and constraints collecting, the existing model representation of business process execution language (BPEL) is modified in company with the analysis of data dependency and an exact representation of dead path elimination (DPE) is proposed, which overcomes the difficulties brought to dataflow analysis. Then defining and using information based on data flow rules is collected by parsing BPEL and Web services description language (WSDL) documents and the def-use annotated control flow graph is created. Based on this model, data-flow anomalies which indicate potential errors can be discovered by traversing the paths of graph, and all-du-paths used in dynamic data flow testing for Web services composition are automatically generated, then testers can design the test cases according to the collected constraints for each path selected.",
+      "keywords": " Web services composition; business process execution language (BPEL); Web services description language (WSDL); data flow; all-du-path",
+      "references": [
+        5,
+        32,
+        33
+      ]
+    },
+    {
+      "id": 101,
+      "title": "Data flow testing of service-oriented workflow applications",
+      "abstract": "WS-BPEL applications are a kind of service-oriented application. They use XPath extensively to integrate loosely-coupled workflow steps. However, XPath may extract wrong data from the XML messages received, resulting in erroneous results in the integrated process. Surprisingly, although XPath plays a key role in workflow integration, inadequate researches have been conducted to address the important issues in software testing. This paper tackles the problem. It also demonstrates a novel transformation strategy to construct artifacts. We use the mathematical definitions of XPath constructs as rewriting rules, and propose a data structure called XPath Rewriting Graph (XRG), which not only models how an XPath is conceptually rewritten but also tracks individual rewritings progressively. We treat the mathematical variables in the applied rewriting rules as if they were program variables, and use them to analyze how information may be rewritten in an XPath conceptually. We thus develop an algorithm to construct XRGs and a novel family of data flow testing criteria to test WS-BPEL applications. Experiment results show that our testing approach is promising.",
+      "keywords": "WS-BPEL, XPath, service-orientation, workflow testing, testing, rewriting rules, SOA, XML, XML document model",
+      "references": [
+        27,
+        32,
+        41,
+        85,
+        94
+      ]
+    },
+    {
+      "id": 102,
+      "title": "Semi-automatic test case generation from business process models",
+      "abstract": "In this work, we describe our method for designing test cases based on high level functional specifications \u00e2\u20ac\u201c business process models. Category Partition Method (CPM) is used to automatically create test frames based on possible paths, which are determined by business rules. The test frames can then be used in the process of test case design, together with filtering and prioritization also given as CPM rules. We present the details of the adaptation of CPM, together with first experiences from applying the method in an industrial context.",
+      "keywords": "software testing, test case design, test case generation, functional testing, black-box testing, equivalence partinioning, Category Partition Method, CPM ",
+      "references": [
+        32,
+        33,
+        46,
+        94
+      ]
+    },
+    {
+      "id": 103,
+      "title": "A preliminary study on bpel process testability",
+      "abstract": "WS-BPEL is an OASIS standard language used for describing interactions in Service Oriented Architectures (SOA). BPEL processes are usually overlapped in large Business applications composed of web services and such applications are more and more developed with respect of quality processes. Testability, which is the topic of this paper, is a quality criterion devoted for testing activities which evaluates the test coverage and the testing cost. We study the BPEL testability on two well-known testability criteria, observability and controllability. To evaluate them, we propose to transform ABPEL specifications into STS and to apply existing methods. Then, from STS testability issues, we deduce some patterns of ABPEL testability degradation. These latter help to finally propose testability enhancement methods of ABPEL specifications.",
+      "keywords": "WS-BPEL, testability, enhancement methods\n",
+      "references": [
+        1,
+        35,
+        94,
+        95
+      ]
+    },
+    {
+      "id": 104,
+      "title": "Improvement of test management in bpmn with aris",
+      "abstract": "One of the significant reasons for the success of Service Oriented Architecture (SOA) is its harmonization with business process management (BPM). Architecture of Integrated Information System (ARIS) correlates SOA with BPM by its proposed work flow. Modeling process is one of the fundamental parts in SOA architecture. Business Process Modeling Notation (BPMN) is a graphical language which is known as one of the most efficient languages for modeling in ARIS. This language is transformable to Business Process Execution Language and causes the act of modeling to be performed on the basis of a comprehensive and integrated plan with its provided tools. Despite of all the advantages, the companies should apply necessary speed and precision in the cycle of transforming the models to executable processes to be competitive in the nowadays world; and due to the fact that the first step in generating an executive process in SOA is design and modeling, therefore it is so critical to assure of the correct functionality of models before implementation and test. ARIS provides the users with the facility to be certain about correct functionality of BPMN model by supporting ARIS simulator. However simulation is time-consuming while being used in change of business and process updating and it is not optimal. We presented a solution by introduce semantic checking in ARIS and showing how could upgrading the support of BPMN in ARIS to reduce the consumed time for test and simulation.",
+      "keywords": "ARIS, SOA, BPMN, Simulation)",
+      "references": []
+    },
+    {
+      "id": 105,
+      "title": "Creating declarative process models using test driven modeling suite",
+      "abstract": "Declarative approaches to process modeling promise a high degree of flexibility. However, current declarative state-of-the-art modeling notations are, while sound on a technical level, hard to understand. To cater for this problem, in particular to improve the understandability of declarative process models as well as the communication between domain experts and model builders, Test Driven Modeling (TDM) has been proposed. In this tool paper we introduce Test Driven Modeling Suite (TDMS) which provides operational support for TDM. We show how TDMS realizes the concepts of TDM and how Cheetah Experimental Platform is used to make TDMS amenable for effective empirical research. Finally, we provide a brief example to illustrate how the adoption of TDMS brings out the intended positive effects of TDM for the creation of declarative process models.",
+      "keywords": "Declarative Business Process Models, Test Driven Modeling, Test Driven Modeling Suite.",
+      "references": [
+        84
+      ]
+    },
+    {
+      "id": 106,
+      "title": "Externalizing business rules from business processes for model based testing",
+      "abstract": "Business Process Modeling (BPM) is a popular modeling technique for representing the activities of business processes. These techniques are widely used for documenting processes in large enterprises. In addition to capturing details of activity flows (e.g., workflows), these models also represent decision models for a given process. Decision models are used to represent not only the standard if-then-else type of branching of activities but also to represent business rules. The notation used to represent business process is called Business Process Modeling Notation (BPMN). In this paper, we propose a technique to identify and extract business rules that are embedded inside business process models represented using Business Process Modeling Notation. A source model <;P>; is split into to <;P', R>; comprised of the modified business process P' and externalized business rules R. We also demonstrate how the combination of process models along with externalized business rules represented by <;P', R>; can be used to identify test sequences in Model-Based Testing (MBT). We observe that externalization of business rules fosters generation of enhanced software artifacts for Model Driven Engineering and test artifacts for Model Based Testing.",
+      "keywords": "Logic gates , Artificial intelligence , XML",
+      "references": [
+        64
+      ]
+    },
+    {
+      "id": 107,
+      "title": "A multi-agent based framework for collaborative testing on web services",
+      "abstract": "Web services (WS) is currently the major implementation of service-oriented architecture (SOA). It defines a framework for agile and flexible integration among autonomous services based on Internet open standards. However, testing has been a challenge due the dynamic and collaborative nature of WS. This paper introduces an on-going project on a multiagent based framework to coordinate distributed test agents to generate, plan, execute, monitor and communicate tests on WS. Test agents are classified into different roles which communicate through XML-based agent test protocols. Test master accepts test cases from test generator, generates test plans and distributed them to various test groups. A set of test agents that implement a test plan are organized into a test group, which is coordinated by a test coordinator. Test runners execute the test scripts, collect test results and forward the results to test analyzer for quality and reliability analysis. The status of the test agents are monitored by the test monitor. Test agents are dynamically created, deployed and organized. Through the monitoring and coordinating mechanism, the agents can re-adjust the test plan and their behavior at runtime to be adaptive to the changing environment.",
+      "keywords": "Web Services, Testing, Multi-Agent",
+      "references": []
+    },
+    {
+      "id": 108,
+      "title": "Data flow analysis and testing for web service compositions based on ws-bpel",
+      "abstract": "WS-BPEL is a business process execution language used to specify the behavior of a business process as compositions of Web services. As WS-BPEL is widely adopted as a standard for composing services, it becomes critical to analyze and test the WS-BPEL process in order to ensure the correctness of service compositions. However, most recent researches mainly focus on the development of WS-BPEL applications. There is little attention paid to WS-BPEL testing. This paper identifies and discusses various usages of data in WS-BPEL. A test model is proposed to capture the data flow artifacts of WS-BPEL with considerations of its specific features, such as concurrency and synchronization. Based on the model, data flow testing criteria can be used to select test paths for uncovering the data anomalies of the WS-BPEL process. ",
+      "keywords": "",
+      "references": [
+        30,
+        32,
+        33,
+        41,
+        52,
+        62,
+        71,
+        100,
+        101
+      ]
+    },
+    {
+      "id": 109,
+      "title": "An empirical study of the use of frankl-weyuker data flow testing criteria to test bpel web services",
+      "abstract": "Programs using service-oriented architecture (SOA) often feature ultra-late binding among components. These components have well-defined interfaces and are known as Web services. Messages between every pair of Web services dually conform to the output interface of a sender and the input interface of a receiver. Unit testing of Web services should not only test the logic of Web services, but also assure the correctness of the Web services during input, manipulation, and output of messages. There is, however, little software testing research in this area. In this paper, we study the unit testing problem to assure components written in orchestration languages, WS-BPEL in particular. We report an empirical study of the effectiveness of the Frankl-Weyuker data flow testing criteria (particularly the all-uses criterion) on WS-BPEL subject programs. Our study shows that conventional data flow testing criteria can be much less effective in revealing faults in interface artifacts (WSDL documents) and message manipulations (XPath queries) than revealing faults in BPEL artifacts.",
+      "keywords": "WS-BPEL , XPath , data flow testing",
+      "references": [
+        32,
+        41,
+        85,
+        94,
+        101
+      ]
+    },
+    {
+      "id": 110,
+      "title": "A regression test technique for analyzing the functionalities of service composition",
+      "abstract": "Regression testing is a hot research area for Web service composition, which has direct impact on QoS of applications. This paper proposes an aspect-oriented regression test technique for analyzing functionalities of service composition. An extended version of Petri net is proposed as the underlying formalism. Services and components are modeled by Petri nets, service evolution is specified as crosscutting concerns, and in turn woven into the testing model of service composition by following weaving rules. A regression testing algorithm of service composition is designed. Theories of Petri nets help prove the effectiveness of the testing method. A case study shows that the approach simplifies the process of testing, and improves its efficiency as well.",
+      "keywords": "",
+      "references": [
+        95
+      ]
+    },
+    {
+      "id": 111,
+      "title": "Managing test suites for services",
+      "abstract": "When developing an existing service further, new functionalities can be added and existing functionalities can be changed or removed. Consequently, also test cases have to be added to or removed from the existing test suite. In this paper, we present an idea how a test suite can be adjusted to these changes. Thereby, we focus on modifications concerning the communication behavior of a service. ",
+      "keywords": "",
+      "references": [
+        118
+      ]
+    },
+    {
+      "id": 112,
+      "title": "Passive testing of web services",
+      "abstract": "This paper presents a methodology to perform passive testing based on invariants of distributed systems with time information. This approach is supported by the following idea: A set of invariants represents the most relevant expected properties of the implementation under test. Intuitively, an invariant expresses the fact that each time the system under test performs a given sequence of actions, then it must exhibit a behavior reflected in the invariant. We call these invariants local because they only check the correctness of the logs that have been recorded in each isolated system. We discuss the type of errors that are undetectable by using only local invariants. In order to cope with these limitations, this paper introduces a new family of invariants, called globals to deal with more subtle characteristics. They express properties of a set of systems, by making relations between the set of recorded local logs. In addition, we show that global invariants are able to detect the class of undetected errors for local invariants",
+      "keywords": "Passive Testing, Service Oriented Systems, Monitoring",
+      "references": [
+        4,
+        35
+      ]
+    },
+    {
+      "id": 113,
+      "title": "Testing careflow process execution conformance by translating a graphical language to computational logic",
+      "abstract": "Careflow systems implement workflow concepts in the clinical domain in order to administer, support and monitor the execution of health care services performed by different health care professionals and structures. In this work we focus on the monitoring aspects and propose a solution for the conformance verification of careflow process executions. Given a careflow model, we have defined an algorithm capable of translating it to a formal language based on computational logic and abductive logic programming in particular. The main advantage of this formalism lies in its operational proof-theoretic counterpart, which is able to verify the conformance of a given careflow process execution (in the form of an event log) w.r.t. the model. The feasibility of the approach has been tested on a case study related to the careflow process described in the cervical cancer screening protocol.",
+      "keywords": "Careflow management, Clinical practice guidelines, Conformance verification, Computational logic.",
+      "references": []
+    },
+    {
+      "id": 114,
+      "title": "Xtemp: Event-driven testing and monitoring of business processes",
+      "abstract": "XML has proved to be a scalable archival format for messages of various kinds (e.g. email with MarkMail). It is also increasingly used as format of choice for several event models and taxonomies (XES, OASIS/SAF, CEE, XDAS) that need be both processable and human readable. As many eBusiness processes are also relying on XML for message content and/or protocol, there is a need to monitor and validate the messages and documents being exchanged as well as their sequences. XTemp is an XML vocabulary and execution language that is event-centric and intended for the analysis of sequence of events that represent traces of business processes. It is designed for both log analysis and real-time execution. It leverages XPath and XSLT.",
+      "keywords": "Document Testing; Test Assertion",
+      "references": []
+    },
+    {
+      "id": 115,
+      "title": "A heuristic method for detecting problems in business process models",
+      "abstract": "Purpose \u2013 The purpose of this paper is to present a new heuristic approach for finding errors and possible improvements in business process models. Design/methodology/approach \u2013 First, the paper translates the information that is included in a model into a set of Prolog facts. It then searches for patterns which are related to a violation of the soundness property or bad modeling style or otherwise gives rise to the assumption that the model should be improved. To validate this approach, the paper analyzes a repository of almost 1,000 business process models. For this purpose, three different model-checkers that explore the state space of all possible executions of a model are used. The result of these tools are compared with the results given by this heuristic approach. Findings \u2013 The paper finds that the heuristic approach identifies violations of the soundness property almost as accurate as model-checkers. However, other than these tools, the approach never ran into state space explosion problems. Furthermore, this heuristic approach can also detect patterns for bad modeling style which can help to improve the quality of models. Practical implications \u2013 Heuristic checks can run in the background while the modeler works on the model. In this way, feedback about possible modeling errors can be provided instantly. This feedback can be used to correct possible problems immediately. Originality/value \u2013 Current Prolog-based validation tools check mainly for syntactical correctness and consistency requirements. This approach adds one more perspective by also detecting control-flow errors (like deadlocks) and even pragmatic issues.",
+      "keywords": "Modelling, Error analysis, Business planning",
+      "references": [
+        61
+      ]
+    },
+    {
+      "id": 116,
+      "title": "Partes: A test generation strategy for choreography participant",
+      "abstract": "Inter-organizational business processes permit to specify how different organizations can integrate to carryon business activities together. In this context choreography specifications provide a particularly useful view permitting to define how different organizations should interact and exchange messages in order to fruitfully cooperate. Tools and mechanisms permitting to check that a stakeholder, and its provided e-services, are able to correctly cooperate according to the global specification become an important and useful asset. This is particularly true when open specifications are considered and services dynamically integrate with each other at run-time. This paper proposes a novel derivation strategy for test case skeletons, which can be successively refined and concretized to check the behaviour of parties willing to play a role within a choreography enactment. The very basic idea is to derive test cases from the possible interaction traces included in the choreography specification handled as a workflow graph. The selection of traces to use for test derivation purpose is driven by a specifically conceived technique to work flow refactoring which permits to reduce the number of interleavings to explore, in particular when parallel statements are considered.",
+      "keywords": "Service Testing, Service Choreography, Model Based Testing",
+      "references": [
+        38
+      ]
+    },
+    {
+      "id": 117,
+      "title": "Reducing complexity of data flow testing in the verification of a iec-62304 flexible workflow system",
+      "abstract": "In the development of SW applications, the workflow abstraction gives primary relevance to the way how some process can be accomplished through a sequence of connected steps. This largely conditions analysis, implementation architecture, and verification. In particular, testing activities are naturally oriented towards a data flow approach, which effectively exercises dependencies among steps. In several application scenarios, the workflow model cannot completely determine the sequencing of actions and it must rather leave space to variability. While easily encompassed both in the analysis and implementation stages, this comprises a major hurdle for the testing stage due to the explosion in the number of allowed execution orders and paths. We address the problem reporting on the verification of the control software of a Computer Assisted Surgery system. In this case, the workflow abstraction captures the constraints of a medical protocol, and variability in the order of steps reflects dynamic adaptation of the course of actions to the specific characteristics of each patient. This largely increases the testing effort needed to accomplish the prescriptions of the IEC-62304 certification standard. To cope with the problem, we show how data flow analysis can be used to identify an appropriate set of constraints that can be exploited in the verification stage, so as to reduce the test suite while preserving coverage.",
+      "keywords": "Workflow architecture, Workflow verification, Data Flow testing.",
+      "references": [
+        10,
+        84,
+        101,
+        109
+      ]
+    },
+    {
+      "id": 118,
+      "title": "Automatic test case generation for interacting services",
+      "abstract": "Service-oriented architectures propose loosely coupled interacting services as building blocks for distributed applications. Since distributed services differ from traditional monolithic software systems, novel testing methods are required. Based on the specification of a service, we introduce an approach to automatically generate test cases for black-box testing to check for conformance between the specification and the implementation of a service whose internal behavior might be confidential. Due to the interacting nature of services this is a nontrivial task.",
+      "keywords": "Testing, Interacting Services, Test Case Generation.",
+      "references": [
+        30,
+        32,
+        41,
+        94
+      ]
+    },
+    {
+      "id": 119,
+      "title": "Multi-agent test environment for bpel-based web service composition",
+      "abstract": "The distributed structure of agents makes the test for large and complex Web service composition possible. This paper discusses how to develop the multi-agent test environment for BPEL-based Web Service composition. The BPEL-based Web Service composition is modeled by HPN that can be easily referenced by test case generation and test evaluation. By representing agent in HPN, the agent can be dynamically bound at runtime. In order to implement the multi-agent test environment for BPEL-based Web Service composition, the ontology is analyzed and defined based on XML because of its flexibility, extensibility etc. This ontology is the basis of the agent communication and provides the terms for test case generation and test evaluation etc. The test case generation and test evaluation under this test environment are analyzed. The test process is provided to illustrate the inter-action between the agents under this multi-agent test environment to accomplish test task.",
+      "keywords": "c Business Process Execution Language for Web Services, High-level Petri Net, Multi-agent test",
+      "references": []
+    },
+    {
+      "id": 120,
+      "title": "faultinjector: A tool for injection of faults in synchronous ws-bpel processes",
+      "abstract": "Comparing with the testing of conventional software systems, the testing of service-oriented systems (SOS) is considerably more challenging. Fault injection is a standard software testing approach that can be applied to the SOS. It is used in this paper as a base for testing of web service business processes at communication channel level as well as message level. The proposed approach provides simulation of combination of several faults during message exchange in order to generate negative test cases. The supported types of faults are message delay, failure of the communication channel, sending or receiving a message with corrupted structure, sending or receiving a message with wrong data.",
+      "keywords": "BPEL, fault injection, testing, web service",
+      "references": [
+        1,
+        30,
+        33,
+        40,
+        95,
+        121
+      ]
+    },
+    {
+      "id": 121,
+      "title": "A formal approach for specification and verification of fault injection process",
+      "abstract": "Fault injection is a powerful strategy to test security protocols and fault-tolerant systems. The first step in building a complete fault injection process is the specification of a fault scenario for the test experiment. This includes the specification of the fault injector location and the type and time of injected faults. However, the existing fault description languages are often non-formal and/or tool-specific, which leads to many specification ambiguities. To address this problem, we propose a high level fault injection formalism based on Hoare logic rules. We describe fault injection operations as Hoare triples extended with primitives to express the timing of actions. This allows us to specify various types of faults and thus, makes the proposed formalism suitable for most communication systems, including protocols and distributed applications. This paper also presents a passive testing approach based on the proposed formalism to check fault injection process and outlines a case study on Web services for illustration.",
+      "keywords": "Security testing, Fault Injection, Formal Methods, Fault Specification, Trace Analysis, Time Specification.",
+      "references": []
+    },
+    {
+      "id": 122,
+      "title": "Quality analysis of composed services through fault injection",
+      "abstract": "Web service composition can be adopted to develop information systems through integration of services to obtain complex composed services. While interfaces of services are known at composition time, the quality of a composed service may depend on the ability of its component services to react to unforeseen situations, such as data quality problems and service coordination problems. In this work, we propose an approach to analyze the quality of composed services using fault injection techniques, by inspecting the reaction of a composed process to injected faults; the aim is to assess the process quality in terms of fault monitoring and, more generally, fault tolerance capabilities. The component services are analyzed either as black-boxes, when only input and output messages are considered or as white-boxes, when data sources used by services are considered. A test bed is illustrated on a selected example, and results of extensive testing are discussed and framed into a process analysis methodology",
+      "keywords": "Web service analysis. Information systems quality . Process testing . Complex composed services. Fault injection",
+      "references": []
+    },
+    {
+      "id": 123,
+      "title": "Robustness testing of web services composition",
+      "abstract": "We propose in this paper, a robustness testing method of composite Web services. Our method aims to automatically test operations robustness which are provided by the involved Web services in the composition. Symbolic specification, used as a composition model is first translated into a symbolic execution tree that characterizes the execution paths followed during the symbolic execution. Then, from this symbolic execution tree a set of sub-trees per operation are generated. These ones allow the tester to differentiate operations behaviours and prepare a set of test cases for each operation. Generated sub-specifications are completed using robustness rules, then specific values are injected into the test cases to test their conformance against the IUT.",
+      "keywords": "Robustness Testing; Composite Web services; Symbolic Transition System",
+      "references": [
+        35,
+        91,
+        92
+      ]
+    },
+    {
+      "id": 124,
+      "title": "An automated approach to robustness testing of bpel orchestrations",
+      "abstract": "Service compositions are increasingly used for the fast development of loosely-coupled dynamic distributed applications. Such compositions are prone to potential failures arising from their complex interaction scheme and from various kinds of network problems. Functional testing could overlook such failures, hence we claim it is important to specifically consider test cases for validating how the composite service reacts when invalid or unexpected events occur. We have developed the TASSA framework for automated generation and execution of robustness test cases. The framework addresses BPEL orchestrations and relies on fault-injection mechanisms. In the paper we motivate BPEL robustness testing, introduce the framework and present its preliminary assessment on a case study.",
+      "keywords": "Robustness testing, service orchestration, test automation.",
+      "references": [
+        30,
+        33,
+        82,
+        94,
+        95,
+        122,
+        123,
+        126
+      ]
+    },
+    {
+      "id": 125,
+      "title": "Effective message-sequence generation for testing bpel programs",
+      "abstract": "With the popularity of Web Services and Service-Oriented Architecture (SOA), quality assurance of SOA applications, such as testing, has become a research focus. Programs implemented by the Business Process Execution Language for Web Services (WS-BPEL), which can be used to compose partner Web Services into composite Web Services, are one popular kind of SOA applications. The unique features of WS-BPEL programs bring new challenges into testing. A test case for testing a WS-BPEL program is a sequence of messages that can be received by the WS-BPEL program under test. Previous research has not studied the challenges of message-sequence generation induced by unique features of WS-BPEL as a new language. In this paper, we present a novel methodology to generate effective message sequences for testing WS-BPEL programs. To capture the order relationship in a message sequence and the constraints on correlated messages imposed by WS-BPEL's routing mechanism, we model the WS-BPEL program under test as a message-sequence graph (MSG), and generate message sequences based on MSG. We performed experiments for our method and two other techniques with six WS-BPEL programs. The results show that the message sequences generated by using our method can effectively expose faults in the WS-BPEL programs.",
+      "keywords": "WS-BPEL testing, message-sequence graph, web services, WS-BPEL modeling",
+      "references": [
+        15,
+        25,
+        30,
+        32,
+        33,
+        41,
+        62,
+        73,
+        85,
+        101
+      ]
+    },
+    {
+      "id": 126,
+      "title": "Robustness testing framework for web services composition",
+      "abstract": "Recently with the rapid growth of network and changes of business environment, the enterprises require the integration of various information systems and their interoperation. The SOA (service oriented architecture) based on Web services is widely used for integration of these information systems. And as the standard integration language for the business processes, BPEL (business process execution language) provides the way to integrate various services provided by the information system. Over the past few years, some types of studies have been made on testing compatibility, discriminating, and tracing of processes in the services composition area. But there were few efforts to solve the problems caused by composition of various services. Especially, there is no effort to test and to enhance the robustness of the services composition. In this paper, we suggest a framework for the robustness testing of the service composition based on WS-BPEL. It generates the virtual testing environment. Through this framework, we can verify the robustness of Web services compositions against various errors and/or exceptional cases.",
+      "keywords": "BPEL, Service Composition, Robustness Testing, Test Automation",
+      "references": [
+        5,
+        30,
+        33,
+        123
+      ]
+    },
+    {
+      "id": 127,
+      "title": "Business semantics centric reliability testing for web services in bpel",
+      "abstract": "The Business Process Execution Language (BPEL) has become the standard in Web service composition, so that been adopted by industries to create mission critical services. The business process reliability especially business process consistency when some services failed is critical to composite services especially involving various organizations. However, it is difficult to conduct business process reliability testing for composite services due to complex business process in service composition, remote deployed services and long time testing duration. Little research is done to test fault tolerance capabilities of composite services only from low level. This paper proposes a technique on how to test the reliability of composite service defined in BPEL from the view of business semantics with little cost using fault injection. We present an approach for reliability testing of web services by using service stubs with semantic faults instead of real services which can be placed at service provider side or service consumer side. Dislike existing studies, we focus on how to find the reliability problems associating with business process - called semantics as the problems are not pure coding error but faults related to business process. In addition, the behavior of composite services in BPEL is analyzed when there are faults in orchestrated services invoked. Finally, a case study is given to show the whole process of reliability testing for composite web service.",
+      "keywords": "Web Services, Fault Injection, Reliability Testing",
+      "references": [
+        30,
+        122
+      ]
+    },
+    {
+      "id": 128,
+      "title": "Automatic test case generation for orchestration languages at service oriented architecture",
+      "abstract": "Service oriented architecture (SOA) is one of the latest software architectures. This architecture is created in direction of the business requirements and for removing the gap between softwares and businesses. The software testing is rising cost of activities in development software. SOA has different specifications and features proportion of the other software architectures. According to these features of the system, we cannot apply all approaches and methodologies of testing in the typical software systems for testing in the SOA systems, and there are need to specific procedures for testing the service oriented systems and/or change in the testing approaches. This document presents an approach for test cases generation automatically at the SOA system. First, this approach creates a control flow graph of BPEL file in the system and services related of the main service, WSIG file is used to create subgraphs of the related services. Then, the test cases create randomly of the primary test for graph in the generated system. Final, it tries to create test cases require to cover of the system graph through randomly generation and the genetic algorithms. This algorithm will compare with standard genetic algorithm and we will show the algorithm has performance better than the other algorithm.",
+      "keywords": "Service Oriented Architecture, Software testing, automatic test case generation, SOA Testing",
+      "references": [
+        13,
+        33,
+        59,
+        71,
+        82,
+        92,
+        95,
+        97,
+        101,
+        102,
+        127,
+        142,
+        150
+      ]
+    },
+    {
+      "id": 129,
+      "title": "Generating test data based on xml schema",
+      "abstract": "The quality of Web service is widely concerned. The dynamic testing methods based on the specification are usually adopted because of the source codes even the executable codes of Web services under testing not being accessed by the tester. Now, the XML Schema is the basis for presenting the messages transferred between Web services and defining the structures and datatypes of document for specifying Web service. This paper presented a method which could generate test data based on XML Schema for testing simple Web service defined by WSDL and WSDL-S and composite web service defined by OWL-S and BPEL4WS. A prototype tool is implemented based on the approach.",
+      "keywords": "Test Data; Web Service; Composite Web Service; XMLSchema",
+      "references": [
+        2,
+        5,
+        95
+      ]
+    },
+    {
+      "id": 130,
+      "title": "Business process management: A comprehensive survey",
+      "abstract": "Business Process Management (BPM) research resulted in a plethora of methods, techniques, and tools to support the design, enactment, management, and analysis of operational business processes. This survey aims to structure these results and provide an overview of the state-of-the-art in BPM. In BPM the concept of a process model is fundamental. Process models may be used to configure information systems, but may also be used to analyze, understand, and improve the processes they describe. Hence, the introduction of BPM technology has both managerial and technical ramifications and may enable significant productivity improvements, cost savings, and flow-time reductions. The practical relevance of BPM and rapid developments over the last decade justify a comprehensive survey",
+      "keywords": "",
+      "references": []
+    },
+    {
+      "id": 131,
+      "title": "Extended choice relation framework for workflow testing",
+      "abstract": "Testing workflow applications is important given their critical role in an organization\u2019s everyday operations. At the same time, systematic workflow application testing requires a significant amount of effort since these applications usually manipulate non-trivial data structures and interact with many other application components. Therefore, devising efficient and effective ways of generating test cases for workflow applications is a highly relevant problem. In this paper, we propose a method for workflow test case generation based on the Choice Relation Framework (CRF). The proposed method aims at reducing the amount of input required from the sofware tester, while allowing test cases to be generated incrementally. To this end, test cases are generated in such a way as to cover the most frequently-occurring workflow execution traces, which are identified based on conditional branching probabilities typically available in workflow models. An empirical evaluation demonstrates that the proposed method significantly reduces the amount of input that testers need to provide in order to produce test cases that cover the most frequent paths of the process.",
+      "keywords": "",
+      "references": [
+        15,
+        32,
+        46,
+        64,
+        94,
+        102
+      ]
+    },
+    {
+      "id": 132,
+      "title": "A business protocol unit testing framework for web service composition",
+      "abstract": "Unit testing is a critical step in the development lifecycle of business processes for ensuring product reliability and dependability. Although plenty of unit testing approaches for WS-BPEL have been proposed, only a few of them designed and implemented a runnable unit testing framework, and none of them provides a technique to systematically specifying and testing the causal and temporal dependencies between the process-under-test and its partner services. In this paper, we propose a novel approach and framework for specifying and testing the inter-dependencies between the process-under-test and its partner services. The dependency constraints defined in the business protocol are declaratively specified using a pattern-based high-level language, and a FSA-based approach is proposed for detecting the violation of constraints. A testing framework that integrates with the Java Finite State Machine framework has been implemented to support the specification of both dependency constraints and test cases, and the execution and result analysis of test cases.",
+      "keywords": "unit testing, WS-BPEL, temporal patterns, Finite State Automata.",
+      "references": [
+        1,
+        30,
+        33,
+        41,
+        43,
+        45,
+        94
+      ]
+    },
+    {
+      "id": 133,
+      "title": "Contract-based test generation for data flow of business processes using constraint programming",
+      "abstract": "The verification of the properties of a business process (BP) has become a significant research topic in recent years. In the early stages of development, the BP model (e.g. BPMN, EPC), the BP contract (task contract, regulations and laws, business rules), and the test objectives (requirements) are the only elements available. In order to support the modellers, automatic tools must be provided in order to check whether their business processes are in line with the BP contract. This paper proposes a new business process called the automatic test-case generator to automate the generation of test cases and verify that a BP has the intended functionality (semantic conformance). This generator is analysed, designed and implemented by taking into account the following tasks: Annotation of the BP model with the business process contract, calculation of the various data flow paths, transformation of these data flow paths into SSA form, and a modelling of a constraint satisfaction problem (constraint programming) of the BP contract for all data flow paths. The execution of this business process generates the test cases automatically.",
+      "keywords": "Test Case; BPMN; constraint programming; SSA Form; UML Testing Profile. ",
+      "references": [
+        32,
+        33,
+        64,
+        73,
+        102
+      ]
+    },
+    {
+      "id": 134,
+      "title": "Model-checking behavioral specification of bpel applications",
+      "abstract": "To provide a framework to compose lots of specialised services flexibly, BPEL is proposed to describe Web service flows. Since the Web service flow description is basically a distributed collaboration, writing correct programs in BPEL is not easy. Verifying BPEL program prior to its execution is essential. This paper proposes a method to extract the behavioral specification from a BPEL appliation program and to analyze it by using the SPIN model checker. With the adequate abstraction method and support for DPE, the method can analyze all the four example cases in the BPEL standard document.",
+      "keywords": "BPEL, Model-Checking, SPIN, Abstraction, DPE.",
+      "references": [
+        85
+      ]
+    },
+    {
+      "id": 135,
+      "title": "Automated significant load testing for ws-bpel compositions",
+      "abstract": "Web service compositions must provide services to hundreds even thousands of users concurrently. These applications must be load tested to ensure that they can function properly under high load. We propose in this paper a solution for load testing of WS-BPEL compositions. It is based on Timed Automata as model for specifying requirements to test under various load conditions, a distributed testing architecture, an algorithm for online load test generation and execution, and finally an automated log analysis technique. We also illustrate our approach by means of a case study.",
+      "keywords": "online model-based testing; Timed Automata; load testing; WS-BPEL compositions; log analysis.",
+      "references": []
+    },
+    {
+      "id": 136,
+      "title": "On testing 1-safe petri nets",
+      "abstract": "Formal models are often considered for software systems specification, and are helpful for verifying that certain properties are respected, or for automatically generating the implementation code corresponding to the model, or again for conformance testing, for the automatic generation of test cases to check an implementation against the formal specification. Variations of finite state machine (FSM) models have been mostly used for conformance testing, while the otherwise very popular formal model of Petri nets is seldom mentioned in this context. In this paper, we look at the question of conformance testing when the model is provided in the form of a 1-safe Petri net. We provide a general framework for conformance testing, and give algorithms for deriving test cases under different assumptions: besides the adaptation of methods originally developed for FSMs which lead to exponentially long test sequences, we have identified cases for which polynomial testing algorithms for free-choice Petri nets can be provided. These results are significant when modeling concurrent systems, as exemplified by workflow modeling.",
+      "keywords": "Conformance testing, fault model, 1-safe Petri nets, freechoice Petri nets, automatic test generation",
+      "references": [
+        69
+      ]
+    },
+    {
+      "id": 137,
+      "title": "Choreography analysis for diagnosing faulty activities in business-to-business collaboration",
+      "abstract": "The interaction between business processes (BPs) by means of a choreography is considered as a Business-to-Business Collaboration (B2BC). This work presents a proposal to diagnose faulty activities in B2BC using choreography structural analysis. Model-based diagnosis could be achieved by using a Business-to-Business Interaction Model (B2BIM) and an Orchestration Model (OM) for the local diagnosers corresponding to every business process that participates in the collaboration. Therefore, the model is distributed among the different diagnosers, where none of them has global information about how the system is modelled. The communication between processes is via messages according to the B2BIM. The problem of finding all diagnoses (all faulty activities that explain a misbehavior), or even a single diagnosis, is intractable. In order to improve the performance of the distributed diagnosis, the knowledge of the workflow for all the business processes is simplified in the Compiled Orchestration Model (COM) in an offline way. Some empirical results are shown for different B2BCs. ",
+      "keywords": "Choreography Analysis, Business Processes, Model-Based Diagnosis.\n",
+      "references": []
+    },
+    {
+      "id": 138,
+      "title": "Ddat: Data dependency analysis tool for web service business processes",
+      "abstract": "Service Oriented Architecture (SOA) provides a new generation of software architectures intended to integrate loosely coupled applications. In order to meet changing business goals, SOA systems incorporate multiple independent services supported by various providers. The complex structure of the resulting business processes can be defined in Business Process Execution Language for Web Services (WS-BPEL). One of the main tasks of the quality assurance specialists during software design is testing the execution of different paths of the WS-BPEL process. In order to solve that task we propose an approach that augments the WS-BPEL process for test case generation by analyzing the conditional activities concerning given path of testing. ",
+      "keywords": "design time testing, data dependency analysis, SOA, WS-BPEL",
+      "references": [
+        26,
+        32,
+        33,
+        46,
+        71,
+        73,
+        94,
+        95
+      ]
+    },
+    {
+      "id": 139,
+      "title": "Test coverage for collaborative workflow application based on petri net",
+      "abstract": "Lots of collaborative works are developed by workflow at present. The modeling of workflow is mainly by Petri Net. This paper studies the test coverage of collaborative workflow system to improve the system quality. By analyzing many Petri-Net models, the paper puts forward generic advance Petri Net model. And other workflow Petri Net models can be compatible with the generic Petri Net. Then test coverage strategy is considered and test case is designed according to the strategy. This method not only can meet the requirement of test coverage, but also can assist test case design and further execution of test case. Finally, a typical example is introduced to illustrate effectiveness of this method in collaborative workflow application.",
+      "keywords": "Collaborative System, Test Coverage; Petri Net, Workflow Verification component ",
+      "references": [
+        27
+      ]
+    },
+    {
+      "id": 140,
+      "title": "Protos2cpn: Using colored petri nets for configuring and testing business processes",
+      "abstract": "Protos is a popular tool for business process modelling used in more than 1,500 organizations. It has a built-in Petri-net-based simulation engine which shows key performance indicators for the modelled processes. Reference process models offered for Protos reduce modelling efforts by providing generic solutions which only need to be adapted to individual requirements. However, the user can neither inspect or interact with simulations running in Protos, nor does Protos provide any explicit support for the adaptation of reference models. Hence, we aim at a more open and configurable simulation solution. To realize this we provide two transformations from Protos models to colored Petri nets (CPNs), which can be executed by CPN Tools. The first transformation enables the usage of the extensive simulation and measuring features of CPN Tools for the simulation of Protos models. The second transformation creates colored Petri nets with dedicated features for process configuration. Such configurable process models can be restricted directly within the process model without changing the model\u00e2\u20ac\u2122s structure and",
+      "keywords": "Business Process Input Place Output Place Task Draw Start Transition",
+      "references": []
+    },
+    {
+      "id": 141,
+      "title": "Machine simulation for workflow integration testing",
+      "abstract": "This paper addresses the problems of modeling and simulating physical machines, part of complex industrial production lines. The direct execution of industrial workflows on production line machines before integration testing can be very expensive and may lead to improper machine operation and even to non recoverable faults. In order to simulate the execution of industrial workflow models for integration testing purposes, we propose a physical machine simulator based on nondeterministic, probability- based state machines. For each physical machine a behavioral model is constructed using operational scenarios followed by its translation into a state machine representation. The proposed simulator was used for a sausage preparing production line in the context of the food trace project.",
+      "keywords": "Testing , Context modeling , Machinery production industries , Computational modeling , Discrete event simulation , Pulp manufacturing , Virtual manufacturing , Manufacturing industries , Virtual environment , Computer architecture",
+      "references": []
+    },
+    {
+      "id": 142,
+      "title": "Testing bpel with stream x-machine",
+      "abstract": "To generate test cases for the unit testing of business process written in BPEL, developers have to prepare input data for the BPEL process under test (PUT) and verification conditions for output data from the PUT. It could be a tedious task due to the complexity of the PUT which describes the Web flow of a distributed collaboration of individual service providers executing concurrently. This paper shows how Stream X-machine based testing techniques could be applied to automatically generate test cases for BPEL process.",
+      "keywords": "BPEL; test case; Stream X-machine;",
+      "references": [
+        32,
+        33
+      ]
+    },
+    {
+      "id": 143,
+      "title": "Test scenarios generation for a class of processes defined in the bpel language",
+      "abstract": "The main purpose of this research is adaptation of critical paths method [1] to the processes defined in BPEL. The critical path method is the specification based and simulation oriented method. In the paper it is show that under some assumptions the BPEL process may be considered as an embedded system, in which tasks are like services and communication between tasks is like coordination of the services according to the task graph of the system. An example is given where a set of test scenarios is presented.",
+      "keywords": "",
+      "references": []
+    },
+    {
+      "id": 144,
+      "title": "Test method for bpel-based web service composition based on data flow analysis",
+      "abstract": "As the Web Service composition becomes complex, testing to ensure their quality and reliability become crucial. This paper extends traditional data flow analysis to Web Service composition testing. A test method for BPEL-based Web Service composition based on data flow analysis is presented. The test method is based on a test model called WSCTM that captures data flow test artifacts of Web Service composition. With the considerations of the intra-activity, intra-service, and inter-service, testing for Web Service composition based on data flow analysis can be accomplished in three levels, and various flow graphs are used to describe the interaction within and between services in structure model. The def-use chains of the Web Service composition can be obtained based on above analysis method. As a result, test paths can be selected to satisfy given criteria in order to achieve a desired Web Service composition test coverage. ",
+      "keywords": "Web service; business process execution language for Web services; Web service composition; software testing; data flow analysis",
+      "references": []
+    },
+    {
+      "id": 145,
+      "title": "A model-based approach to fault diagnosis in service oriented architectures",
+      "abstract": "This paper aims to present a method of creating architectures which allow monitoring occurrence of failure in Service oriented Architectures (SoA). The presented approach extends Discrete Event Systems techniques to produce a method of automated creation of Diagnoser Service which monitors interaction between the services to identify if a failure has happened and the type of failure. To do so, a formal representation of business processes is introduced, which allows modeling of Observable/Unobservable events, failure and the type of failure.The paper puts forward a set of algorithms for creating models of Diagnoser Service. Such models are then transformed into new Services implemented in BPEL, which interact with the existing services to identify if a failure has happened and the type of failure. The approach has been applied to an example of diagnosis of Right-first-time failure in Services used in telecommunications.",
+      "keywords": "Fault diagnosis , Service oriented architecture , Web services , Computer architecture , Discrete event systems , Automata , Computer science , Computerized monitoring , Condition monitoring , Computer displays",
+      "references": []
+    },
+    {
+      "id": 146,
+      "title": "Formal and model-based testing of concurrent workflows",
+      "abstract": " The design of an information system will involve a number of structural and semantic integrity constraints. One way to ensure that these constraints are maintained is through the calculation and implementation of a guard for each operation: a condition sufficient for all integrity constraints to be maintained, checked before the operation is performed, if the guard evaluates false, then the operation will be blocked or rejected. The information required for the calculation of operation guards can be used also to calculate the effect of workflows: compositions or patterns of guarded operations. The multiplication of states and entities, for arbitrary, parallel compositions of operations and workflows, makes exhaustive analysis impractical. This paper shows how the precise specification of operations and workflows can be used instead to select particular scenarios for calculating effects at the model level, or for generating test cases at the implementation level. The result is an analysis and testing methodology for guarded workflows.",
+      "keywords": "workflow management, software testing, formal methods, constraints",
+      "references": []
+    },
+    {
+      "id": 147,
+      "title": "Modeling and verifying business processes and choreographies through the abductive proof procedure sciff and its extensions",
+      "abstract": " In this article we survey our recent research activity concerning the use of logic programming, and in particular of abduction, for interaction specification and verification in several domains. We outline relevant results in the areas of multi-agent systems, argumentation, web services choreographies and business processes.",
+      "keywords": "Logic programming, hypothetical reasoning, interaction, modelling, verification, multi-agent systems, protocols, business processes, web services, choreographies, semantic web, argumentation",
+      "references": [
+        113
+      ]
+    },
+    {
+      "id": 148,
+      "title": "Generating quantitative test cases for probabilistic timed web service composition",
+      "abstract": " The environment of enterprise applications is characterized by frequently changing market demands, time-to-market pressure and fierce competition. To seamlessly integrate complex computing activities, Web Service Composition (WSC) has been regarded as an emerging E-Commerce solution to support interoperable machine-to-machine business interactions over network. To guarantee the composite Web service can be successfully produced, testing is a preferred validation technique to efficiently verify the correctness of functional and nonfunctional requirements of WSC behaviors. BPEL4WS is a high level and semi-formal abstract description language for WSC orchestration. Manually generating test cases from BPEL4WS is tedious, time-consuming, and error prone. Thus, the automated test case generation plays a critical role in all the phases of Web service life cycle. Considering the uncertain environment, an extended WSC model, namely probabilistic timed interface automata for Web service (PTIA4WS), is pro-posed to transform and extend BPEL4WS with regard to the stochastic and time-related behaviors. Based on PTIA4WS model, we propose an approach for generating quantitative test cases from counterexamples of violated PTCTL formulae using coverage criterions. After that, timed test case with fastest execution response time and probabilistic test case with maximal execution success rate are discussed. The series of experiments show that our method gains better performance than traditional methods.",
+      "keywords": "Web Service Composition; Test Cases; Optimization; Time Constrains; Probabilistic Behaviriors ",
+      "references": [
+        5,
+        26,
+        33,
+        82
+      ]
+    },
+    {
+      "id": 149,
+      "title": "Learning specifications of interaction protocols and business processes and proving their properties",
+      "abstract": "In this paper, we overview our recent research activity concerning the induction of Logic Programming specifications, and the proof of their properties via Abductive Logic Programming. Both the inductive and abductive tool here briefly described have been applied to respectively learn and verify (properties of) interaction protocols in multiagent systems, Web service choreographies, careflows and business processes. ",
+      "keywords": "Computational logic, Induction, Abduction, Interaction protocols, Careflows, Business processes.",
+      "references": [
+        113
+      ]
+    },
+    {
+      "id": 150,
+      "title": "Functional soa testing based on constraints",
+      "abstract": "In the fierce competition on today's software market, Service-Oriented Architectures (SOAs) are an established design paradigm. Essential concepts like modularization, reuse, and the corresponding IP core business are inherently supported in the development and operation of SOAs that offer flexibility in many aspects and thus optimal conditions also for heterogeneous system developments. The intrinsics of large and complex SOA enterprises, however, require us to adopt and evolve our verification technology, in order to achieve expected software quality levels. In this paper, we contribute to this challenge by proposing a constraint based testing approach for SOAs. In our work, we augment a SOA's BPEL business model with pre- and postcondition contracts defining essential component traits, and derive a suite of feasible test cases to be executed after assessing its quality via corresponding coverage criteria. We illustrate our approach's viability via a running example as well as experimental results, and discuss current and envisioned automation levels in the context of a test and diagnosis workflow.",
+      "keywords": "Testing , Flow graphs , Context , Software , Semiconductor optical amplifiers , Contracts",
+      "references": [
+        30,
+        32,
+        33,
+        35,
+        54,
+        80,
+        94,
+        95
+      ]
+    },
+    {
+      "id": 151,
+      "title": "Alpina: A symbolic model checker",
+      "abstract": "AlPiNA is a symbolic model checker for High Level Petri nets. It is comprised of two independent modules: a GUI plugin for Eclipse and an underlying model checking engine. AlPiNA\u00e2\u20ac\u2122s objective is to perform efficient and user-friendly, easy to use model checking of large software systems. This is achieved by separating the model and its properties from the model checking-related concerns: the users can describe and perform checks on a high-level model without having to master lowlevel techniques. This article describes the features that AlPiNA provides to the user for specifying models and properties to validate, followed by the techniques that it implements for tuning validation performance.",
+      "keywords": "System design and verification, Higher-level Nets Models, Algebraic Petri Nets, State Space Generation, Computer Tools for Nets, Model Checking.",
+      "references": [
+        64
+      ]
+    },
+    {
+      "id": 152,
+      "title": "Wsclt: A tool for ws-bpel compositions load testing",
+      "abstract": "This paper addresses the load testing of WS-BPEL compositions. For that, we developed WSCLT tool, which takes as input a specification of the composition under test, expressed as a Timed Automaton, and considers various parameters such as the number of requests to handle simultaneously. Our WSCLT tool injects this load in the application and monitors the sequence of requests, invocations and responses between the components. This log is then analyzed by the tool to separate the actions corresponding to each instance and to check that they follow legitimate paths. A global report is then issued regarding all concurrent instances. We illustrate how to use our prototype tool by means of a case study.",
+      "keywords": "WS-BPEL compositions; Timed Automaton; load testing; log analysis.",
+      "references": [
+        135
+      ]
+    }
+  ],
+  "min_publication_year": 2002,
+  "max_publication_year": 2014
+}

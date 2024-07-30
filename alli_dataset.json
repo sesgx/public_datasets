@@ -1,0 +1,458 @@
+{
+  "name": "alli",
+  "gs": [
+    {
+      "id": 1,
+      "title": "Respiratory diseases recognition through respiratory sound with the help of deep neural network.",
+      "abstract": "Prediction of respiratory diseases such as COPD(Chronic obstructive pulmonary disease), URTI(upper respiratory tract infection), Bronchiectasis, Pneumonia, Bronchiolitis with the help of deep neural networks or deep learning. We have constructed a deep neural network model that takes in respiratory sound as input and classifies the condition of its respiratory system. It not only classifies among the above-mentioned disease but also classifies if a person\u2019s respiratory system is healthy or not with higher accuracy and precision.",
+      "keywords": "Respiratory disease recognition, Deep neural network,GRU(Gated Recurrent Unit), sound data, data augmentation, feature extraction, classification",
+      "references": []
+    },
+    {
+      "id": 2,
+      "title": "A data augmentation-based technique to classify chewing and swallowing using LSTM",
+      "abstract": "Obesity is currently a common problem for most countries. It can be controlled if a person\u2019s eating habits are monitored. Eating sounds such as, chewing and swallowing can be used to monitor individual eating habits. Numerous systems have already been developed to automatically classify chewing and swallowing by using information extracted from eating sounds. However, a large amount of well-labeled training data is required to achieve better accuracy, and manually labeling the eating sound data requires immense time. This study proposed a classification system based on the data augmentation technique to automatically generate a large amount of training data. The newly generated data could then be used along with the labeled data to train the long short-term memory (LSTM) network to classify chewing and swallowing. This experiment compared a system trained only with the labeled data and its results revealed the effectiveness of the proposed approach.",
+      "keywords": "long short-term memory (LSTM), data augmentation, mixup, chewing, swallowing.",
+      "references": []
+    },
+    {
+      "id": 3,
+      "title": "Data augmentation using virtual microphone array synthesis and multi-resolution feature extraction for isolated word dysarthric speech recognition.",
+      "abstract": "Dysarthria is a speech-motor disorder that affects the articulatory systems inhibiting their speech communication efforts. To handle their communication problems, a speech recognitionbased augmentative and alternative communication aid is used as an attractive alternative. However, successful development of an automatic speech recognition (ASR)-based aid depends on the availability of sufficient speech data for training. Building an ASR system for dysarthric speakers is difficult due to limited amount of training data and large inter-and-intra speaker variabilities. Using normal speaker\u2019s speech data for data augmentation or adaptation for low intelligible dysarthric speakers would be extremely challenging due to huge variation in acoustic characteristics between these two category of speakers. In the current article, a two-level data augmentation is performed on dysarthric speech based on virtual linear microphone array-based synthesis followed by multi-resolution feature extraction. With the augmented speech data, an isolated word hybrid DNN-HMM-based ASR system is trained using UA speech corpus and Tamil dysarthric speech corpus developed by the authors. Performance of the ASR system shows a reduced WER of up to 32.79%, 35.75% for low and very low intelligible speakers with dysarthria compared to recent works on data augmentation reported for dysarthric speech recognition.",
+      "keywords": "Microphone array, multi-resolution feature extraction, data augmentation, dysarthria, assistive technology",
+      "references": [
+        38
+      ]
+    },
+    {
+      "id": 4,
+      "title": "Convolutional Neural Network-based Model for Lung Sounds Classification.",
+      "abstract": "Deep learning approaches are gaining popularity in the medical field for diagnostics and predictive analytics. This study aims to improve the classification of respiratory sounds recorded by electronic stethoscopes using a deep approach based on a convolutional neural network (CNN). The proposed scheme\u2019s performance is studied using the largest publicly available lung sound dataset (ICBHI 2017). We implement variant frequency representations, including CQT, STFT, and Mel-STFT, combined with Empirical mode decomposition (EMD). We propose the use of data normalization on top of data augmentation techniques. Furthermore, to increases the model performance, we used hyperparameters optimization and regulators. Experimental results show that our method outperforms competing methods on anomaly prediction tasks.",
+      "keywords": "Regulators,Empirical mode decomposition,Pulmonary diseases,Lung, Stethoscope, Convolutional neural networks,Task analysis",
+      "references": []
+    },
+    {
+      "id": 5,
+      "title": "Environmental sound classification using deep convolutional neural networks and data augmentation.",
+      "abstract": "This work is about environmental sound classification by deep convolutional neural networks and data augmentation. Data augmentation is applied to increase the labeled training dataset. Data augmentation process improves the performance of audio classification. In this paper, first we present a strategy for generating a deep convolutional neural network (CNN) framework for environmental sound analysis with Urbansound8K audio dataset. Secondly we analyze the performance of data augmentation methods on Urbansound8K audio dataset and compare the performance of CNN with different data augmentation methodologies. Data augmentation is basically a deformation technique. By this approach we can increase the number of dataset elements into its multiples. Here, compare the performance of different augmentation method to identify which one is the best augmentation technique for environmental sound analysis. Different types of data augmentations were applied to the dataset in the previous works. We introduce a new data augmentation method using LPCC feature.",
+      "keywords": "Training,Libraries,Testing,Feature extraction,Strain,Training data,Acoustics",
+      "references": [
+        38
+      ]
+    },
+    {
+      "id": 6,
+      "title": "Impact of Mixup Hyperparameter Tunning on Deep Learning-based Systems for Acoustic Scene Classification",
+      "abstract": "Acoustic scene classification (ASC) refers to the identification of the environment in which audio excerpts have been recorded. It associates a semantic label to each audio recording. This task has recently drawn a lot of attention as a result of electronics such as smartphones, autonomous robots, or security systems acquiring the ability to perceive sounds. Stateof-the-art sound scene classification heavily relies on deep neural network models. However, the complexity of these models makes them more prone to overfitting. The most widely used approach to overcome this concern is data augmentation. In this paper, we design and analyze the behavior of multiple deep learning-based acoustic scene classification systems. These systems are built following two deep convolutional neural network architectures which are defined with different characteristics. Moreover, this work deeply explores the use of Mixup data augmentation method and the effects of varying its hyperparameters. The obtained results indicate that proper tuning of Mixup hyperparameter significantly improves the classification performance, while considering the network architecture being employed.",
+      "keywords": "Mixup, Data augmentation, Acoustic scene classification, Deep neural networks",
+      "references": []
+    },
+    {
+      "id": 7,
+      "title": "Unsupervised feature learning for environmental sound classification using Weighted Cycle-Consistent Generative Adversarial Network.",
+      "abstract": "In this paper we propose a novel environmental sound classification approach incorporating unsupervised feature learning via the spherical K-Means++ algorithm and a new architecture for high-level data augmentation. The audio signal is transformed into a 2D representation using a discrete wavelet transform (DWT). The DWT spectrograms are then augmented by a novel architecture for cycle-consistent generative adversarial network. This high-level augmentation bootstraps generated spectrograms in both intra-and inter-class manners by translating structural features from sample to sample. A codebook is built by coding the DWT spectrograms with the speeded-up robust feature detector and the K-Means++ algorithm. The Random forest is the final learning algorithm which learns the environmental sound classification task from the code vectors. Experimental results in four benchmarking environmental sound datasets (ESC-10, ESC-50, UrbanSound8k, and DCASE-2017) have shown that the proposed classification approach outperforms most of the state-of-the-art classifiers, including convolutional neural networks such as AlexNet and GoogLeNet, improving the classification rate between 3.51% and 14.34%, depending on the dataset",
+      "keywords": "Environmental sound classification, Generative Adversarial Network (GAN), Cycle-Consistent GAN, K-means++, Random forests",
+      "references": [
+        38
+      ]
+    },
+    {
+      "id": 8,
+      "title": "User-adaptive models for activity and emotion recognition using deep transfer learning and data augmentation.",
+      "abstract": "Building predictive models for human-interactive systems is a challenging task. Every individual has unique characteristics and behaviors. A generic human\u2013machine system will not perform equally well for each user given the between-user differences. Alternatively, a system built specifically for each particular user will perform closer to the optimum. However, such a system would require more training data for every specific user, thus hindering its applicability for real-world scenarios. Collecting training data can be time consuming and expensive. For example, in clinical applications it can take weeks or months until enough data is collected to start training machine learning models. End users expect to start receiving quality feedback from a given system as soon as possible without having to rely on time consuming calibration and training procedures. In this work, we build and test user-adaptive models (UAM) which are predictive models that adapt to each users\u2019 characteristics and behaviors with reduced training data. Our UAM are trained using deep transfer learning and data augmentation and were tested on two public datasets. The first one is an activity recognition dataset from accelerometer data. The second one is an emotion recognition dataset from speech recordings. Our results show that the UAM have a significant increase in recognition performance with reduced training data with respect to a general model. Furthermore, we show that individual characteristics such as gender can influence the models\u2019 performance.",
+      "keywords": "Transfer learning, User adaptation, Personalized models, Deep learning, Emotion recognition, Activity recognition",
+      "references": []
+    },
+    {
+      "id": 9,
+      "title": "A deep learning approach for sound event recognition using a brain inspired representation.",
+      "abstract": "Audio surveillance is gaining in the last years wide interest. This is due to the large number of situations in which this kind of systems can be used, either alone or combined with video-based algorithms. In this paper we propose a deep learning method to automatically recognize events of interest in the context of audio surveillance (namely screams, broken glasses and gun shots). The audio stream is represented by a gammatonegram image. We propose a 21-layer CNN to which we feed sections of the gammatonegram representation. At the output of this CNN there are units that correspond to the classes. We trained the CNN, called AReN, by taking advantage of a problem-driven data augmentation, which extends the training dataset with gammatonegram images extracted by sounds acquired with different signal to noise ratios. We experimented it with three datasets freely available, namely SESA, MIVIA Audio Events and MIVIA Road Events and we achieved 91.43%, 99.62% and 100% recognition rate, respectively. We compared our method with other state of the art methodologies based both on traditional machine learning methodologies and deep learning. The comparison confirms the effectiveness of the proposed approach, which outperforms the existing methods in terms of recognition rate. We experimentally prove that the proposed network is resilient to the noise, has the capability to significantly reduce the false positive rate and is able to generalize in different scenarios. Furthermore, AReN is able to process 5 audio frames per second on a standard CPU and, consequently, it is suitable for real audio surveillance applications.",
+      "keywords": "audio surveillance, deep learning, CNN, gammatonegram, brain inspired representation.",
+      "references": [
+        38
+      ]
+    },
+    {
+      "id": 10,
+      "title": "Acoustic Scene Classification Using Multichannel Observation with Partially Missing Channels",
+      "abstract": "Sounds recorded with smartphones or IoT devices often have completely missing parts due to microphone failure and packet loss in data transmission over the network, and partially unreliable observations caused by clipping, wind noise. In this paper, we investigate the impact of the partially missing channels on the performance of acoustic scene classification using multichannel audio recordings, especially for a distributed microphone array. Missing observations cause not only losses of time-frequency and spatial information on sound sources but also a mismatch between a trained model and evaluation data. We thus investigate how a missing channel caused by the microphone failure and packet loss affects the performance of acoustic scene classification in detail. We also propose simple data augmentation methods for scene classification using multichannel observations with partially missing channels and evaluate the scene classification performance using the data augmentation methods.",
+      "keywords": "Acoustic scene classification, multichannel processing, missing observation, data augmentation",
+      "references": []
+    },
+    {
+      "id": 11,
+      "title": "Methods for improving deep learning-based cardiac auscultation accuracy: Data augmentation and data generalization",
+      "abstract": "Cardiac auscultation is a cost-effective and noninvasive technique for cardiovascular disease detection. Recently, various studies have been underway for cardiac auscultation using deep learning, not doctors. When training a deep learning network, it is important to secure large amount of high-quality data. However, medical data are difficult to obtain, and in most cases the number of abnormal classes is insufficient. In this study, data augmentation is used to supplement the insufficient amount of data, and data generalization to generate data suitable for convolutional neural networks (CNN) is proposed. We demonstrate performance improvements by inputting them into the CNN. Our method achieves an overall performance of 96%, 81%, and 90% for sensitivity, specificity, and F1-score, respectively. Diagnostic accuracy was improved by 18% compared to when it was not used. Particularly, it showed excellent detection success rate for abnormal heart sounds. The proposed method is expected to be applied to an automatic diagnosis system to detect heart abnormalities and help prevent heart disease through early detection.",
+      "keywords": "cardiovascular disease, heart sounds, heartbeat classification, signal preprocessing, convolutional neural network, deep learning",
+      "references": []
+    },
+    {
+      "id": 12,
+      "title": "In domain training data augmentation on noise robust punjabi children speech recognition",
+      "abstract": "For building a successful automatic speech recognition (ASR) engine large training data is required. It increases training complexity and become impossible for less resource language like Punjabi which have zero children corpus. Consequently, the issue of data scarcity, and small vocal length of children speakers also degrades the system performance under limited data conditions. Unfortunately, Punjabi is a tonal language and building an optimized ASR for such a language is near impossible. In this paper, we have explored fused feature extraction approach to handle large training complexity using mel frequency-gammatone frequency cepstral coefficient (MF-GFCC) technique through feature warping method. The efforts have been made to develop children\u2019s ASR engine using data augmentation on limited data scenarios. For that purpose, we have studied in-domain data augmentation that artificially combined noisy and clean corpus to overcome the issue of data scarcity in train set. The combined dataset is processed with a fused feature extraction approach. Apart, the tonal characteristics and child vocal length issues are also overcome by inducing pitch features and train normalization strategy using vocal tract length normalization (VTLN) approach. In addition to that, combined augmented and original speech signals are noted to reduce the Word error rate (WER) performance with larger relative improvement (RI) of 20.59% on noisy and 19.39% on clean environment conditions using hybrid MF-GFCC approach than that on conventional Mel Frequency Cepstral Coefficient (MFCC) and Gammatone Frequency Cepstral Coefficient (GFCC) based ASR systems.",
+      "keywords": "Mel frequency-Gammatone frequency cepstral coefficient (MF-GFCC), Vocal tract length normalization (VTLN), Data augmentation, Feature warping",
+      "references": [
+        39
+      ]
+    },
+    {
+      "id": 13,
+      "title": "Using data augmentation and time-scale modification to improve ASR of children\u2019s speech in noisy environments",
+      "abstract": "Current ASR systems show poor performance in recognition of children\u2019s speech in noisy environments because recognizers are typically trained with clean adults\u2019 speech and therefore there are two mismatches between training and testing phases (i.e., clean speech in training vs. noisy speech in testing and adult speech in training vs. child speech in testing). This article studies methods to tackle the effects of these two mismatches in recognition of noisy children\u2019s speech by investigating two techniques: data augmentation and time-scale modification. In the former, clean training data of adult speakers are corrupted with additive noise in order to obtain training data that better correspond to the noisy testing conditions. In the latter, the fundamental frequency (\ud835\udc390) and speaking rate of children\u2019s speech are modified in the testing phase in order to reduce differences in the prosodic characteristics between the testing data of child speakers and the training data of adult speakers. A standard ASR system based on DNN\u2013HMM was built and the effects of data augmentation, \ud835\udc390 modification, and speaking rate modification on word error rate (WER) were evaluated first separately and then by combining all three techniques. The experiments were conducted using children\u2019s speech corrupted with additive noise of four different noise types in four different signal-to-noise (SNR) categories. The results show that the combination of all three techniques yielded the best ASR performance. As an example, the WER value averaged over all four noise types in the SNR category of 5 dB dropped from 32.30% to 12.09% when the baseline system, in which no data augmentation or time-scale modification were used, was replaced with a recognizer that was built using a combination of all three techniques. In summary, in recognizing noisy children\u2019s speech with ASR systems trained with clean adult speech, considerable improvements in the recognition performance can be achieved by combining data augmentation based on noise addition in the system training phase and time-scale modification based on modifying \ud835\udc390 and speaking rate of children\u2019s speech in the testing phase.",
+      "keywords": "recognition of children\u2019s speech, data augmentation, time-scale modification, DNN",
+      "references": [
+        39
+      ]
+    },
+    {
+      "id": 14,
+      "title": "Transferring cross-corpus knowledge: An investigation on data augmentation for heart sound classification",
+      "abstract": "Human auscultation has been regarded as a cheap, convenient and efficient method for the diagnosis of cardiovascular diseases. Nevertheless, training professional auscultation skills needs tremendous efforts and is time-consuming. Computer audition (CA) that leverages the power of advanced machine learning and signal processing technologies has increasingly attracted contributions to the field of automatic heart sound classification. While previous studies have shown promising results in CA based heart sound classification with the \u2018shuffle split\u2019 method, machine learning for heart sound classification decreases in accuracy with a cross-corpus test dataset. We investigate this problem with a cross-corpus evaluation using the PhysioNet CinC Challenge 2016 Dataset and propose a new combination of data augmentation techniques that leads to a CNN robust for such cross-corpus evaluation. Compared with the baseline, which is given without augmentation, our data augmentation techniques combined improve by 20.0 % the sensitivity and by 7.9% the specificity on average across 6 databases, which is a significant difference on 4 out of these (p < .05 by one-tailed z-test).",
+      "keywords": "Heart, Training, Sensitivity, Databases, Machine learning, Signal processing, Predictive models",
+      "references": []
+    },
+    {
+      "id": 15,
+      "title": "Musical instrument tagging using data augmentation and effective noisy data processing",
+      "abstract": "Developing signal processing methods to extract information automatically has potential in several applications, for example searching for multimedia based on its audio content, making context-aware mobile applications (e.g., tuning apps) or pre-processing for an automatic mixing system. However, the last-mentioned application needs a significant amount of research to recognize real musical instruments in recordings reliably. In this paper, we primarily focus on how to obtain data for efficiently training, validating, and testing a deep-learning model by using a data augmentation technique. These data are transformed into 2D feature spaces, i.e., mel-scale spectrograms. The Neural Network used in the experiments consists of a single-block DenseNet architecture and a multi-head softmax classifier for efficient learning with the mixup augmentation. For automatic noisy data labeling, the batch-wise loss masking, which is robust to corrupting outliers in data, was applied. To train the models, various audio sample rates and different audio representations were utilized. The method provides promising recognition scores even with real-world recordings that contain noisy data.",
+      "keywords": "",
+      "references": []
+    },
+    {
+      "id": 16,
+      "title": "Investigation of multilingual and mixed-lingual emotion recognition using enhanced cues with data augmentation",
+      "abstract": "In the past decade, research for improving man\u2013machine communication has focused on emotion recognition using audio cues. Several effective monolingual, multilingual, and cross-corpus speech emotion recognition (SER) systems have been developed; however, they are limited to recognizing emotions from databases of monolingual discourse, primarily in either categorical or dimensional emotion space. For multilingual countries and federations such as India, Russia, and the European Union, these limitations can be problematic. Furthermore, in an environment of mixed diversified languages, the performance of existing models is unclear. To address these issues, we propose an innovative mixed-lingual SER system that considers five diverse languages, including dialect variability. Mixed-lingual corpora are developed from available standard speech emotion databases. Furthermore, a compact feature set having a unique set of speech feature functionals with a distinctive set of enhanced perceptual features and modified H-coefficients is proposed. Against existing large feature sets, the proposed compact feature set is robust and effective to perform the dual task of significantly recognizing different emotions from multilingual SER systems also, along with the mixed-lingual SER systems in both emotion spaces of categorical and dimensional. In the proposed SER system, to overcome the skewness of SER system performance for recognizing certain emotions, a data augmentation method is then incorporated. Furthermore, the proposed SER system is designed to efficiently recognize even the extreme emotions of boredom, disgust, sadness, and surprise in both emotion spaces. The proposed SER system is compared to existing SER systems, and the comparison results demonstrate that the proposed system outperformed existing systems.",
+      "keywords": "Arousal, Categorical, Cross-validation, Data augmentation, Emotion, Mel frequency, Multilingual, Mixed-lingual, SMOTE, Valence",
+      "references": []
+    },
+    {
+      "id": 17,
+      "title": "Neural network prediction of sound quality via domain knowledge-based data augmentation and bayesian approach with small data sets",
+      "abstract": "This study proposes a novel deep learning methodology to evaluate the interior noise in vehicles on mechanical and affective levels by employing small data sets. A convolutional neural network (CNN) model is constructed from the frequency-rpm spectrograms of vehicle noises to predict the mechanical attributes of the noise. The noises are classified based on the number of engine cylinders (3, 4, 6, and 8). Owing to the high variability in spectrograms, mathematical expressions for the engine order lines are derived to augment the training data. With respect to the affective attributes, three classes (i.e., \u2018sporty,\u2019 \u2018powerful,\u2019 and \u2018luxurious\u2019) are selected for noise characterization. The spectrograms are used to design another CNN-based classification model that predicts the affective attributes from the perspective of experts. Although expert knowledge is employed for data labeling, a quarter of the data remains unlabeled, owing to inherent subjectivity. The model is trained on the labeled data and is validated by comparing the predicted class probabilities for the unlabeled data and their distribution in the RGB color space. K-fold cross-validation is used to evaluate the reliability of the model. A regression model is built based on Bayesian inference to evaluate the affective attributes of the noise from the perspective of end users. Given four singular values from the matrix of sound quality metrics, the model predicts the mean jury ratings for noise. The classification models exhibit generalization performances of 98.2% and 91.6%, respectively, and the regression model exhibits a mean squared error of 2.57 x 10^-3, thereby demonstrating the applicability of the proposed approach to vehicle noise analysis.",
+      "keywords": "Sound quality, Small data sets, Number of engine cylinders, Affective attribute, Mean jury ratings, Deep learning",
+      "references": []
+    },
+    {
+      "id": 18,
+      "title": "Automatic COVID-19 disease diagnosis using 1D convolutional neural network and augmentation with human respiratory sound based on parameters: Cough, breath, and voice.",
+      "abstract": "The issue in respiratory sound classification has attained good attention from the clinical scientists and medical researcher's group in the last year to diagnosing COVID-19 disease. To date, various models of Artificial Intelligence (AI) entered into the real-world to detect the COVID-19 disease from human-generated sounds such as voice/speech, cough, and breath. The Convolutional Neural Network (CNN) model is implemented for solving a lot of real-world problems on machines based on Artificial Intelligence (AI). In this context, one dimension (1D) CNN is suggested and implemented to diagnose respiratory diseases of COVID-19 from human respiratory sounds such as a voice, cough, and breath. An augmentation-based mechanism is applied to improve the preprocessing performance of the COVID-19 sounds dataset and to automate COVID-19 disease diagnosis using the 1D convolutional network. Furthermore, a DDAE (Data De-noising Auto Encoder) technique is used to generate deep sound features such as the input function to the 1D CNN instead of adopting the standard input of MFCC (Mel-frequency cepstral coefficient), and it is performed better accuracy and performance than previous models.",
+      "keywords": "1D CNN, COVID-19, respiratory sounds, augmentation, data de-noising auto encoder",
+      "references": [
+        38
+      ]
+    },
+    {
+      "id": 19,
+      "title": "LDA-based data augmentation algorithm for acoustic scene classification",
+      "abstract": "Deep neural network needs large amount of data for training, to obtain more data, many simple data augmentation algorithms have been proposed. In this paper, we propose a LDA-based data augmentation algorithm to extend the training set. The proposed LDA-based data augmentation algorithm uses the topic model LDA to detect the key audio words in the recordings, and further to detect the key audio events and non-key audio events for each recording; with the detected key-audio-event segments, for each acoustic scene class, the probability distribution of key-audio-event\u2019s occurrence numbers, the probability distribution of key-audio-event\u2019s locations under each occurrence number and the probability distribution of key-audio-event\u2019s durations under each occurrence number is counted, and then the new recordings are generated according to these probability distributions. Experiments are done on the public TUT acoustic scenes 2016 dataset, and the experimental results show that compared with the other simple data augmentation algorithms, the proposed LDA-based data augmentation algorithm is more stable and effective, it can get better generalization ability for different kinds of neural network on different datasets.",
+      "keywords": "Acoustic scene classification, Topic model, LDA, Key audio event, Non-key audio event",
+      "references": [
+        38
+      ]
+    },
+    {
+      "id": 20,
+      "title": "Acoustic data augmentation for mandarin-english code-switching speech recognition",
+      "abstract": "Code-switching (CS) is a multilingual phenomenon where a speaker uses different languages in an utterance or between alternating utterances. Developing large-scale datasets for training code-switching acoustic and language models is challenging and extremely expensive. In this paper, we focus on the acoustic data augmentation for the Mandarin-English CS speech recognition task. Effectiveness of conventional acoustic data augmentation approaches are examined. More importantly, we propose a CS acoustic event detection system based on the deep neural network to extract real code-switching speech segments automatically. Then, the semi-supervised and active learning techniques are investigated to generate transcriptions of these segments. Finally, code-switching speech synthesis system is introduced to further enhance the acoustic modeling. Experimental results on the OC16-CE80 data, a Mandarin-English mixlingual speech corpus, demonstrate the effectiveness of the proposed methods.",
+      "keywords": "Data augmentation, Code-switching, Acoustic event detection, Speech recognition",
+      "references": []
+    },
+    {
+      "id": 21,
+      "title": "Metric learning based data augmentation for environmental sound classification",
+      "abstract": "Deep neural networks have been widely applied in the field of environmental sound classification. However, due to the scarcity of carefully labeled data, their training process suffers from over-fitting. Data augmentation is a technique that alleviates this issue. It augments the training set with synthetic data that are created by modifying some parameters of the real data. However, not all kinds of augmentations are helpful, and some are in fact harmful for the recognition of certain sound concepts. Figuring out the appropriate augmentations for the appropriate training data is thus an interesting question. In this paper, we propose a framework for data augmentation through metric learning. The idea is to first learn a metric from the original training data, and then use it to filter out augmented data samples that are far from original ones in the same class. Experiments on a widely used dataset show that our framework achieves the same performance compared to other augmentation strategies while reducing the amount of training data by a large margin.",
+      "keywords": "Data augmentation, deep neural networks, metric learning, environmental sound classification",
+      "references": [
+        38
+      ]
+    },
+    {
+      "id": 22,
+      "title": "Deep Semantic Encoder-Decoder Network for Acoustic Scene Classification with Multiple Devices.",
+      "abstract": "In this paper, we proposed Mini-SegNet, a simplified encoder-decoder SegNet model to capture deep semantic information in sound events. The semantic information can effectively discriminate the acoustic segments in different scenes. We also applied spectrum correction to combat mismatched frequency response. In order to prevent over-fitting, we adopted mixup augmentation, ImageDataGenerator and temporal crop augmentation for data augmentation. Our best single system achieved an average accuracy of 65.15% on different devices in the DCASE2020 Development dataset, more than 10% improvement over the baseline system. The results indicate that our approach can achieve good classification performance, without use of any supplementary data from outside the official challenge dataset. ",
+      "keywords": "Acoustics, Image analysis, Feature extraction, Decoding, Semantics, Task analysis, Performance evaluation",
+      "references": []
+    },
+    {
+      "id": 23,
+      "title": "Data augmentation using generative adversarial network for environmental sound classification.",
+      "abstract": "Various types of deep learning architecture have been steadily gaining impetus for automatic environmental sound classification. However, the relative paucity of publicly accessible dataset hinders any further improvement in this direction. This work has two principal contributions. First, we put forward a deep learning framework employing convolutional neural network for automatic environmental sound classification. Second, we investigate the possibility of generating synthetic data using data augmentation. We suggest a novel technique for audio data augmentation using a generative adversarial network (GAN). The proposed model along with data augmentation is assessed on the UrbanSound8K dataset. The results authenticate that the suggested method surpasses state-of-the-art methods for data augmentation.",
+      "keywords": "data augmentation, generative adversarial network, deep learning, environmental sound classification",
+      "references": [
+        38
+      ]
+    },
+    {
+      "id": 24,
+      "title": "An evolutionary-based generative approach for audio data augmentation",
+      "abstract": "In this paper, we introduce a novel framework to augment raw audio data for machine learning classification tasks. For the first part of our framework, we employ a generative adversarial network (GAN) to create new variants of the audio samples that are already existing in our source dataset for the classification task. In the second step, we then utilize an evolutionary algorithm to search the input domain space of the previously trained GAN, with respect to predefined characteristics of the generated audio. This way we are able to generate audio in a controlled manner that contributes to an improvement in classification performance of the original task. To validate our approach, we chose to test it on the task of soundscape classification. We show that our approach leads to a substantial improvement in classification results when compared to a training routine without data augmentation and training with uncontrolled data augmentation with GANs.",
+      "keywords": "sound generation, data augmentation, evolutionary computing, latent vector evolution, generative adversarial networks",
+      "references": [
+        23,
+        38
+      ]
+    },
+    {
+      "id": 25,
+      "title": "Environmental sound classification using a regularized deep convolutional neural network with data augmentation",
+      "abstract": "The adoption of the environmental sound classification (ESC) tasks increases very rapidly over recent years due to its broad range of applications in our daily routine life. ESC is also known as Sound Event Recognition (SER) which involves the context of recognizing the audio stream, related to various environmental sounds. Some frequent and common aspects like non-uniform distance between acoustic source and microphone, the difference in the framework, presence of numerous sounds sources in audio recordings and overlapping various sound events make this ESC problem much complex and complicated. This study is to employ deep convolutional neural networks (DCNN) with regularization and data enhancement with basic audio features that have verified to be efficient on ESC tasks. In this study, the performance of DCNN with max-pooling (Model-1) and without max-pooling (Model-2) function are examined. Three audio attribute extraction techniques, Mel spectrogram (Mel), Mel Frequency Cepstral Coefficient (MFCC) and Log-Mel, are considered for the ESC-10, ESC-50, and Urban sound (US8K) datasets. Furthermore, to avoid the risk of overfitting due to limited numbers of data, this study also introduces offline data augmentation techniques to enhance the used datasets with a combination of L2 regularization. The performance evaluation illustrates that the best accuracy attained by the proposed DCNN without max-pooling function (Model-2) and using Log-Mel audio feature extraction on those augmented datasets. For ESC-10, ESC-50 and US8K, the highest achieved accuracies are 94.94%, 89.28%, and 95.37% respectively. The experimental results show that the proposed approach can accomplish the best performance on environment sound classification problems.",
+      "keywords": "Data augmentation, Environmental sound classification, Regularization, Deep convolutional neural network, Urbansound8k, ESC-10, ESC-50",
+      "references": [
+        38,
+        52
+      ]
+    },
+    {
+      "id": 26,
+      "title": "Spectral images based environmental sound classification using CNN with meaningful data augmentation",
+      "abstract": "In this study, an effective approach of spectral images based on environmental sound classification using Convolutional Neural Networks (CNN) with meaningful data augmentation is proposed. The feature used in this approach is the Mel spectrogram. Our approach is to define features from audio clips in the form of spectrogram images. The randomly selected CNN models used in this experiment are, a 7-layer or a 9-layer CNN learned from scratch. Also, various well-known deep learning structures with transfer learning and with a concept of freezing initial layers, training model, unfreezing the layers, again training the model with discriminative learning are considered. Three datasets, ESC-10, ESC-50, and Us8k are considered. As for the transfer learning methodology, 11 explicit pre-trained deep learning structures are used. In this study, instead of using those available data augmentation schemes for images, we proposed to have meaningful data augmentation by considering variations applied to the audio clips directly. The results show the effectiveness, robustness, and high accuracy of the proposed approach. The meaningful data augmentation can accomplish the highest accuracy with a lower error rate on all datasets by using transfer learning models. Among those used models, The ResNet-152 attained 99.04% for ESC-10 and 99.49% for Us8k datasets. DenseNet-161 gained 97.57% for ESC-50. From our understanding, they are the best-achieved results on these datasets.",
+      "keywords": "Environmental sound classification, Convolutional neural network, Spectrogram, Data augmentation, Transfer learning",
+      "references": [
+        25,
+        38
+      ]
+    },
+    {
+      "id": 27,
+      "title": "Data augmentation approaches for improving animal audio classification.",
+      "abstract": "In this paper we present ensembles of classifiers for automated animal audio classification, exploiting different data augmentation techniques for training Convolutional Neural Networks (CNNs). The specific animal audio classification problems are i) birds and ii) cat sounds, whose datasets are freely available. We train five different CNNs on the original datasets and on their versions augmented by four augmentation protocols, working on the raw audio signals or their representations as spectrograms. We compared our best approaches with the state of the art, showing that we obtain the best recognition rate on the same datasets, without ad hoc parameter optimization. Our study shows that different CNNs can be trained for the purpose of animal audio classification and that their fusion works better than the stand-alone classifiers. To the best of our knowledge this is the largest study on data augmentation for CNNs in animal audio classification audio datasets using the same set of classifiers and parameters.",
+      "keywords": "Audio classification, Data augmentation, Acoustic features, Ensemble of classifiers, Pattern recognition, Animal audio",
+      "references": [
+        38
+      ]
+    },
+    {
+      "id": 28,
+      "title": "Analysis of DNN speech signal enhancement for robust speaker recognition",
+      "abstract": "In this work, we present an analysis of a DNN-based autoencoder for speech enhancement, dereverberation and denoising. The target application is a robust speaker verification (SV) system. We start our approach by carefully designing a data augmentation process to cover a wide range of acoustic conditions and to obtain rich training data for various components of our SV system. We augment several well-known databases used in SV with artificially noised and reverberated data and we use them to train a denoising autoencoder (mapping noisy and reverberated speech to its clean version) as well as an x-vector extractor which is currently considered as state-of-the-art in SV. Later, we use the autoencoder as a preprocessing step for a text-independent SV system. We compare results achieved with autoencoder enhancement, multi-condition PLDA training and their simultaneous use. We present a detailed analysis with various conditions of NIST SRE 2010, 2016, PRISM and with re-transmitted data. We conclude that the proposed preprocessing can significantly improve both i-vector and x-vector baselines and that this technique can be used to build a robust SV system for various target domains.",
+      "keywords": "Speaker verification, Signal enhancement, Autoencoder, Neural network, Robustness, Embedding",
+      "references": []
+    },
+    {
+      "id": 29,
+      "title": "Enhanced indonesian ethnic speaker recognition using data augmentation deep neural network",
+      "abstract": "Speaker Recognition is a challenging topic in Speech Processing research area. The various models proposed have succeeded in achieving a fairly high level of accuracy in this research. However, the level of Speaker Recognition accuracy is not yet maximized because the small dataset is a problem that is still being faced at this time, causing overfitting and biased data samples. This work proposes a Data Augmentation strategy using Adding White Noise techniques, Pitch Shifting, and Time Stretching, which are processed using a Deep Neural Network to produce a new model in speaker recognition as an approach called as DA-DNN7L. The Data Augmentation approach is used as a solution to increase the limited data quantity of Indonesian ethnic speakers, while the seven layer DNN is an architecture that provides the best accuracy performance compared to other multilayer approach models, besides that the 7 layer approach used in several other studies achieves a high degree of accuracy. Research that has been carried out using the best performance seven-layer Deep Neural Network Data Augmentation strategy resulted in an accuracy rate of 99.76% and a loss of 0.05 in the 70%:30% split ratio and the addition of 400 augmentation data. After seeing the performance of this model, it can be concluded that Data Augmentation Deep Neural Network can improve the speaker's recognition performance using the Indonesian ethnic dataset.",
+      "keywords": "Speaker Recognition, Data Augmentation, Deep Neural Network, Indonesian Ethnic, Adding White Noise, Pitch Shifting, Time Stretching",
+      "references": [
+        20,
+        28,
+        37,
+        38
+      ]
+    },
+    {
+      "id": 30,
+      "title": "Lanczos kernel based spectrogram image features for sound classification",
+      "abstract": "Automatic sound recognition (ASR) is a prominently emerging research area in recent years Recognition of sound events automatically through the computers in the complex audio environment is quite useful for machine hearing, acoustic surveillance and multimedia retrieval applications. Although a lot of features such as mel-frequency cepstral coefficients in ASR tasks provide very good results in noiseless environments, noisy conditions in the real world reduce success rates in a remarkable way. On the other hand, it was reported that spectrogram image features showed much better classification performance at low signal noise ratio values in many studies. In this article, it was proposed the preparation of feature vector after the images are reduced in size by applying the resizing process to spectrogram images with Lanczos kernel. Classification performance was compared by using deep artificial neural networks in different noise levels and although the feature vector was reduced, parallel values with results in the literature were obtained in the noiseless environment. It has remained slightly below the current state-of-the-art techniques using spectrogram features while better results compared to other commonly used features such as MFCC were obtained under the noisy conditions.",
+      "keywords": "Machine hearing, automatic sound recognition, spectrogram image features, deep neural network. ",
+      "references": []
+    },
+    {
+      "id": 31,
+      "title": "Emergency signal classification for the hearing impaired using multi-channel convolutional neural network architecture",
+      "abstract": "Hearing impaired people have to tackle a lot of challenges, particularly during emergencies, making them dependent on others. The presence of emergency situations is mostly comprehended through auditory means. This raises a need for developing such systems that sense emergency sounds and communicate it to the deaf effectively. The present study is conducted to differentiate emergency audio signals from non-emergency situations using Multi-Channel Convolutional Neural Networks (CNN). Various data augmentation techniques have been explored, with particular attention to the method of Mixup, in order to improve the performance of the model. The experimental results showed a cross-validation accuracy of 88.28 % and testing accuracy of 88.09 %. To put the model into practical lives of the hearing impaired an android application was developed that made the phone vibrate every time there was an emergency sound. The app could be connected to an android wear device such as a smartwatch that will be with the wearer every time, effectively making them aware of emergency situations.",
+      "keywords": "sound classification, multi-channel, audio data augmentation, mixup, assistive technology, convolutional neural networks, mel spectrograms",
+      "references": []
+    },
+    {
+      "id": 32,
+      "title": "Data augmentation for the classification of north atlantic right whales upcalls.",
+      "abstract": "Passive acoustic monitoring (PAM) is a useful technique for monitoring marine mammals. However, the quantity of data collected through PAM systems makes automated algorithms for detecting and classifying sounds essential. Deep learning algorithms have shown great promise in recent years, but their performance is limited by the lack of sufficient amounts of annotated data for training the algorithms. This work investigates the benefit of augmenting training datasets with synthetically generated samples when training a deep neural network for the classification of North Atlantic right whale (Eubalaena glacialis) upcalls. We apply two recently proposed augmentation techniques, SpecAugment and Mixup, and show that they improve the performance of our model considerably. The precision is increased from 86% to 90%, while the recall is increased from 88% to 93%. Finally, we demonstrate that these two methods yield a significant improvement in performance in a scenario of data scarcity, where few training samples are available. This demonstrates that data augmentation can reduce the annotation effort required to achieve a desirable performance threshold.",
+      "keywords": "Underwater acoustics, Bioacoustics of mammals, Acoustic modeling, simulation and analysis, Speech recognition, Speech synthesis, Spectrograms, Animal communication, Artificial intelligence, Artificial neural networks, Machine learning",
+      "references": []
+    },
+    {
+      "id": 33,
+      "title": "Incorporating noise robustness in speech command recognition by noise augmentation of training data",
+      "abstract": "The advent of new devices, technology, machine learning techniques, and the availability of free large speech corpora results in rapid and accurate speech recognition. In the last two decades, extensive research has been initiated by researchers and different organizations to experiment with new techniques and their applications in speech processing systems. There are several speech command based applications in the area of robotics, IoT, ubiquitous computing, and different human-computer interfaces. Various researchers have worked on enhancing the efficiency of speech command based systems and used the speech command dataset. However, none of them catered to noise in the same. Noise is one of the major challenges in any speech recognition system, as real-time noise is a very versatile and unavoidable factor that affects the performance of speech recognition systems, particularly those that have not learned the noise efficiently. We thoroughly analyse the latest trends in speech recognition and evaluate the speech command dataset on different machine learning based and deep learning based techniques. A novel technique is proposed for noise robustness by augmenting noise in training data. Our proposed technique is tested on clean and noisy data along with locally generated data and achieves much better results than existing state-of-the-art techniques, thus setting a new benchmark.",
+      "keywords": "automatic speech recognition, voice recognition, acoustic modelling, language modelling, deep learning, deep neural networks, word error rate, data science, speech command set, kaldi",
+      "references": [
+        38
+      ]
+    },
+    {
+      "id": 34,
+      "title": "Speech emotion recognition using data augmentation.",
+      "abstract": "Humans are considered as emotional beings and so the uttered speech reflect the human emotions. Human computer interaction can be done more effectively by automatically identifying the emotions from speech. Automatic speech emotion recognition is applied in many areas like computer gaming, call centre, speech therapy controlling robots etc. Emotion recognition can be considered as feature space to label space mapping. From the uttered speech, the different features are calculated. Then, to automatically recognize the emotions, the relationship between the emotions and the features are learned. The required preprocessing is done with the collected training samples and the features are extracted from the speech signals. The extracted feature vectors are stored in the database. When the input signal comes, the preprocessing and feature extraction are done and the extracted features are compared with the feature vectors in the database to determine the emotion in that speech signal. We have developed a deep learning model for speech emotion recognition with GRU which take the filterbank energies of the speech signals as input. To overcome the problem with the availability of database and to increase the number of input samples, we have applied data augmentation.",
+      "keywords": "Human computer interaction, Speech emotion recognition, Biometric",
+      "references": []
+    },
+    {
+      "id": 35,
+      "title": "Data augmentation using generative adversarial networks for robust speech recognition",
+      "abstract": "For noise robust speech recognition, data mismatch between training and testing is a significant challenge. Data augmentation is an effective way to enlarge the size and diversity of training data and solve this problem. Different from the traditional approaches by directly adding noise to the original waveform, in this work we utilize generative adversarial networks (GAN) for data generation to improve speech recognition under noise conditions. In this paper we investigate different configurations of GANs. Firstly the basic GAN is applied: the generated speech samples are based on spectrum feature level and produced frame by frame without dependence among them, and there is no true labels. Thus, an unsupervised learning framework is proposed to utilize these untranscribed data for acoustic modeling. Then, in order to better guide the data generation, condition information is introduced into GAN structures, and the conditional GAN is utilized: two different conditions are explored, including the acoustic state of each speech frame and the original paired clean speech of each speech frame. With the incorporation of specific condition information into data generation, these conditional GANs can provide true labels directly, which can be used for later acoustic modeling. During the acoustic model training, these true labels are combined with the soft labels which make the model better. The proposed GAN-based data augmentation approaches are evaluated on two different noisy tasks: Aurora4 (simulated data with additive noise and channel distortion) and the AMI meeting transcription task (real data with significant reverberation). The experiments show that the new data augmentation approaches can obtain the performance improvement under all noisy conditions, which including additive noise, channel distortion and reverberation. With these augmented data by basic GAN / conditional GAN, a relative 6% to 14% WER reduction can be obtained upon an advanced acoustic model.",
+      "keywords": "Robust speech recognition, Generative adversarial networks, Conditional generative adversarial networks, Data augmentation, Very deep convolutional neural network",
+      "references": []
+    },
+    {
+      "id": 36,
+      "title": "CoughGAN: Generating synthetic coughs that improve respiratory disease classification",
+      "abstract": "Despite the prevalence of respiratory diseases, their diagnosis by clinicians is challenging. Accurately assessing airway sounds requires extensive clinical training and equipment that may not be easily available. Current methods that automate this diagnosis are hindered by their use of features that require pulmonary function tests. We leverage the audio characteristics of coughs to create classifiers that can distinguish common respiratory diseases in adults. Moreover, we build on recent advances in generative adversarial networks to augment our dataset with cleverly engineered synthetic cough samples for each class of major respiratory disease, to balance and increase our dataset size. We experimented on cough samples collected with a smartphone from 45 subjects in a clinic. Our CoughGAN-improved Support Vector Machine and Random Forest models show up to 76% test accuracy and 83% F1 score in classifying subjects\u2019 conditions between healthy and three major respiratory diseases. Adding our synthetic coughs improves the performance we can obtain from a relatively small unbalanced healthcare dataset by boosting the accuracy over 30%. Our data augmentation reduces overfitting and discourages the prediction of a single, dominant class. These results highlight the feasibility of automatic, cough-based respiratory disease diagnosis using smartphones or wearables in the wild.",
+      "keywords": "diseases, learning (artificial intelligence), lung, medical diagnostic computing, medical image processing, patient care, patient diagnosis, pattern classification, pneumodynamics, random forests, support vector machines",
+      "references": []
+    },
+    {
+      "id": 37,
+      "title": "Data augmentation for speaker identification under stress conditions to combat gender-based violence",
+      "abstract": "A Speaker Identification system for a personalized wearable device to combat gender-based violence is presented in this paper. Speaker recognition systems exhibit a decrease in performance when the user is under emotional or stress conditions, thus the objective of this paper is to measure the effects of stress in speech to ultimately try to mitigate their consequences on a speaker identification task, by using data augmentation techniques specifically tailored for this purpose given the lack of data resources for this condition. An extensive experimentation has been carried out for assessing the effectiveness of the proposed techniques. First, we conclude that the best performance is always obtained when naturally stressed samples are included in the training set, and second, when these are not available, their substitution and augmentation with synthetically generated stress-like samples improves the performance of the system.\n",
+      "keywords": "speaker identification, emotions, stress conditions, data augmentation, synthetic stress",
+      "references": [
+        44
+      ]
+    },
+    {
+      "id": 38,
+      "title": "Deep convolutional neural networks and data augmentation for environmental sound classification",
+      "abstract": "The ability of deep convolutional neural networks (CNNs) to learn discriminative spectro-temporal patterns makes them well suited to environmental sound classification. However, the relative scarcity of labeled data has impeded the exploitation of this family of high-capacity models. This study has two primary contributions: first, we propose a deep CNN architecture for environmental sound classification. Second, we propose the use of audio data augmentation for overcoming the problem of data scarcity and explore the influence of different augmentations on the performance of the proposed CNN architecture. Combined with data augmentation, the proposed model produces state-of-the-art results for environmental sound classification. We show that the improved performance stems from the combination of a deep, high-capacity model and an augmented training set: this combination outperforms both the proposed CNN without augmentation and a \u201cshallow\u201d dictionary learning model with augmentation. Finally, we examine the influence of each augmentation on the model's classification accuracy for each class, and observe that the accuracy for each class is influenced differently by each augmentation, suggesting that the performance of the model could be improved further by applying class-conditional data augmentation.",
+      "keywords": "speaker identification, emotions, stress conditions, data augmentation, synthetic stress",
+      "references": []
+    },
+    {
+      "id": 39,
+      "title": "Creating speaker independent ASR system through prosody modification based data augmentation.",
+      "abstract": "In this paper, the effect of prosody-modification-based data augmentation is explored in the context of automatic speech recognition (ASR). The primary motive is to develop ASR systems that are less affected by speaker-dependent acoustic variations. Two factors contributing towards inter-speaker variability that are focused on in this paper are pitch and speaking-rate variations. In order to simulate such an ASR task, we have trained an ASR system on adults\u2019 speech and tested it using speech data from adult as well as child speakers. Compared to adults\u2019 speech test case, the recognition rates are noted to be extremely degraded when the test speech is from child speakers. The observed degradation is basically due to large differences in pitch and speaking-rate between adults\u2019 and children\u2019s speech. To overcome this problem, pitch and speaking-rate of the training speech are modified to create new versions of the data. The original and the modified versions are then pooled together in order to capture greater acoustic variability. The ASR system trained on augmented data is noted to be more robust towards speaker-dependent variations. Relative improvements of 11.5% and 27.0% over the baseline are obtained on decoding adults\u2019 and children\u2019s speech test sets, respectively.",
+      "keywords": "",
+      "references": []
+    },
+    {
+      "id": 40,
+      "title": "Background sound classification in speech audio segments",
+      "abstract": "Background sound classification is the task of identifying secondary sound sources in the surrounding environment. Real-time speech is always accompanied by a context. This context can be very helpful in enhancing the behavior of a variety of applications. Traditionally, audio classification tasks have mainly focused on speech due to its wide applicability. Recent works have explored environmental scene classification using acoustic features. Availability of different datasets like UrbanSound, ESC50, and AUDIOSET have further aided the process. Previous works have mostly focused on the classification of independently occurring acoustic events. In this work, we explore the classification of background sound in audio recordings containing human speech. We prepare a new dataset YBSS-200 using youtube videos where each sample contains a distinct background sound and an accompanying foreground human voice. We present a convolutional neural network based transfer learning approach using a VGG like Network for classification of context in such acoustic signals. Specific data augmentation techniques were used to improve the classification results.",
+      "keywords": "environmental sound classification, convolutional neural networks, transfer learning",
+      "references": [
+        38
+      ]
+    },
+    {
+      "id": 41,
+      "title": "Audio Synthesis-based Data Augmentation Considering Audio Event Class.",
+      "abstract": "Although many studies have been conducted on environmental audio detection or classification, most have been done using well-developed corpora. Build a training corpus is necessary to perform new audio event detection tasks using deep learning. However, the cost of data collection and labeling is very expensive. Research has focused on improving model accuracy by efficiently increasing the amount of training data using data augmentation approaches on the collected data. Data augmentation methods for signals, such as audio, have not yet been established, so this study proposes a data augmentation method based on audio synthesis using audio similar to those used in the audio detection or classification task. The proposed method performs data augmentation using appropriate seed audio corresponding to the target sound class to be recognized. The experimental results showed that the proposed method improved the F1 score by 12.9 points compared with the general augmentation method in the audio tagging task in baseball games.",
+      "keywords": "audio tagging, deep learning, data augmentation, sound synthesis\n",
+      "references": [
+        38
+      ]
+    },
+    {
+      "id": 42,
+      "title": "Stethoscope-Sensed Speech and Breath-Sounds for Person Identification with Sparse Training Data",
+      "abstract": "A novel person identification (PID) technique is developed in this study, which exploits a new biometric called bronchial breath sound and speech signal acquired by a stethoscope. In addition to investigating the acoustic characteristics of breath sounds for PID, we evaluate three identification methods, including support vector machines (SVM), artificial neural networks (ANN), and i-vector approach. Recognizing the requirement that the amount of sound data collected from each person should be as small as possible, this work studies data augmentation (DA) techniques that avoid the system training process from the overfitting problem when the training sound data is insufficient. In addition, we apply feature engineering techniques to find the informative subset of breath sound features which is beneficial for PID. Our experiments were conducted using a dataset composed of 16 subjects, including an equal number of male and female participants. In the test phase, both Support Vector Machine combined with feature selection and Artificial Neural Networks approaches yielded the promising accuracies of 98%.",
+      "keywords": "Artificial neural networks, bronchial breath sounds, audio data augmentation, feature engineering, person identification, stethoscope, support vector machines, i-vector",
+      "references": [
+        38
+      ]
+    },
+    {
+      "id": 43,
+      "title": "Detection of activity and position of speakers by using deep neural networks and acoustic data augmentation",
+      "abstract": "The task of Speaker LOCalization (SLOC) has been the focus of numerous works in the research field, where SLOC is performed on pure speech data, requiring the presence of an Oracle Voice Activity Detection (VAD) algorithm. Nevertheless, this perfect working condition is not satisfied in a real world scenario, where employed VADs do commit errors. This work addresses this issue with an extensive analysis focusing on the relationship between several data-driven VAD and SLOC models, finally proposing a reliable framework for VAD and SLOC. The effectiveness of the approach here discussed is assessed against a multi-room scenario, which is close to a real-world environment. Furthermore, up to the authors\u2019 best knowledge, only one contribution proposes a unique framework for VAD and SLOC acting in this addressed scenario; however, this solution does not rely on data-driven approaches. This work comes as an extension of the authors\u2019 previous research addressing the VAD and SLOC tasks, by proposing numerous advancements to the original neural network architectures. In details, four different models based on convolutional neural networks (CNNs) are here tested, in order to easily highlight the advantages of the introduced novelties. In addition, two different CNN models go under study for SLOC. Furthermore, training of data-driven models is here improved through a specific data augmentation technique. During this procedure, the room impulse responses (RIRs) of two virtual rooms are generated from the knowledge of the room size, reverberation time and microphones and sources placement. Finally, the only other framework for simultaneous detection and localization in a multi-room scenario is here taken into account to fairly compare the proposed method. As result, the proposed method is more accurate than the baseline framework, and remarkable improvements are specially observed when the data augmentation techniques are applied for both the VAD and SLOC tasks.",
+      "keywords": "Voice activity detection, Speaker localization, Data augmentation, Multi-room environment, Deep learning",
+      "references": [
+        38
+      ]
+    },
+    {
+      "id": 44,
+      "title": "Speech emotion recognition for performance interaction",
+      "abstract": "This paper investigates the applicability of machine-driven Speech Emotion Recognition (SER) towards the augmentation of theatrical performances and interactions (e.g. controlling stage color /light, stimulating active audience engagement, actors\u2019 interactive training, etc.). For the needs of the classification experiments, the Acted Emotional Speech Dynamic Database (AESDD) is developed, containing spoken utterances by 5 actors in 5 emotions. Several audio features and various classification techniques are implemented and evaluated, based on their performance with the AESDD, while also comparing to the well-known SAVEE database. The trained classifier is integrated in a novel application that performs live SER, fitting the needs of actors training, while simultaneously augmenting the AESDD repository",
+      "keywords": "",
+      "references": []
+    },
+    {
+      "id": 45,
+      "title": "Data augmentation for internet of things dialog system",
+      "abstract": "With rapid development of voice control technology, making speech recognition more precisely in various IoT domains have been an intractable problem to be solved. Since there are various conversation scenes, understanding the context of a dialog scene is a key issue of voice control systems. However, the reality is available training data for dialog system are always insufficient. In this paper, we mainly solve the problem of data lacking in dialog systems by data augmentation technique. A Generative Adversarial Network(GAN)-based model is proposed and the data are augmented effectively. It can generate from text to text, enhance the original data with text retelling, and improve the robustness of parameter estimation of unknown data by using the sample data generated by GAN model. A new N-gram language model is used to evaluate multiple recognition candidates of speech recognition, and the candidate sentences with the highest evaluation scores are selected as the final result of speech recognition. Our data enhancement algorithm based on the Generative Model is verified by the experiments. In the result of model comparison test, the error rates of data set THCHS30 and AISHELL are 3.3% and 5.1% which are lower than that of the baseline system.",
+      "keywords": "GAN, Data augmentation, CNN, Dialog system",
+      "references": []
+    },
+    {
+      "id": 46,
+      "title": "Data augmentation using deep generative models for embedding based speaker recognition.",
+      "abstract": "Data augmentation is an effective method to improve the robustness of embedding based speaker verification systems, which could be applied to either the front-end speaker embedding extractor or the back-end PLDA. Different from the conventional augmentation methods such as manually adding noise or reverberation to the original audios, in this article, we propose to use deep generative models to directly generate more diverse speaker embeddings, which would be used for robust PLDA training. Conditional GAN, and VAE are designed, and investigated for different embedding types, including factor analysis based i-vector, TDNN based x-vector, and ResNet based r-vector. The proposed back-end augmentation methods are evaluated on NIST SRE 2016, and 2018 dataset. Within the popular x-vector, and r-vector framework, the experimental results show that our proposed methods can outperform the traditional audio based back-end augmentation method while different front-end augmentation methods are considered.",
+      "keywords": "Text-independent speaker verification, data augmentation, generative adversarial network, variational auto-encoder.",
+      "references": []
+    },
+    {
+      "id": 47,
+      "title": "Environmental sound classification with tiny transformers in noisy edge environments.",
+      "abstract": "The unprecedented growth of edge sensor infrastructure is driving the demand function for in situ analytics, i.e. automated decision support at the point of data collection. In the present work, we detail our state-of-the-art Environmental Sound Classification (ESC) framework that is capable of near real-time acoustic categorization directly at the edge. Existing ESC algorithms primarily train and test on pristine datasets that fail in real-world deployments due their inability to handle real-world noisy environments. Methods to denoise the sounds are often computationally expensive for edge devices and do not guarantee performance improvements. To this end, we investigate a way to make existing ESC models robust and make them work in operational resource-constrained settings. Our framework employs a noisy classification model consisting of a tiny BERT-based Transformer (less than 20,000 parameters) and considers hardening of this model through the use of transmission channel noise augmentation. We detail real-world results through its deployment on a Raspberry Pi Zero and demonstrate its classification performance.",
+      "keywords": "Environmental sound classification; transformers; machine learning; edge; noise; microcontrollers",
+      "references": [
+        25,
+        38
+      ]
+    },
+    {
+      "id": 48,
+      "title": "Multi-scale semantic feature fusion and data augmentation for acoustic scene classification.",
+      "abstract": "This paper investigates a multi-scale semantic feature fusion and data augmentation approach for deep convolutional neural network (CNN) based acoustic scene classification. To ensemble the multi-scale semantic information of CNN and improve the performance of acoustic scene classification, a multi-scale feature fusion framework, which consists of a simplified Xception backbone and a semantic feature fusion strategy, is presented. A novel label smoothing mixup data augmentation method, which is a generalization of mixup and label smoothing, is proposed to alleviate the over-confident problem of network training. A spatial-mixup technique is presented to generate meaningful mixup virtual data for acoustic scene classification. Extensive experiments on synthetic data and real acoustic scene classification dataset demonstrate that both multi-scale semantic feature fusion and label smoothing spatial-mixup data augmentation are effective for improving the acoustic scene classification performance of a deep neural network.",
+      "keywords": "Multi-scale feature learning, Convolutional neural networks, Data augmentation, Acoustic scene classification (ASC), Machine listening",
+      "references": [
+        38
+      ]
+    },
+    {
+      "id": 49,
+      "title": "Data Augmentation using GAN for Sound based COVID 19 Diagnosis",
+      "abstract": "The COVID 19 virus has been mutating at a rapid phase, due to which the golden standard of testing reverse transcription-polymerase chain reaction (RT-PCR) has been producing false negatives at an alarming rate. The inability of the test to detect the mutated strain of the COVID 19 virus using RT-PCR has made it very difficult for diagnosis and hence an alternative solution is needed. Sound-based diagnosis is one effective alternative diagnosis tool. The lack of a large dataset is one challenging aspect for the development of a sound-based diagnosis tool. We look forward to using dataset augmentation as a very effective technique for a selected classification problem: visual perception and also speech recognition tasks. The Generative Adversarial Networks (GANs) have been showing high success for applications in terms of synthesizing realistic images, they're seen rarely in audio generation-based applications Due to the lack of data sets available to develop an accurate model in this paper we showcase an application of WaveGAN, which is a variant of GAN which helps in raw audio synthesis during a supervised setting for the classification task, by developing a method showcasing one of the approaches for augmenting speech datasets by using Generative adversarial networks (GANs). We deploy the WaveGAN on the existing data sets collected from open-source collections to develop synthetic, larger data set to build an accurate sound-based diagnosis tool.",
+      "keywords": "Generative adversarial networks, WaveGAN, Sound-based diagnosis ",
+      "references": []
+    },
+    {
+      "id": 50,
+      "title": "Experimental Design and Analysis of Sound Event Detection Systems: Case Studies",
+      "abstract": "Sound Event Detection (SED) systems have attracted a widespread attention from the Machine Learning community due to their potential applications. As in many sound analysis scenarios, it is of paramount importance to assess and compare the performances of such systems trained from sound data. The main goal of system evaluation and comparison is to derive conclusions unaffected by chance and are therefore significant. Both the design of experiments and the analysis of results through statistical tests should be conducted properly in order to insure significance. In this paper, we first discuss the principles of machine learning experiments in the context of SED. Then, we show the proper methodologies through case studies. To this end, we have examined four classification models (Support Vector Machine, Convolutional Neural Network, Adaboost and Random Forest) trained using Mel Frequency Cepstral Coefficients (MFCCs). Most importantly, we have supported our analysis and discussions with numerous statistical tests. Without the use of a proper data augmentation approach, the experimental results indicate the superiority of the ensemble-based classifiers (Random Forest and Adaboost), with an overall detection accuracy of 83%. Furthermore, adding the first and second derivative of MFCCs significantly improves the performance of SVM-based systems.",
+      "keywords": "Sound Event Detection, Feature Engineering, Machine Learning, Statistical Test.",
+      "references": []
+    },
+    {
+      "id": 51,
+      "title": "Snore-GANs: Improving automatic snore sound classification with synthesized data.",
+      "abstract": "One of the frontier issues that severely hamper the development of automatic snore sound classification (ASSC) associates to the lack of sufficient supervised training data. To cope with this problem, we propose a novel data augmentation approach based on semi-supervised conditional generative adversarial networks (scGANs), which aims to automatically learn a mapping strategy from a random noise space to original data distribution. The proposed approach has the capability of well synthesizing \u201crealistic\u201d high-dimensional data, while requiring no additional annotation process. To handle the mode collapse problem of GANs, we further introduce an ensemble strategy to enhance the diversity of the generated data. The systematic experiments conducted on a widely used Munich-Passau snore sound corpus demonstrate that the scGANs-based systems can remarkably outperform other classic data augmentation systems, and are also competitive to other recently reported systems for ASSC.",
+      "keywords": "Snore sound classification, obstructive sleep apnea, data augmentation, data synthesis.",
+      "references": []
+    },
+    {
+      "id": 52,
+      "title": "Learning attentive representations for environmental sound classification",
+      "abstract": "Environmental sound classification (ESC) is a challenging problem due to the complex temporal structure and diverse energy modulation patterns of environmental sounds. In order to deal with the former, temporal attention mechanism is originally adopted to focus on the informative frames. However, no existing works pay attention to the latter problem. In this paper, we consider the role of convolution filters in detecting energy modulation patterns and propose a channel attention mechanism to focus on the semantically relevant channels generated by corresponding filters. Furthermore, we incorporate the temporal attention and channel attention to enhance the representative power of CNN via generating complementary information. In addition, to avoid possible overfitting caused by limited training data, we explore a data augmentation scheme that is other contribution in this paper. We evaluate our proposed method on three benchmark ESC datasets: ESC-10 and ESC-50 and DCASE2016. Experimental results show the effectiveness of proposed method and achieve the state-of-the-art or competitive results in terms of classification accuracy. Finally, we visualize our attention results and observe that the proposed attention mechanism is able to lead the network to focus on the semantically relevant parts of environmental sounds.",
+      "keywords": "Environmental sound classification, convolutional recurrent neural network, attention mechanism, data augmentation.",
+      "references": [
+        38
+      ]
+    },
+    {
+      "id": 53,
+      "title": "Respiratory Sound Classification Based on BiGRU-Attention Network with XGBoost",
+      "abstract": "In recent years, the mortality rate of respiratory diseases ranks high among the major diseases. Early detection of respiratory diseases is a key factor in reducing the mortality rate and curing diseases. In this paper, we propose the BiGRU Attention-XGBoost model to classify respiratory sounds, in order to assist doctors in the early diagnosis of respiratory diseases. Specifically, we first extract two sets of features, i.e., the time domain and spectral features to encode respiratory sounds. Then, we apply the Gradient Boosting Decision Tree algorithm to select important features for classification. Based on the temporal characteristics of respiratory sounds, we design the BiGRU Attention-XGBoost model to classify them. Finally, to enlarge the training dataset and address the problem of data imbalance, we also implement Griffifin-Lim and WORLD Vocoder, two data augmentation methods. Extensive experiments show the superiority of the proposed model compared to seven state-of the-art models in terms of classification accuracy and Fl-score.",
+      "keywords": "respiratory sounds, BiGRU-Attention, XGBoost",
+      "references": []
+    },
+    {
+      "id": 54,
+      "title": "Replay anti-spoofing countermeasure based on data augmentation with post selection.",
+      "abstract": "Automatic Speaker Verification (ASV) systems have been widely applied for speaker authentication for biometric security especially in e-business scenarios. However, vulnerabilities of the ASV technology have been discovered and have generated much interest to design anti-spoofing countermeasures. Serious threats can be posed by replay attacks, which are difficult to detect and easy to mount with accessible devices. In this paper, an efficient replay anti-spoofing countermeasure based on data augmentation with post selection is proposed. The auxiliary classifier generative adversarial network (AC-GAN) is adopted to generate more speech samples with diverse variants. To select generated samples of high quality and avoid the bias caused by human subjective perception, we also propose a convolutional neural network (CNN) based post-filter. By integrating data augmentation and post selection approaches, issues of over-fitting and lack of generalization can be significantly alleviated with extra informative training data. The proposed anti-spoofing countermeasure is evaluated on the ASVspoof 2017 Version 2.0 database. Experimental results measured by equal error rates (EERs) indicate a promising improvement over the development and evaluation subsets. This provides the motivation for novel audio data augmentation and also promotes the future research on generation selection in the application of speaker spoofing detection.",
+      "keywords": "Anti-spoofing countermeasures, Replay spoofing detection, Generative adversarial network, Data augmentation, Post selection",
+      "references": []
+    },
+    {
+      "id": 55,
+      "title": "Spectrum interference-based two-level data augmentation method in deep learning for automatic modulation classification.",
+      "abstract": "Automatic modulation classification is an essential and challenging topic in the development of cognitive radios, and it is the cornerstone of adaptive modulation and demodulation abilities to sense and learn surrounding environments and make corresponding decisions. In this paper, we propose a spectrum interference-based two-level data augmentation method in deep learning for automatic modulation classification. Since the frequency variation over time is the most important distinction between radio signals with various modulation schemes, we plan to expand samples by introducing different intensities of interference to the spectrum of radio signals. The original signal is first transformed into the frequency domain by using short-time Fourier transform, and the interference to the spectrum can be realized by bidirectional noise masks that satisfy the specific distribution. The augmented signals can be reconstructed through inverse Fourier transform based on the interfered spectrum, and then, the original and augmented signals are fed into the network. Finally, data augmentation at both training and testing stages can be used to improve the generalization performance of deep neural network. To the best of our knowledge, this is the first time that radio signals are augmented to help modulation classification by considering the frequency domain information. Moreover, we have proved that data augmentation at the test stage can be interpreted as model ensemble. By comparing with a variety of data augmentation techniques and state-of-the-art modulation classification methods on the public dataset RadioML 2016.10a, experimental results illustrate the effectiveness and advancement of proposed method.",
+      "keywords": "Automatic modulation classification (AMC), Deep learning, Data augmentation, Spectrum interference",
+      "references": [
+        35
+      ]
+    },
+    {
+      "id": 56,
+      "title": "A CRNN System for Sound Event Detection Based on Gastrointestinal Sound Dataset Collected by Wearable Auscultation Devices",
+      "abstract": "In this article, we set up a novel audio dataset named Gastrointestinal (GI) Sound Set which includes 6 kinds of body sounds Bowel sound, Speech, Snore, Cough, Groan, and Rub. We do sound event detection (SED) based on it, and can accurately detect 6 types of sound events. First, the GI Sound Set is collected by wearable auscultation devices. To ensure generalization, patients from five different hospital departments are recruited for data collection, along with a group of healthy subjects. GI Sound Set refers to Google AudioSet in data format but varies in audio length and sampling rate. Second, we extract Mel-filter features from the recordings and investigate the performance of different activation functions and neural network architectures for detecting sound events. We use data augmentation, class balance to deal with the problem of quantitative imbalance between classes on the dataset. We apply multiple instances learning(MIL) to give out not only bag-level results but also frame-level results. In this work, GI Sound Set is the largest body sound dataset to date, and our approach shows state-of-the-art performance with an average score of F1=81.06% evaluated on the test set. Due to its simple network and conventional processing method, our CRNN system has high universality, which can be used in other audio datasets, such as respiratory sound and heart sound.",
+      "keywords": "Gastrointestinal (GI) sound set, sound event detection(SED), convolutional recurrent neural network (CRNN), multiple instance learning(MIL).",
+      "references": [
+        38
+      ]
+    }
+  ],
+  "min_publication_year": 2016,
+  "max_publication_year": 2022
+}

@@ -1,0 +1,146 @@
+{
+  "name": "azeem",
+  "gs": [
+    {
+      "id": 1,
+      "title": "Code Smell Detection: Towards a Machine Learning-based Approach",
+      "abstract": "Several code smells detection tools have been developed providing different results, because smells can be subjec- tively interpreted and hence detected in different ways. Usually the detection techniques are based on the computation of different kinds of metrics, and other aspects related to the domain of the system under analysis, its size and other design features are not taken into account. In this paper we propose an approach we are studying based on machine learning techniques. We outline some common problems faced for smells detection and we describe the different steps of our approach and the algorithms we use for the classification.",
+      "keywords": "code smells detection, machine learning techniques",
+      "references": [
+        6,
+        8,
+        12
+      ]
+    },
+    {
+      "id": 2,
+      "title": "Tracking Design Smells: Lessons from a Study of God Classes",
+      "abstract": "\u201cGod class\u201d is a term used to describe a certain type of large classes which \u201cknow too much or do too much\u201d. Often a God class (GC) is created by accident as functionalities are incrementally added to a central class over the course of its evolution. GCs are generally thought to be examples of bad code that should be detected and removed to ensure software quality. However, in some cases, a GC is created by design as the best solution to a particular problem because, for example, the problem is not easily decomposable or strong requirements on efficiency exist. In this paper, we study in two open-source systems the \u201clife cycle\u201d of GCs: how they arise, how prevalent they are, and whether they remain or they are removed as the systems evolve over time, through a number of versions. We show how to detect the degree of \u201cgodliness\u201d of classes automatically. Then, we show that by identifying the evolution of \u201cgodliness\u201d, we can distinguish between those classes that are so by design (good code) from those that occurred by accident (bad code). This methodology can guide software quality teams in their efforts to implement prevention and correction mechanisms.",
+      "keywords": "Design smells, software evolution, empirical study",
+      "references": [
+        3
+      ]
+    },
+    {
+      "id": 3,
+      "title": "A Bayesian Approach for the Detection of Code and Design Smells",
+      "abstract": "The presence of code and design smells can have a severe impact on the quality of a program. Consequently, their detection and correction have drawn the attention of both researchers and practitioners who have proposed various approaches to detect code and design smells in programs. However, none of these approaches handle the inherent uncertainty of the detection process. We propose a Bayesian approach to manage this uncertainty. First, we present a system- atic process to convert existing state-of-the-art detection rules into a probabilistic model. We illustrate this process by generating a model to detect occurrences of the Blob antipattern. Second, we present results of the validation of the model: we built this model on two open-source programs, GanttProject v1.10.2 and Xerces v2.7.0, and measured its accuracy. Third, we compare our model with another approach to show that it returns the same candidate classes while ordering them to minimise the quality analysts\u2019 effort. Finally, we show that when past detection results are available, our model can be calibrated using machine learning techniques to offer an improved, context-specific detection.",
+      "keywords": "code smells, design smells, bayesian belief networks, software quality",
+      "references": []
+    },
+    {
+      "id": 4,
+      "title": "IDS: An Immune-inspired Approach for the Detection of Software Design Smells",
+      "abstract": "We propose a parallel between object-oriented system designs and living creatures. We suggest that, like any living creature, system designs are subject to diseases, which are design smells (code smells and antipatterns). Design smells are conjectured in the literature to impact the quality and life of systems and, therefore, their detection has drawn the attention of both researchers and practitioners with various approaches. With our parallel, we propose a novel approach built on models of the immune system responses to pathogenic material. We show that our approach can detect more than one smell at a time. We build and test our approach on GanttProject v1.10.2 and Xerces v2.7.0, for which manually-validated and publicly-available smells exist. The results show a significant improvement in detection time, precision, and recall, in comparison to the state\u2013of\u2013the\u2013art approaches.",
+      "keywords": "System design, Reverse engineering, Code smells, Antipatterns, Artificial Immune Systems",
+      "references": [
+        3
+      ]
+    },
+    {
+      "id": 5,
+      "title": "Bad-smell Prediction from Software Design Model Using Machine Learning Techniques",
+      "abstract": "Bad-smell prediction significantly impacts on software quality. It is beneficial if bad-smell prediction can be performed as early as possible in the development life cycle. We present methodology for predicting bad-smells from software design model. We collect 7 data sets from the previous literatures which offer 27 design model metrics and 7 bad-smells. They are learnt and tested to predict bad-smells using seven machine learning algorithms. We use cross-validation for assessing the performance and for preventing over-fitting. Statistical significance tests are used to evaluate and compare the prediction performance. We conclude that our methodology have proximity to actual values.",
+      "keywords": "Bad-smell, Software Design Model, Random Forest, Design Diagram Metrics, Prediction models, Machine Learners",
+      "references": []
+    },
+    {
+      "id": 6,
+      "title": "SMURF: A SVM-based Incremental Anti-pattern Detection Approach",
+      "abstract": "In current, typical software development projects, hundreds of developers work asynchronously in space and time and may introduce anti-patterns in their software systems because of time pressure, lack of understanding, communication, and\u2013or skills. Anti-patterns impede development and maintenance activities by making the source code more difficult to understand. Detecting anti-patterns incrementally and on subsets of a system could reduce costs, effort, and resources by allowing practitioners to identify and take into account occurrences of anti-patterns as they find them during their development and maintenance activities. Researchers have proposed approaches to detect occurrences of anti-patterns but these approaches have currently four limitations: (1) they require extensive knowledge of anti-patterns, (2) they have limited precision and recall, (3) they are not incremental, and (4) they cannot be applied on subsets of systems. To overcome these limitations, we introduce SMURF, a novel approach to detect anti-patterns, based on a machine learning technique\u2014support vector machines\u2014and taking into account practitioners\u2019 feedback. Indeed, through an empirical study involving three systems and four anti-patterns, we showed that the accuracy of SMURF is greater than that of DETEX and BDTEX when detecting anti-patterns occurrences. We also showed that SMURF can be applied in both intra-system and inter-system configurations. Finally, we reported that SMURF accuracy improves when using practitioners\u2019 feedback.",
+      "keywords": "Anti-pattern, program comprehension, program maintenance, empirical software engineering",
+      "references": [
+        8,
+        12
+      ]
+    },
+    {
+      "id": 7,
+      "title": "Can I Clone This Piece of Code Here?",
+      "abstract": "While code cloning is a convenient way for developers to reuse existing code, it could potentially lead to negative impacts, such as degrading code quality or increasing maintenance costs. Actually, some cloned code pieces are viewed as harmless since they evolve independently, while other cloned code pieces are viewed as harmful since they need to be changed consistently, thus incurring extra maintenance costs. Recent studies demonstrate that neither the percentage of harmful code clones nor that of harmless code clones is negligible. To assist developers in leveraging the benefits of harmless code cloning and/or in avoiding the negative impacts of harmful code cloning, we propose a novel approach that automatically predicts the harmfulness of a code cloning operation at the point of performing copy-and-paste. Our insight is that the potential harmfulness of a code cloning operation may relate to some characteristics of the code to be cloned and the characteristics of its context. Based on a number of features extracted from the cloned code and the context of the code cloning operation, we use Bayesian Networks, a machine-learning technique, to predict the harmfulness of an intended code cloning operation. We evaluated our approach on two large-scale industrial software projects under two usage scenarios: 1) approving only cloning operations predicted to be very likely of no harm, and 2) blocking only cloning operations predicted to be very likely of harm. In the first scenario, our approach is able to approve more than 50% cloning operations with a precision higher than 94.9% in both subjects. In the second scenario, our approach is able to avoid more than 48% of the harmful cloning operations by blocking only 15% of the cloning operations for the first subject, and avoid more than 67% of the cloning operations by blocking only 34% of the cloning operations for the second subject.",
+      "keywords": "Code cloning, Harmfulness prediction, Programming aid",
+      "references": []
+    },
+    {
+      "id": 8,
+      "title": "Support Vector Machines for Anti-pattern Detection",
+      "abstract": "Developers may introduce anti-patterns in their software systems because of time pressure, lack of understanding, communication, and\u2013or skills. Anti-patterns impede development and maintenance activities by making the source code more difficult to understand. Detecting anti-patterns in a is important to ease the maintenance of software. Detecting anti-patterns could reduce costs, effort, and resources. Researchers have proposed approaches to detect occurrences of anti-patterns but these approaches have currently some limitations: they require extensive knowledge of anti-patterns, they have limited precision and recall, and they cannot be applied on subsets of systems. To overcome these limitations, we introduce SVMDetect, a novel approach to de- tect anti-patterns, based on a machine learning technique - support vector machines. Indeed, through an empirical study involving three subject systems and four anti-patterns, we showed that the accuracy of SVMDetect is greater than of DETEX when detecting anti-patterns occurrences on a set of classes. Concerning, the whole system, SVMDetect is able to find more anti-patterns occurrences than DETEX.",
+      "keywords": "Anti-pattern, program comprehension, program maintenance, empirical software engineering",
+      "references": []
+    },
+    {
+      "id": 9,
+      "title": "Experience Report: Evaluating the Effectiveness of Decision Trees for Detecting Code Smells",
+      "abstract": "Developers continuously maintain software systems to adapt to new requirements and to fix bugs. Due to the complexity of maintenance tasks and the time-to-market, developers make poor implementation choices, also known as code smells. Studies indicate that code smells hinder comprehensibility, and possibly increase change- and fault-proneness. Therefore, they must be identified to enable the application of corrections. The challenge is that the inaccurate definitions of code smells make developers disagree whether a piece of code is a smell or not, consequently, making difficult creation of a universal detection solution able to recognize smells in different software projects. Several works have been proposed to identify code smells but they still report inaccurate results and use techniques that do not present to developers a comprehensive explanation how these results have been obtained. In this experimental report we study the effectiveness of the Decision Tree algorithm to recognize code smells. For this, it was applied in a dataset containing 4 open source projects and the results were compared with the manual oracle, with existing detection approaches and with other machine learning algorithms. The results showed that the approach was able to effectively learn rules for the detection of the code smells studied. The results were even better when genetic algorithms are used to pre-select the metrics to use.",
+      "keywords": "Software Quality, Code Smells, Decision Tree, Genetic Algorithm",
+      "references": [
+        3,
+        6
+      ]
+    },
+    {
+      "id": 10,
+      "title": "Code smell severity classification using machine learning techniques",
+      "abstract": "Several code smells detection tools have been developed providing different results, because smells can be subjectively interpreted and hence detected in different ways. Machine learning techniques have been used for different topics in software engineering, e.g., design pattern detection, code smell detection, bug prediction, recommending systems. In this paper, we focus our attention on the classification of code smell severity through the use of machine learning techniques in different experiments. The severity of code smells is an important factor to take into consideration when reporting code smell detection results, since it allows the prioritization of refactoring efforts. In fact, code smells with high severity can be particularly large and complex, and create larger issues to the maintainability of software a system. In our experiments, we apply several machine learning models, spanning from multinomial classification to regression, plus a method to apply binary classifiers for ordinal classification. In fact, we model code smell severity as an ordinal variable. We take the baseline models from previous work, where we applied binary classification models for code smell detection with good results. We report and compare the performance of the models according to their accuracy and four different performance measures used for the evaluation of ordinal classification techniques. From our results, while the accuracy of the classification of severity is not high as in the binary classification of absence or presence of code smells, the ranking correlation of the actual and predicted severity for the best models reaches 0.88\u20130.96, measured through Spearman\u2019s \u03c1.",
+      "keywords": "Code smells detection, machine learning, code smell severity, ordinal classification, refactoring prioritization",
+      "references": [
+        1,
+        5,
+        6,
+        8,
+        12,
+        13
+      ]
+    },
+    {
+      "id": 11,
+      "title": "Adaptive Detection of Design Flaws",
+      "abstract": "Criteria for software quality measurement depend on the application area. In large software systems criteria like maintainability, comprehensibility and extensibility play an important role. My aim is to identify design flaws in software systems automatically and thus to avoid \u201cbad\u201d - incomprehensible, hardly expandable and changeable - program structures. Depending on the perception and experience of the searching engineer, design flaws are interpreted in a different way. I propose to combine known methods for finding design flaws on the basis of metrics with machine learning mechanisms, such that design flaw detection is adaptable to different views. This paper presents the underlying method, describes an analysis tool for Java programs and shows results of an initial case study.",
+      "keywords": "Design flaw, code smell, object-oriented design, software quality, refactoring, program analysis, and machine learning",
+      "references": []
+    },
+    {
+      "id": 12,
+      "title": "BDTEX: A GQM-based Bayesian approach for the detection of antipatterns",
+      "abstract": "The presence of antipatterns can have a negative impact on the quality of a program. Consequently, their efficient detection has drawn the attention of both researchers and practitioners. However, most aspects of antipatterns are loosely specified because quality assessment is ultimately a human-centric process that requires contextual data. Consequently, there is always a degree of uncertainty on whether a class in a program is an antipattern or not. None of the existing automatic detection approaches handle the inherent uncertainty of the detection process. First, we present BDTEX (Bayesian Detection Expert), a Goal Question Metric (GQM) based approach to build Bayesian Belief Networks (BBNs) from the definitions of antipatterns. We discuss the advantages of BBNs over rule-based models and illustrate BDTEX on the Blob antipattern. Second, we validate BDTEX with three antipatterns: Blob, Functional Decomposition, and Spaghetti code, and two open-source programs: GanttProject v1.10.2 and Xerces v2.7.0. We also compare the results of BDTEX with those of another approach, DECOR, in terms of precision, recall, and utility. Finally, we also show the applicability of our approach in an industrial context using Eclipse JDT and JHotDraw and introduce a novel classification of antipatterns depending on the effort needed to map their definitions to automatic detection approaches.",
+      "keywords": "Code smells, antipatterns, detection",
+      "references": [
+        3
+      ]
+    },
+    {
+      "id": 13,
+      "title": "Comparing and experimenting machine learning techniques for code smell detection",
+      "abstract": "Several code smell detection tools have been developed providing different results, because smells can be subjectively interpreted, and hence detected, in different ways. In this paper, we perform the largest experiment of applying machine learning algorithms to code smells to the best ofour knowledge. We experiment 16 different machine-learning algorithms on four code smells (Data Class, Large Class, Feature Envy, Long Method) and 74 software systems, with 1986 manually validated code smell samples. We found that all algorithms achieved high performances in the cross-validation data set, yet the highest performances were obtained by J48 and Random Forest, while the worst performance were achieved by support vector machines. However, the lower prevalence of code smells, i.e., imbalanced data, in the entire data set caused varying performances that need to be addressed in the future studies. We conclude that the application of machine learning to the detection of these code smells can provide high accuracy (>96 %), and only a hundred training examples are needed to reach at least 95 % accuracy.",
+      "keywords": "Code smells detection, Machine learning techniques, Benchmark for code smell detection",
+      "references": [
+        1,
+        3,
+        6,
+        8,
+        11,
+        12
+      ]
+    },
+    {
+      "id": 14,
+      "title": "Deep Learning Code Fragments for Code Clone Detection",
+      "abstract": "Code clone detection is an important problem for software maintenance and evolution. Many approaches consider either structure or identifiers, but none of the existing detection techniques model both sources of information. These techniques also depend on generic, handcrafted features to represent code fragments. We introduce learning-based detection techniques where everything for representing terms and fragments in source code is mined from the repository. Our code analysis supports a framework, which relies on deep learning, for automatically linking patterns mined at the lexical level with patterns mined at the syntactic level. We evaluated our novel learning-based approach for code clone detection with respect to feasibility from the point of view of software maintainers. We sampled and manually evaluated 398 file- and 480 method-level pairs across eight real-world Java systems; 93% of the file- and method-level samples were evaluated to be true positives. Among the true positives, we found pairs mapping to all four clone types. We compared our approach to a traditional structure-oriented technique and found that our learning-based approach detected clones that were either undetected or suboptimally reported by the prominent tool Deckard. Our results affirm that our learning-based approach is suitable for clone detection and a tenable technique for researchers.",
+      "keywords": "code clone detection, machine learning, deep learning, neural networks, language models, abstract syntax trees",
+      "references": [
+        7
+      ]
+    },
+    {
+      "id": 15,
+      "title": "Classification model for code clones based on machine learning",
+      "abstract": "Results from code clone detectors may contain plentiful useless code clones, but judging whether each code clone is useful varies from user to user based on a user\u2019s purpose for the clone. In this research, we propose a classification model that applies machine learning to the judgments of each individual user regarding the code clones. To evaluate the proposed model, 32 participants completed an online survey to test its usability and accuracy. The result showed several important observations on the characteristics of the true positives of code clones for the users. Our classification model showed more than 70 % accuracy on average and more than 90 % accuracy for some particular users and projects.",
+      "keywords": "Filtering, Classify, Machine learning, Code clone detector",
+      "references": [
+        7
+      ]
+    }
+  ],
+  "min_publication_year": 1999,
+  "max_publication_year": 2018
+}

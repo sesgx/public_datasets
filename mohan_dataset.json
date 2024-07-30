@@ -1,0 +1,667 @@
+{
+  "name": "mohan",
+  "gs": [
+    {
+      "id": 1,
+      "title": "Application of artificial intelligence to wastewater treatment: A bibliometric analysis and systematic review of technology, economy, management, and wastewater reuse",
+      "abstract": "Wastewater treatment is an important step for pollutant reduction and the promotion of water environment quality. The complexity of natural conditions, influent shock, and wastewater treatment technology result in uncertainty and variation in the wastewater treatment system. These uncertainties result in fluctuations in effluent water quality and operation costs, as well as the environmental risk of receiving waters. Artificial intelligence has become a powerful tool for minimizing the complexities and complications in wastewater treatment. In this study, we examine the literature from 1995 to 2019 to conduct a large-scale bibliometric analysis of trends in the application of artificial intelligence technology to wastewater treatment. Furthermore, we present a systematic review of four aspects of the application of artificial intelligence to wastewater treatment: technology, economy, management, and wastewater reuse. Finally, we provide perspectives on the potential future directions of new research frontiers in the utilization of artificial intelligence in wastewater treatment plants that simultaneously address pollutant removal, cost reduction, water reuse, and management challenges in complex practical applications.",
+      "keywords": "Artificial intelligence,Bibliometric analysis,Cost,Pollutant removal,Wastewater treatment",
+      "references": [
+        2,
+        32,
+        34,
+        37,
+        39,
+        40,
+        41,
+        45,
+        46,
+        47,
+        48,
+        49,
+        56,
+        57,
+        60,
+        67,
+        70,
+        73,
+        75,
+        76
+      ]
+    },
+    {
+      "id": 2,
+      "title": "A review on experimental design for pollutants removal in water treatment with the aid of artificial intelligence",
+      "abstract": "Water pollution occurs mainly due to inorganic and organic pollutants, such as nutrients, heavy metals and persistent organic pollutants. For the modeling and optimization of pollutants removal, artificial intelligence (AI) has been used as a major tool in the experimental design that can generate the optimal operational variables, since AI has recently gained a tremendous advance. The present review describes the fundamentals, advantages and limitations of AI tools. Artificial neural networks (ANNs) are the AI tools frequently adopted to predict the pollutants removal processes because of their capabilities of self-learning and self-adapting, while genetic algorithm (GA) and particle swarm optimization (PSO) are also useful AI methodologies in efficient search for the global optima. This article summarizes the modeling and optimization of pollutants removal processes in water treatment by using multilayer perception, fuzzy neural, radial basis function and self-organizing map networks. Furthermore, the results conclude that the hybrid models of ANNs with GA and PSO can be successfully applied in water treatment with satisfactory accuracies. Finally, the limitations of current AI tools and their new developments are also highlighted for prospective applications in the environmental protection.",
+      "keywords": "Water treatment,Environmental pollutants,Experimental design,Artificial intelligence,Artificial neural networks,Genetic algorithm",
+      "references": [
+        68
+      ]
+    },
+    {
+      "id": 3,
+      "title": "A novel effluent quality predicting model based on genetic-deep belief network algorithm for cleaner production in a full-scale paper-making wastewater treatment",
+      "abstract": "Recycling wastewater of the pulping and paper-making industry are widely considered for clean production, which heavily rely on the timely and accurate monitoring in paper-making wastewater treatment processes. A novel predicting model based on genetic-deep belief network algorithm was proposed to improve the predictive accuracy and reliability for process monitoring. Considering the deep belief networks (DBN) as a deep learning model is aiming to describe the relationship among variables in a complex process modeling, genetic algorithm (GA) was employed to reduce the input variables dimensionality, simplify the network structure and overcome the dynamic characteristic difficulties of process data in monitoring. Compared with DBN and back propagation neural network (BPNN), the GA-DBN effectively achieved a better predictive accuracy than other tests models in complex wastewater treatment processes. The value of the coefficient of determination of GA-DBN model is increased by 1.71\u20131.86% and 5.21\u20139.32%, respectively. The GA-DBN model can be structured with fewer variables or samples to describe the complex paper-making wastewater treatment process, obtaining the better model performance and predictive accuracy.",
+      "keywords": "Deep belief network,Genetic algorithm,Modeling and simulation,Wastewater treatment process,Pulping and paper-making industry",
+      "references": []
+    },
+    {
+      "id": 4,
+      "title": "Artificial intelligence as a sustainable tool in wastewater treatment using membrane bioreactors",
+      "abstract": "Efforts are currently in progress to commercialize membrane bioreactor (MBR) technologies already developed at laboratory and pilot scale. To attain this goal, the efficiency of MBRs needs to be high, and they should be sustainable, reliable and cost-effective. Adoption of artificial intelligence (AI) is anticipated to have a positive impact on these criteria. This paper covers the AI-based models used in the treatment of wastewater from various sources, and discusses the advantages and disadvantages of each model. The existing gaps to push for the commercialization of MBR technologies are discussed to provide state-of-the-art insights for future research. The conclusions and discussions presented in this review show that AI models are useful to predict the performance of MBR technologies to recover clean water from polluted sources. However, further efforts are still needed to reach an excellent match between the predictions made by the AI-based techniques and the experimental results to deal with high strength and highly polluted effluents. This can be achieved through modification and/or integration of the existing AI-based methods. Also, the development of appropriate variables to optimize the performance of MBRs, and improving their efficiency to deal with recalcitrant pollutants such as contaminants of emerging concern (CECs) are among the priorities to promote the application of MBR technologies in real-scale applications",
+      "keywords": "Artificial intelligence,Membrane bioreactors,Wastewater,Fouling,Operating parameters,Sustainability",
+      "references": [
+        1,
+        3,
+        9,
+        19,
+        34,
+        49
+      ]
+    },
+    {
+      "id": 5,
+      "title": "The use of artificial intelligence models in the prediction of optimum operational conditions for the treatment of dye wastewaters with similar structural characteristics",
+      "abstract": "This work assesses the effectiveness of an artificial intelligence (AI) model based on an artificial neural networks (ANN) \u2013 genetic algorithm (GA) in the prediction of the behavior and optimization of the treatment of sulfate wastewaters with Bromophenol blue dye using an electro-oxidation (EO) process. Trials were made with a filter press-type reactor with a boron-doped diamond (BDD) anode. The ANN model was trained with 51 electrolytic experiments by using the electrolysis time, flow, current density, pH and dye concentration as input variables and the discoloration efficiency as the output one. The performance of ANN was measured with RMSE and MAPE values of 10.73 % and 8.81 %, respectively, calculated from real and predicted values. Optimum conditions determined by GA were reached for the inputs of 10 min, 11.9 L min\u22121, 31.25 mA cm\u22122, 2.8 and 41.25 mg L\u22121, giving a discoloration efficiency of 88.8 \u00b1 0.3 %, close to 95.5 % predicted by the model. To validate the AI model, the same experimental conditions were applied to treat wastewaters with Bromothymol blue and Thymol blue, with analogous structures to Bromophenol blue, and a mixture of the three dyes by EO. In all cases, the loss of color decayed following a pseudo-first-order kinetics, with similar apparent rate constants. For the dye mixture, 69 % COD was reduced at 60 min, with 13 % average current efficiency and 0.26 kW h (g COD)-1 energy consumption. The AI model is a strong tool to design, control and operate the EO process with a BDD anode to treat wastewaters with similar dyes.",
+      "keywords": "Artificial intelligence models,Electro-oxidation,Synthetic dye,Wastewater treatment",
+      "references": [
+        2,
+        30,
+        32,
+        39,
+        45
+      ]
+    },
+    {
+      "id": 6,
+      "title": "Chapter 16 - Machine learning and artificial intelligence application in constructed wetlands for industrial effluent treatment: advances and challenges in assessment and bioremediation modeling",
+      "abstract": "The combined knowledge of meteorological, water quality index, hydrodynamic, and biochemical processes in the constructed wetland (CW) can be utilized in mathematical models to evaluate the performance, design, processes, and functionality of wetlands to treat industrial effluents or polluted sites. The use of machine learning and artificial intelligence for the simulation of environmental and operational processes in wetlands has gained more attention for understanding the dynamics occurring in the water basins and to design possible interventions for successful management. In this chapter, a review has been performed to understand applicability, research advances, gaps, and major challenges of machine learning and artificial intelligence in CW studies for the treatment of industrial effluents. This chapter could be helpful for environmental scientists, biogeochemists, and industrial practitioners for the better management of polluted sites.",
+      "keywords": "Constructed wetlands,wise use,machine learning,artificial intelligence,pollutants",
+      "references": []
+    },
+    {
+      "id": 7,
+      "title": "Integration of Computational Chemistry and Artificial Intelligence for Multi-scale Modeling of Bioprocesses",
+      "abstract": "Bio-based manufacturing is playing an increasingly important role. Flocculation is an important step in bio-manufacturing, and in water, wastewater treatment and the food industry. Flocculation is a multi-scale process with phenomena that span from the nano-scale all the way beyond the microscale. The control and monitoring of such a process is a difficult task due to the lack of knowledge towards modeling the process across the scales. The intention of this work is to develop a hybrid systematic model-based framework, which integrates the computational methods in chemistry and stochastic modeling approaches for monitoring and control of the flocculation process above microscale. The framework therefore utilizes a hybrid model structure. Since industry resorts to either manual control or no control at all for flocculation, it is aimed to reduce the time required for manual control and to avoid unnecessary product losses and unwanted process variations during the operation.",
+      "keywords": "Flocculation Hybrid Modeling Computational Chemistry Artificial Intelligence",
+      "references": []
+    },
+    {
+      "id": 8,
+      "title": "Artificial intelligence and multivariate statistics for comprehensive assessment of filamentous bacteria in wastewater treatment plants experiencing sludge bulking",
+      "abstract": "Sludge bulking is an operational hurdle that affects the solid\u2013liquid separation in wastewater treatment plants (WWTPs) worldwide. In this study, filamentous bulking issues were investigated in seven WWTPs located in South Africa using artificial neural network (ANN) and multivariate statistics. The microbial community belonging to sludge bulking was determined using staining and microscopic methods, with a further confirmed identification of selected species via fluorescent in situ hybridization (FISH). Based on a filament index scale from 1 (None filament) to 7 (Excessive filament), the developed ANN could predict the sludge volume index (SVI) using the abundances of ten inputs of filamentous species. Eikelboom Type 0041 attained the highest impact on SVI, followed by Gordonia spp., Nostocoida limicola, and Thiothrix spp. Principal component analysis (PCA) combined with FISH images showed that most WWTPs experienced inadequate sludge settling properties; however, the application of an efficient aeration system (i.e., diffusion) in the three-stage Phoredox process improved the settling characteristics of bio-flocs. Operational conditions that caused filament overgrowth in each WWTP were also determined. The study outputs would provide a scientific basis to control the proliferation of filamentous bacteria in other WWTPs located in similar environmental conditions to South Africa.",
+      "keywords": "Artificial neural network,Filament index scale,Filaments images,Full-scale WWTPs,Principal component analysis",
+      "references": []
+    },
+    {
+      "id": 9,
+      "title": "A survey on river water quality modelling using artificial intelligence models: 2000\u20132020",
+      "abstract": "There has been an unsettling rise in the river contamination due to the climate change and anthropogenic activities. Last decades\u2019 research has immensely focussed on river basin water quality (WQ) prediction, risk assessment and pollutant classification techniques to design more potent management policies and advanced early warning system. The next challenge is dealing with water-related data as they are problematic to handle owing to their nonlinearity, nonstationary feature and vague properties due to the unpredictable natural changes, interdependent relationship, human interference and complexity. Artificial intelligence (AI) models have shown remarkable success and superiority to handle such data owing to their higher accuracy to deal with non-linear data, robustness, reliability, cost-effectiveness, problem-solving capability, decision-making capability, efficiency and effectiveness. AI models are the perfect tools for river WQ monitoring, management, sustainability and policymaking. This research reports the state of the art of various AI models implemented for river WQ simulation over the past two decades (2000\u20132020). Correspondingly, over 200 research articles are reviewed from the Web of Science journals. The survey covers the model structure, input variability, performance metrics, regional generalisation investigation and comprehensive assessments of AI models progress in river water quality research. The increasing contaminants, the lack of funding and the deficiency in data, numerous variables and unique data time series pattern based on the geological area have increased the need for river WQ monitoring and control even more. Hence, this is highly emphasising the involvement of AI models development which can deal with missing data, able to integrate the features of a black-box model and white-box models, benchmarked model and automated early warning system are few of many points need more research. Despite extensive research on WQ simulation using AI models, shortcomings remain according to the current survey, and several possible future research directions are proposed. Overall, this survey provides a new milestone in water resource engineering on the AI model implementation, innovation and transformation in surface WQ modelling with many formidable problems in different blossoming area and objectives to be achieved in the future.",
+      "keywords": "River water quality,State of the art,Literature assessment and evaluation,Artificial intelligence,Hybrid model",
+      "references": [
+        29,
+        40,
+        73
+      ]
+    },
+    {
+      "id": 10,
+      "title": "Simulating a combined lysis-cryptic and biological nitrogen removal system treating domestic wastewater at low C/N ratios using artificial neural network",
+      "abstract": "In this study, a combined alkaline (ALK) and ultrasonication (ULS) sludge lysis-cryptic pretreatment and anoxic/oxic (AO) system (AO + ALK/ULS) was developed to enhance biological nitrogen removal (BNR) in domestic wastewater with a low carbon/nitrogen (C/N) ratio. A real-time control strategy for the AO + ALK/ULS system was designed to optimize the sludge lysate return ratio (RSLR) under variable sludge concentrations and variations in the influent C/N (\u2a7d 5). A multi-layered backpropagation artificial neural network (BPANN) model with network topology of 1 input layer, 3 hidden layers, and 1 output layer, using the Levenberg\u2013Marquardt algorithm, was developed and validated. Experimental and predicted data showed significant concurrence, verified with a high regression coefficient (R2 = 0.9513) and accuracy of the BPANN. The BPANN model effectively captured the complex nonlinear relationships between the related input variables and effluent output in the combined lysis-cryptic + BNR system. The model could be used to support the real-time dynamic response and process optimization control to treat low C/N domestic wastewater.",
+      "keywords": "Backpropagation artificial neural network,Real-time control,Low C/N ratio wastewater,Biological nitrogen removal (BNR),Lysis-cryptic + BNR system",
+      "references": [
+        45,
+        46,
+        47,
+        50
+      ]
+    },
+    {
+      "id": 11,
+      "title": "Recent advances in advanced oxidation processes for removal of contaminants from water: A comprehensive review",
+      "abstract": "Water reuse for drinking, irrigation, district cooling, process heating/cooling, landscaping, etc. remains pivotal to water security and sustainability. Advanced oxidation processes (AOPs) are at the heart of the industrial wastewater treatment especially for the removal of contaminants of emerging concern. Recent studies conducted to advance AOP technologies for the degradation of industrial wastewater pollutants generally encompass seven areas, namely artificial neural networks (ANNs), sustainability, plasma activation, catalyst structures, AOP-Bioremediation, and membrane-based AOPs. This review presents the advancements in AOPs for oxidation and removal of a wide range of contaminants of emerging concern from water. Detailed discussions and a critical examination of recently published works are presented in this article. Many of the reports have recorded technical progress in the form of: improved energy efficiency through the use of low-energy and renewable energy sources, successful prediction of process performance and process control, improved light capturing capabilities through plasmonic effect, successful integration with biological treatment methods and membrane filtration. In spite of this progress, a number of challenges still persist such as lack of appropriate ANN modeling structures, impractical spatial and temporal scales of investigation (i.e. scales that are too low for real operations), and membrane fouling in membrane-based AOPs. These challenges and the strategies for addressing them are discussed in this article.",
+      "keywords": "Contaminants of emerging concern Industrial wastewater Advanced oxidation processes Artificial neural networks Sustainability Integrated processes",
+      "references": [
+        17
+      ]
+    },
+    {
+      "id": 12,
+      "title": "Artificial intelligence in the water domain: Opportunities for responsible use",
+      "abstract": "Recent years have seen a rise of techniques based on artificial intelligence (AI). With that have also come initiatives for guidance on how to develop \u201cresponsible AI\u201d aligned with human and ethical values. Compared to sectors like energy, healthcare, or transportation, the use of AI-based techniques in the water domain is relatively modest. This paper presents a review of current AI applications in the water domain and develops some tentative insights as to what \u201cresponsible AI\u201d could mean there. Building on the reviewed literature, four categories of application are identified: modeling, prediction and forecasting, decision support and operational management, and optimization. We also identify three insights pertaining to the water sector in particular: the use of AI techniques in general, and many-objective optimization in particular, that allow for a pluralism of values and changing values; the use of theory-guided data science, which can avoid some of the pitfalls of strictly data-driven models; and the ability to build on experiences with participatory decision-making in the water sector. These insights suggest that the development and application of responsible AI techniques for the water sector should not be left to data scientists alone, but requires concerted effort by water professionals and data scientists working together, complemented with expertise from the social sciences and humanities.",
+      "keywords": "Artificial intelligence Responsible AI Data science Ethics Water domain Many-objective optimization",
+      "references": []
+    },
+    {
+      "id": 13,
+      "title": "Modeling of a real industrial wastewater treatment plant based on aerated lagoon using a neuro-evolutive technique",
+      "abstract": "Aerated lagoons are biological systems used for the treatment of different types of wastewaters and many operating parameters influence the performance of these systems. Thus, in the current study, an industrial aerated lagoon system was modeled in terms of the operating parameters with the goal of predicting its performances under different operating conditions in order to highlight possible bottlenecks or potential improvements. For this purpose, a neuro-evolutive approach, combining differential evolution (DE) algorithm and artificial neural networks (ANN), was employed. Two DE variants based on opposition-based learning and of chaos theory were used to determine the optimal models and to perform a process optimization. Multiple models in various configurations (simple or organized in stacks, with single or multiple outputs) were determined. The mean squared error of the best solutions were in the order of 10\u22124, illustrating a good agreement between the model predictions and experimental data and demonstrating the effectiveness and reliability of the developed models.",
+      "keywords": "Aerated lagoons Wastewater treatment Artificial neural networks Differential evolution algorithm Modeling Optimization",
+      "references": [
+        39,
+        70
+      ]
+    },
+    {
+      "id": 14,
+      "title": "Removal performance and optimisation of pharmaceutical micropollutants from synthetic domestic wastewater by hybrid treatment",
+      "abstract": "Occurrence of pharmaceutical micropollutants in aquatic environments has been one amongst serious environmental problems. During this study, two reactors, including a sequencing batch reactor (SBR) + powdered composite adsorbent (CA) (first reactor, SBR + CA) and a sequencing batch reactor (second reactor, SBR), were designed to treat synthetic wastewater. Powdered CA was added with a dosage of 4.8 g L\u22121 to the first reactor. Tap water was contaminated with chemical oxygen demand (COD), ammonia and three pharmaceuticals, namely, atenolol (ATN), ciprofloxacin (CIP) and diazepam (DIA) to produce synthetic wastewater. The SBR + CA illustrated a better performance during synthetic municipal wastewater treatment. Up to 138.6 mg L\u22121 (92.4%) of COD and up to 114.2 mg L\u22121 (95.2%) of ammonia were removed by the first reactor. Moreover, optimisation of pharmaceuticals removal was conducted through response surface methodology (RSM) and artificial neural network (ANN). Based on the RSM, the best elimination of ATN (90.2%, 2.26 mg L\u22121), CIP (94.0%, 2.35 mg L\u22121) and DIA (95.5%, 2.39 mg L\u22121) was detected at the optimum initial concentration of MPs (2.51 mg L\u22121) and the contact time (15.8 h). In addition, ANN represented a high R2 value (>0.99) and a rational mean squared error (",
+      "keywords": "Biological method Ciprofloxacin Diazepam Optimisation Pharmaceuticals Hybrid wastewater treatment",
+      "references": []
+    },
+    {
+      "id": 15,
+      "title": "Graphene-supported ordered mesoporous composites used for environmental remediation: A review",
+      "abstract": "Environmental pollutants have aroused extensive concerns worldwide, which mainly include heavy metals, nutrients and persistent organic pollutants. Therefore, it is highly essential that multifunctional composites as an adsorbent are developed for decontaminating these pollutants. Graphene is an allotrope of carbon consisting of a single layer of carbon atoms arranged in a hexagonal lattice, which is regarded as semimetal because its conduction and valence bands touch at the Dirac point (zero bandgap material). Ordered mesoporous materials have been applied in many areas due to their large specific surface area, uniform adjustable mesoporous diameter, uniform mass transfer and high adsorption capacity. As an attractive 2D material with remarkable physical and chemical properties, graphene oxide (GO) composites have been widely used in this field. Graphene oxide-ordered mesoporous silica materials showed a highly efficient adsorption of heavy metals from wastewater and the removal efficiencies for As, Cd, Cr, Hg, and Pb reached 97.7%, 96.9%, 96.0%, 98.5%, and 78.7%, respectively. Graphene-supported ordered mesoporous metal oxide composites have the properties of metal oxide and the characteristics of regular pore structure and high crystallinity, which have become a hotspot in the field of new materials. Equilibrium isotherms, removal kinetics and thermodynamics are critical for understanding the pollutants removal processes. The experimental design and mainstream artificial intelligence techniques (e.g. self-organizing mapping neural network, recurrent neural network and radial basis function neural networks) can contribute to modeling and optimization of the complex removal processes. In this paper, we overview the recent developments in synthesis, characterization and properties of ordered mesoporous materials with the emphasis on their applications in environmental remediation.",
+      "keywords": "Environmental pollutants,Graphene-supported ordered mesoporous,metal oxide composites,Artificial intelligence,Equilibrium isotherms,Removal kinetics",
+      "references": [
+        2
+      ]
+    },
+    {
+      "id": 16,
+      "title": "Wastewater discharge quality prediction using stratified sampling and wavelet de-noising ANFIS model",
+      "abstract": "The monitoring of wastewater quality is vitally important for the stability of an ecosystem. Among many machine learning techniques proposed for predicting the quality of wastewater, the adaptive neuro-fuzzy inference system (ANFIS) can achieve the best accuracy. However, due to data size limitations, the uneven distribution of randomly sampled training data can cause out-of-range prediction errors in the ANFIS model. In this study, a general-purpose input parameter selection method is proposed, combined with an optimized wavelet de-noising ANFIS model, to predict salinity parameters in wastewater discharge samples from the Las Vegas Wash, Nevada, USA. A statistical, stratified sampling strategy is used to preprocess the wastewater quality dataset. Compared with existing artificial intelligence models, the experimental results prove that the proposed model has the best performance, in which the R2 testing value achieves 0.976, 0.975, 0.988, and 0.986 in predicting chloride, sulfate, electrical conductivity, and total dissolved solids, respectively.",
+      "keywords": "Wastewater quality prediction,Machine learning,ANFIS,WAVELET-ANFIS,Stratified sampling",
+      "references": [
+        46,
+        60
+      ]
+    },
+    {
+      "id": 17,
+      "title": "A review of emerging trends in membrane science and technology for sustainable water treatment",
+      "abstract": "Access to clean or potable water will continue to be a global challenge in as much as sustainable solutions are far-fetched. It has become imperative to improve the efficiency of conventional membrane science and technologies for water treatment in order to reduce their deleterious impact on the environment. Some sustainability solutions have been proposed and studied in recent years. Therefore, a critical and comprehensive review of emerging trends in sustainable membrane-based desalination and wastewater treatment is presented in this paper. Some of the emerging trends in membrane science and technology for sustainable water treatment include the reuse of membranes, reuse of waste brine or sludge, energy harvesting from wastes, and waste reduction by membrane antifouling approaches. RO membranes that have reached their end-of-life are reused as UF and NF membranes whereas extremely damaged membranes are used in membrane biofilm reactors or as support materials for recycled anion-exchange membranes. There is more research on integration of processes with PRO for energy harvesting from wastes. The use of membrane-based ZLD approaches are also being intensified for enhanced water recovery, solute recovery, and recovery of precious metals and chemicals from wastewater and desalination concentrates. More sustainable materials such as quantum dots (QDs) and green solvents are being developed for membrane synthesis but more research with respect to their toxicity should be carried out. Many traditional membrane synthesis methods such as casting, coating, grafting, and vapor deposition do not support rapid prototyping. 3D and 4D printing has attracted recent research attention for rapid prototyping and flexibility in the manufacturing of membrane module materials. AI tools have also been presented in recent studies as effective future solutions for decision making and for the prediction, operation, and control of membrane-based water treatment processes. The challenges associated with these emerging trends are also discussed in this review.",
+      "keywords": "Membranes,Emerging trends,Desalination,Wastewater treatment,Sustainability",
+      "references": []
+    },
+    {
+      "id": 18,
+      "title": "Computational and statistical modeling for parameters optimization of electrochemical decontamination of synozol red dye wastewater",
+      "abstract": "In this study, computational and statistical models were applied to optimize the inherent parameters of an electrochemical decontamination of synozol red. The effect of various experimental variables such as current density, initial pH and concentration of electrolyte on degradation were assessed at Ti/RuO0\u00b73TiO0\u00b77O2 anode. Response surface methodology (RSM) based central composite design was applied to investigate interdependency of studied variables and train an artificial neural network (ANN) to envisage the experimental training data. The presence of fifteen neurons proved to have optimum performance based on maximum R2, mean absolute error, absolute average deviation and minimum mean square error. In comparison to RSM and empirical kinetics models, better prediction and interpretation of the experimental results were observed by ANN model. The sensitive analysis revealed the comparative significance of experimental variables are pH = 61.03%>current density = 17.29%>molar concentration of NaCl = 12.7%>time = 8.98%. The optimized process parameters obtained from genetic algorithm showed 98.6% discolorization of dye at pH 2.95, current density = 5.95 mA cm\u22122, NaCl of 0.075 M in 29.83 min of electrolysis. The obtained results revealed that the use of statistical and computational modeling is an adequate approach to optimize the process variables of electrochemical treatment.",
+      "keywords": "Electrochemical degradation Optimization Modeling Dyes wastewater Degradation",
+      "references": []
+    },
+    {
+      "id": 19,
+      "title": "Modeling and sensitivity analysis of the alkylphenols removal via moving bed biofilm reactor using artificial neural networks: Comparison of levenberg marquardt and particle swarm optimization training algorithms",
+      "abstract": "Alkylphenols (APs) are nonionic surfactants with toxic and estrogenic properties. APs from municipal and industrial wastewater are frequently detected in surface waters. Therefore, a broadly accepted method for the treatment of APs is needed. The moving-bed bioreactor (MBBR) is an effective process for micropollutant elimination. In this study, the modeling of 4-nonylphenol (4-NP) and 4-tert-octylphenol (4-t-OP) removal from synthetic wastewater using MBBR was performed. Also, a comparison was made between the multilayer perceptron artificial neural network (MLPNN) trained with the traditional Levenberg Marquardt (LM) and the particle swarm optimization (PSO) algorithms. The performance of MBBR in removing chemical oxygen demand (COD) and APs was predicted using the COD surface area loading rate (SALR), COD volumetric loading rate (VLR), hydraulic retention time (HRT), and the initial concentration of APs. The results showed that the best transfer functions are Tan-sigmoid in the hidden layer and Purelin in the output layer. The number of optimal neurons was 5:9:3 for LM and 5:11:3 for PSO. Moreover, the network trained with PSO algorithm was slightly more predictive (R = 0.9997 MSE = 2.526e-5, MAE = 0.0041) than the traditional LM algorithm (R = 0.9989, MSE = 2.582e-5, MAE = 0.0043), especially by increasing the number of neurons. Finally, a sensitivity analysis was performed using ANN-PSO and Pearson correlation, and the results were completely compatible",
+      "keywords": "Alkylphenols Wastewater Artificial neural networks PSO algorithm",
+      "references": [
+        1
+      ]
+    },
+    {
+      "id": 20,
+      "title": "Investigating the artificial intelligence methods for determining performance of the NZVI permeable reactive barriers",
+      "abstract": "In situ groundwater remediation, which contains multiple contaminants simultaneously, is a fundamental challenge globally. One of the suitable technologies for the removal of several contaminants from groundwater is a permeable reactive barrier containing iron nanoparticles (NZVI-PRB). A laboratory-scale experimental setup is used as NZVI-PRB with a funnel- and- gate barrier. NZVI (average particle diameter (APS) = 35\u201370 nm) particles are used in PRB as a reactive media. NO3\u2013N, as a dominant element of required contact time, is considered for the design of the optimum width of PRB. Then, three contaminants of nitrate (NO3), cadmium, and chromium (VI) were removed simultaneously from a shallow aquifer. With the development of Artificial Neural Network (ANN) in the context of Deep Neural Network (DNN) models and machine learning methods such as Support Vector Machine (SVM) and Linear Regression (LR), considerable progress has been made in various fields. In the final step, we assessed the performance of DNN, SVM, and LR models to estimate the residual contaminants based on preliminary experimental data. The average elimination of contaminants was stabilized at about 45% of the initial value. Our DNN model could estimate nitrate, cadmium, and chromium with a mean absolute percentage error (MAPE) of 7.05, 7.32, and 7.84, respectively. Our results showed that despite using a small dataset, utilizing a deep, fully connected network resulted in remarkably higher accuracy than the other methods. Notably, among the three contaminants, Nitrate estimation is performed more accurately and recommended for future large-scale modeling.",
+      "keywords": "Permeable reactive barrier Deep neural network Support vector machine Artificial intelligence Linear regression Groundwater remediation",
+      "references": []
+    },
+    {
+      "id": 21,
+      "title": "Comparison of adaptive neuro-fuzzy inference systems (ANFIS) and support vector regression (SVR) for data-driven modelling of aerobic granular sludge reactors",
+      "abstract": "Maintaining stable operation of aerobic granular sludge (AGS) reactors is a challenge due to the high sensitivity of the biomass to a wide array of parameters, and the frequent changes in influent characteristics. The application of artificial intelligence in AGS modelling has shown promising results but is still at its early stages. This work investigated, for the first time, the capabilities of two artificial intelligence algorithms for the development of predictive models for AGS reactors based on influent characteristics and operational conditions: adaptive neuro-fuzzy inference system (ANFIS), and support vector regression (SVR). The model structure adopted a two-stage modular approach. The models predicted the performance of the reactors for the unseen data with an average R2, nRMSE, sMAPE, and MASE of 91 %, 0.21, 0.06, and 0.22 for ANFIS, and 99 %, 0.07, 0.006, and 0.01 for SVR. The results showed that SVR provides more accurate predictions than ANFIS, in terms of prediction errors, and correctly predicting different types of failures. However, ANFIS provided better generalization ability than SVR. The results of this study showed the potential of artificial intelligence for the development of predictive models for the AGS process and provided insight into the selection of the appropriate algorithms for these models.",
+      "keywords": "Aerobic granular sludge modelling ANFIS Biological wastewater treatment Machine learning Support vector regression",
+      "references": [
+        38,
+        46,
+        76
+      ]
+    },
+    {
+      "id": 22,
+      "title": "Multivariate data-based optimization of membrane adsorption process for wastewater treatment: Multi-layer perceptron adaptive neural network versus adaptive neural fuzzy inference system",
+      "abstract": "Application of machine-learning methods to assess the batch adsorption of malachite green (MG) dye on chitosan/polyvinyl alcohol/zeolite imidazolate frameworks membrane adsorbents (CPZ) was investigated in this study. Our previous research results proved the suitability of the CPZ membranes for wastewater decoloring. In the current work, the residence time was combined with the other operational variables i.e., pH, initial dye concentration, and adsorbent dose (AD), to obtain the possible interactions involved in nonequilibrium adsorption. Two well-known soft-computing approaches, multi-layer perceptron adaptive neural network (MLP-ANN) and adaptive neural fuzzy inference system (ANFIS), were selected among different machine learning alternatives and then, comprehensively compared with each other considering reliability and accuracy for a 60 number of runs. The ANFIS structure with nine centers of clusters could predict the adsorption performance better than the ANN approach. Root mean square error (RMSE) and R-square were obtained 0.01822 and 0.9958 for the test data, respectively. The interpretability test resulted a linear trend predicted by the model and disclosed that the maximum value of the removal efficiency (99.5%) could be obtained when the amount of the inputs set to the upper limit. Lastly, the sensitivity analysis uncovered that the residence time has a decisive effect (relevancy factor > 80%) on the removal efficiency. According to the results, ANFIS is an effective and reliable tool to optimize and intensify the membrane adsorption process.",
+      "keywords": "Adaptive neural-fuzzy inference system Membrane adsorption Optimization Sensitivity analysis",
+      "references": [
+        2,
+        9,
+        18,
+        32
+      ]
+    },
+    {
+      "id": 23,
+      "title": "Introducing a framework for modeling of drug electrochemical removal from wastewater based on data mining algorithms, scatter interpolation method, and multi criteria decision analysis (DID)",
+      "abstract": "The contamination of waters by persistent organic pollutants, especially pharmaceutical contaminants, is one of the concerns all over the world. To date, among the treatment methods, the efficient EAOPs method have shown a high ability to treat this type of pollutant. However, conducting adequate tests for taking into account almost all possible conditions to predict the amount of pollutant removal in different conditions is still a challenge. On the other hand, achieving this aim requires a lot of cost and time. The superiority of data mining based methods over conventional mathematical methods have made these methods a good solution to solve this problem. Hence, in present study a model by employing data mining algorithms includes Artificial neural network (ANN), adaptive neuro-fuzzy inference system (ANFIS), M5 model tree, least-square support vector machine (LSSVM) and hybrid of LSSVM and firefly optimization algorithm (FFA), scatter interpolation method, and multi-criteria decision making, namely DID, is presented for modeling of drugs removal. For this purpose, four different inputs include current density, electrolyte concentration, pH, and electrolysis time are used for electrochemical removal of Ciprofloxacin (CIP) as a model pollutant. Subsequently, Scatter interpolation method is used for generating enough data for more accurate modeling and more reliable results. In the final part of the survey, the TOPSIS method under six scenario, is employed for ranking of algorithms by considering accuracy and time criteria. In defined scenarios for TOPSIS, six different weights are considered for time criteria as well as the weights of accuracy are considered as equal in each scenario. Also, the sum of scores of each algorithm in all scenarios is used for final decision. The finding results by TOPSIS for original data showed the superiority of LSSVM_FFA. After generating new data, the M5 and the ANFIS have better results in 0.25 time weight. However, by decreasing time weight and increasing accuracy weight (after second scenario), the M5 and the LSSVM_FFA have better results. Besides, based on the sum of scores for new data, the M5 and the LSSVM_FFA have superiority. Finally, it can be concluded that M5 in about to 3 s, and LSSVM_FFA in about to 17 s lead to estimate the drug removal value with good accuracy, and without needing to high cost, and several months laboratory works. Therefore, the mentioned models can be used for different tasks, such as determining the optimal removal of drug, and investigating the impact of different parameters on drug removal process, without needing to each special experiment. Thus, for generating the large data set, the results of the present study are reliable.",
+      "keywords": "Drug removal modeling,Data mining algorithms,Scatter interpolation,Multi criteria decision analysis,Ciprofloxacin",
+      "references": []
+    },
+    {
+      "id": 24,
+      "title": "Prediction the performance of multistage moving bed biological process using artificial neural network (ANN)",
+      "abstract": "Complexity, uncertainty, and high dynamic nature of nutrient removal through biological processes (BPs) makes it difficult to model and control these processes, forcing designers to rely on approximations, probabilities, and assumptions. To cope with this difficult task and perform an effective and well-controlled BP operation, an artificial neural network (ANN) algorithm was developed to simulate, model, and control a three-stage (anaerobic/anoxic and MBBR) enhanced nutrient removal biological process (ENR-BP) challenging real wastewater. The effect of surface area loading rate (SALR), organic matters (OMs), nutrients (N & P), feed flow rate (Qfeed), hydraulic retention time (HRT), and internal recycle flow (IRF) on the performance of the ENR-BP to fulfil rigorous discharge limitations were evaluated. Experimental data was used to develop the appropriate architecture for the AAN using iterative steps of training and testing. Significant removals of chemical oxygen demand (COD) (89.2 to 98.3%), NH4+ (88.5 to 98.9%), and total phosphorus (TP) (77.9 to 99.9%) were achieved at a total HRT of 13.3 h (HRTZ-1 = 3 h, HRTZ-2 = 6 h and HRTZ-3 = 5.3 h) and an IRF value of 1.75. The ENR-BP treatment mechanism relies on the use of OMs as a source of energy for phosphorus bio-uptake and the simultaneous nitrification and denitrification (SND) of nitrogen compounds. The removal efficiencies in the proposed ENR-BP were four fold higher than the suspended growth process and in the same order of magnitude of 5-stage Bardenpho-MBBR. The developed ANN-based model provides an efficient and robust tool for predicting and forecasting the performance of the ENR-BP.",
+      "keywords": "Secondary phosphate,Treatment performance,Process optimization,Nitrification-denitrification",
+      "references": []
+    },
+    {
+      "id": 25,
+      "title": "Synergistic degradation of 4-chlorophenol by persulfate and oxalic acid mixture with heterogeneous Fenton like system for wastewater treatment: Adaptive neuro-fuzzy inference systems modeling",
+      "abstract": "The 4-chlorophenol (4-CP) is known to be a highly toxic compound having harmful effects on human health and the environment. Due to adverse effect of 4-CP, a new combination of persulfate (PS) and oxalic acid (OA) with heterogeneous Fenton like (HFL) system was developed and applied for 4-CP degradation as an emerging contaminant from synthetic wastewater. The individual (OA, PS, and HFL) and combined (HFL/OA, HFL/PS, and HFL/OA/PS) systems were investigated under various conditions to synergistic effects verification and determination of degradation mechanism of 4-CP. Compared to individual and combined systems, significant synergetic of 4-CP degradation efficiency was observed by HFL/OA/PS system. The highest 4-CP degradation efficiency by HFL/OA/PS system under optimal conditions (solution pH: 6, H2O2 dose: 275 mg/L, goethite dose: 125 mg/L, OA dose: 50 mg/L and PS dose: 100 mg/L) with an initial 4-CP concentration of 30 mg/L was 99.6 \u00b1 4.9% after 35 min reaction time. 4-CP degradation by HFL/OA/PS system was followed with the first-order kinetic. The application of radical scavengers including ethanol (EtOH) and tert-butyl alcohol (TBA) revealed that the SO4\u2022\u2212 radical was determined as primary produced radical species. The Cl\u02c9 ions release was measured during degradation reaction at various 4-CP concentrations and indicating the complete 4-CP degradation. The developing of the adaptive neuro-fuzzy inference system (ANFIS) for 4-CP degradation efficiency prediction was revealed. These results show that prediction of 4-CP degradation efficiency using HFL/OA/PS system is possible by the ANFIS model with a high accuracy (R2: 0.98).",
+      "keywords": "4-chlorophenol ANFIS Fenton-like Oxalic acid Persulfate Synergistic effects",
+      "references": []
+    },
+    {
+      "id": 26,
+      "title": "Lagoon water quality monitoring based on digital image analysis and machine learning estimators",
+      "abstract": "Lagoon has been widely used to treat animal wastewater. However, because lagoon effluent often fluctuates in water quality, land application of the effluent may pose a risk to the environment and/or public health. It is necessary to monitor the quality of lagoon water to reduce the risk of its land application. This paper proposes an innovative monitoring method for animal wastewater in lagoons. We implemented spectral processing techniques to analyze the reflectivity of wastewater samples from lagoons, and applied machine learning methods to estimate the water quality parameters of the effluents, including the levels of nitrogen, phosphorus, bacteria (total coliform and E. Coli), and total solids. This study found significant correlations between the spectral rate of emission and above water quality parameters. We used machine learning to train three types of estimators, normal equation linear regression (LR), stochastic gradient descent (SGD), and Ridge regression to quantify these relations. The model performance was evaluated by weight coefficient, function intercept, and mean squared error (MSE). The model showed that TS level and the blue band of spectral reflectance of samples have a relatively good linear relationship, and the MSE of prediction set and decision coefficient were 0.57 and 0.98, respectively. For bacteria level, the MSE of prediction set was 0.63, and coefficient R2 was 0.96. The results from this study could provide a versatile method for remote sensing of animal waste water.",
+      "keywords": "Lagoon water monitoring Image processing Spectrum analysis Machine learning Linear regression",
+      "references": []
+    },
+    {
+      "id": 27,
+      "title": "Control of primary disinfection in a drinking water treatment plant based on a fuzzy inference system",
+      "abstract": "Drinking water treatment plants (DWTPs) have to be efficiently managed to produce safe water at all times, independently from variations of influent water quality. Artificial Intelligence techniques like fuzzy inference systems (FIS) can help in consolidating process knowledge accumulated through years of experience and improve the consistency and resiliency of decision-making in these facilities. The objective of this study was to develop an advanced control system for choosing the combined dose of sodium hypochlorite and chlorine dioxide at the primary disinfection step of a full-scale DWTP. To accomplish this, two FISs consisting of a feed-forward and feed-back control elements were developed. The models were integrated in an environmental decision support system (EDSS) that evaluates the disinfection by-products (DBPs) formation risk and proposes actions which can be verified and applied by treatment managers. Implementation of the EDSS at a full-scale DWTP of Barcelona was positively validated 85.5 % of the times, maintaining acceptable DBPs concentrations at the effluent. The presented methodology can be used at similar surface water DWTPs for developing control strategies to manage DBPs formation.",
+      "keywords": "Drinking water Disinfection ModellingFuzzy inference systems Environmental decision support system",
+      "references": []
+    },
+    {
+      "id": 28,
+      "title": "Modelling of the adsorption of Pb, Cu and Ni ions from single and multi-component aqueous solutions by date seed derived biochar: Comparison of six machine learning approaches",
+      "abstract": "Biochar is an effective material for the removal of heavy metals from wastewater. Operational conditions, such as metal initial concentration, temperature, contact time as well as the presence of competing ions can impact the effectiveness of the treatment process. While several models have been proposed for modelling the adsorption process, no model currently exists that accounts for the mutual interactions of key process parameters on the adsorption capacity in multi-solute systems. The aim of this study is to address this gap in knowledge by formulating a multi-input multi-output (MIMO) model, which takes into account the effect of mutual interactions of key factors while predicting heavy metals adsorption capacity of the biochar in single and multi-solute systems. In this study, we use machine learning models, specifically several ANN models, radial basis and gradient boosting algorithms to model the MIMO process. The results of our models provide highly accurate predictions (R2 > 0.99). The generalized regression network provided the best match to the experimental data. This approach can allow operators to predict how the adsorption system will respond to changes in the operations and hence provide them with a tool for process optimization.",
+      "keywords": "Biochar Heavy metals Adsorption Artificial intelligence Neural networks",
+      "references": []
+    },
+    {
+      "id": 29,
+      "title": "Development of artificial intelligence for modeling wastewater heavy metal removal: State of the art, application assessment and possible future research",
+      "abstract": "The presence of various forms of heavy metals (HMs) (e.g., Cu, Cd, Pb, Zn, Cr, Ni, As, Co, Hg, Fe, Mn, Sb, and Ce) in water bodies and sediment has been increasing due to industrial and agricultural runoff. HM removal in nature is highly stochastic, nonlinear, nonstationary, and redundant. Over the last two decades, the implementation of artificial intelligence (AI) models for HM removal has been massively conducted. The divergence in the selection of predictors, target variables, the optimization, normalization of the algorithm, function, and architecture of AI models are time-consuming processes, which limit the optimal use of such models for HM removal simulation. The selection of sustainable, cost-efficient, and user-friendly treatment techniques that have minimal reverse impact on the ecosystem is immensely challenging. The focus of the established researches is to find an optimal AI models for specific removal techniques. Predictors and target variables can be sorted using several techniques, and the selection of algorithm, function, and architecture based on individual treatment techniques have been coherently ordered and argued. In this review, each element of the predictive models and their corresponding treatment processes, including its pros and cons, are discussed thoroughly. The performance matrices are also discussed in accordance with the behavior of each model. Moreover, multiple perspectives that can enlighten interested multi-domain scientists and scholars, such as AI model developers, data scientists, wastewater treatment researchers, and environmental policymakers, on the actual status of the models\u2019 progression are summarized. A comprehensive gap and assessments are also conducted to provide an insightful vision on this topic. Finally, several research directions, which could bridge the gap in the same domain are proposed and recommended on the basis of the identified research limitations.",
+      "keywords": "Adsorption capacity Artificial intelligence models Heavy metal State of the art Treatment technique Future research",
+      "references": [
+        2,
+        52
+      ]
+    },
+    {
+      "id": 30,
+      "title": "Modelling the chlorophenol removal from wastewater via reverse osmosis process using a multilayer artificial neural network with genetic algorithm",
+      "abstract": "Reverse Osmosis (RO) can be considered as one of the most widely used technologies used to abate the existence of highly toxic compounds from wastewater. In this paper, a multilayer artificial neural network (MLANN) with Genetic Algorithm (GA) have been considered to build a comprehensive mathematical model, which can be used to predict the performance of an individual RO process in term of chlorophenol removal from wastewater. The MLANN model has been validated against 70 observational experimental datasets collected from the open literature. The MLANN model predictions have outperformed the predictions of several structures developed for the same chlorophenol removal using RO process based on performance in terms of coefficient of correlation, coefficient determination (R2) and average error (AVE). In this respect, two structures (4-2-2-1) and (4-8-8-1) were also used to study the effect of a number of neurons in the hidden layers based on the difference between the measured and ANN predicted values. The model responses clearly confirm the successfulness of estimating the chlorophenol rejection for network structure 4-8-8-1 based on a wide range of the control variables. This also represents a high consistency between the ANN model predictions and the experimental data.",
+      "keywords": "Wastewater treatment Reverse osmosis process Modelling Chlorophenol removal Artificial neural network",
+      "references": []
+    },
+    {
+      "id": 31,
+      "title": "Chapter 9 - Application of stochastic evolutionary optimization techniques to environmental processes",
+      "abstract": "Optimization studies can lead to considerable benefits to environmental engineering systems in terms of efficiency improvement, energy reduction, and pollution control. The environmental processes usually exhibit nonlinear dynamics and are associated with uncertainty in data. Design, modeling, and optimization studies are more and more pursued to understand and improve the performance of environmental processes. A variety of optimization approaches are used for the solution of environmental problems in the areas of air pollution, solid, liquid and industrial waste management, and energy management. Conventional optimization methods may not be effective in solving complex environmental problems. This chapter mainly focuses on various stochastic evolutionary and artificial intelligence\u2013based strategies for optimization of environmental processes. Fixed-bed reactors with naturally attached biofilms are increasingly used for anaerobic treatment of industry wastewaters. The complex nature of biological reactions in biofilm reactors often poses difficulty in analyzing and optimizing the biofilm reactors. The wastewater treatment processes in biofilm reactors serve as useful case studies for design and application of advanced optimization algorithms. In this study, various optimization strategies based on ant colony optimization, tabu search, and artificial neural networks coupled with rigorous mathematical models are designed and applied to different industry wastewater treatment processes in fixed-bed biofilm reactors. The results demonstrate the usefulness of stochastic global optimization methods for solving complex optimization problems concerning to wastewater treatment processes.",
+      "keywords": "Air pollution Artificial neural networks Biofilm reactors Environmental processes Evolutionary optimization Mechanistic models Wastewater treatment Water pollution",
+      "references": []
+    },
+    {
+      "id": 32,
+      "title": "Can machine language and artificial intelligence revolutionize process automation for water treatment and desalination?",
+      "abstract": "Artificial intelligence (AI) is a powerful tool that is commonly applied in engineering multi-disciplines owing to its functionality to resolve real-world problems where deterministic solutions are arduous to achieve. Revolution in water treatment and desalination process automation has been emerging recently. Several challenges are present in the water sector related to data structuring and smart water services through which AI would have great potential once those issues are addressed. The distinctive tools of AI, mainly; artificial neural networks (ANNs), as a regression model, and genetic algorithm (GA), as one of the global optimization techniques, have been immensely applied in desalination and water treatment for multi-purpose applications. Modelling desalination and water treatment processes and optimizing the operating condition are few among the many applications. In the current review, paramount applications of AI tools in desalination and water treatment have been thoroughly reviewed. In addition, benchmarking ANNs with the conventional modelling approaches were highlighted, along with the shortcomings and challenges expected to associate with these common tools in some complex nature practical application. It was concluded that the use of AI tools will undoubtedly pave the way in the water sector towards better operation, process automation, and water resources management in an increasingly volatile environment.",
+      "keywords": "Artificial intelligence Desalination Machine learning Artificial neural network Genetic algorithms Process automation",
+      "references": [
+        2,
+        68
+      ]
+    },
+    {
+      "id": 33,
+      "title": "Chapter 7 - Artificial Neural Networks Based on Nonlinear Bioprocess Models for Predicting Wastewater Organic Compounds and Biofuel Production",
+      "abstract": "This chapter presents the application and analysis of high-order artificial neural networks in bioprocess modeling and states prediction to overcome process constraints. The research field of neural networks is extensive, with numerous applications using hybrid artificial neural networks, fuzzy logic, heuristic algorithms, and other techniques to identify complex nonlinear relationships between input and output data. Recurrent neural networks have proven to be feasible in identification and control applications due to their flexible architecture and robustness. In this work, high-order neural network structures for a wastewater aerobic digestion process with organic compounds reduction and an anaerobic digestion process with biofuel production are proposed with the objective of modeling and predicting their dynamics. The biological processes are highly nonlinear and submitted to external disturbances and parameter uncertainties, which affect stability and optimal yields. In the first model, a recurrent high-order neural observer structure is proposed to estimate the complex states of the aerobic digestion process related with the effluent quality at the output. An analysis of the reduction of organic compounds at the system output in the presence of disturbances is presented. In the second model, a recurrent neural network with autoregressive external input structure is proposed to predict the complex anaerobic digestion states related with biofuel production. An analysis of the gaseous streams at the system output in the presence of disturbances is presented. In both cases, the neural network structure is trained with an extended Kalman filter algorithm. Simulation results illustrate the applicability of the recurrent neural network structures to estimate complex states of the biological processes in the presence of disturbances.",
+      "keywords": "Recurrent neuronal networks Bioprocess Wastewater Biofuel",
+      "references": []
+    },
+    {
+      "id": 34,
+      "title": "Advanced control of membrane fouling in filtration systems using artificial intelligence and machine learning techniques: A critical review",
+      "abstract": "This paper critically reviews all artificial intelligence (AI) and machine learning (ML) techniques for the better control of membrane fouling in filtration processes, with the focus on water and wastewater treatment systems. Artificial neural networks (ANNs), fuzzy logic, genetic programming and model trees were found to be four successfully employed modeling techniques. The results show that well-known ANNs such as multilayer perceptron and radial basis function can predict membrane fouling with an R2 equal to 0.99 and an error approaching zero. Genetic algorithm (GA) and particle swarm optimization (PSO) are optimization methods successfully applied to optimize parameters related to membrane fouling. These optimization techniques indicated high capabilities in tuning various parameters such as transmembrane pressure, crossflow velocity, feed temperature, and feed pH. The results of this survey demonstrate that hybrid intelligent models utilizing intelligent optimization methods such as GA and PSO for adjusting their weights and functions perform better than single models. Clustering analysis, image recognition, and feature selection are other employed intelligent techniques with positive role in the control of membrane fouling. The application of AI and ML techniques in an advanced control system can reduce the costs of treatment by monitoring of membrane fouling, and taking the best action when necessary.",
+      "keywords": "Membrane bioreactors Membrane fouling Artificial intelligence Machine learning Control system",
+      "references": [
+        2,
+        75
+      ]
+    },
+    {
+      "id": 35,
+      "title": "Model identification and control of chlorine residual for disinfection of wastewater",
+      "abstract": "In this study, Artificial Neural Network modelling (ANN) was applied to forecast the chlorination behaviour in the secondary wastewater effluent containing ammonia and nitrite. A novel control scheme of chlorination disinfection was then developed through an integration of ANN model with fuzzy logic control (FLC) to optimize the chlorination process by minimizing its cost and maximizing its efficiency while operating within the plant's budget. The developed FLC platform was applied to a local wastewater treatment plant and was able to improve disinfection quality and reduce chlorine gas consumption by 18%.",
+      "keywords": "Chlorination Breakpoint Optimization ANNFuzzy",
+      "references": []
+    },
+    {
+      "id": 36,
+      "title": "Optimisation and process design tools for cleaner production",
+      "abstract": "Assessments of hotspot analysis and process optimisation followed by improved design are essential to achieve cleaner production. Cleaner production also involves complex interactions with economic and social performance. It plays a substantial role in sustainable development. This contribution presents an overview of cleaner production achievements and selection of relevant recent work dealing with optimisation tools and process design as published in the Special Issue on Process Integration and Intensification for Sustainable Evolution via Resource and Emission Reduction. The cleaner production tools including Pinch Analysis, Process Graph, Artificial Intelligence and computer-aided modelling, are reviewed. The roles of waste streams as secondary resources process design in cleaner production and circular economy is also discussed. The highlights of the recent development contribute to the field of study by drawing out the attention for potential future research.",
+      "keywords": "-",
+      "references": []
+    },
+    {
+      "id": 37,
+      "title": "Predicting wastewater treatment plant quality parameters using a novel hybrid linear-nonlinear methodology",
+      "abstract": "Biochemical oxygen demand (BOD), chemical oxygen demand (COD), total dissolved solids (TDS) and total suspended solids (TSS) are the most commonly regulated wastewater effluent parameters. The measurement and prediction of these parameters are essential for assessing the performance and upgrade of wastewater treatment facilities. In this study, a new methodology, combining a linear stochastic model (ARIMA) and nonlinear outlier robust extreme learning machine technique (ORELM) with various preprocesses, is presented to model the quality parameters of effluent wastewater (ARIMA-ORELM). For each of the studied parameters, 144 different (144 \u00d7 8 models) linear models (ARIMA) are presented, with the superior model of each parameter being selected based on statistical indices. Moreover, 48 nonlinear models (ORELM) and 48 hybrid models (ARIMA-ORELM) were considered. The use of linear and nonlinear approaches to model the linear and nonlinear terms (respectively) of each time series in the hybrid model increased the efficiency and accuracy of the predictions for all of the time series. The influent wastewater nonlinear TSS model and the effluent COD and BOD models attained the best performance with a high correlation coefficient of 0.95. The use of hybrid models improved the prediction capability of all quality parameters with the best performance being achieved for the effluent BOD model (R 2 = 0.99).",
+      "keywords": "Wastewater ARIMA ORELM Biochemical oxygen demand (BOD) Chemical oxygen demand (COD) Total suspended solids (TSS) Total dissolved solids (TDS)",
+      "references": []
+    },
+    {
+      "id": 38,
+      "title": "Sequential treatment of paper and pulp industrial wastewater: Prediction of water quality parameters by Mamdani Fuzzy Logic model and phytotoxicity assessment",
+      "abstract": "Recycling of industrial wastewater meeting quality standards for agricultural and industrial demands is a viable option. In this study, paper and pulp industrial wastewater were treated with three biological treatments viz. aerobic, anaerobic and sequential (i.e. 20 days of anaerobic followed by 20 days of aerobic cycle), associated with simulation modeling by Mamdani Fuzzy Logic (MFL) model of some selected parameters. Electric air diffuser and minimal salt medium in sealed plastic bottles at control temperature were used for aerobic and anaerobic treatments, respectively. The significant reduction in chemical (COD: 81%) and biological oxygen demand (BOD: 71%), total suspended (TSS: 65%), dissolved solids (TDS: 60%) and turbidity (68%) was recorded during sequential treatment. The treated water was irrigated to determine its phytotoxic effects on seed germination, vigor and seedling growth of mustard (Brassica campestris). Sequential treatment greatly reduced phytotoxicity of wastewater and showed the highest germination percentage (90%) compared to aerobic (60%), anaerobic (70%) treatments and untreated wastewater (30%). Regression analysis also endorsed these findings (R2 = 0.76\u20130.95 between seed germination, seedling growth and vigor). MFL technique was adopted to simulate sequential treatment process. The results support higher performance of MFL model to predict TDS, TSS, COD, and BOD based on the physico-chemical water quality parameters of raw wastewater, time of treatment and treatment type variation. Based on these findings, we conclude that the sequential treatment could be a more effective strategy for treatment of pulp and paper industrial wastewater with efficiency to be used for agricultural industry without toxic effects.",
+      "keywords": "-",
+      "references": [
+        46,
+        68
+      ]
+    },
+    {
+      "id": 39,
+      "title": "Prognostication of waste water treatment plant performance using efficient soft computing models: An environmental evaluation",
+      "abstract": "The chief purpose of designing the wastewater treatment plant (WWTP) is to provide a suitable system which is capable of eliminating the excessive impurities or pollutants found in the influent to the desired level. In this way, daily flow rates is one of the most crucial components to contribute in order to design wastewater treatment processes and plant units. So, in the present research work, various soft computing approaches including feed forward back propagation neural network (FFBP-NN), radial basis function neural network (RBF-NN), adaptive neuro-fuzzy inference system (ANFIS), and support vector machine (SVM) were employed to predict daily flow rates for the WWTP. To develop artificial intelligence models, flow rates datasets has been used over a five-year period. The performance of the proposed models were assessed for training and testing stages using statistical error indicators. Performance of techniques indicated that SVM (RMSE = 1435.4 and MAE = 1031.1) and FFBP-NN (RMSE = 1445.9 and MAE = 1036.7) techniques have provided more precise prediction of flow rates compared to the ANFIS (RMSE = 1515.6 and MAE = 1075.4) and RBF-NN (RMSE = 1501 and MAE = 1048.7). This study was proven that soft computing techniques, as robust tools, can be efficiently applied to design the flow rates in the WWTP with a persuasive degree of accuracy.",
+      "keywords": "Artificial intelligent models,Environmental assessment,Flow rates,Management,Wastewater treatment plant",
+      "references": [
+        56,
+        70,
+        76
+      ]
+    },
+    {
+      "id": 40,
+      "title": "Multi-step ahead modelling of river water quality parameters using ensemble artificial intelligence-based approach",
+      "abstract": "In this study, three single Artificial Intelligence (AI) based models i.e., Back Propagation Neural Network (BPNN), Adaptive Neuro Fuzzy Inference System (ANFIS), Support Vector Machine (SVM) and a linear Auto Regressive Integrated Moving Average (ARIMA) model as well as three different ensemble techniques i.e., Simple average ensemble (SAE), weighted average ensemble (WAE) and neural network ensemble (NNE) are applied for single and multi-step ahead modeling of dissolve oxygen (DO) in the Yamuna River, India. In this context, DO, Biological Oxygen Demand (BOD), Chemical Oxygen Demand (COD), Discharge (Q), pH, Ammonia (NH3), Water Temperature (WT) data for three different stations i.e., Hathnikund (SL1), Nizamuddin (SL2) and Udi (SL3) recorded by central pollution control board were used. The performance accuracy of the models was determined using Determination Coefficient (DC) and Root Mean Square Error (RMSE). The obtained results of the single models showed that, ANFIS model outperformed all other three models and increased averagely up to 7% and 19% for SL1 and SL2 in performance accuracy while for SL3, SVM model performed better than other models and increased the average performance up to 16%. In the ensemble techniques, the results showed that, for all the three stations, NNE could increase the average performance by single models up to 14% in the verification phase. This justified the reliability and robustness of NNE in multi-step ahead modeling of DO due to its promising ability in solving nonlinear processes.",
+      "keywords": "Artificial intelligence Ensemble techniques Water quality parameters Yamuna River",
+      "references": []
+    },
+    {
+      "id": 41,
+      "title": "Forecasting COD load in municipal sewage based on ARMA and VAR algorithms",
+      "abstract": "Due to different sources and the water using habits, the influent COD of municipal sewage fluctuates sharply over time. To ensure the treatment quality of sewage, the wastewater treatment plants (WWTP) often over-aerate the air and over-add the chemicals. This results in a waste of energy consumption and increases the operation cost for WWTP. With the rapid expansion of industrialization and urbanization, the quantity of municipal sewage has increased by years. Energy saving and sustainable water management for municipal WWTP are becoming an urgent issue that needs to be solved. This paper proposes a COD load forecasting model for municipal WWTP using hybrid artificial intelligence algorithms. The auto-regressive moving average (ARMA) algorithm is used for sewage inflow forecasting, and the vector auto-regression (VAR) algorithm is used for COD forecasting. The real-time data from a municipal WWTP is collected for model verification. Besides the proposed ARMA + VAR model, the BPNN, LSSVM, and GA-BPNN based COD load forecasting models are also studied as the contrasting cases. The accuracy of the forecasting performance of the ARMA + VAR model is as high as nearly 99%, which reveals its superior to the other forecasting models for future application in the wastewater treatment plants.",
+      "keywords": "Municipal sewage Wastewater treatment plants COD load Forecasting model Sustainable water management",
+      "references": [
+        48
+      ]
+    },
+    {
+      "id": 42,
+      "title": "Waste assessment decision support systems used for domestic sewage treatment",
+      "abstract": "The paper discusses the use of Decision Support Systems (artificial neural networks analysis preceded by Principal Component Analysis) for the assessment of domestic sewage filtration effectiveness with four types of waste serving as filling materials in vertical flow filters. The study analyzed the effectiveness of pollution removal from wastewater by mechanically shredded waste in the form of PET flakes, polyurethane foam trims, shredded rubber tires and wadding. The organic compounds (CODcr, BOD5) removal, suspended solids, biogenic compounds (N-NH4+, PO43\u2212) and oxygen saturation changing compared with reference sand filling was analyzed. The paper presents the proposal for the use of artificial neural networks as a tool to support decision making on the selection of waste material, filling vertical filters cooperating with the septic tank. An analysis of the functioning of the trained neural network was performed, comparing its responses with the reduction values obtained for individual fillings under changing hydraulic conditions. Generally good agreement between the predictions of the neural model and the reduction values was obtained for the MLP 11-7-2 network.",
+      "keywords": "Decision Support System ANN Waste PET Polyurethane foam Rubber tires Treatment process",
+      "references": []
+    },
+    {
+      "id": 43,
+      "title": "Swift, versatile and a rigorous kinetic model based artificial neural network surrogate for single and multicomponent batch adsorption processes",
+      "abstract": "Rigorous and robust first principles-based Homogeneous Surface Diffusion Model (HSDM) is demonstrated for numerical simulation and estimation of surface diffusivities for single, binary and ternary systems involving dyes and pharmaceutical molecules. The current work's novelty lies in proposing a fast, reliable and efficient Artificial Neural Network (ANN) surrogate to the mechanistic HSDM. Repeated numerical integration of the model's partial differential equations during parameter estimation from batch adsorption kinetics data is highly time-consuming and is not required for the proposed approach. This ANN was trained by a small number of HSDM simulations and limited experimental batch kinetics data with different combinations of surface diffusivity (DS) values. ANNs were developed and tested against the experimentally obtained batch kinetics data for various systems. The trained ANN was able to capture the kinetics that was rigorously predicted using HSDM. A 99.9%, 98.6% and 99.3% similarity could be achieved between DS values estimated using HSDM and ANN for single, binary and ternary systems respectively. Similarly, the batch kinetics data was almost identically tracked by ANN. The computational time required for this novel ANN per simulation reduced spectacularly and was about 14 times lesser while the total parameter estimation time was about 17 times lesser than HSDM. The ANN developed for estimating parameters could be operated in reverse as well for simulating the multicomponent batch adsorption kinetics and tracking the increase in percentage removal of the solutes with time at different process conditions. Irrespective of number of components, the ANNs performances were consistent. The ratio of neurons and their total number in the hidden layers had a significant impact on the performance. Hence optimization of network parameters is essential to realize the benefits of ANN. The shortcomings of empirical kinetic models viz. Pseudo First Order model (PFO) and Pseudo Second Order model (PSO) were also demonstrated. This work demonstrates the utility of ANNS in rigorous multicomponent adsorption kinetics applications and has considerable potential in real time optimization and operation of wastewater treatment plants.",
+      "keywords": "Adsorption kinetics Multicomponent adsorption Homogeneous surface diffusion model (HSDM) Artificial neural network (ANN) Computational efficiency",
+      "references": []
+    },
+    {
+      "id": 44,
+      "title": "Economic Model Predictive Control of a Wastewater Treatment Plant using Neural and Fuzzy models",
+      "abstract": "To improve efficiency in wastewater treatment plants, suitable optimization and control strategies for the activated sludge process are imperative. Therefore, adequate models for estimation of the critical variables are also vital. In this work, neural networks and fuzzy models are identified from data collected from a standard benchmark simulation platform (BSM1) used to represent the activated sludge process. These models are embedded in an economic predictive controller designed to regulate critical variables to ensure the desired effluent quality with the minimum energy consumption.",
+      "keywords": "Economic model predictive control neural networks fuzzy systems",
+      "references": [
+        72
+      ]
+    },
+    {
+      "id": 45,
+      "title": "Removal of boron from mining wastewaters by electrocoagulation method: Modelling experimental data using artificial neural networks",
+      "abstract": "Excess boron in drinking and irrigation water is a serious environmental and health problem because it can be toxic to many crops and lead to various diseases in humans and animals upon long-term consumption. In this work, the removal of boron from aqueous solutions was achieved by electrocoagulation using aluminium as the anode and cathode. The operating parameters influencing the efficiency of boron removal, namely, initial pH (pH0), current density, and treatment time, were investigated. An optimum removal efficiency of 70% was achieved at a current density of 18.75 mA/cm2 and pH0 = 4 within 90 min of treatment time. An artificial neural network (ANN) was utilised for modelling the experimental data. The model with a topology of 3-10-1 (corresponding to input, hidden, and output neurons, respectively) provided satisfactory results in the identification of the optimal conditions. The sum of squared error and correlation coefficient (R2) were 0.616 and 0.973, respectively, confirming the good fit of the ANN model.",
+      "keywords": "Electrocoagulation Boron Artificial neural network",
+      "references": []
+    },
+    {
+      "id": 46,
+      "title": "Prediction of effluent quality parameters of a wastewater treatment plant using a supervised committee fuzzy logic model",
+      "abstract": "Producing reclaimed water meeting water quality standards for agricultural and industrial demands is a viable option to the Tabriz area, East Azerbaijan, Iran, due to water scarcity. This study focuses on the Tabriz wastewater treatment plant (TWWTP) and investigates its treatability. This research proposes an ensemble of fuzzy logic (FL) models as surrogates for the TWWTP to avoid simulating complex physical, chemical, and biological treatment processes. Each FL model predicts water quality parameters of TWWTP using measured influent water quality data, such as biochemical oxygen demand (BOD), chemical oxygen demand (COD), pH, temperature, and total suspended solids. Instead of looking for the best FL forecasting model, this study introduces a supervised committee FL (SCFL) model as a predictive ensemble model for effluent water quality. The SCFL model uses an artificial neural network (ANN) to combine forecasted water quality results from individual FL models. Three FL models of Takagi-Sugeno, Mamdani, and Larsen are the surrogates for TWWTP. Compared to the historical data on effluent water quality, the individual FL models have a mean absolute percentage error (MAPE) for BOD, COD and TSS in the testing step ranging between 10% and 13%. Using the CFL model, the MAPE in the testing step reduces to 5%\u20137%. The SCFL model further reduces MAPE to 4% in the testing step. The SCFL model is an alternative to predict the quality of effluent water parameters by performing better than the individual FL and CFL models for the Wastewater Treatment Plant",
+      "keywords": "Artificial neural network Committee machine Fuzzy logic Hydrochemical parameters Wastewater treatment plant",
+      "references": [
+        60,
+        68,
+        71,
+        76
+      ]
+    },
+    {
+      "id": 47,
+      "title": "An intelligent detection method for bulking sludge of wastewater treatment process",
+      "abstract": "Prediction of bulking sludge is a matter of growing importance around the world. In this study, to detect bulking sludge of wastewater treatment process (WWTP), an intelligent detection method, using a self-organizing recurrent radial basis function neural network (SORRBFNN) and a cause variables identification (CVI) algorithm, was developed to detect the fault points and the fault variables of bulking sludge. For this intelligent detection method, first, the structure and parameters of SORRBFNN were updated by an information-oriented algorithm (IOA) and an improved Levenberg-Marquardt (LM) algorithm to improve the prediction accuracy of the sludge volume index (SVI) from the water qualities. Second, the CVI algorithm was designed to allow a quick revealing of the cause variables of bulking sludge with high accuracy. And the intelligent detection method was tested on the measured data from a real WWTP. Experimental results confirmed the attractiveness and effectiveness of the proposed intelligent detection method.",
+      "keywords": "Bulking sludge Self-organizing recurrent radial basis function neural network Cause variables identification algorithm Wastewater treatment process Sludge volume index",
+      "references": []
+    },
+    {
+      "id": 48,
+      "title": "Investigating regime shifts and the factors controlling Total Inorganic Nitrogen concentrations in treated wastewater using non-homogeneous Hidden Markov and multinomial logistic regression models",
+      "abstract": "Total Inorganic Nitrogen (TIN) in treated wastewaters: the sum of effluent ammonia-, nitrate- and nitrite-nitrogen, is a common regulatory measure of nitrogen removal. In many parts of the United States, regulatory agencies have reduced discharge limits for TIN, recognizing the environmental and health impacts of these species. However, many permit limits are based on annual average or median values, and because temporal variability in effluent TIN is common, may not achieve water quality goals. We created a performance-based modeling approach using Hidden Markov Models and multinomial logistic regression using weekly effluent water quality data from an operating wastewater treatment facility in the US, over the period of January 1, 2010\u2013March 31, 2014. In the two-step modeling approach, Hidden Markov Models capture temporal regime shifts in effluent TIN and multinomial logistic regression identifies prominent factors associated with the regime shifts. Simulations from the proposed Hidden Markov Model and multinomial logistic regression indicate that climate factors (temperature and precipitation), seasonality, effluent total ammonia nitrogen (TAN), and prior weeks\u2019 levels of effluent TIN are predictive of effluent TIN concentrations. The hybrid HMM-regression model correctly predicted the states of compliance (state 1) and non-compliance (state 2) with TIN limits with 84% accuracy. Further analysis using model simulations suggest that although annual average or median limits for TIN are met, this plant had a >30% probability of exceeding the annual limit on a weekly time scale, and therefore may not be reliably effective in protecting receiving water quality.",
+      "keywords": "Total Inorganic Nitrogen Ammonia-nitrogen Hidden Markov Models Multinomial regression Wastewater Nutrient regulations",
+      "references": []
+    },
+    {
+      "id": 49,
+      "title": "Novel performance prediction model of a biofilm system treating domestic wastewater based on stacked denoising auto-encoders deep learning network",
+      "abstract": "Stacked denoising auto-encoders (SDAE) deep learning network was used to predict the performance of a two-stage biofilm system, which was constructed based on traditional anaerobic/oxic process. Eight input variables were adopted for performance predicting, including concentrations of chemical oxygen demand (COD), ammonia (NH4+-N) and total nitrogen (TN) of biofilm system influent, concentrations of COD, NH4+-N and TN of anoxic biofilm reactor effluent, influent flow and reflux ratio of biofilm system. While concentrations of COD, NH4+-N and TN of biofilm system effluent were employed as output variables for COD, NH4+-N and TN prediction model, respectively. Root mean square error, mean absolute error, mean relative error and residuals were adopted for evaluating the fitness of the SDAE deep learning network model. Backpropagation neural network, support vector regression, extreme learning machine, gradient boosting decision tree and stacked auto-encoders were adopted for comparison to further demonstrate the effectiveness of the proposed method. Compared with the five contrast models, SDAE deep learning network model showed the best results, suggesting the possible application of performance prediction of the biofilm process with SDAE deep learning network model.",
+      "keywords": "Biofilm process Stacked denoising auto-encoders Artificial neural network Prediction Wastewater treatment",
+      "references": []
+    },
+    {
+      "id": 50,
+      "title": "Effluent prediction of chemical oxygen demand from the astewater treatment plant using artificial neural network application",
+      "abstract": "Chemical oxygen demand (COD) has been utilized to determine the content of organic matter of bath water, wastewater and natural water, due to the time consuming of biological oxygen demand (BOD) test, COD became an alternative in controlling the treatment process. For the oxidation of both organic and inorganic matter COD may be expressed as one of the demand parameters. In this paper, the Artificial neural network (ANNs) was employed to develop and estimate the effluent COD model from the wastewater treatment plant (WWTP), to evaluate the model, the daily recorded data sets were obtained from the new Nicosia WWT, the input parameters of ANNs are inlets COD, BOD, pH, Conductivity, Total Nitrogen (T-N), Total Phosphates (T-P), Total suspended solid (TSS), Suspended solid (SS) and the effluent COD were considered as an output neuron of ANN. The ANN performance has been evaluated using statistical techniques (Determination coefficient, RMSE, Correlations), the result of ANNs model was compared with the Multilinear regression analysis (MLR) and the efficiency revealed that ANNs model showed the prominent accuracy and better performance in predicting the effluent COD over the MLR model.",
+      "keywords": "Chemical oxygen demandartificial neural Network wastewater treatment plant multilinear regression analysis",
+      "references": [
+        76
+      ]
+    },
+    {
+      "id": 51,
+      "title": "Optimization of fed-batch fermentation processes using the Backtracking Search Algorithm",
+      "abstract": "Fed-batch fermentation has gained attention in recent years due to its beneficial impact in the economy and productivity of bioprocesses. However, the complexity of these processes requires an expert system that involves swarm intelligence-based metaheuristics such as Artificial Algae Algorithm (AAA), Artificial Bee Colony (ABC), Covariance Matrix Adaptation Evolution Strategy (CMAES) and Differential Evolution (DE) for simulation and optimization of the feeding trajectories. DE traditionally performs better than other evolutionary algorithms and swarm intelligence techniques in optimization of fed-batch fermentation. In this work, an improved version of DE namely Backtracking Search Algorithm (BSA) has edged DE and other recent metaheuristics to emerge as superior optimization method. This is shown by the results obtained by comparing the performance of BSA, DE, CMAES, AAA and ABC in solving six fed batch fermentation case studies. BSA gave the best overall performance by showing improved solutions and more robust convergence in comparison with various metaheuristics used in this work. Also, there is a gap in the study of fed-batch application of wastewater and sewage sludge treatment. Thus, the fed batch fermentation problems in winery wastewater treatment and biogas generation from sewage sludge are investigated and reformulated for optimization.",
+      "keywords": "Fed-batch fermentation Backtracking Search Algorithm Evolutionary algorithms Wastewater treatment Feeding trajectory optimization Sewage sludge",
+      "references": []
+    },
+    {
+      "id": 52,
+      "title": "The Removal of arsenite [As(III)] and arsenate [As(V)] ions from wastewater using TFA and TAFA resins: Computational intelligence based reaction modeling and optimization",
+      "abstract": "Being significantly toxic, removal of arsenic forms an important part of the drinking- and waste-water treatment. Tannin is a polyphenol-rich substrate that efficiently and adsorptively binds to the multivalent metal ions. In this study, tannin-formaldehyde (TFA) and tannin-aniline-formaldehyde (TAFA) resins were synthesized and employed successfully for an adsorptive removal of arsenite [As(III)] and arsenate [As(V)] ions from the contaminated water. Next, a computational intelligence (CI) based hybrid strategy was used to model and optimize the resin-based adsorption of As(III) and As(V) ions for securing optimal reaction conditions. This strategy first uses an exclusively reaction data driven modeling strategy, namely, genetic programming (GP) to predict the extent (%) of As(III)/As(V) adsorbed on TFA and TAFA resins. Next, the input space of the GP-based models consisting of the reaction condition variables/parameters was optimized using genetic algorithm (GA) method; the objective of this optimization was to maximize the adsorption of As(III) and As(V) ions on the two resins. Finally, the sets of optimal reaction conditions provided by GP-GA hybrid method were verified experimentally the results of which indicate that the optimized conditions have lead to 0.3% and 1.3% increase in the adsorption of As(III) and As(V) ions on TFA resin. More significantly, the optimized conditions have increased the adsorption of As(III) and As(V) on TAFA resin by 3.02% and 12.77%, respectively. The GP-GA based strategy introduced here can be gainfully utilized for modeling and optimization of similar type of contaminant-removal processes.",
+      "keywords": "Tannin-formaldehyde resin Tannin-aniline-formaldehyde resin Adsorption of As(III) and As(V) ions Genetic programming Genetic algorithm",
+      "references": []
+    },
+    {
+      "id": 53,
+      "title": "Soft-sensing estimation of plant effluent concentrations in a biological wastewater treatment plant using an optimal \nneural network",
+      "abstract": "Recent studies into the estimation and control of an activated sludge process (ASP) at a wastewater treatment plant suggest that artificial-intelligence methods, such as neural networks, fuzzy systems and genetic algorithms, can improve the plant performance in terms of reduced operation costs and improved effluent quality. In this paper, a neural-network-based soft sensor is developed for the on-line prediction of effluent concentrations in an ASP in terms of primary hard-to-measure variables, such as chemical oxygen demand, total nitrogen content and total suspended solids, starting from secondary on-line easy-to-measure variables, such as oxygen and nitrogen compound concentrations in biological tanks, input flow rate and alkalinity, among others. An algorithm based on principal component analysis is applied to select the optimal net input vectors for the soft sensor, using an appropriated number of samples of the secondary variables set. The proposed soft sensor is tested on the ASP of a large-scale municipal wastewater treatment plant running under the GPS-X simulation frame and validated with operational gathered data. Satisfactory low values for mean and maximum absolute prediction errors are obtained, even when high values of sampling time of primary variables are set, as it is frequently done during monitoring operation. In this way, data-driven soft-sensors based on neural networks can become valuable tools for plant operators for the recognition of operational states in terms of low cost and efficient prediction of primary process variables such as chemical oxygen demand, total nitrogen content and total suspended solids, therefore avoiding the acquisition of expensive and sometimes unreliable instruments for measuring nutrient concentrations in plant.",
+      "keywords": "Neural networks Optimal soft sensing PCA selection Activated sludge process Effluent concentrations GPS-X simulator",
+      "references": [
+        75,
+        76
+      ]
+    },
+    {
+      "id": 54,
+      "title": "Adaptive data-derived anomaly detection in the activated sludge process of a large-scale wastewater treatment plant",
+      "abstract": "This work examines real-time\u00a0anomaly\u00a0detection\u00a0and isolation\u00a0in\u00a0a\u00a0full-scale\u00a0wastewater\u00a0treatment\u00a0application. The Viikinm\u00e4ki\u00a0plant\u00a0is the largest municipal\u00a0wastewater\u00a0treatment\u00a0facility\u00a0in\u00a0Finland. It is monitored with ample instrumentation, though their potential is not yet fully exploited. One reason that prevents the use of the instrumentation\u00a0in\u00a0plant\u00a0control is the occasional insufficient measurement performance. Therefore, we investigate an intelligent\u00a0anomaly\u00a0detection\u00a0system for the\u00a0activated\u00a0sludge\u00a0process\u00a0in\u00a0order to motivate\u00a0a\u00a0more efficient use of sensors\u00a0in\u00a0the\u00a0process\u00a0operation. The\u00a0anomaly\u00a0detection\u00a0methodology is based on principal component analysis. Because the state of the\u00a0process\u00a0fluctuates, moving-window extensions are used to adapt the analysis to the time-varying conditions. The results show that both instrument and\u00a0process\u00a0anomalies\u00a0were successfully detected using the proposed algorithm and the variables responsible for the\u00a0anomalies\u00a0correctly isolated. We also demonstrate that the proposed algorithm represents\u00a0a\u00a0convenient improvement for supporting the efficient operation of\u00a0wastewater\u00a0treatment\u00a0plants.",
+      "keywords": "Adaptive process monitoring Anomaly detection Principal component analysis Wastewater treatment",
+      "references": []
+    },
+    {
+      "id": 55,
+      "title": "Applying Computational Intelligence to Wastewater Treatment Performance Evaluation in the Case of Refineries",
+      "abstract": "The intelligent wastewater treatment solutions proposed by academic research and companies for the power industry are based on various pure technical methods (e.g. chemical, physical, biological, automatic control), and some artificial intelligence based approaches. The new environmental legislation sets and the potential renewable source of energy that can be provided by wastewater, are the current challenges for raising the industrial wastewater treatment efficiency. In this context, it is important to provide a competent evaluation of the wastewater treatment performance, based on knowledge derived from the evolution of the monitored parameters. The paper presents a case study of using computational intelligence to wastewater treatment performance evaluation in the case of petroleum refineries.",
+      "keywords": "Wastewater treatment, Power system, Refinery, Artificial intelligence, Computational Intelligence, Fuzzy logic, Adaptive system.",
+      "references": [
+        71
+      ]
+    },
+    {
+      "id": 56,
+      "title": "Prediction analysis of a wastewater treatment system using a Bayesian network",
+      "abstract": "Wastewater treatment is a complicated dynamic process, the effectiveness of which is affected by microbial, chemical, and physical factors. At present, predicting the effluent quality of wastewater treatment systems is difficult because of complex biological reaction mechanisms that vary with both time and the physical attributes of the system. Bayesian networks are useful for addressing uncertainties in artificial intelligence applications. Their powerful inferential capability and convenient decision support mechanisms provide flexibility and applicability for describing and analyzing factors affecting wastewater treatment systems. In this study, a Bayesian network-based approach for modeling and predicting a wastewater treatment system based on Modified Sequencing Batch Reactor (MSBR) was proposed. Using the presented approach, a Bayesian network model for MSBR can be constructed using experiential information and physical data relating to influent loads, operating conditions, and effluent concentrations. Additionally, MSBR prediction analysis, wherein effluent concentration can be predicted from influent loads and operational conditions, can be performed. This approach can be applied, with minimal modifications, to other types of wastewater treatment plants.",
+      "keywords": "Prediction analysis Modified sequencing batch reactor Bayesian network Inference",
+      "references": [
+        75
+      ]
+    },
+    {
+      "id": 57,
+      "title": "An emergent approach for the control of wastewater treatment plants by means of reinforcement learning techniques",
+      "abstract": "One of the main problems in the automation of the control of wastewater treatment plants (WWTPs) appears when the control system does not respond as it should because of changes on influent load or flow. To tackle this difficult task, the application of Artificial Intelligence is not new, and in fact, currently Expert Systems may supervise the plant 24 h/day assisting the plant operators in their daily work. However, the knowledge of the Expert System must be elicited previously from interviews to plant operators and/or extracted from data previously stored in databases. Although this approach still has a place in the control of wastewater treatment plants, it should aim to develop autonomous systems that learn from the direct interaction with the WWTP and that can operate taking into account changing environmental circumstances. In this paper we present an approach based on an agent with learning capabilities. In this approach, the agent's knowledge emerges from the interaction with the plant. In order to show the validity of our assertions, we have implemented such an emergent approach for the N-Ammonia removal process in a well established simulated WWTP known as Benchmark Simulation Model No.1 (BSM1).",
+      "keywords": "Artificial intelligence Emergent approach Reinforcement learning Control of wastewater treatment plants",
+      "references": [
+        67
+      ]
+    },
+    {
+      "id": 58,
+      "title": "Data-driven modeling approaches to support wastewater treatment plant operation",
+      "abstract": "Data-driven modeling techniques are applied to process data from wastewater treatment plants to provide valuable additional information for optimal plant control. The application of data-driven modeling techniques, however, bears some risk because the generated models are of non-mechanistic nature and they thus do not always describe the plant processes appropriately. In this study, a procedure to build software sensors based on sensor data available in the process information system is defined and used to compare several techniques suitable for data-driven modeling, including generalized least squares regression, artificial neural networks, self-organizing maps and random forests. Three different degrees of expert knowledge are defined and considered mainly for optimum input signal selection and model interpretation. In two full-scale experiments, software sensors are created. The experiments reveal that even with linear modeling techniques, it is possible to automatically generate accurate software sensors. Hence, this justifies the selection of the most parsimonious and transparent models and to motivate their investigation by taking into account available expert knowledge. A high degree of expert knowledge is valuable for long-term accuracy, but can lead to performance decreases in short-term predictions. With regard to safe on-site deployment, the consideration of uncertainty measures is crucial to prevent misinterpretation of software-sensor outputs in the cases of rare events or model input failures",
+      "keywords": "Data-driven modeling Wastewater treatment plant Supervisory control and data acquisition Software sensor Generalized least squares Self-organizing map",
+      "references": [
+        62,
+        66,
+        75
+      ]
+    },
+    {
+      "id": 59,
+      "title": "KPCA and ELM ensemble modeling of wastewater effluent quality indices",
+      "abstract": "Reliable measurements of effluent quality are important for different operational tasks such as process monitoring, online simulation, and advanced control in the wastewater treatment process (WWTP). A kernel principal component analysis (KPCA) and extreme learning machine (ELM) based ensemble soft sensing model for effluent quality prediction was proposed. KPCA was used to extract nonlinear feature of input space to overcome high dimension and colinearity. ELM algorithm is inserted into the ensemble frame as a component model since ELM runs much faster and provides better generalization performance than the other popular learning algorithm. The average output of all the ELM components in the ensemble is the final estimation of the effluent quality index. Simulations results using industrial process data show that the reliability and accuracy based KPCA and ELM ensemble soft sensing outperform the ELM, ELM ensemble model.",
+      "keywords": "Extreme learning machine, ensemble modeling, KPCA, wastewater treatment;",
+      "references": []
+    },
+    {
+      "id": 60,
+      "title": "Prediction of effluent quality of a paper mill wastewater treatment using an adaptive network-based fuzzy inference system",
+      "abstract": "Advanced neuro-fuzzy modeling, namely an adaptive network-based fuzzy inference system (ANFIS), was employed to develop models for the prediction of suspended solids (SS) and chemical oxygen demand (COD) removal of a full-scale wastewater treatment plant treating process wastewaters from a paper mill. In order to improve the network performance, fuzzy subtractive clustering was used to identify model's architecture and optimize fuzzy rule, meanwhile principal component analysis (PCA) was applied to reduce the input variable dimensionality. Input variables were reduced from six to four for COD and SS models, by considering PCA results and linear correlation matrices among input and output variables. The results indicate that reasonable forecasting and control performances have been achieved through the developed system. The minimum mean absolute percentage errors of 1.003% and 0.5161% for COD eff and SSeff could be achieved using ANFIS. The maximum correlation coefficient values for CODeff and SSeff were 0.9912 and 0.9882, respectively. The minimum mean square errors of 1.2883 and 0.0342, and the minimum RMSEs of 1.135 and 0.1849 for CODeff and SSeff could also be achieved.",
+      "keywords": "Adaptive network-based fuzzy inference system Wastewater treatment Prediction Principal component analysis",
+      "references": [
+        67,
+        68
+      ]
+    },
+    {
+      "id": 61,
+      "title": "Modelling and automation of water and wastewater treatment processes",
+      "abstract": "-",
+      "keywords": "-",
+      "references": [
+        62
+      ]
+    },
+    {
+      "id": 62,
+      "title": "Formal verification of wastewater treatment processes using events detected from continuous signals by means of artificial neural networks. Case study: SBR plant",
+      "abstract": "This paper proposes a modular architecture for the analysis and the validation of wastewater treatment processes. An algorithm using neural networks is used to extract the relevant qualitative patterns, such as \"apexes\", \"knees\" and \"steps\", from the signals acquired in the reaction tanks. These patterns, which show changes in the signals trend, are mapped to events in the process and logged using an appropriate XML format. The logs, in turn, are considered traces of the execution of a manufacturing process and validated using tools commonly applied for the Verification of Business Processes. The system has been applied to the data collected from a Sequencing Batch Reactor (SBR) for municipal wastewater treatment, equipped with probes for the on-line acquisition of signals such as pH, oxidation--reduction potential (ORP) and dissolved oxygen (DO). A SBR has turned out to be a suitable case study since the commonly acknowledged criteria for monitoring the biological processes (nitrification and denitrification) can be expressed in the form or qualitative constraints, which are easily translated into formal rules. The process logs, hence, are matched against these rules, which act as filters and quality classifiers.",
+      "keywords": "Business process management Event detection Artificial neural networks Intelligent systems Rule-based management system SBR",
+      "references": []
+    },
+    {
+      "id": 63,
+      "title": "A fuzzy-logic-based model to predict biogas and methane production rates in a pilot-scale mesophilic UASB reactor treating molasses wastewater",
+      "abstract": "A MIMO (multiple inputs and multiple outputs) fuzzy-logic-based model was developed to predict biogas and methane production rates in a pilot-scale 90-L mesophilic up-flow anaerobic sludge blanket (UASB) reactor treating molasses wastewater. Five input variables such as volumetric organic loading rate (OLR), volumetric total chemical oxygen demand (TCOD) removal rate (RV), influent alkalinity, influent pH and effluent pH were fuzzified by the use of an artificial intelligence-based approach. Trapezoidal membership functions with eight levels were conducted for the fuzzy subsets, and a Mamdani-type fuzzy inference system was used to implement a total of 134 rules in the IF-THEN format. The product (prod) and the centre of gravity (COG, centroid) methods were employed as the inference operator and defuzzification methods, respectively. Fuzzy-logic predicted results were compared with the outputs of two exponential non-linear regression models derived in this study. The UASB reactor showed a remarkable performance on the treatment of molasses wastewater, with an average TCOD removal efficiency of 93 (\u00b13)% and an average volumetric TCOD removal rate of 6.87 (\u00b13.93)kg TCODremoved/m3-day, respectively. Findings of this study clearly indicated that, compared to non-linear regression models, the proposed MIMO fuzzy-logic-based model produced smaller deviations and exhibited a superior predictive performance on forecasting of both biogas and methane production rates with satisfactory determination coefficients over 0.98.",
+      "keywords": "Molasses wastewater Up-flow anaerobic sludge blanket Fuzzy-logic Non-linear regression Modeling",
+      "references": []
+    },
+    {
+      "id": 64,
+      "title": "Neural-fuzzy control system application for monitoring process response and control of anaerobic hybrid reactor in wastewater treatment and biogas production",
+      "abstract": "Based on the developed neural-fuzzy control system for anaerobic hybrid reactor (AHR) in wastewater treatment and biogas production, the neural network with backpropagation algorithm for prediction of the variables pH, alkalinity (Alk) and total volatile acids (TVA) at present day time t was used as input data for the fuzzy logic to calculate the influent feed flow rate that was applied to control and monitor the process response at different operations in the initial, overload influent feeding and the recovery phases. In all three phases, this neural-fuzzy control system showed great potential to control AHR in high stability and performance and quick response. Although in the overloading operation phase II with two fold calculating influent flow rate together with a two fold organic loading rate (OLR), this control system had rapid response and was sensitive to the intended overload. When the influent feeding rate was followed by the calculation of control system in the initial operation phase I and the recovery operation phase III, it was found that the neural-fuzzy control system application was capable of controlling the AHR in a good manner with the pH close to 7, TVA/Alk < 0.4 and COD removal > 80% with biogas and methane yields at 0.45 and 0.30 m3/kg COD removed.",
+      "keywords": "anaerobic hybrid reactor; influent feed flow rate; neural-fuzzy control system; process response",
+      "references": [
+        68,
+        76
+      ]
+    },
+    {
+      "id": 65,
+      "title": "Knowledge discovery with clustering based on rules by states: A water treatment application",
+      "abstract": "This work presents advances in the design of a hybrid methodology that combines artificial intelligence and statistical tools to induce a model of explicit knowledge in relation to the dynamics of a wastewater treatment plant. The methodology contributes to problem solving under the paradigm of knowledge discovery from data in which the pre-process, the automatic interpretation of results and the explicit production of knowledge play a role as important as the analysis itself. The data mining step is performed using clustering based on rules by states, which integrates the knowledge discovered separately at each step of the process into a single model of global operation of the phenomenon. This provides a more accurate model for the dynamics of the system than one obtained by analyzing the whole dataset with all the steps taken together.",
+      "keywords": "Clustering Rules Dynamics States Wastewater Knowledge discovery from data Data mining Inductive learning Profiles induction",
+      "references": [
+        66,
+        75
+      ]
+    },
+    {
+      "id": 66,
+      "title": "Predictive modeling for wastewater applications: Linear and nonlinear approaches",
+      "abstract": "This study compares the multi-period predictive ability of linear ARIMA models to nonlinear time delay neural network models in water quality applications. Comparisons are made for a variety of artificially generated nonlinear ARIMA data sets that simulate the characteristics of wastewater process variables and watershed variables, as well as two real-world wastewater data sets. While the time delay neural network model was more accurate for the two real-world wastewater data sets, the neural networks were not always more accurate than linear ARIMA for the artificial nonlinear data sets. In some cases of the artificial nonlinear data, where multi-period predictions are made, the linear ARIMA model provides a more accurate result than the time delay neural network. This study suggests that researchers and practitioners should carefully consider the nature and intended use of water quality data if choosing between neural networks and other statistical methods for wastewater process control or watershed environmental quality management.",
+      "keywords": "Nonlinearity Autoregressive ARIMA Time delay neural network Wastewater treatment",
+      "references": [
+        76
+      ]
+    },
+    {
+      "id": 67,
+      "title": "Control rules of aeration in a submerged biofilm wastewater treatment process using fuzzy neural networks",
+      "abstract": "The present work is part of a global development of reliable real-time control and supervision tools applied to wastewater pollution removal processes. In these processes, oxygen is a key substrate in animal cell metabolism and its consumption is thus a parameter of great interest for the monitoring. In this paper, an integrated neural-fuzzy process controller was developed to control aeration in an Aerated Submerged Biofilm Wastewater Treatment Process (ASBWTP). In order to improve the fuzzy neural network performance, the self-learning ability embedded in the fuzzy neural network model was emphasized for improving the rule extraction performance. The fuzzy neural network proves to be very effective in modeling the aeration performs better than artificial neural networks (ANN). For comparing between operation with and without the fuzzy neural controller, an aeration unit in an Aerated Submerged Biofilm Wastewater Treatment Process (ASBWTP) was picked up to support the derivation of a solid fuzzy control rule base. It is shown that, using the fuzzy neural controller, in terms of the cost effectiveness, it enables us to save almost 33% of the operation cost during the time period when the controller can be applied. Thus, the fuzzy neural network proved to be a robust and effective DO control tool, easy to integrate in a global monitoring system for cost managing.",
+      "keywords": "Neural networks Fuzzy logic control Fuzzy neural network Process control Submerged biofilm wastewater treatment",
+      "references": [
+        68
+      ]
+    },
+    {
+      "id": 68,
+      "title": "Simulation of a paper mill wastewater treatment using a fuzzy neural network",
+      "abstract": "This paper presents a fuzzy neural network predictive control scheme for studying the coagulation process of wastewater treatment in a paper mill. An adaptive fuzzy neural network is employed to model the nonlinear relationships between the removal rate of pollutants and the chemical dosages, in order to adapt the system to a variety of operating conditions and acquire a more flexible learning ability. The system includes a fuzzy neural network emulator of the reaction process, a fuzzy neural network controller, and an optimization procedure based on a performance function that is used to identify desired control inputs. The gradient descent algorithm method is used to realize the optimization procedure. The results indicate that reasonable forecasting and control performances have been achieved through the developed system.",
+      "keywords": "Fuzzy neural network Wastewater treatment Predictive control Simulation",
+      "references": []
+    },
+    {
+      "id": 69,
+      "title": "Modeling photosynthetically oxygenated biodegradation processes using artificial neural networks",
+      "abstract": "The complexity of the mechanisms underlying organic matter mineralization and nutrient removal in algal-bacterial photobioreactors during the treatment of residual wastewaters has severely hindered the development of mechanistic models able to accurately describe these processes. Artificial neural networks (ANNs) are capable of inferring the complex relationships existing between input and output process variables without a detailed description of the mechanisms governing the process, and should therefore be more suitable for the modeling of photosynthetically oxygenated systems. Thus, a neural network consisting of a single hidden layer with four neurons accurately predicted the steady-state operation of a continuous stirred tank photobioreactor during salicylate biodegradation by an algal-bacterial consortium. Despite its simplicity and the low number of data sets for ANN training (23), this network topology exhibited a satisfactory fit for both training and testing data with correlation coefficients of 99%. Although the use of ANNs for modeling conventional wastewater treatment systems is not novel, this work constitutes, to the best of our knowledge, the first reported application of ANNs to photosynthetically oxygenated systems and one of the few models for microalgae-based treatment processes. This modeling approach is therefore expected to contribute to improve the understanding of the complex relationships between light, temperature, hydraulic retention time, pollutant concentration and process removal efficiency, which would eventually promote the development of algal-bacterial processes as a cost effective alternative for the treatment of industrial wastewaters",
+      "keywords": "Algal\u2013bacterial systems; Artificial neural networks; Modeling; Photobioreactor; Photosynthetic oxygenation",
+      "references": [
+        76
+      ]
+    },
+    {
+      "id": 70,
+      "title": "Modeling of the activated sludge process by using artificial neural networks with automated architecture screening",
+      "abstract": "In this study, a MATLAB script was developed to aid in the development of artificial neural network (ANN) models by screening out the better ANN architectures for the cases studied. Then, the script was applied for modeling of activated sludge process (ASP) for two different cases. In the first one, a hypothetical wastewater treatment plant (WWTP) was considered. The input and output data for the training of the ANN models were generated using a simulation model, which was an implementation of the Activated Sludge Model No. 1 (ASM1). The results indicated high correlation coefficient (R) between the observed and predicted output variables, reaching up to 0.980. In the second case, ANN modeling of ASP in the Iskenderun Wastewater Treatment Plant (IskWWTP) was studied. Resulting maximum R value was 0.795 for the predicted effluent chemical oxygen demand (CODeff) values. Moreover, CODeff was forecasted using another effluent parameter.",
+      "keywords": "Activated sludge process Artificial intelligence Artificial neural networks Modeling",
+      "references": [
+        75,
+        76
+      ]
+    },
+    {
+      "id": 71,
+      "title": "Prediction of wastewater treatment plant performance based on wavelet packet decomposition and neural networks",
+      "abstract": "In this paper, an intelligent wastewater treatment plant model is developed to predict the performance of a wastewater treatment plant (WWTP). The developed model is based on wavelet packet decomposition, entropy and neural network. The data used in this work were obtained from a WWTP in Malatya, Turkey. Daily records of these WWTP parameters over a year were obtained from the plant laboratory. Wavelet packet decomposition was used to reduce the input vectors dimensions of intelligent model. The suitable architecture of the neural network model is determined after several trial and error steps. Total suspended solid is one of the measures of overall plant performance so the developed model is used to predict the total suspended solid concentration in plant effluent. According to test results, the developed model performance is at desirable level. This model is an efficient and a robust tool to predict WWTP performance.",
+      "keywords": "Wavelet packet decomposition; Entropy; Wastewater treatment plant; Total suspended solid",
+      "references": [
+        76
+      ]
+    },
+    {
+      "id": 72,
+      "title": "PREDICTIVE CONTROL OF A WASTEWATER TREATMENT PROCESS",
+      "abstract": "The paper deals with the design of a predictive controller for a wastewater treatment process. In the considered process, the wastewater is treated in order to obtain an effluent having the substrate concentration within the standard limits established by law (below 20 mg/l). This goal is achieved by controlling the concentration of dissolved oxygen to a certain value. The predictive controller uses a neural network as internal model of the process and alters the dilution rate in order to fulfill the control objective. This control strategy offers various possibilities for the control law adjustment by means of the following parameters: The prediction horizon, the control horizon, the weights of the error and the command. The predictive control structure has been tested in three functioning regimes, considered essential due to the frequency of occurrence in current practice.",
+      "keywords": "Predictive Control, Wastewater Treatment, Neural Network, Bioreactor",
+      "references": []
+    },
+    {
+      "id": 73,
+      "title": "A review on integration of artificial intelligence into water quality modelling",
+      "abstract": "With the development of computing technology, numerical models are often employed to simulate flow and water quality processes in coastal environments. However, the emphasis has conventionally been placed on algorithmic procedures to solve specific problems. These numerical models, being insufficiently user-friendly, lack knowledge transfers in model interpretation. This results in significant constraints on model uses and large gaps between model developers and practitioners. It is a difficult task for novice application users to select an appropriate numerical model. It is desirable to incorporate the existing heuristic knowledge about model manipulation and to furnish intelligent manipulation of calibration parameters. The advancement in artificial intelligence (AI) during the past decade rendered it possible to integrate the technologies into numerical modelling systems in order to bridge the gaps. The objective of this paper is to review the current state-of-the-art of the integration of AI into water quality modelling. Algorithms and methods studied include knowledge-based system, genetic algorithm, artificial neural network, and fuzzy inference system. These techniques can contribute to the integrated model in different aspects and may not be mutually exclusive to one another. Some future directions for further development and their potentials are explored and presented.",
+      "keywords": "Water quality modelling; Artificial intelligence; Knowledge-based system; Genetic algorithm; Artificial neural network; Fuzzy inference system",
+      "references": []
+    },
+    {
+      "id": 74,
+      "title": "A review on the integration of artificial intelligence into coastal modeling",
+      "abstract": "With the development of computing technology, mechanistic models are often employed to simulate processes in coastal environments. However, these predictive tools are inevitably highly specialized, involving certain assumptions and/or limitations, and can be manipulated only by experienced engineers who have a thorough understanding of the underlying theories. This results in significant constraints on their manipulation as well as large gaps in understanding and expectations between the developers and practitioners of a model. The recent advancements in artificial intelligence (AI) technologies are making it possible to integrate machine learning capabilities into numerical modeling systems in order to bridge the gaps and lessen the demands on human experts. The objective of this paper is to review the state-of-the-art in the integration of different AI technologies into coastal modeling. The algorithms and methods studied include knowledge-based systems, genetic algorithms, artificial neural networks, and fuzzy inference systems. More focus is given to knowledge-based systems, which have apparent advantages over the others in allowing more transparent transfers of knowledge in the use of models and in furnishing the intelligent manipulation of calibration parameters. Of course, the other AI methods also have their individual contributions towards accurate and reliable predictions of coastal processes. The integrated model might be very powerful, since the advantages of each technique can be combined.",
+      "keywords": "Artificial intelligence; Coastal modeling; Knowledge-based systems",
+      "references": []
+    },
+    {
+      "id": 75,
+      "title": "Activated sludge wastewater treatment plant modelling and simulation: state of the art",
+      "abstract": "This review paper focuses on modelling of wastewater treatment plants (WWTP). White-box modelling is widely applied in this field, with learning, design and process optimisation as the main applications. The introduction of the ASM model family by the IWA task group was of great importance, providing researchers and practitioners with a standardised set of basis models. This paper introduces the nowadays most frequently used white-box models for description of biological nitrogen and phosphorus removal activated sludge processes. These models are mainly applicable to municipal wastewater systems, but can be adapted easily to specific situations such as the presence of industrial wastewater. Some of the main model assumptions are highlighted, and their implications for practical model application are discussed. A step-wise procedure leads from the model purpose definition to a calibrated WWTP model. Important steps in the procedure are: model purpose definition, model selection, data collection, data reconciliation, calibration of the model parameters and model unfalsification. The model purpose, defined at the beginning of the procedure, influences the model selection, the data collection and the model calibration. In the model calibration a process engineering approach, i.e. based on understanding of the process and the model structure, is needed. A calibrated WWTP model, the result of an iterative procedure, can usually be obtained by only modifying few model parameters, using the default parameter sets as a starting point. Black-box, stochastic grey-box and hybrid models are useful in WWTP applications for prediction of the influent load, for estimation of biomass activities and effluent quality parameters. These modelling methodologies thus complement the process knowledge included in white-box models with predictions based on data in areas where the white-box model assumptions are not valid or where white-box models do not provide accurate predictions. Artificial intelligence (AI) covers a large spectrum of methods, and many of them have been applied in applications related to WWTPs. AI methodologies and white-box models can interact in many ways; supervisory control systems for WWTPs are one evident application. Modular agent-based systems combining several AI and modelling methods provide a great potential. In these systems, AI methods on one hand can maximise the knowledge extracted from data and operator experience, and subsequently apply this knowledge to improve WWTP control. White-box models on the other hand allow evaluating scenarios based on the available process knowledge about the WWTP. A white-box model calibration tool, an AI based WWTP design tool and a knowledge representation tool in the WWTP domain are other potential applications where fruitful interactions between AI methods and white-box models could be developed.",
+      "keywords": "Activated sludge; Artificial intelligence; Modelling; Wastewater treatment plant",
+      "references": []
+    },
+    {
+      "id": 76,
+      "title": "Prediction of wastewater treatment plant performance using artificial neural networks",
+      "abstract": "Artificial neural networks (ANN) models were developed to predict the performance of a wastewater treatment plant (WWTP) based on past information. The data used in this work were obtained from a major conventional treatment plant in the Greater Cairo district, Egypt, with an average flow rate of 1 million m3/day. Daily records of biochemical oxygen demand (BOD) and suspended solids (SS) concentrations through various stages of the treatment process over 10 months were obtained from the plant laboratory. Exploratory data analysis was used to detect relationships in the data and evaluate data dependence. Two ANN-based models for prediction of BOD and SS concentrations in plant effluent are presented. The appropriate architecture of the neural network models was determined through several steps of training and testing of the models. The ANN-based models were found to provide an efficient and a robust tool in predicting WWTP performance.",
+      "keywords": "Neural networks; Waste water treatment; Model studies; Prediction; Optimization; Biochemical oxygen demand; Suspended solids",
+      "references": []
+    }
+  ],
+  "min_publication_year": 2003,
+  "max_publication_year": 2021
+}

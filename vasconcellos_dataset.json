@@ -1,0 +1,260 @@
+{
+  "name": "vasconcellos",
+  "gs": [
+    {
+      "id": 1,
+      "title": "A business goal-based approach to achieving systems engineering capability maturity",
+      "abstract": "Any process improvement program should be driven by and related to some set of business or overarching organizational needs. By considering change drivers in concert with the organization strategic objectives and \"pains\" one can develop a vision of the desired state, what the organization should look like and how it should behave after the desired changes are achieved. An appropriate reference model is then chosen and used in an assessment to identify improvement opportunities. Based on the assessment findings an action plan is developed and implemented which addresses both specific process changes and organization cultural issues. Finally, an appropriate set of measures is defined and implemented to help measure the effects of the various changes.",
+      "keywords": "Systems engineering and theory, Costs, Capability maturity model, Pain, Personnel, Companies, Scheduling, Productivity, Time to market",
+      "references": []
+    },
+    {
+      "id": 2,
+      "title": "Linking Software Process Improvement to Business Strategies: Experiences from Industry",
+      "abstract": "The major bottleneck to the success of an SPI initiative is the lack of business orientation in the way the program is run. The post-assessment phase or how to translate assessment results into adequate improvement actions is being overdocumented compared to the assessment phase. In this article experiences and lessons learnt from two industry sources in the defense and telecommunication areas are covered. Improvement strategies based on ensuring a continuous link between the program and the business goals of the organization is advocated (e.g. the ami approach).",
+      "keywords": "ami, measurement-based improvement, business orientation CMM",
+      "references": []
+    },
+    {
+      "id": 3,
+      "title": "Bridging the Gap between Business Strategy and Software Development",
+      "abstract": "In software-intensive organizations, an organizational management system will not guarantee organizational success unless the business strategy can be translated into a set of operational software goals. The Goal Question Metric (GQM) approach has proven itself useful in a variety of industrial settings to support quantitative software project management. However, it does not address linking software measurement goals to higher-level goals of the organization in which the software is being developed. This linkage is important, as it helps to justify software measurement efforts and allows measurement data to contribute to higher-level decisions. In this paper, we propose a GQM+Strategies?measurement approach that builds on the GQM approach to plan and implement software measurement. GQM+Strategies\u00ae provides mechanisms for explicitly linking software measurement goals to higher-level goals for the software organization, and further to goals and strategies at the level of the entire business. An example application of the proposed method is illustrated in the context of an example measurement initiative.",
+      "keywords": "Goal-oriented Measurement, GQM, GQM+Strategies",
+      "references": []
+    },
+    {
+      "id": 4,
+      "title": "GQM+Strategies - Aligning business strategies with software measurement",
+      "abstract": "GQM+Strategies is a measurement approach that builds on the well-tested GQM approach to planning and implementing software measurement. Although GQM has proven itself useful in a variety of industrial settings, one recognized weakness is the difficulty for GQM users to link software measurement goals to higher-level goals of the organization in which the software is being developed. This linkage is important, as it helps to justify software measurement efforts and allows measurement data to contribute to higher-level decisions. GQM+strategies provides mechanisms for explicitly linking software measurement goals, to higher-level goals for the software organization, and further to goals and strategies at the level of the entire business.",
+      "keywords": "Software measurement, Programming, Software engineering, Joining processes, Computer industry, Educational institutions, Software quality, Strategic planning, Couplings, Embedded software",
+      "references": []
+    },
+    {
+      "id": 5,
+      "title": "GQM + Strategies: A comprehensive methodology for aligning business strategies with software measurement",
+      "abstract": "In software-intensive organizations, an organizational management system will not guarantee organizational success unless the business strategy can be translated into a set of operational software goals. The Goal Question Metric (GQM) approach has proven itself useful in a variety of industrial settings to support quantitative software project management. However, it does not address linking software measurement goals to higher-level goals of the organization in which the software is being developed. This linkage is important, as it helps to justify software measurement efforts and allows measurement data to contribute to higher-level decisions. In this paper, we propose a GQM+Strategies(R) measurement approach that builds on the GQM approach to plan and implement software measurement. GQM+Strategies(R) provides mechanisms for explicitly linking software measurement goals to higher-level goals for the software organization, and further to goals and strategies at the level of the entire business. The proposed method is illustrated in the context of an example application of the method.",
+      "keywords": "Software measurement, goal question metric approach, project management, strategic management, business strategy, software strategy, IT strategy",
+      "references": []
+    },
+    {
+      "id": 6,
+      "title": "Software Engineering Strategies: Aligning Software Process Improvement with Strategic Goals",
+      "abstract": "Aligning software process improvement with the business and strategic goals of an enterprise is a key success factor for process improvement. Software process improvement methods typically only provide little or generic guidance for goal centered process improvements. We provide a framework for developing software engineering strategies that are aligned with corporate strategies and goals. Strategic objects as an important part of our framework can be directly aligned with SPICE or CMMI processes. This allows that any process improvement action can be systematically aligned with strategic goals.",
+      "keywords": "Software process improvement, software engineering strategy, functional strategy, strategic goal, CMMI",
+      "references": []
+    },
+    {
+      "id": 7,
+      "title": "SPI: 'I can't get no satisfaction' - Directing process improvement to meet business needs",
+      "abstract": "IT managers commonly complain of lack of resources for Software Process Improvement (SPI) projects. The authors postulate that this comes from lack of understanding by the company board of the benefit of SPI, and perhaps a lack of understanding by IT managers of the needs of the company board? So how can IT managers obtain satisfaction? A shortcoming of the ISO-9001 and the Capability Maturity Model (CMM) approaches to process improvement (in software production) is the lack of explicit connection to the business goals of the organization in question. In the eyes of business management, therefore, these models appear to represent an \u2018idealized\u2019 view of the world. A negative assessment against such a model is insufficient, in itself, to justify significant expenditure on an improvement plan. While a standardized model is invaluable as a common reference for measurement and comparison, the initiation of a meaningful improvement plan requires investment of money and allocation of resources; and that can only take place if current business goals, not an \u2018ideal\u2019 model, are the motivating force. The draft SPICE method has recognized this need. It proposes the comparison of an assessed capability profile with a target capability profile. However the current draft standard (version 2.0) contains little guidance on how to arrive at such a target capability profile. This paper describes a method for drawing up such a target capability profile. To preserve clarity, we have placed the description of our method in the context of a SPICE assessment and process improvement, but the method would also be suitable for use with ISO, CMM, ITIL or other process models.1 In all cases an improvement plan can be set up which is visibly geared to the business goals.",
+      "keywords": "business process improvement (BPI), continuous process improvement, software quality, software process improvement (SPI), IT strategy determination",
+      "references": []
+    },
+    {
+      "id": 8,
+      "title": "Business-oriented software process improvement based on CMMI using QFD",
+      "abstract": "Software Process Improvement (SPI) has become the key to the survival of many software development organizations. As a follow-up of a previous paper on SPI for the CMM using Quality Function Deployment (QFD), a new SPI framework integrating QFD with the CMMI is developed. Similar to the earlier SPI framework for the CMM, the proposed SPI framework based on the CMMI using QFD aims to achieve three objectives: (1) to map process requirements, including business requirements, to the CMMI with the help of QFD; (2) to develop a method based on QFD for the integration and prioritization of requirements from multiple perspectives (groups); and (3) to be able to prioritize software process improvement actions based on process requirements. Process requirements from multiples groups of stakeholders (perspectives), including business goals, are integrated and prioritized. SPI actions are linked to these process requirements using QFD. Thus, the priorities of actions reflect the priorities of process requirements. By executing the actions with the highest priorities, the highest satisfaction level of process requirements can be achieved. One unique feature of the framework for the CMMI Continuous representation is that the priority values of these actions can be compared across PAs, even when the PAs attempt to reach different capability levels.",
+      "keywords": "Software Process Improvement, CMMI, Quality Function Deployment, Prioritization, Relationship matrix, Process requirements",
+      "references": [
+        9,
+        14
+      ]
+    },
+    {
+      "id": 9,
+      "title": "QFD Application in Software Process Management and Improvement Based on CMM",
+      "abstract": "Capability Maturity Model (CMM) from Software Engineering Institute has been used successfully by many organizations for software process improvement. However, there exists a disconnection between business goals and maturity levels. A new framework using Quality Function Deployment (QFD) is developed to deal with this problem. This framework serves three purposes: (1) it provides a connection between business requirements and CMM; (2) it proposed a methodology for the priority assessment of requirements from multiple perspectives; and (3) it helps identify a set of software process improvement actions based on business requirements and CMM.",
+      "keywords": "Capability Maturity Model (CMM), Quality Function Deployment (QFD), Software Process Models, Software Quality Assurance (SQA)",
+      "references": []
+    },
+    {
+      "id": 10,
+      "title": "The Rosetta Stone Methodology - A Benefits Driven Approach to Software Process Improvement",
+      "abstract": "In response to the lack of a business-focused approach to software process improvement (SPI), the Rosetta Stone objective-driven SPI Methodology (RSM) has been developed which allows organizations to undertake SPI based on business-driven objectives using proven SPI methodologies. To demonstrate usefulness and practicality, the Rosetta Stone IGSI-ISM to CMMI Instance mapping (RS-ICMMI) is developed using a generic set of business objectives which are mapped to the CMMI (Staged) model using a modified version of GQM. This methodology and the RS-ICMMI instance have been validated by experts.",
+      "keywords": "Process Area, Business Objective, Software Process Improvement, Benefit Model, Software Engineer Institute",
+      "references": [
+        2,
+        7,
+        8,
+        11
+      ]
+    },
+    {
+      "id": 11,
+      "title": "The Rosetta Stone Methodology \u2013 A Benefits-Driven Approach to SPI",
+      "abstract": "The Rosetta Stone Methodology (RSM) has been developed which allows organizations to undertake Software Process Improvement (SPI) based on business- and organizational-driven goals and objectives. The methodology itself is fully customizable and allows organizations to make adjustments to the model where they feel it appropriate. To demonstrate the usefulness, appropriateness and practicality of this new approach, the Rosetta Stone IGSI-ISM to CMMI Instance mapping (RS-ICMMI) is developed. To aid in understanding, the Measurement and Analysis (MA) process area is used as an example of how to apply the methodology. The Rosetta Stone Methodology and the RS-ICMMI instance have been validated by experts.",
+      "keywords": "International Standard Organization, Process Area, Business Objective, Customer Expectation, Global Software Development",
+      "references": [
+        10
+      ]
+    },
+    {
+      "id": 12,
+      "title": "Interfacing three complementary technologies: strategic planning, process modeling, and system dynamics",
+      "abstract": "Explores the utility and feasibility of interfacing three complementary technologies: (1) strategic planning, (2) process modeling, and (3) system dynamics to assist with the engineering of complex computer-based systems. Interfacing these technologies appears especially appropriate and timely. The Government Performance and Results Act of 1993 strives to make federal agencies operate more like businesses by requiring strategic plans and conducting performance audits. Process modeling technology aimed at providing assistance for the integrated product and process development (IPPD) approach for system development is being developed. In today's environment of perpetual change, a means of effectively predicting the impact of such changes on system development would be valuable. System dynamics modeling provides promise in this area. Since the product of strategic planning can be viewed as improved business and operational processes that will likely undergo major changes in response to events occurring in today's environment, there appears to be a natural synergy between application of these three technologies. The paper addresses exploitation of this natural synergy and hypothesizes that such exploitation would facilitate the development and operation of complex systems over the entire life cycle.",
+      "keywords": "Strategic planning, Appropriate technology, Paper technology, Investments, Computer interfaces, Military computing, Manufacturing processes, Cost function, Meeting planning, Process planning",
+      "references": []
+    },
+    {
+      "id": 13,
+      "title": "An Approach to Support the Strategic Alignment of Software Process Improvement Programs",
+      "abstract": "The alignment between the strategy of a software process improvement program and the organizations business strategies has been mentioned as a critical factor of success. However, the main software process reference models do not explicitly guide the companies towards defining processes which meet their strategic goals. Based on this context, the purpose of this paper is to present a process for the strategic alignment of software process improvement programs. Preliminary results indicate benefits beyond the demands of a software process reference model itself, which include the planning and execution of a software process improvement program taking into account the organizations strategic goals in a more systematic way.",
+      "keywords": "Software process improvement, strategic alignment, strategic planning",
+      "references": [
+        9,
+        12,
+        14
+      ]
+    },
+    {
+      "id": 14,
+      "title": "Strategic Alignment of Software Process Improvement Programs Using QFD",
+      "abstract": "Software process improvement programs increase the competitiveness of software development organizations. But a critical success factor in this context is the proper alignment between the strategy of such programs and the organization\u2019s business strategy. In this paper, we discuss how Quality Function Deployment can be used as a technique to align strategic goals and software process within an organization, presenting results of its application in a small company in Brazil",
+      "keywords": "Software process improvement, strategic planning, strategic alignment, CMMI.",
+      "references": [
+        9,
+        12
+      ]
+    },
+    {
+      "id": 15,
+      "title": "Application of GQM+Strategies(R) in the Japanese space industry",
+      "abstract": "Aligning organizational goals and activities is of great importance for large organizations in order to improve their performance and achieve top-level business goals. Through alignment, organizational sub-units can optimize and explicitly highlight their contributions towards the achievement of top-level business goals. GQM + Strategies 1 provides a systematic, measurement-based approach for explicitly linking goals and contributions on different organizational levels. This paper presents results and experiences from applying the GQM + Strategies approach at the Japan Aerospace Exploration Agency.",
+      "keywords": "Measurement-based business IT alignment, Goal-oriented measurement, GQM+Strategies, Software process improvement, Aerospace",
+      "references": [
+        4,
+        18
+      ]
+    },
+    {
+      "id": 16,
+      "title": "Aligning Organizations Through Measurement: The GQM+Strategies Approach",
+      "abstract": "Aligning an organization\u2019s goals and strategies requires specifying their rationales and connections so that the links are explicit and allow for analytic reasoning about what is successful and where improvement is necessary. This book provides guidance on how to achieve this alignment, how to monitor the success of goals and strategies and use measurement to recognize potential failures, and how to close alignment gaps. It uses the GQM+Strategies approach, which provides concepts and actionable steps for creating the link between goals and strategies across an organization and allows for measurement-based decision-making. After outlining the general motivation for organizational alignment through measurement, the GQM+Strategies approach is described concisely, with a focus on the basic model that is created and the process for creating and using this model. The recommended steps of all six phases of the process are then described in detail with the help of a comprehensive application example. Finally, the industrial challenges addressed by the method and cases of its application in industry are presented, and the relations to other approaches, such as Balanced Scorecard, are described. The book concludes with supplementary material, such as checklists and guidelines, to support the application of the method. This book is aimed at organization leaders, managers, decision makers, and other professionals interested in aligning their organization\u2019s goals and strategies and establishing an efficient strategic measurement program. It is also interesting for academic researchers looking for mechanisms to integrate their research results into organizational environments.",
+      "keywords": "Empirical software engineering, GQM, GQM+, Measurement, Project management, Software development process management, System management",
+      "references": [
+        30
+      ]
+    },
+    {
+      "id": 17,
+      "title": "Experiences and insights from applying GQM+Strategies in a systems product development organisation",
+      "abstract": "Aligning software-related activities with corporate strategies and goals is increasingly important for several reasons such as increasing the customer satisfaction in software-based products and services. Several approaches have been proposed to create such an alignment. GQM+Strategies is an approach that applies measurement principles to link goals and strategies on different levels of an organisation. In this paper, we describe experiences from applying GQM+Strategies to elicit, link, and align the goals of an integrated systems product development organisation across multiple organisational levels. We provide insights into how GQM+Strategies was applied during a five-month period. The paper presents the enacted application process and main lessons learnt. In addition, related approaches are described and an outlook on future work is given.",
+      "keywords": "Measurement, strategic alignment, case study, GQM+Strategies, software engineering, project management",
+      "references": [
+        18,
+        30
+      ]
+    },
+    {
+      "id": 18,
+      "title": "Aligning Software-related Strategies in Multi-Organizational Settings",
+      "abstract": "Aligning the activities of an organization with its business goals is a challenging task that is critical for success. Alignment in a multi-organizational setting requires the integration of different internal or external organizational units. The anticipated benefits of multi-organizational alignment consist of clarified contributions and increased transparency of the involved organizational units. The GQM+Strategies approach provides mechanisms for explicitly linking goals and strategies within an organization and is based on goal-oriented measurement. This paper presents the process and first-hand experience of applying GQM+Strategies in a multi-organizational setting from the aerospace industry. Additionally, the resulting GQM+Strategies grid is sketched and selected parts are discussed. Finally, the results are reflected on and an overview of future work is given.",
+      "keywords": "Measurement-based  business  IT  alignment,  multi-organizational goal alignment, GQM+Strategies deployment, strategic measurement systems",
+      "references": [
+        4,
+        5
+      ]
+    },
+    {
+      "id": 19,
+      "title": "Defining and Monitoring Strategically Aligned Software Improvement Goals",
+      "abstract": "Software engineers are always aiming at improving software processes and products. However, the adoption of these improvements on software organizations must be aligned to their strategic goals. Otherwise, these improvements may not improve the organization. However, to guarantee this alignment can be complex, since improvement initiatives would have to be planned and monitored considering aspects starting from strategic level and going all the way to the organization daily operations. Thus, this work presents an approach to define and monitor software improvement goals, which are decompositions of strategic goals and are related to software products or processes. Our approach comprises strategic, tactical and operational planning activities, always aiming at strategic alignment. As important tools to monitor the goals defined, software measurement and statistical process control are also considered. An infrastructure to monitor the goals is described, and also an experience of use of the approach at a Brazilian software development organization.",
+      "keywords": "Software Improvement Goal, Strategic Planning, Software Process.",
+      "references": [
+        4,
+        14
+      ]
+    },
+    {
+      "id": 20,
+      "title": "Entropy based software processes improvement",
+      "abstract": "Actual results of software process improvement projects show different levels of success. Although many software development organisations have adopted improvement models such as CMMI, it appears to be difficult to improve software development processes in the right way, e.g. tuned to the actual needs of the organisation. This paper presents a new approach to determine the direction of improvement for an organisation. This approach is based on an elaboration of the concept of entropy. The approach is empirically validated by carrying out interviews in 11 software development organisations in The Netherlands. The results of the research show that software development organisations can be classified and can be positioned on the basis of their internal and external entropy, c.q. the level of (dis)order in the business system and its environment. Based on a possible out-of-balance situation between the internal and external entropy, directions for software process improvement can be discussed. As such the proposed approach can support the application of current software process improvement methodologies such as the CMMI.",
+      "keywords": "Software process improvement, Entropy, Empirical research results",
+      "references": []
+    },
+    {
+      "id": 21,
+      "title": "Integration of strategic management, process improvement and quantitative measurement for managing the competitiveness of software engineering organizations",
+      "abstract": "Strategic management is a key discipline that permits companies to achieve their competitive goals. An effective and explicit alignment and integration of business strategy with SPI initiatives based on measurement is essential to prevent loss of income, customers and competitiveness. By integrating SPI models and measurement techniques in the strategy management process, an organization\u2019s investments will be better aligned with strategy, optimizing the benefits obtained as a result of an SPI program. In this paper, the authors propose BOQM (Balanced Objective-Quantifiers Methodology) that integrates properly strategic management, process improvement and quantitative measurement to manage the competitiveness of software engineering organizations. Finally, this paper presents and discusses the results from implementing BOQM in a software development organization.",
+      "keywords": "Strategic management, Software process improvement, Quantitative measurement, Software engineering organizations, IT governance",
+      "references": [
+        20,
+        30
+      ]
+    },
+    {
+      "id": 22,
+      "title": "Managing process inconsistency using viewpoints",
+      "abstract": "Discusses the notion of software process inconsistency and suggests that inconsistencies in software processes are inevitable and sometimes desirable. We present an approach to process analysis that helps discover different perceptions of a software process and that supports the discovery of process inconsistencies and process improvements stimulated by these inconsistencies. By analogy with viewpoints for requirements engineering that allow multiple perspectives on a software system specification to be managed, we have developed the notion of process viewpoints that provide multi-perspective descriptions of software processes. A process viewpoint includes a statement of focus or \"world view\", a set of sources of process information, a process description and a set of organizational concerns that represent goals or constraints on the process analysis. We present a description and rationale of process viewpoints, discuss the process of applying process viewpoints for process understanding, and illustrate the overall approach using part of a case study drawn from industrial processes that are part of a safety-critical system development.",
+      "keywords": "Viewpoints, software process, process improvement",
+      "references": []
+    },
+    {
+      "id": 23,
+      "title": "Software Process Improvement: Supporting the Linking of the Software and the Business Strategies",
+      "abstract": "The market is becoming more and more competitive, a lot of products and services depend of the software product and the software is one of the most important assets, which influence the organizations businesses. Considering this context, we can observe that the companies must to deal with the software, developing or acquiring, carefully. One of the perspectives that can help to take advantage of the software, supporting effectively the business, is to invest on the organizations software processes. This paper presents an approach to evaluate and improve the processes assets of the software organizations, based on internationally well-known standards and process models. This approach is supported by automated tools from the TABA Workstation and is part of a wider improvement strategy constituted of three layers (organizational layer, process execution layer and external entity layer). Moreover, this paper presents the experience of use and their results.",
+      "keywords": "Software Quality, Software Process Improvement, Business Strategy.",
+      "references": []
+    },
+    {
+      "id": 24,
+      "title": "Business-oriented process improvement: practices and experiences at Thales Naval The Netherlands (TNNL)",
+      "abstract": "Over the last decade many organizations are increasingly concerned with the improvement of their hardware/software development processes. The Capability Maturity Model and ISO9001 are well-known approaches that are applied in these initiatives. However, one of the major bottlenecks to the success of process improvement is the lack of business goal orientation. Additionally, business-oriented improvement approaches often show a lack of process orientation. This paper reports on a process improvement initiative at Thales Naval Netherlands that attempts to combine the best of both worlds, i.e. process improvement and business goal orientation. Main factors in this approach are goal decomposition and the implementation of goal-oriented measurement on three organizational levels, i.e. the business, the process and the team level.",
+      "keywords": "Process improvement, Business goal decomposition, Measurement",
+      "references": [
+        2
+      ]
+    },
+    {
+      "id": 25,
+      "title": "Business Objectives as Drivers for Process Improvement: Practices and Experiences at Thales Naval The Netherlands (TNNL)",
+      "abstract": "Over the last decade many organizations are increasingly concerned with the improvement of their hardware/software development processes. The Capability Maturity Model (CMM) and ISO9001 are well-known approaches that are applied in these initiatives. One of the major bottlenecks to the success of process improvement is the lack of business orientation. This paper reports on a process improvement initiative at Thales Naval Netherlands (TNNL). It presents an approach that has been followed to ensure a link between process improvement and business strategy. Main factors in this process improvement approach are goal decomposition and the implementation of goal-oriented measurement on three organizational levels, i.e. the business, the process and the team level.",
+      "keywords": "process improvement, goal decomposition, measurement",
+      "references": [
+        2
+      ]
+    },
+    {
+      "id": 26,
+      "title": "Strategically Balanced Process Adoption",
+      "abstract": "Software processes have an important role to play in realizing organizational strategies. When a software organization is about to decide on the adoption of a new process, it should have a clear understanding of its own strategic objectives, as well as the potentials of the new method in supporting or hindering its strategic plan. From this perspective, a successful process adoption initiative is one which provides maximum support to the strategic objectives of an organization while producing a minimum of adverse effects. This paper introduces the concept of Strategically Balanced Process Adoption (SBPA) for anticipating and monitoring the strategic impacts of a new process before and after its adoption. A set of techniques are proposed for the realization of SBPA, which are based on a repository of method fragments, introduced in an earlier ICSP paper. The proposed techniques are deployed in an industrial experience, where the subject organization was about to adopt a custom-designed agile process. The proposed techniques of SBPA helped the subject organization to better design the to-be process, with improved control over its enactment.",
+      "keywords": "Software Process, Process Adoption, Software Process Improvement, Strategic Management",
+      "references": []
+    },
+    {
+      "id": 27,
+      "title": "Applying and adjusting a software process improvement model in practice: the use of the IDEAL model in a small software enterprise",
+      "abstract": "Software process improvement is a demanding and complex undertaking. To support the constitution and implementation of software process improvement schemes the Software Engineering Institute (SEI) proposes a framework, the so-called IDEAL model. This model is based on experiences from large organizations. The aim of the research described here was to investigate the suitability of the model for small software enterprises. It has therefore been deployed and adjusted for successful use in a small Danish software company. The course of the project and the application of the model are presented and the case is reflected on the background of current knowledge about managing software process improvement as organizational change.",
+      "keywords": "Software process improvement, improvement models",
+      "references": []
+    },
+    {
+      "id": 28,
+      "title": "Aggregating viewpoints for strategic software process improvement - a method and a case study",
+      "abstract": "Decisions regarding strategic software process improvement (SPI) are generally based on the management's viewpoint of the situation, and in some cases also the viewpoints of some kind of an SPI group. This may result in strategies which are not accepted throughout the organisation, as the views of how the process is functioning are different throughout the company. A method for identifying the major factors affecting a process-improvement goal and how the perception of the importance of the factors varies throughout the organisation are described The method lets individuals from the whole development organisation rate the expected effect of these factors from their own viewpoint. In this way the strategic SPI decision can be taken using input from the entire organisation, and any discrepancies in the ratings can also give important SPI- decision information. The method is applied to a case study performed at Fuji Xerox, Tokyo. In the case study, significantly different profiles of the factor ratings came from management compared with those from the engineering staff. This result can be used to support the strategy decision as such, but also to anchor the decision in the organisation.",
+      "keywords": "software development management, software process improvement, strategic planning",
+      "references": [
+        22
+      ]
+    },
+    {
+      "id": 29,
+      "title": "Determining organization-specific process suitability",
+      "abstract": "Having software processes that fit technological, project, and business demands is one important prerequisite for software-developing organizations to operate successfully in a sustainable way. However, many such organizations suffer from processes that do not fit their demands, either because they do not provide the necessary support, or because they provide features that are no longer necessary. This leads to unnecessary costs during the development cycle, a phenomenon that worsens over time. This paper presents the SCOPE approach for systematically determining the process demands of current and future products and projects, for analyzing existing processes aimed at satisfying these demands, and for subsequently selecting those processes that provide the most benefit for the organization. The validation showed that SCOPE is capable of adjusting an organization\u2019s process scope in such a way that the most suitable processes are kept and the least suitable ones can be discarded.",
+      "keywords": "European Space Agency, Quality Function Deployment, Software Product Line, Process Demand, Suitability Index",
+      "references": [
+        14
+      ]
+    },
+    {
+      "id": 30,
+      "title": "Linking Software Development and Business Strategy through Measurement",
+      "abstract": "The GQM+ Strategies approach extends the goal/question/metric paradigm for measuring the success or failure of goals and strategies, adding enterprise-wide support for determining action on the basis of measurement results. An organization can thus integrate its measurement program across all levels.",
+      "keywords": "GQM, Metrics/Measurement, Software engineering, Goal/question/metric paradigm",
+      "references": [
+        3
+      ]
+    }
+  ],
+  "max_publication_year": 2015
+}
